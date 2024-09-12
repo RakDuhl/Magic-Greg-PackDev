@@ -34,14 +34,14 @@ ServerEvents.recipes(
                 ingredients: [
                   {
                     count: 2,
-                    item: LivingRock,
+                    item: 'botania:livingrock'
                   },
                   {
-                    item: ArcaneCrys
+                    item: 'forbidden_arcanus:arcane_crystal'
                   },
                   {
-                    item: Caminite,
-                    count: 3
+                    count: 3,
+                    item: 'embers:caminite_blend'
                   }
                 ],
                 results: [
