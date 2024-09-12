@@ -1,8 +1,12 @@
 
 #General settings.
 [general]
-	#If true, allows you edit the nbt tags of other players. USE AT YOUR OWN RISK!
-	can_edit_other_players = false
-	#If true, show more debug info.
+	#Enable debug logs. Necessary if you are reporting bugs.
 	debug = false
+
+	#Permission node levels. Like vanilla, should in 0 ~ 5 range.
+	[general.permission]
+		use = 2
+		read_only = 1
+		edit_on_player = 4
 

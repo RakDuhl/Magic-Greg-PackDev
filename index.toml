@@ -18481,20 +18481,28 @@ file = "kubejs/jsconfig.json"
 hash = "381991335e668c8a2472e5020a0e9584fda5e7bccc4ddd797d76eee327f18580"
 
 [[files]]
+file = "kubejs/server_scripts/chapter 1 - pre-LV/botania.js"
+hash = "d07564dc46b32d201ca918dd9be951bef563be15dfe2116d87a05c3970d7dc31"
+
+[[files]]
 file = "kubejs/server_scripts/chapter 1 - pre-LV/coke oven and blast furnace.js"
 hash = "c6aa5b3529f57104555d7020f1ae9c5e9ca560e9c3b1a33091dd0a5eb9e37c4d"
 
 [[files]]
-file = "kubejs/server_scripts/chapter 1 - pre-LV/create_recipes/getting create.js"
-hash = "bcedf58bf0d0f187bb435222415b26c72a7f3bcf8c2d26de23219ff629e6f441"
+file = "kubejs/server_scripts/chapter 1 - pre-LV/create_recipes/create.js"
+hash = "79186d6b3df71f864573aeea12de1ee90b1c898bbbcc6db6b8a9a3f6c6ceac1c"
 
 [[files]]
 file = "kubejs/server_scripts/chapter 1 - pre-LV/create_recipes/mechanical_crafting.js"
 hash = "0f89ee6a9f571460a60798d5d99f6f2f0d1ce2474b36a34c7c96bc8f9adc0b67"
 
 [[files]]
-file = "kubejs/server_scripts/chapter 1 - pre-LV/getting botania.js"
-hash = "18e7553e118e77273fe9a099a5695a27d0e53fd26bbf414f0f9a7dcb19fae95b"
+file = "kubejs/server_scripts/chapter 1 - pre-LV/embers.js"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/server_scripts/chapter 1 - pre-LV/minecraft.js"
+hash = "eae9fb416bc21fbdba30d6d0f5e7cbb470af81d149bc8730fb36871c7678172d"
 
 [[files]]
 file = "kubejs/server_scripts/chapter 1 - pre-LV/multiblock recipes/create combustion engine.js"
@@ -18506,10 +18514,14 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/server_scripts/chapter 1 - pre-LV/other stuff.js"
-hash = "439dee10dc4c035c78d620292d3be7fc79083d3ee1f5952aa41e1291888458d0"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/server_scripts/chapter 1 - pre-LV/wizardry.js"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/server_scripts/chapter 1 - pre-LV/wizards reborn.js"
 hash = "26e122e0c0ba538d0069227c947d81bc59b8b36c34819b6aaa68e1a665878dd8"
 
 [[files]]
@@ -19452,6 +19464,11 @@ metafile = true
 [[files]]
 file = "mods/twerk-crop-growth.pw.toml"
 hash = "2d4398c52d6ef49c330ccc6eaa19be7b5f7e796a076625f9941a37f3ce7299ab"
+metafile = true
+
+[[files]]
+file = "mods/unstable.pw.toml"
+hash = "91dec2f9f7d25dce996f28653430fa02a7f72c1df9c9f2c105807beaa18acc0b"
 metafile = true
 
 [[files]]

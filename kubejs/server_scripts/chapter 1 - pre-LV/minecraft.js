@@ -1,7 +1,70 @@
 ServerEvents.recipes(
     event => {
 
-        //Minecraft
+        //Making constants
+
+        const AllStone =    Ingredient.of('#forge:stone');
+        const Stone =       Ingredient.of('minecraft:stone');
+        const Cobblestone=  Ingredient.of('#forge:cobblestone');
+
+        event.shaped(
+            'extendedcrafting:basic_table', [
+                'A',
+                'C'
+            ], {
+                A: '#minecraft:wooden_pressure_plates',
+                C: '#minecraft:logs'
+            }
+        );
+
+        // @ts-ignore
+        event.shapeless(
+            'minecraft:crafting_table', [
+                'extendedcrafting:basic_table'
+            ]
+        );
+
+    
+        //Minecraft Furnace
+        const StoneSlabs = [
+            'minecraft:stone_slab', 
+            'minecraft:smooth_stone_slab', 
+            'minecraft:cobblestone_slab', 
+            'minecraft:granite_slab', 
+            'minecraft:andesite_slab', 
+            'minecraft:diorite_slab', 
+            'minecraft:cobbled_deepslate_slab', 
+            'minecraft:blackstone_slab', 
+            'blue_skies:turquoise_stone_slab', 
+            'blue_skies:turquoise_cobblestone_slab', 
+            'botania:livingrock_slab'
+        ]
+
+        event.shaped(
+            'minecraft:furnace', [
+                'SSS',
+                'C C',
+                'CFC'
+            ], {
+                S: StoneSlabs,
+                C: Cobblestone,
+                F: 'minecraft:campfire'
+            }
+        )
+        
+        event.shaped(
+            'minecraft:blast_furnace', [
+                'DDD',
+                'SFS',
+                'SMS'
+            ], {
+                D: 'create:cut_deepslate_slab',
+                S: 'minecraft:smooth_stone',
+                F: 'minecraft:furnace',
+                M: 'minecraft:magma_block'
+            }
+        )
+        
         event.shaped(
             'minecraft:stonecutter', [
                 ' I ',
@@ -10,7 +73,7 @@ ServerEvents.recipes(
             ], {
                 I: '#forge:plates/iron',
                 s: 'minecraft:stone_slab',
-                S: 'minecraft:stone',
+                S: Stone,
                 P: '#minecraft:planks'
             }
         );
@@ -33,7 +96,7 @@ ServerEvents.recipes(
                 'cSc'
             ], {
                 s: '#minecraft:wooden_slabs',
-                c: '#forge:cobblestone',
+                c: Cobblestone,
                 r: 'create:piston_extension_pole',
                 S: 'thermal:redstone_servo'
             }
@@ -52,7 +115,7 @@ ServerEvents.recipes(
                 'SsS'
             ], {
                 S: 'minecraft:smooth_stone_slab',
-                C: '#forge:cobblestone',
+                C: Cobblestone,
                 s: 'thermal:redstone_servo',
                 B: 'minecraft:crossbow',
                 P: 'gtceu:tin_small_item_pipe'
@@ -65,7 +128,7 @@ ServerEvents.recipes(
                 'SsS'
             ], {
                 S: 'minecraft:smooth_stone_slab',
-                C: '#forge:cobblestone',
+                C: Cobblestone,
                 s: 'thermal:redstone_servo',
                 P: 'gtceu:tin_small_item_pipe'
             }

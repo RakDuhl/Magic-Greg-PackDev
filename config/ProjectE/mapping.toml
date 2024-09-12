@@ -32,6 +32,12 @@
 	APICustomEMCMapper = true
 	#Adds back and forth conversions of objects and their Tag variant. (EMC values assigned to tags will not behave properly if this mapper is disabled)
 	TagMapper = true
+	#(AppliedE) Maps Applied Energistics 2 P2P tunnels.
+	AE2P2PTunnels = true
+	#(AppliedE) Maps Applied Energistics 2 cable facades.
+	AE2FacadeMapper = true
+	#(AppliedE) Maps Applied Energistics 2 matter condenser results.
+	AE2MatterCondenser = true
 
 [CraftingMapper]
 
@@ -122,4 +128,28 @@
 	[CraftingMapper.FallbackRecipeType]
 		#Fallback for default handling of recipes that extend ICraftingRecipe, AbstractCookingRecipe, SingleItemRecipe, or SmithingRecipe. This will catch modded extensions of the vanilla recipe classes, and if the VanillaRecipeTypes mapper is disabled, this mapper will still catch the vanilla recipes.
 		enabled = true
+
+	[CraftingMapper.AE2Transform]
+		#(AppliedE) Maps Applied Energistics 2 in-world transformation recipes.
+		enabled = true
+
+	[CraftingMapper.AE2Inscriber]
+		#(AppliedE) Maps Applied Energistics 2 inscriber recipes.
+		enabled = true
+
+	[CraftingMapper.AE2Charger]
+		#(AppliedE) Maps Applied Energistics 2 charger recipes.
+		enabled = true
+
+[APICustomEMCMapper]
+
+	[APICustomEMCMapper.priority]
+		#Priority for this mod
+		appliede = 1
+
+[permissions]
+
+	[permissions.appliede]
+		#Allow mod 'appliede' to set and or remove values for mod 'ae2'. Options: [both, set, remove, none]
+		ae2 = "both"
 

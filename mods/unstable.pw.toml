@@ -1,0 +1,13 @@
+name = "Unstable"
+filename = "unstable-1.20.1-1.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/XjLoYbzK/versions/HFwdt6M6/unstable-1.20.1-1.2.0.jar"
+hash-format = "sha512"
+hash = "9f31b68e84c56051606489ea3cb6b0266bfed3311d6f06d929ec48725ae51eb15b52e77b24bfc7928021f5af2f593dd03dd7e15596340d90125b76fd1df12305"
+
+[update]
+[update.modrinth]
+mod-id = "XjLoYbzK"
+version = "HFwdt6M6"
