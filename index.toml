@@ -11705,6 +11705,22 @@ file = "kubejs/config/probejs.json"
 hash = "eb0bfaed60482e4e159ff4e2452cc098de57689f7cc82b4c9d9f112548173da6"
 
 [[files]]
+file = "kubejs/data/bigreactors/worldgen/configured_feature/anglesite_ore.json"
+hash = "13ab01e75cc9dadd037ce34d0b30024d7cbd7996f825e2651b4ea4295d288e59"
+
+[[files]]
+file = "kubejs/data/bigreactors/worldgen/configured_feature/benitoite_ore.json"
+hash = "b4efb0ba559dc8656b1e0b194a89cf0a74ee8f41997941cc87747d7442b12b68"
+
+[[files]]
+file = "kubejs/data/bigreactors/worldgen/placed_feature/anglesite_ore.json"
+hash = "47c4095c8a19c0e9e0b969ab442c41013ed5bd6fe563f10972673fcaa3f28b6c"
+
+[[files]]
+file = "kubejs/data/bigreactors/worldgen/placed_feature/benitoite_ore.json"
+hash = "814d61c3cc368e48d79f4db121765aab96327ac98514afbce79445263731b878"
+
+[[files]]
 file = "kubejs/data/botania/loot_tables/dice/roll_1.json"
 hash = "3597449c6105efbe3b1a751affe1d6fff3fbd0e3df727217f03c176511683d84"
 
@@ -11909,1176 +11925,152 @@ file = "kubejs/data/create/worldgen/placed_feature/zinc_ore.json"
 hash = "6f10a001a825b1da14e53c7c151e19956ec8eece36b97e8bacdffd007f69c269"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/abandoned_temple/abandoned_temple_entrance.json"
-hash = "cef22a2b812beccde79e75e09bc37645c8700cec83acaf3a699fdc42e10ec2d5"
+file = "kubejs/data/draconicevolution/worldgen/configured_feature/chaos_island.json"
+hash = "a66a4a627465e33cfeca385449047ab5f07657c14684dbd11698fa47d3582947"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/abandoned_temple/abandoned_temple_map.json"
-hash = "470e3bf84e851bfdbcb6bbc890930258b6cd36db724903e73ad1bb7b74499fc0"
+file = "kubejs/data/draconicevolution/worldgen/configured_feature/end_comet.json"
+hash = "eecb4cdfd7fa3090d52885fb2bc17f6c3a702e4f4451f34a13e25fb3f4395403"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/abandoned_temple/abandoned_temple_top.json"
-hash = "22bc5d7b25763acdc7cd29aa791673eca41c99fbbc3b826e6996f84287478600"
+file = "kubejs/data/draconicevolution/worldgen/configured_feature/end_draconium_ore.json"
+hash = "e7daf8cd847ff709c553ba933bb7d83228fb68030765d73aa47252c5e8e34a48"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/aviary/aviary_barrels.json"
-hash = "c3804638bdd323245b506f84570c2112f3306db34784433b4533713b164c56ec"
+file = "kubejs/data/draconicevolution/worldgen/configured_feature/nether_draconium_ore.json"
+hash = "bfa7580dcacbfd5a6ce51a15d8ed8cb19d1773c9895aa5b95fb140847fe52dd5"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/aviary/aviary_normal.json"
-hash = "158f54ec482e0929db7f54944f02586ae6e08327b56a3bbc042ce52330c088ec"
+file = "kubejs/data/draconicevolution/worldgen/configured_feature/overworld_draconium_ore.json"
+hash = "57f072bc85bac8232ceff3b6370746e4f255f6693c1e70cdce12eed200f3c056"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/aviary/aviary_treasure.json"
-hash = "7e5d1072c38542ed2b9810ef9ebf071c28ab533b89884f793aa167c26bf1b806"
+file = "kubejs/data/draconicevolution/worldgen/placed_feature/chaos_island.json"
+hash = "e2c158b491b5626500471c990ecb76b0bbb4854261feab3fac2601fac63d9b27"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/bandit_towers/bandit_towers_barrels.json"
-hash = "21fed6be91fda7303a0fdf7a7706beb99c06d803ba1be33eac5b986f53d8548f"
+file = "kubejs/data/draconicevolution/worldgen/placed_feature/end_comet.json"
+hash = "459bc334ad4de97d7c12f93f1b4195c65928db4d7508219a1c4108fb137afa72"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/bandit_towers/bandit_towers_gardens.json"
-hash = "bad0b68f9471c375f43a310901be9e7b7033b56b188fb338ae97b2494d7d4bca"
+file = "kubejs/data/draconicevolution/worldgen/placed_feature/end_draconium_ore.json"
+hash = "7214c8c7bf19f40e5cd1cb2c4e381c69ab15ec560f6afd9114e00514750f0495"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/bandit_towers/bandit_towers_normal.json"
-hash = "fb0596fd3ecc82c3d452f9d34d7cfe7797a8c42e63bae2de5b223efc1422b251"
+file = "kubejs/data/draconicevolution/worldgen/placed_feature/nether_draconium_ore.json"
+hash = "e6f6faeba00a25bb237c96eb98f9796f4313a6aa40cc5c18b53c30f9962e79f8"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/bandit_towers/bandit_towers_rooms.json"
-hash = "fb0596fd3ecc82c3d452f9d34d7cfe7797a8c42e63bae2de5b223efc1422b251"
+file = "kubejs/data/draconicevolution/worldgen/placed_feature/overworld_draconium_ore.json"
+hash = "8de755198eb7ae80cda6e3db7f3b9a90ef48d0e29c682b2d6c85258f2386186d"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/bandit_towers/bandit_towers_supply.json"
-hash = "e3aa84a60b1a992f6f5e46bec2650b4ef56643fa5eaf6d58ed124a3977b790e1"
+file = "kubejs/data/embers/loot_tables/entities/ancient_golem.json"
+hash = "8b2e3123cec7abcb91ab85a16a382153f83581c9a5903e772439590e673965c5"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/bandit_towers/bandit_towers_treasure.json"
-hash = "3baece4b0cf19c6f80ff360f79b4a4338bd2dcd791ebaff3b237054fa966ca84"
+file = "kubejs/data/embers/worldgen/configured_feature/ore_lead.json"
+hash = "5c0ffa8dd7cc901aa493160c4c8fa2422f5df380965a79278ea63d269346d431"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/bandit_village/bandit_village_barrels.json"
-hash = "efc4607a6855d2fc8aca68bc5077b8a9709f718869a7f86dd9b773ae46a3b9a3"
+file = "kubejs/data/embers/worldgen/configured_feature/ore_silver.json"
+hash = "aa00e466db9787d5e6dbb8e14c6638b7b0c3ac675a2bb981fe4e0da711f6a6ff"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/bandit_village/bandit_village_normal.json"
-hash = "efc4607a6855d2fc8aca68bc5077b8a9709f718869a7f86dd9b773ae46a3b9a3"
+file = "kubejs/data/embers/worldgen/placed_feature/ore_lead_placer.json"
+hash = "816871fa2d5e64d023c4ec4292310b05fde0427e82e4819a7866d9a4d9adbb9a"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/bandit_village/bandit_village_supply.json"
-hash = "0099a2b11500f9453659b8fac04f1d4976e95c464693a6301455392ee7139934"
+file = "kubejs/data/embers/worldgen/placed_feature/ore_silver_placer.json"
+hash = "eb3bcaea76ca4ff1327c73bb58b4d156be5d4e459cfa7f725ad872f234aa0e53"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/bandit_village/bandit_village_tents.json"
-hash = "efc4607a6855d2fc8aca68bc5077b8a9709f718869a7f86dd9b773ae46a3b9a3"
+file = "kubejs/data/embers/worldgen/processor_list/small_ruin.json"
+hash = "e2722bf3b4920546bae61087fc70aecf3d81a7838d61a5df278a2dbd8ffb77b7"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/bathhouse/bathhouse_barrels.json"
-hash = "73e9eea0c57ecc366047a4d59cdf0fb18a3f0a0f6903783af2be80f9c8153b96"
+file = "kubejs/data/embers/worldgen/structure_set/small_ruin.json"
+hash = "b34447ad404114024012e85c6891c4039e1945c17f88af160f57c6e01be53d70"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/bathhouse/bathhouse_normal.json"
-hash = "2acbe9683507fe2ba2bb1f672bcfc811daf55ccb9a5c8d7911153c745526bb9e"
+file = "kubejs/data/embers/worldgen/template_pool/small_ruin.json"
+hash = "58b1b7c04ef14f860649adde64722b70cbbd3cb2d9d773869944397564ec1550"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/ceryneian_hind/ceryneian_hind_treasure.json"
-hash = "409738c80d82e96a5fd7f7e84341349b097c0d54fabf908875c5c492d733944b"
+file = "kubejs/data/enderio/loot_tables/chests/alloy_loot.json"
+hash = "11c1a6460780d4df7704e20e1e57892a8219d0377417994125c0d3ddc3bac37a"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/fishing_hut/fishing_hut_barrels.json"
-hash = "ea2f13dcf9b16f4c05feb597125e307765ffe3cdf5427f0d18b97952eeca60fc"
+file = "kubejs/data/enderio/loot_tables/chests/common_loot.json"
+hash = "d12e3a32ce76273f14ffe581cc06dbcefad351711ec04125aeaf5098c09332bc"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/foundry/foundry_chains.json"
-hash = "2caeba94ae14ab34c4df833dadd8bc49f929a1120891d399a288027483332269"
+file = "kubejs/data/enderio/loot_tables/fire_crafting/infinity.json"
+hash = "69edbbd7105f5e4287912233e2c758a042ccff242377f8d4b758b52767952a3c"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/foundry/foundry_lava_pit.json"
-hash = "75e446d5330959540bc3ac23f7d57a893e0450aa89028b5d09b1571401762858"
+file = "kubejs/data/ends_delight/worldgen/configured_feature/chorus_succulent.json"
+hash = "47dbb79a35dc893ef2fd98197501bff426c16a1554d0a63bade73335a42b0afa"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/foundry/foundry_normal.json"
-hash = "91510d8331661849e366e074d582fd7b31821a4d8e655027d15902966f7b8799"
+file = "kubejs/data/ends_delight/worldgen/placed_feature/chorus_succulent.json"
+hash = "f5a564211bb02a16865dddeea45ef34aa2fca6300f24713837c637227f8da336"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/foundry/foundry_passage_exterior.json"
-hash = "39966c8082aa70120665a54c5c0f46bd5316508a10428fab6f19731217291aa6"
+file = "kubejs/data/farmersdelight/loot_tables/chests/fd_abandoned_mineshaft.json"
+hash = "2c2b1da484d2b2d5c14695c144d131a5386bc3b382b5a62dd86c4f35962e6035"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/foundry/foundry_passage_normal.json"
-hash = "b8572ce1d805ee200880b36d272a9cd4a1565697ccb6abf9469f7e3b5ad792de"
+file = "kubejs/data/farmersdelight/loot_tables/chests/fd_bastion_hoglin_stable.json"
+hash = "731b6dd283e8da0befbeab60f0003afd60e7ec797d2b8bdb03d23126abb0f8bc"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/foundry/foundry_treasure.json"
-hash = "9bc765d6d76fa4aa48590d77d80e28bad2935e9ecfddfc01d513288837e1a3d6"
+file = "kubejs/data/farmersdelight/loot_tables/chests/fd_bastion_treasure.json"
+hash = "024f3922146d9eb9db3f2da8aa1f8d6c28456819a2d4b63771820a1ef0294c2e"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/giant_mushroom/red_giant_mushroom.json"
-hash = "d60debada2ccdb05fb5011c06b6749ed64ce68af192560baca7dae1601ad82bb"
+file = "kubejs/data/farmersdelight/loot_tables/chests/fd_end_city_treasure.json"
+hash = "f22f7e224e51d23bf77412b806e55d783a57ea9c1d4b0cd2102e92b3a52376d3"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/giant_mushroom/twin_giant_mushroom.json"
-hash = "d60debada2ccdb05fb5011c06b6749ed64ce68af192560baca7dae1601ad82bb"
+file = "kubejs/data/farmersdelight/loot_tables/chests/fd_pillager_outpost.json"
+hash = "529abe47b4320b9d92db328f582025b5d855fba5b98668af25b04f9ba326b5d2"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/greenwood_pub/greenwood_pub_barrels_hallways.json"
-hash = "d926a8247ff2ebc22e7f01e23c3e51facd395ff27f05ba8aed9fb1f63b83652d"
+file = "kubejs/data/farmersdelight/loot_tables/chests/fd_ruined_portal.json"
+hash = "22e1b94310c281f5981179cb4c18b34865988566f3d0f69fbbbcf6223ac3c596"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/greenwood_pub/greenwood_pub_barrels_normal.json"
-hash = "998ac06f36167d5c6d59597fdceeb14569bfca7f4f5c8df1c7f0adefd8272da3"
+file = "kubejs/data/farmersdelight/loot_tables/chests/fd_shipwreck_supply.json"
+hash = "d2a8d0ec94df3ede632b97c553cc72b38736375e8ff03c3a6295759f833683ba"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/greenwood_pub/greenwood_pub_normal.json"
-hash = "034a4790b9878c60b5374eb39a58f3cacae395c49a8cdde826e4b35da5a00afd"
+file = "kubejs/data/farmersdelight/loot_tables/chests/fd_simple_dungeon.json"
+hash = "f789b1e4d220ee6f95e574cdf0a069a0f81c7be6851e49a9149557dc7882cf49"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/heavenly_challenger/heavenly_challenger_normal.json"
-hash = "158f54ec482e0929db7f54944f02586ae6e08327b56a3bbc042ce52330c088ec"
+file = "kubejs/data/farmersdelight/loot_tables/chests/fd_village_butcher.json"
+hash = "b5f7605afe3700c775a66a9d3b2d5cb659396ddc55bb43b0f6bd199e24c02df7"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/heavenly_challenger/heavenly_challenger_supply.json"
-hash = "25eaefd501ffd31029b6e77082db2c4a88d982fff5a02dd046850a0109d0b48b"
+file = "kubejs/data/farmersdelight/loot_tables/chests/fd_village_desert_house.json"
+hash = "6d0c33696b15238722c87fb9942dcca4fcf2240b2b2025151d33273751f55488"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/heavenly_challenger/heavenly_challenger_theater.json"
-hash = "fb9689ee416c193f359975ff960fb4c06222deeed35225846b57c7aede97873c"
+file = "kubejs/data/farmersdelight/loot_tables/chests/fd_village_plains_house.json"
+hash = "9737d2338f5d551ef1bb3d75da63668343980f1ca09249c6f2a3a97f12804e87"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/heavenly_challenger/heavenly_challenger_treasure.json"
-hash = "fcd43f3f002a301f35ee9fe302f600c4398ee19a9204e75a2da03450aea3659f"
+file = "kubejs/data/farmersdelight/loot_tables/chests/fd_village_savanna_house.json"
+hash = "87d5382dac189c49f275bcc684789f83a83f63218cb9ed41ebdb456c545e40c8"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/heavenly_conqueror/heavenly_conqueror_barrels.json"
-hash = "d2b8566cac8ab87f8463a17de7aebbbc4cd4b658b25fc1d1a8f41d6be6b52245"
+file = "kubejs/data/farmersdelight/loot_tables/chests/fd_village_snowy_house.json"
+hash = "c0f1b06ec31050df4d9a1d1432afdfb57380e6c4b32b4b3bdcac1fbde72bef68"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/heavenly_conqueror/heavenly_conqueror_normal.json"
-hash = "b1e441c45b055b0bfe1d01aeeba06fae103fbf29f05d8e5736d22beae6d41847"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/heavenly_conqueror/heavenly_conqueror_treasure.json"
-hash = "df900da6304efaef7d0c65a95e9aa93f17da813ffdc1b0025098fd0087e6a27f"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/heavenly_rider/heavenly_rider_barrels.json"
-hash = "d2b8566cac8ab87f8463a17de7aebbbc4cd4b658b25fc1d1a8f41d6be6b52245"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/heavenly_rider/heavenly_rider_normal.json"
-hash = "d2b8566cac8ab87f8463a17de7aebbbc4cd4b658b25fc1d1a8f41d6be6b52245"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/heavenly_rider/heavenly_rider_treasure.json"
-hash = "1b12f636a5d35bab64c64e8a8eee05a24064240e9a1554889385d75d5d2e8baa"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/illager_campsite/illager_campsite_map.json"
-hash = "34ab665590a58051b517738de0014c86daa9ea4d280c085255a0b7cb1958b277"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/illager_campsite/illager_campsite_supply.json"
-hash = "66111c8d4e6a5bf810783ddbe6ac61eefc5d4ae3613f1979db3aa41a8a70607f"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/illager_campsite/illager_campsite_tent.json"
-hash = "8c019cf0b02080b735193b43b7d2a8dae507c07fa7622ffd2f08797b483c1e35"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/illager_corsair/illager_corsair_barrels.json"
-hash = "b55d4d5acaca532949db0a6d617d9c35bfc6cc37c0b4100e1ab6dbbcfa857274"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/illager_corsair/illager_corsair_supply.json"
-hash = "d13d428e1c9a98d2bbe83bfeaf3c9d349adfb23240abad0ec3c892a1a8829967"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/illager_corsair/illager_corsair_treasure.json"
-hash = "ea62386ef90eb8baa1316e1b1dd10ea47eb2aa1b6409022aedf7d5acfc5c5eb4"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/illager_fort/illager_fort_barrels.json"
-hash = "e26d4127677e236c22668482118b965d93ea939b9591104b7c4c15d93d2a76db"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/illager_fort/illager_fort_normal.json"
-hash = "436988ca5deb2dc8ec713f3257846e752d323db6f1706773d9da8041de3cca53"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/illager_fort/illager_fort_treasure.json"
-hash = "da4835b9dcf6eeae168f52d909606a2dae0fe75c07b2269e7448ce6e2ad5074b"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/illager_galley/illager_galley_barrels.json"
-hash = "b55d4d5acaca532949db0a6d617d9c35bfc6cc37c0b4100e1ab6dbbcfa857274"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/illager_galley/illager_galley_supply.json"
-hash = "d13d428e1c9a98d2bbe83bfeaf3c9d349adfb23240abad0ec3c892a1a8829967"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/illager_galley/illager_galley_treasure.json"
-hash = "ea62386ef90eb8baa1316e1b1dd10ea47eb2aa1b6409022aedf7d5acfc5c5eb4"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/illager_windmill/illager_windmill_barrels.json"
-hash = "35817d2aae4d51c9b45c92b8a585965fd418aa178400e39f5a3b26707dcb57c5"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/illager_windmill/illager_windmill_treasure.json"
-hash = "afff5028fad5f79a0764fb8db5830e09a412e731e399ee9178d6ffd17327cf69"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/infested_temple/infested_temple_room_bookshelf.json"
-hash = "51d54ca854d0cd33507007b77f87b30ee93c90ad4b91e57c1942581281d1cf69"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/infested_temple/infested_temple_room_forge.json"
-hash = "f2f0570969b7388c63eaf8d22634aca24eb3986ee58c5edf9348d0fdf2d98e09"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/infested_temple/infested_temple_room_garden.json"
-hash = "f2f0570969b7388c63eaf8d22634aca24eb3986ee58c5edf9348d0fdf2d98e09"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/infested_temple/infested_temple_room_normal.json"
-hash = "f2f0570969b7388c63eaf8d22634aca24eb3986ee58c5edf9348d0fdf2d98e09"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/infested_temple/infested_temple_room_supply.json"
-hash = "f2f0570969b7388c63eaf8d22634aca24eb3986ee58c5edf9348d0fdf2d98e09"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/infested_temple/infested_temple_room_table.json"
-hash = "f2f0570969b7388c63eaf8d22634aca24eb3986ee58c5edf9348d0fdf2d98e09"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/infested_temple/infested_temple_top_treasure.json"
-hash = "8915a8185667629d5ccace94f5bfc3ac8815d97bf54e6895532574f1953c1cf2"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/jungle_tree_house/jungle_tree_house_barrels.json"
-hash = "e93ca6a3a6d6b331775eda66750254eb6cdae31f38aebc7f61f06ab787a97920"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/jungle_tree_house/jungle_tree_house_normal.json"
-hash = "e93ca6a3a6d6b331775eda66750254eb6cdae31f38aebc7f61f06ab787a97920"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/jungle_tree_house/jungle_tree_house_treasure.json"
-hash = "92d32212f5d5cea92908a7496a461c1dd21d68b4b90cb92be7863c4ec60ee544"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/keep_kayra/keep_kayra_garden_normal.json"
-hash = "054db1077ed4f5d64a4a3f2f0c5baff439c75b6c6d8d465a8e33f8548c607090"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/keep_kayra/keep_kayra_garden_treasure.json"
-hash = "0fa42ee61654ff9081ad66976df0e67ded6dd184ede1e3f33f9715b484a0065b"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/keep_kayra/keep_kayra_library_normal.json"
-hash = "fbaa537da88ac52a6f7893f788a3494132c64a65899b2dc9f3bad45d61d4165e"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/keep_kayra/keep_kayra_library_treasure.json"
-hash = "22ac84b46d9f43418f4a99ebcdc7a799bc8ff8651df952135a61d5a60b230926"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/keep_kayra/keep_kayra_normal.json"
-hash = "8a35147fba6034a52591628668d77f85fc053eb8b5d882a7cfaa8ba9d9449bc7"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/keep_kayra/keep_kayra_treasure.json"
-hash = "abd0adda1d8688810071ee8a69ad6b01c928cc0ef2095e76bbd21da77fb4d97b"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/lighthouse/lighthouse_top.json"
-hash = "c43cba08a5051afd72764b23b5d23ab0ec0a4880280e8988f009f194e4cf5d0f"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/mechanical_nest/mechanical_nest_equipment.json"
-hash = "a062ff150b411a8c79dda9e92c804c64a34d00318addd31cb0cc9c6e45da6507"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/mechanical_nest/mechanical_nest_normal.json"
-hash = "8b0b3b58dc80d35cab5558342ea316e5d92da969f6f62fd6d89a0852eebfe75c"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/mechanical_nest/mechanical_nest_supply.json"
-hash = "a822643f777fa19e13cf19d5b9f3ec153108f83446dd06b761f722926614a96c"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/mechanical_nest/mechanical_nest_treasure.json"
-hash = "349f81e3aeff1b08cd49c0c63b5f81202b67dd110ebe90ae4c850b8d4abcd89b"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/merchant_campsite/merchant_campsite_map.json"
-hash = "2e6ce2817e12cb4682ee3e6c1d3e4bac0f9755c173a423bf27c5f0730e544da4"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/merchant_campsite/merchant_campsite_supply.json"
-hash = "a54d352db575f1ad371cc90a12f712db73096eded3623a7313322c77718911c0"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/merchant_campsite/merchant_campsite_tent.json"
-hash = "e37f5c47cbc2dea3f70ad55c5c7228080bdfd66efd8c932ae14eef17d83968a8"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/mines_treasure_big.json"
-hash = "ff4468cf7437bc627603d74aa91baf18e973835c0ccd20260881c0935c9e40dc"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/mines_treasure_medium.json"
-hash = "4d5b11e1d224b1c86bc445468299a34217c13e61c13e7c03c85344aa095276d9"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/mines_treasure_small.json"
-hash = "e7a3eee3238ccf35045c51c9828da9985fde3e3d81a66b15a68c8d30cf0594dd"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/mining_system/mining_system_barrels.json"
-hash = "746aace037465db8d354cabf8303b3ad71f0d4f6695dc651704f9ecc6aa89959"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/mining_system/mining_system_treasure.json"
-hash = "ff4468cf7437bc627603d74aa91baf18e973835c0ccd20260881c0935c9e40dc"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/monastery/monastery_barrels.json"
-hash = "d13d428e1c9a98d2bbe83bfeaf3c9d349adfb23240abad0ec3c892a1a8829967"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/monastery/monastery_bridges.json"
-hash = "acd02b23686d5011f19857c84cf97500bf513ebe2a3c3d78d137ba236c86533e"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/monastery/monastery_map.json"
-hash = "b34398c06b18c349b7202e99b120cc97f12701fd4980a2ec8a6ea3e43c267637"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/mushroom_house/mushroom_house_barrels.json"
-hash = "acd02b23686d5011f19857c84cf97500bf513ebe2a3c3d78d137ba236c86533e"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/mushroom_house/mushroom_house_normal.json"
-hash = "a8c041b7edd6027f876f9153bcc1f55c1922c673170c85502a7e50d100a5f0a9"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/mushroom_house/mushroom_house_treasure.json"
-hash = "c46b33e8abc52c628c799fe2d4be3c7358b121e0234ef3f3c4919372961c601b"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/mushroom_mines/mushroom_mines_barrels.json"
-hash = "4d5b11e1d224b1c86bc445468299a34217c13e61c13e7c03c85344aa095276d9"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/mushroom_mines/mushroom_mines_ores.json"
-hash = "e7a3eee3238ccf35045c51c9828da9985fde3e3d81a66b15a68c8d30cf0594dd"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/mushroom_mines/mushroom_mines_tools.json"
-hash = "e7a3eee3238ccf35045c51c9828da9985fde3e3d81a66b15a68c8d30cf0594dd"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/mushroom_mines/mushroom_mines_treasure.json"
-hash = "ff4468cf7437bc627603d74aa91baf18e973835c0ccd20260881c0935c9e40dc"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/mushroom_village/mushroom_village_barrels.json"
-hash = "57b22eeb084bf599f34611ccf1572c16826c68f8114e7f47693e8a47aba39741"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/mushroom_village/mushroom_village_treasure.json"
-hash = "03617bd45fb56f3e8e465689cf70d16dae59d9c8435ab0bce5def077477f0626"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/plague_asylum/plague_asylum_barrels.json"
-hash = "913e080b9bad7a1ff00f113b0d114331de740f17b8f78a01594a00511e052260"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/plague_asylum/plague_asylum_cells.json"
-hash = "e7a7a673e2d7159d7a9441f2adcb9ac4c907f814cf66e3d05cc412385709091d"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/plague_asylum/plague_asylum_normal.json"
-hash = "903520d83da7b236e66bd3080f785d686f04969d526a7be4c3fa8b9968e29d7d"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/plague_asylum/plague_asylum_potions.json"
-hash = "72d1fa00cae9ca7707f6e667cfb24d77005a5fce614c53eed3f91bf712db1d10"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/plague_asylum/plague_asylum_storage.json"
-hash = "8c6fbcf164062e63781241713cbeb0f6992cdee6a85425e29fafffe5ce5a9d89"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/plague_asylum/plague_asylum_treasure.json"
-hash = "6cc009a1995affe7a84666ce87b0f0e0fe43eeeaa9ab887c75bcd49a56b9368b"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/scorched_mines/scorched_mines_barrels.json"
-hash = "d55e5da0a70fc8ff7fd81f1ddb62306958ba79864a9eea8cbf6bc0b3bc5fe532"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/scorched_mines/scorched_mines_housing.json"
-hash = "d55e5da0a70fc8ff7fd81f1ddb62306958ba79864a9eea8cbf6bc0b3bc5fe532"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/scorched_mines/scorched_mines_hub.json"
-hash = "390a5e7e6b43d27d6c2f28447550e8c2016eec24ccc4b0a72fb184b9d42d2071"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/scorched_mines/scorched_mines_normal.json"
-hash = "d55e5da0a70fc8ff7fd81f1ddb62306958ba79864a9eea8cbf6bc0b3bc5fe532"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/scorched_mines/scorched_mines_treasure.json"
-hash = "70b1a71addbc62bba7758dfa0e19cd384b93f14671110a3383f92a69a0563a31"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/shiraz_palace/shiraz_palace_elite.json"
-hash = "0769ffa053c6e467a7a94e35bd7cfc7837fa6a1b3ce0b1d684bbc10e543aa9ad"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/shiraz_palace/shiraz_palace_gardens.json"
-hash = "2c65bdbc5cc4434a19386b632b10ce2aba134d4397fdd0ac78b735950e12b33e"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/shiraz_palace/shiraz_palace_library.json"
-hash = "1f6c1525f24b287309a28b23d04db766c17a263ad0aa3044407cc1844475e98f"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/shiraz_palace/shiraz_palace_normal.json"
-hash = "690fa7d05289d84b97439e2ba8b853eb405365255c293efb38544aa4a809bb3f"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/shiraz_palace/shiraz_palace_rooms.json"
-hash = "a4206991db1dc67e4316a1e34a1a52a9d122038d6d0d723c19f0fb2d1298cabb"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/shiraz_palace/shiraz_palace_supply.json"
-hash = "2c65bdbc5cc4434a19386b632b10ce2aba134d4397fdd0ac78b735950e12b33e"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/shiraz_palace/shiraz_palace_towers.json"
-hash = "90ee3e977ad0f431b2b7eb8f57e5c57e20b9d57b658bbe0bf4e846fa377efccb"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/shiraz_palace/shiraz_palace_treasure.json"
-hash = "4c73d4fa5c4ec6e468b537c3ac35f9c2d30afd00a0c2752cdcc61b8c1255af92"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/small_blimp/small_blimp_coal_storage.json"
-hash = "8c6fbcf164062e63781241713cbeb0f6992cdee6a85425e29fafffe5ce5a9d89"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/small_blimp/small_blimp_redstone_chamber.json"
-hash = "1f16e0da660924c4ba3ad15fd2202e74552f0158fe6c419bc2e8d8d043249a34"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/small_blimp/small_blimp_treasure.json"
-hash = "4aed3516adcdd55605a242067d74877e510dc864f7ce31e85f98695521929827"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/small_prairie_house/small_prairie_house_barrels.json"
-hash = "d13d428e1c9a98d2bbe83bfeaf3c9d349adfb23240abad0ec3c892a1a8829967"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/small_prairie_house/small_prairie_house_normal.json"
-hash = "a8c041b7edd6027f876f9153bcc1f55c1922c673170c85502a7e50d100a5f0a9"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/small_prairie_house/small_prairie_house_ruined.json"
-hash = "acd02b23686d5011f19857c84cf97500bf513ebe2a3c3d78d137ba236c86533e"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/thornborn_towers/thornborn_towers_barrels.json"
-hash = "d241bc8ade631448172f0339d50bfca35493e94a19b612d163b1f3a9a62b84d7"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/thornborn_towers/thornborn_towers_rooms.json"
-hash = "019f91bdeb72677407b64435c81ac294f6f9fe4ed367a650996bde966cd1f72f"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/thornborn_towers/thornborn_towers_top_rooms.json"
-hash = "82fd048b3bb4754253730ad3a79f868bac85d668ef636022fdfa03c1134ed67e"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/thornborn_towers/thornborn_towers_top_treasure.json"
-hash = "b755a216d5c4a7b7106691b1963796e7ff4497e9526da4bd43e78953cadc5234"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/typhon/typhon_treasure.json"
-hash = "4aef4aadfe6ff5e4a891accd34d8ca8fa8a886a57edf11fe48a9517956502346"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/undead_pirate_ship/undead_pirate_ship_barrels.json"
-hash = "5327fbe8b84681f20a8fbc633b9cf5ad1d1bd63bb1963568a56729fe87039ca2"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/undead_pirate_ship/undead_pirate_ship_enchants.json"
-hash = "f5fbac4fe3f17e55bda166166426d42d44e79fbbd9ad8215d552f9b6a3b276ad"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/undead_pirate_ship/undead_pirate_ship_supply.json"
-hash = "3e51b3b5bbb51109cbd663301937bf7b3f171e0797b0fdb0f06c409aaae875a3"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/chests/undead_pirate_ship/undead_pirate_ship_treasure.json"
-hash = "4aef4aadfe6ff5e4a891accd34d8ca8fa8a886a57edf11fe48a9517956502346"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/loot_tables/entities/gladiator_loot.json"
-hash = "ea0cd5a3661021f41897d740fad18a05ea8c670a65171266f8ef2b953935f133"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/processor_list/bathhouse_main.json"
-hash = "ec480d7281423cb8a09903f51bc12062f56dafc239925f7b83b3d821b43546e8"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/processor_list/greenwood_pub_main.json"
-hash = "9749c136efa936603bc9228dc8da83970b588e3f5524a24fef955c1b092563a7"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/processor_list/mechanical_nest_main.json"
-hash = "f5a5c953e0a4f642da775139ec72a1286523cd6670f5830ad719a8dff23a99fe"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/processor_list/mushroom_village_houses.json"
-hash = "6be4ee190e2c6053c00ff03d6bd21233498633482660532875836f809cf4f0df"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/aquatic/illager_corsair/illager_corsair_main.json"
-hash = "0111d0076044057d9943e161df646baf94be002996ab95b319541bc5636167e3"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/aquatic/illager_corsair/illager_corsair_spawners.json"
-hash = "517bc64b75b0642a1f53ac38730caa04486cc66b30ea8a59fe541fccd113a6a5"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/aquatic/illager_galley/illager_galley_main.json"
-hash = "e95dd40d1f79862c86210469d5099a1ac6e9820a8e8aa205f3061bce6acefb9c"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/aquatic/illager_galley/illager_galley_spawners.json"
-hash = "35624802c0139a5fe5e4e351f7eb22ec4af3cb10f59b34af54aead443289a650"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/aquatic/typhon/typhon_main.json"
-hash = "13e381848c14606858759286f308db382944483a5a1429a42e3961614c168632"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/aquatic/typhon/typhon_start.json"
-hash = "623ca60b8947a854230d684d3fbfb7f8d685cff15228568bbec4cf96fc305f20"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/aquatic/undead_pirate_ship/undead_pirate_ship_main.json"
-hash = "b5ba412b992c3666bdbdfa7330a830f154b9192ba4ffaabc188c783d3287f623"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/aquatic/undead_pirate_ship/undead_pirate_ship_spawners.json"
-hash = "d78948a9ff8693518255f4f98e52c481740e85e1a7ae7cc2114f85fa2927b48d"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/bandit/bandit_towers/bandit_towers_bridges.json"
-hash = "f42269410ab730327fb569b6cf10104956008eb4ff61c8cf5c51714399b6c346"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/bandit/bandit_towers/bandit_towers_crossing.json"
-hash = "b399438f78f7e7749236436b2844656425cad488d549e7d5bfccf3b3be8a676a"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/bandit/bandit_towers/bandit_towers_main.json"
-hash = "16d56e39576ca914b96ce5fbcdd4ce37ec75d8feac7f4392f4dae2369ed22262"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/bandit/bandit_towers/bandit_towers_rooms.json"
-hash = "8011dcffc53f43f084bcb94e5ea1023bb48a49d32c52cdbd771c49ab5f99540f"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/bandit/bandit_towers/bandit_towers_spawners.json"
-hash = "2b87f6f727aa91a4120f615110c671b121d903466ab92fd6194c165a5e7fd49d"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/bandit/bandit_towers/bandit_towers_start.json"
-hash = "c4b58114e7d2603127e08a545e5f6815546ad0cb33a7df1044873cf1592e8fc0"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/bandit/bandit_towers/bandit_towers_terminators.json"
-hash = "5fd9054b73636e76db00ec889199ae04932493c63ccec46eb8e5f8fdd92f58d7"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/bandit/bandit_village/bandit_village_houses.json"
-hash = "29a71070756060a65c0531676cfe9efb8da5bb5c03e79d4b6846eb7cdb940643"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/bandit/bandit_village/bandit_village_spawners.json"
-hash = "e8168e39e0dc4c1833c78025d448a1080cd45b711a144662237b3ed280a5dcba"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/bandit/bandit_village/bandit_village_start.json"
-hash = "e69cc427486dbcb648b0fca1dc7a56ef5800315dcc55a9aa3c41c4211022d348"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/bandit/bandit_village/bandit_village_streets.json"
-hash = "deda93fcf71bd673ee99c4797b1ef97b49bd19da71b1520fff4b8dfd1a574cde"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/bathhouse/bathhouse_base.json"
-hash = "01a51822d743d6ddf0dfcb15ac30e00b195857aa7dfc98826ba669350456cc6a"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/bathhouse/bathhouse_middle.json"
-hash = "ed803b18c4cc46fad6c22583882418b75775abbebe107ae7e225e9917a475d3c"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/bathhouse/bathhouse_spawners.json"
-hash = "3cc3907d3300c569c28780b9e1644ab8d0f42d2fe5c544f18c7fc0189477c00a"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/bathhouse/bathhouse_top.json"
-hash = "2cb4823d20c031fbdb593e9ae277dfa416288bbddf3377ec5e12446aa6be9c87"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/campsites/illager_campsite/enemies.json"
-hash = "26d6d45bc5224fecbb696da6786762c34af085c3adbed2a4b20455ea479a404a"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/campsites/illager_campsite/illager_campsite_deco.json"
-hash = "108422154effe49251be8fd8d0f219454b5d01323f296c56b9c7187d27c0c93c"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/campsites/illager_campsite/illager_campsite_start.json"
-hash = "777de2f2c2ca5ada6a6e1231d12b2213bd65e2aa2798bc3a225e44b01e747dea"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/campsites/illager_campsite/illager_campsite_streets.json"
-hash = "8b785e4ddc7438376d99a03dd46f9f69ddb705c1e32da5df8305112513ce17b4"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/campsites/illager_campsite/illager_campsite_tents.json"
-hash = "732fe1eb7651566840c972f0f8fd10117695e4e51d161cec3bd4a9bbf196e676"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/campsites/merchant_campsite/merchant_campsite_start.json"
-hash = "c371296d0ddbee61a4fe32ea19283b174a19b86ea88591531f63fa6c8b5ea025"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/campsites/merchant_campsite/merchant_campsite_streets.json"
-hash = "f4ce92a33e376e2ceac7595ebcbb4ac55f08d1aea42bb54e65de1fbff5278bfa"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/campsites/merchant_campsite/merchant_campsite_tents.json"
-hash = "7de3575c5d75daacbaa5c3ef0300613fa4b127e67919c870a3147fc9585c28ea"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/campsites/merchant_campsite/villagers.json"
-hash = "4b871439eb5101cdcb9aa968d0f52ae8ed2932e17c7c3e8813223ab8d4778fde"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/desertic/ceryneian_hind/ceryneian_hind_main.json"
-hash = "bcd314501dfcafa1aba6381eaf064c9eb64a5501b262e9423e461a48b14e95af"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/desertic/ceryneian_hind/ceryneian_hind_start.json"
-hash = "d390348b4ca61be7f86500a7724e2f7543131460591fbfea6f410df5a0ec1f9c"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/desertic/shiraz_palace/shiraz_palace_main.json"
-hash = "e1ce6c5c3633c8b27e7f765bc07cb58679d482823f2c4ecb4c91757c1580e5b3"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/desertic/shiraz_palace/shiraz_palace_spawners.json"
-hash = "446c0e70373882d18d57706963cc5a1b5e37ae8b6ce0c2ec088364889c054c03"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/desertic/shiraz_palace/shiraz_palace_start.json"
-hash = "ac1c5a4a2bd5a18f7b5456742882e0367cfa81e1dc5b8e2d9bfc6488fc13109e"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/eerie/aviary/aviary_main.json"
-hash = "3c1874350764d345aa74ed22eab281aeb3556ea52bff6adaf489b8d63f9c9631"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/eerie/aviary/aviary_spawners.json"
-hash = "f36aa795bff220cd560e07b523383e38422a8e57052a038cee5eb84774e90b75"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/eerie/aviary/aviary_start.json"
-hash = "cdf93daae1f128631914c5c1bba16dcd45525a221b3c59ae311dbda0517374ad"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/eerie/heavenly_challenger/heavenly_challenger_main.json"
-hash = "597852ff1a1357a3742971c4b0d2cf99a82a2697bacc77263180fb061e5580ab"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/eerie/heavenly_challenger/heavenly_challenger_spawners.json"
-hash = "9a9103cd1fca06624b1f416cb5e789e5e28bd50a9ba62ec6a064fff7b6533717"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/eerie/heavenly_challenger/heavenly_challenger_start.json"
-hash = "ef7ed1af8bb3659d2d79be68d007cfd6f5cde9fdd2ccc9e87b50fe94c063cdf6"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/eerie/heavenly_conqueror/heavenly_conqueror_main.json"
-hash = "e552ae08fb4c34cbee11179e1deb6d17a6c6e8fc848eed0929db0f9dd4e48893"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/eerie/heavenly_conqueror/heavenly_conqueror_spawners.json"
-hash = "94892ea6c4f05033938b0c22383741918043314ad0a432dc94941d31341cf7a5"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/eerie/heavenly_rider/heavenly_rider_main.json"
-hash = "dea94f07ddc1880b3388a4a4f80eac3f199bcdd4caef382a50f34e28912e76ab"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/eerie/heavenly_rider/heavenly_rider_spawners.json"
-hash = "25c9b75a20adf7250facc7fffe4ac1dbe619c75020216990141cbb1f19af5578"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/eerie/heavenly_rider/heavenly_rider_top.json"
-hash = "9db7a5acca3e66383312568f02dc65bbfbaa0bcc7c019e84f3ecb6992ca245fe"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/enigmatic/lighthouse/lighthouse_start.json"
-hash = "bcdd7d3502fbe2928a3731afa6e9297623d444fb80b0ee9fe45fc50ca290456f"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/enigmatic/lighthouse/lighthouse_tower.json"
-hash = "4a1ece2af8ec364d05f68cfe52a018e17ca442d88b3c5252147b015fc6309b54"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/enigmatic/small_blimp/small_blimp_main.json"
-hash = "fff87e54326c1f94b1d7b66da314c933882eb93b3c1ad14c8ae7ce6ade9e4ee3"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/enigmatic/small_blimp/small_blimp_spawners.json"
-hash = "efe85b2f72827e1dc6c7e735a444276dcbbd37a47a7bdf995fe65fc9897ac95b"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/enigmatic/small_blimp/small_blimp_start.json"
-hash = "c3dfedd8b4bb57d2cf44dedea306f157e900bded730154df42ff322ee73c568b"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fortified/abandoned_temple/abandoned_temple_deco.json"
-hash = "6f49bead3270cb2fccf2afc07aced2f203162ac14ddda8dea9a07d8f8e66cd5e"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fortified/abandoned_temple/abandoned_temple_roads.json"
-hash = "5a5d3031ca219923b45b421ad32b362ad6f9b5eeafe299912450f930bcbe368b"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fortified/abandoned_temple/abandoned_temple_start.json"
-hash = "09d3de443f05b0846ff785ac6e9564bdfa53b051eeb07c948b16cf2d04171538"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fortified/abandoned_temple/enemies.json"
-hash = "6bcdf5291d52e06abc0a52e143cd3a3786b57265bbf90194af4382b66e0ed4db"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fortified/illager_castle/illager_castle_corridor.json"
-hash = "40f0966a7ada0a028076fa8494d7051d59a90002aad5e2d494645d3bad44c86a"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fortified/illager_castle/illager_castle_start.json"
-hash = "47780cda771d04ba13cd4b34d172daa3e722ade0ed1a861a9490bcb424402b07"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fortified/illager_castle/illager_castle_tower.json"
-hash = "81651b36729929cfc4f6c50c8bd5ced2f60105eadff851b227ed32bb796cf62d"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fortified/illager_fort/illager_fort_main.json"
-hash = "42166b5e997b7224c384386a91da7206afa3508c3c5f7722ac015a3c5796196a"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fortified/illager_fort/illager_fort_rooms.json"
-hash = "2687eeddf12fb05c608b66bd8aec8fc95986e37ac02119855a511c79c1ace788"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fortified/illager_fort/illager_fort_spawners.json"
-hash = "b1de594ac9ec2ceb73ab4092211afd3ed6adb5238589402cab074e99948e2d70"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fortified/illager_fort/illager_fort_top.json"
-hash = "d70b6fd55414012725e3ac1414dea7c65df24c4b5970b8ee3623d0a3303be494"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fortified/illager_hall/illager_hall_bridges.json"
-hash = "e461000dad2b1224ab45812de1b50c61e04d27464082080a403a511f66c49ef2"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fortified/illager_hall/illager_hall_start.json"
-hash = "9d99da71c27d2b254836f1b3eff8a924f338bbd74b660b98b1fa9eaa0436d4a5"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fortified/illager_hall/illager_hall_tower_parts.json"
-hash = "d29ea8610eb50c21b8e453506aeb2bcc2936d6d8f09997325716e7919636578b"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fortified/illager_hall/illager_hall_towers.json"
-hash = "7063466e54a6e4db78de7c97c7e5afe833ff3f5bc13e8865dcf51156b135d47f"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fortified/keep_kayra/keep_kayra_start.json"
-hash = "9da60277b4a5f211a8cb44ec6e61886e055a4d732d3258603c918ab4e9416e0a"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fortified/monastery/monastery_bridges.json"
-hash = "18530f4ad203661cd86f158c38fec517884eb99276cfd412cd999788f34748f5"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fortified/monastery/monastery_bridges_deco.json"
-hash = "f8c40b99785a91e2dcfa64a8f8f015df7f325c385a2bbc3db3ceb83e7ccefeba"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fortified/monastery/monastery_corridors.json"
-hash = "abd4b455f77735f66c2ff79f428995544707df61e056c2d67ef3efb3594767f8"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fortified/monastery/monastery_corridors_deco.json"
-hash = "31647818ce2e73a93cea40ce965a467dbf158626339f5ae1d0b71bd28f1414fa"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fortified/monastery/monastery_rooms.json"
-hash = "8a0337d2272f46e55b0654fd90261ddaab7ce13b8131d5316589a073ed0c3b4a"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fortified/monastery/monastery_start.json"
-hash = "fae088d1189f94b2feb26b85e5415bbac8d9d9712f9e84452e2eac898ac4756e"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fortified/monastery/monastery_top.json"
-hash = "403552a55ea712a9ac239bd78285ce1fc94cb24b7e4aab301194daec4840a214"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fortified/monastery/villagers.json"
-hash = "4c97c909d4fcb756d2e40b1ef354d8dbebfa388fd7b60faa1e6cd07d0759aebf"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fortified/thornborn_towers/thornborn_towers_hanging.json"
-hash = "00706cd970125a4a37843554107940e09243e8e93abbc2b7523845a82f16bfb6"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fortified/thornborn_towers/thornborn_towers_main.json"
-hash = "af9343b5257ac451dc88a4c73bcd60d433775fff969f42058d0897e1630da451"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fortified/thornborn_towers/thornborn_towers_rooms.json"
-hash = "68db50562a1926739545fa48fad04f058618abfa9455657259204e4b05b312bc"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fortified/thornborn_towers/thornborn_towers_spawners.json"
-hash = "9ccd95ebd19024a6526aed187179dcf9b435a908c284ef392dd926a9e338aa51"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fortified/thornborn_towers/thornborn_towers_start.json"
-hash = "804fcc28576cf261d726071f28afe7074db0f64e5ac9a24c92fb09172076c186"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fortified/thornborn_towers/thornborn_towers_terminators.json"
-hash = "d6773494f16afccdcb04fc6460574028882a7fc2b91d018ec452a1afb5cbdc02"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fungi/giant_mushroom/giant_mushroom_main.json"
-hash = "e76ac3c270a54d7f9ce71fbbcc94217c4ccc4cf175b4631923bbd93535b52c2e"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fungi/giant_mushroom/giant_mushroom_spawners.json"
-hash = "7ff467e78da5f11e20c559824dcafea83c15055921f2ddc74da1e57d6916d059"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fungi/giant_mushroom/giant_mushroom_start.json"
-hash = "df34c62fc5399f9fee391c370cfc8d5527f0fbc79b6022f5516cb52ac2af0509"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fungi/mushroom_house/mushroom_house_main.json"
-hash = "964f9dbde92d1a8b135eba8d95b0908562cba59a9e4d06e165ab4dff25d21234"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fungi/mushroom_house/mushroom_house_spawners.json"
-hash = "22ec7b2047293a0b75fa7956ba6cebd522454299d723ec7003e084205fb9c881"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fungi/mushroom_house/mushroom_house_start.json"
-hash = "47da1dff4d0ecbe9d684ca6372a13a08834a303df56618ce1bf00952efb50ba3"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fungi/mushroom_mines/mushroom_mines_main.json"
-hash = "11bc3eb8e69943e11cddb17fee632b6026c45b0d646c6c12bf7b689147042df4"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fungi/mushroom_mines/mushroom_mines_spawners.json"
-hash = "5e5a485034b1c31a2c6714f62f4112ae153a2609a5d3f8dadb95c68888bb4140"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fungi/mushroom_mines/mushroom_mines_top.json"
-hash = "85fc7a5859801400e916b854e4cf1dc5c41d0f54e6b6f40dd0812d541c91097c"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fungi/mushroom_village/mushroom_village_houses.json"
-hash = "db00992a48ff0864aec19046c6d84362138e41dba51d2f5c395c5f7579b40553"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fungi/mushroom_village/mushroom_village_start.json"
-hash = "cb75ecc998c7e401c3c15b780c9f6654090ae637347e286bf634218c32a7ca89"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fungi/mushroom_village_old/mushroom_village_houses.json"
-hash = "d19b59da3142a59758594be86ef41913ab6db6b45822edb7feaacadfd8308337"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fungi/mushroom_village_old/mushroom_village_spawners.json"
-hash = "e8ca100d81474ee08a1de9fcf6ea3599ca571ff3007eb18f1350f8dc83eab9dd"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/fungi/mushroom_village_old/mushroom_village_streets.json"
-hash = "04b3a69304c753f2dc9d0d5aa75fd23bdffd7848f5bafc65c493cc9d315d534e"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/greenwood_pub/greenwood_pub_furniture.json"
-hash = "a591ee25fc12d4a12a7aa82495731527a5f54d219d4818763d0f3ff46c3f8ee6"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/greenwood_pub/greenwood_pub_hallways.json"
-hash = "8129dc165b08d58a7d422e91dcf7e7073aa1f3a10fe59c45cf1c4b9af3a9e8bf"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/greenwood_pub/greenwood_pub_main.json"
-hash = "ccbd08cbfdfb6d270891753e568602b3d52f5f3aa9359d2035ca432066ac0284"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/greenwood_pub/greenwood_pub_spawners.json"
-hash = "e2f12d7bf90e190731e5e77f2f913abf4f874006ebfcfa017c244a6dad46a754"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/greenwood_pub/greenwood_pub_stairs.json"
-hash = "f1ee6cf3495a7bff0e9a9ddca7857dfc839fe962c5ff41562e2d22fea8ac7824"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/greenwood_pub/greenwood_pub_terminators.json"
-hash = "d59cc16d25609e8c5edabcfde4ec1c346d96bb06c9074e3e03b09267b29ef747"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/haunted/infested_temple/infested_temple_base.json"
-hash = "dff4a03755abb7af02b13eb28281667158ca790435aac9f73771d0a5bc3347b4"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/haunted/infested_temple/infested_temple_inner.json"
-hash = "396910a4e92c873c34e2767a8e1b4b00284e3787e6f0ac44ccdd215fff4464eb"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/haunted/infested_temple/infested_temple_layout.json"
-hash = "7b8763177afbaefe65782d811e54c5967ca5d1e7c41d93ff5bcb58e5981ce2f6"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/haunted/infested_temple/infested_temple_levels.json"
-hash = "28e6199dffedd9c1f0f3292b7e2b4247464fe2a825df9182e718e88f35f8c553"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/haunted/infested_temple/infested_temple_main.json"
-hash = "2d7379ccfe30866f54c08795ee6737e848f8a12372e149d5fb855ee34efdc503"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/haunted/infested_temple/infested_temple_rooms.json"
-hash = "b35eefc310aac75fd5db4e241e4c6f923b508b221ee4d9b2b07a979b5557fd6e"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/haunted/infested_temple/infested_temple_spawners.json"
-hash = "d9223829370272c28bccc2d19f1c8f38bb84f083e5ca5f1ea3d4d559dfd9929c"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/haunted/infested_temple/infested_temple_start.json"
-hash = "cee21f2e0cc10bfb47e820df4f67473a1dfe55161541216daa0564ebc3440473"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/haunted/infested_temple/infested_temple_top.json"
-hash = "26c8e9377b77286bdb3817d3935b22abb8fa6b8bfeae6e7b135e12313c0f4117"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/haunted/plague_asylum/plague_asylum_corridors.json"
-hash = "39b183b573e79d4f20e155316bdc20eb60cb490c7e0997d5eb0aab1e18cf49a6"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/haunted/plague_asylum/plague_asylum_deco.json"
-hash = "6f5470ffc58aa1fda5cd81ef9c09bf4c547988f2b72667ec3871d49e847dc172"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/haunted/plague_asylum/plague_asylum_passages.json"
-hash = "30f76f572622c762f7d05713d77cb3fbea2d556678b8da1b458e8a6b37b017c5"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/haunted/plague_asylum/plague_asylum_rooms.json"
-hash = "09b908eb70a5918788ed9ffe3dc559aba93febea542785ef234ab121692b76b6"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/haunted/plague_asylum/plague_asylum_spawners.json"
-hash = "4e4d872bdda88768cb98270fd8adc0625aad9f1cf92288cfffefd461d812a561"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/haunted/plague_asylum/plague_asylum_start.json"
-hash = "6d714d8017ad640ba18c61d3fab40dc42c1867b144dd6570f3a3c2a6f4ee1879"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/jungle/jungle_tree_house/jungle_tree_house_main.json"
-hash = "49d97b14141cb704ed2cc0f5f1190676fe2bf4730611fbf9bd3681aaeb0945e7"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/jungle/jungle_tree_house/jungle_tree_house_spawners.json"
-hash = "612d7f6f8dd0bf4eca79e7109cf136b28af591b8b21316bbe740f46350532229"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/jungle/jungle_tree_house/jungle_tree_house_start.json"
-hash = "83182c67831cc09284df688e790e046b3297fd2f332ab84f7aefac64d4cd7e2f"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/mechanical_nest/mechanical_nest_bridges.json"
-hash = "c9c9fd9bf4e7edcc0e511abd193e8eab288bb52eb67935230cf8f76dbd63907e"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/mechanical_nest/mechanical_nest_crossing.json"
-hash = "3c47c26cd3d3e08cb891e105b155a2db1b579521e384f4cfbba88e387eb11c4e"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/mechanical_nest/mechanical_nest_decorations.json"
-hash = "3031e2bd73e34d4bdddb0d515a24d6ff986798a004de0e8efb67c6d2f1058823"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/mechanical_nest/mechanical_nest_rooms.json"
-hash = "30761fc20e1c77e19b2999a50d07be0fd9a2a7042ec29c150894a6cd162a7a36"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/mechanical_nest/mechanical_nest_small_rooms.json"
-hash = "e50d023a0a1c02a5ebb10182d537e16370b951a88c9ec7ebccccc0c5aa91baca"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/mechanical_nest/mechanical_nest_spawners.json"
-hash = "5d0b4d05ebdad6ee224ba4553af61157342b319b5a7069e2bc1c1996dc75727c"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/mechanical_nest/mechanical_nest_start.json"
-hash = "74e426c55d13329b9a2bb62caa87fffb3395a2a7e5dac1f9b2a4a146eb34bd84"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/mechanical_nest/mechanical_nest_terminators.json"
-hash = "907717243d3e1226586b0c7cb92aaf1bd985f0ff418c25c20dd3d312f7aefeb3"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/mechanical_nest/mechanical_nest_towers.json"
-hash = "e6cc169e317aa95d3a8d435b109a1dbbf6c70f591b9c31e572b2f2bdff4f1da8"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/prairie/coliseum/coliseum_main.json"
-hash = "04e3f9f14845869c6d36c236eb00dd4a83c8bbfb75c597613d9b69461c6fb8ad"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/prairie/coliseum/coliseum_spawners.json"
-hash = "a8fc47ce12c2089e3cac221992fc721d599a36023bd2853bdc853614db4747d2"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/prairie/fishing_hut/fishing_hut_main.json"
-hash = "3fe64653a5ad1b87f8e7fe24c39b116d633357e5ad71d3e9be12ce01d295229e"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/prairie/fishing_hut/fishing_hut_spawners.json"
-hash = "9fdbaab5af1b6e6cdb57ef76de9adfe54ac2ea5b0d273b053c70f710b35c6092"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/prairie/illager_windmill/illager_windmill_fields.json"
-hash = "e095a79862b3617de4b418b523cec3507229bc063c58c36ca4679a921616823c"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/prairie/illager_windmill/illager_windmill_main.json"
-hash = "60fb25c6105c2c22298ed6ebe26b388722cbf90794bfc64725546b561726fd87"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/prairie/illager_windmill/illager_windmill_spawners.json"
-hash = "0616b3ef774adc859d4f8633219382b6eebcbb4dd765e215ad586de40463060a"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/prairie/illager_windmill/illager_windmill_start.json"
-hash = "447705965cdc672b078b404d2590c59ba38bca42cf94272cb6abfa1477c80fea"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/prairie/small_prairie_house/small_prairie_house_main.json"
-hash = "f7492b06ec735cc9e399f0f656ff726da551b806bbe9cf746697bbc08e7c995c"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/prairie/small_prairie_house/small_prairie_house_start.json"
-hash = "780c9e61d02e99a9177bbb2d18efd74065c3dc334f22561ee2b888fc9c5fa916"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/prairie/wishing_well/wishing_well_effects.json"
-hash = "5c00d575e744bac2f238875cd395add7a673e5c209fd280a89a4d4ab5a8df5bf"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/prairie/wishing_well/wishing_well_main.json"
-hash = "0b38e05d709230f9f2d62cf106bf626a30a3acfd46545cc6788b20ac25ac6662"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/prairie/wishing_well/wishing_well_main_no_effects.json"
-hash = "a518c84a12b1700a845d0e587e71960b3595218dd00a4121236b1270bdc9b5c7"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/underworld/foundry/foundry_corridor_deco.json"
-hash = "183301ec9653e78fa49055d175857834d7ab81abfee7bc52b7c191fe899875bc"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/underworld/foundry/foundry_corridor_terminators.json"
-hash = "6f06fe3cc64be09e42ead0a689c92be5443a85735cef0098271a5fe01af5b075"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/underworld/foundry/foundry_corridors.json"
-hash = "f83a62f570c95b40598bab3105700e912bece05ed542d70146ee4cb83c4264d4"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/underworld/foundry/foundry_passage_terminators.json"
-hash = "9f162a209d23fbc6137a1a2fbc218d8ca3115f22aaea4894f66cab502acaa76f"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/underworld/foundry/foundry_passages.json"
-hash = "ea2a2798eef1879631899185de3548854cc12b629b1889a9288c76f1d09f4186"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/underworld/foundry/foundry_spawners.json"
-hash = "2944d0ab64eba18706fd2e18a948c1403b66393e6fbbad829431f1864ded4e92"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/underworld/foundry/foundry_start.json"
-hash = "87a72856ff396c1bef697474806f5b0316e46b3b7d8aa27117ea2853d399b7c6"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/underworld/mining_system/mining_system_main.json"
-hash = "ff3d20fb5a5696fdb65fd2dd673d20f520872a0612d05e1f7200e9c4c2e8d75e"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/underworld/mining_system/mining_system_spawners.json"
-hash = "56c176f63987dd5b867f1bbbe57bf2747274732bd8faf330fcd77cd4b10ab23a"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/underworld/scorched_mines/scorched_mines_corridors.json"
-hash = "f8693ed2a8bc7a194cb9ac1aa0d22b465d8b320aedcfa396f7e8df1b1f55e2ec"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/underworld/scorched_mines/scorched_mines_hub.json"
-hash = "7571d0025369fb173caac725a2eeda0cb52e3f3f492a01e7f4eef3318e58d6c7"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/underworld/scorched_mines/scorched_mines_spawners.json"
-hash = "e2507c48d58b20cabbcd4738e0f342adc8ebfdca7931c568e34e3b3ac090dd44"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/underworld/scorched_mines/scorched_mines_start.json"
-hash = "7f675c6000498f9ac77022acebc049d1f7534c57069d8748bc9b3fdcb1e570fd"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/underworld/scorched_mines/scorched_mines_terminators.json"
-hash = "6080aea4d8860371f2823cdd9f63c8da91566f2fb3db4c87cb9bdde24815cb59"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/template_pool/underworld/scorched_mines/scorched_mines_well.json"
-hash = "73411dc45f30e2e7c336e0884658b5b055fe9a31c2ff76d31126e1faaec2ada7"
+file = "kubejs/data/farmersdelight/loot_tables/chests/fd_village_taiga_house.json"
+hash = "82a9ef7a8994be9705485deafa29b1df3a504b0eef8c64999f5040a47fa57e53"
 
 [[files]]
 file = "kubejs/data/forbidden_arcanus/loot_tables/chests/additions/abandoned_mineshaft_additions.json"
@@ -13231,6 +12223,42 @@ hash = "fa3be83044c8f1da9b82b56afde18f40f32c34c3372882475fc95d8d0ce92a1c"
 [[files]]
 file = "kubejs/data/forbidden_arcanus/worldgen/structure_set/nipas.json"
 hash = "790b2c4dd6a85c9c3557f1734ae871433e1772df565cb57a52868c3dd58c05f4"
+
+[[files]]
+file = "kubejs/data/gtceu/worldgen/configured_feature/marble_blob.json"
+hash = "08ee73901c542f8a0bb272fc659bb2146e84c7d488e1dcaee445069a826b4c50"
+
+[[files]]
+file = "kubejs/data/gtceu/worldgen/configured_feature/raw_oil_sprout.json"
+hash = "22b20f65b3f2393db62c13a93d29f967512a64344c43a627b4d659465eeaa77a"
+
+[[files]]
+file = "kubejs/data/gtceu/worldgen/configured_feature/red_granite_blob.json"
+hash = "9a928da0c26c8c819f6a746c8e8cda35e08f3bc78d9d8e73b52f330e28f11cb5"
+
+[[files]]
+file = "kubejs/data/gtceu/worldgen/configured_feature/rubber_tree.json"
+hash = "9c404e37015f61ca4ba5931c89677a0e963cbe331e32423a54b6fe0a2592448b"
+
+[[files]]
+file = "kubejs/data/gtceu/worldgen/density_function/vein_ridged.json"
+hash = "9577607369ff54bc83eef5865429c32eaf03b59d917bc9a642d62151304b1ce1"
+
+[[files]]
+file = "kubejs/data/gtceu/worldgen/density_function/vein_toggle.json"
+hash = "cb9f4002b51f7e811fef9bb4964d16202152be30594e89b078de6afbdd18e70b"
+
+[[files]]
+file = "kubejs/data/gtceu/worldgen/placed_feature/marble_blob.json"
+hash = "5c33f71e80629c7e5b7179806d964141c21ca5d9d4f6934bc7e32f1ddcc291b9"
+
+[[files]]
+file = "kubejs/data/gtceu/worldgen/placed_feature/raw_oil_sprout.json"
+hash = "8d4c07d4aa1b5bbbbeb5f947257509a387095af005c53d65980eb6290c070a1d"
+
+[[files]]
+file = "kubejs/data/gtceu/worldgen/placed_feature/red_granite_blob.json"
+hash = "601d82650a5f59e34b925581bd5f2f7ab1d698d73c5d8ad90dbb3682339e92b3"
 
 [[files]]
 file = "kubejs/data/iceandfire/loot_tables/chest/cyclops_cave.json"
@@ -14435,6 +13463,726 @@ hash = "4d5387c927c0dabd954aa4e23c954e39d95c57d0b4271810a3701f2414d5ec93"
 [[files]]
 file = "kubejs/data/irons_spellbooks/worldgen/template_pool/pyromancer_tower/underground_pool.json"
 hash = "f46fab30fdb0f8cdd2a085757cb8bf8b56a2b8b150c64d1673ead244b88eaf38"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/advanced_bin.json"
+hash = "936f00320524f09bf9f3227af42964bf5cce9f81a94599b547410621ce4a9991"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/advanced_chemical_tank.json"
+hash = "8091bff93eb83b27f03bdb1bb585938d2c5d540f306b8f0431d71cd1bb665e50"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/advanced_combining_factory.json"
+hash = "1af04950afdddd892103eeb13fd2f6e7bfd01ae98d192d941ceaa27f4bf3c7da"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/advanced_compressing_factory.json"
+hash = "3fa6bc887338aef8a9705f9b34ec9ea34bd8b71a3af993f8ec495bd37ffeacea"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/advanced_crushing_factory.json"
+hash = "20c9562ed297c020876150cd81a9e4c63debc752f3beb4ec4f8c41362e2b284b"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/advanced_energy_cube.json"
+hash = "25ae92a0019ef61dbebc16f4246a7e494be4b6bfeefa3d5e06a9043097a687e3"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/advanced_enriching_factory.json"
+hash = "12251fa85cac0e0e183be5ceeae5a4d5c4b72e3585de324733a664248967bad5"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/advanced_fluid_tank.json"
+hash = "e1d0d21f47bc44cfa83d5f124986136e735adae7bc2b42c731eca56c18dce9f3"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/advanced_induction_cell.json"
+hash = "b7f7eb8d2a22688094de1a2ceeaed95e260d9cb4691ec6b59179f16fce3c1d30"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/advanced_induction_provider.json"
+hash = "8d62120aa4b87cd03788e87c5ab2f2d71aded97bb9bd72482e326fe9e64c1839"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/advanced_infusing_factory.json"
+hash = "c13ea18e96bf00d75d239d4d5c856697ede00bc43c4c0efb5f36a8d131401d17"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/advanced_injecting_factory.json"
+hash = "c93610e49f6ddd889e81043374ce421256f57dab68fdad664cbef95c11f19e2c"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/advanced_logistical_transporter.json"
+hash = "b6eb29c1238d78e0705d070e4286e75d9fe48cdaa38307deddc48e7198e445e1"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/advanced_mechanical_pipe.json"
+hash = "41a20d9072a985ec38926d3ae7cc684d0a6cfd7941d8ae55c674dd51c4f29963"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/advanced_pressurized_tube.json"
+hash = "f480334bc0c6948be6ff2970037a6566e5ce2ec82aae214e95608ad51a2ac82a"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/advanced_purifying_factory.json"
+hash = "b25d4f7ff6e73cae3ec5b0962ec3c6dd6fbab8bd8ef371bca487f9b919c29b51"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/advanced_sawing_factory.json"
+hash = "c6ff9f95b2f71fb98e131c8f2ae3be70c78a982739a1f49a61f4beca32973b5d"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/advanced_smelting_factory.json"
+hash = "5c266bd18d0843e51113a496560013a141ce03e426de08d8a42a0a6a3ce7fb07"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/advanced_thermodynamic_conductor.json"
+hash = "d434bc5969e0848836d0327be26e6615413ab9d860db61d89e6bc3a1a204aa04"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/advanced_universal_cable.json"
+hash = "206c9cec0bb8a4bba1277747b24c230d35bb7d05776519b19f80976383a1fa10"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/antiprotonic_nucleosynthesizer.json"
+hash = "6c70702a2e7c1f7f9faaf3203cbe1a7c74ea477439dbe54c3a8c1deb423a0321"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/basic_bin.json"
+hash = "d80a85fedc98102089adb3075bdfd16264ecaaac5f6ab5bcfd8c9de5d5dd0cf7"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/basic_chemical_tank.json"
+hash = "d32edf944f088f872789a00bae7dadec61e12b60256d7700ee81e6437fd7c7b2"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/basic_combining_factory.json"
+hash = "c2196154a008204489753c95591c0bff1b94b74a31c15776e0f248a0734d1df2"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/basic_compressing_factory.json"
+hash = "45dbcd2bd42ac10849ea478dd34961e5cab937629e5f0defb29e9fd284eb6add"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/basic_crushing_factory.json"
+hash = "46e6da037f921466a1337eaf8fcafd9b0a6c329708a36cc7dd385313a6bd11ae"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/basic_energy_cube.json"
+hash = "9e705c973fb857b04c16862c4bf9b6693e47917118b082b7fab13ab735bba944"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/basic_enriching_factory.json"
+hash = "8bc6f9972d616677dc2b48f84d1346a989b100e28d12122140f3ce98aea487bb"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/basic_fluid_tank.json"
+hash = "5e61c47870cad459bdcdc7cf91987a1b3d81f73ec5fa5dd2b994806df0ac985a"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/basic_induction_cell.json"
+hash = "524e3de1ab82508588a32e2b5733f00ebd958ee4d5df122800be576acac77c15"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/basic_induction_provider.json"
+hash = "23f22bced574975eff8a6235185b1e2b8b1eb9926cd213ac468a43a326141542"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/basic_infusing_factory.json"
+hash = "17e45de711095d395f91d57817304e2ba084f922ae898580b9a6e68fd435b31e"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/basic_injecting_factory.json"
+hash = "d48417c43eb516d27d6519c17b6dda4a0aedcd5308eeffa4a317a37ef36da7c7"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/basic_logistical_transporter.json"
+hash = "ec149236cbf66a822f62dd2d282ed899266d61fbac49d771ac46325c5cc2335f"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/basic_mechanical_pipe.json"
+hash = "2eba7d70e0454f23f18c723d2b6f70160ae8e413bda4f756128f90bbfce891f0"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/basic_pressurized_tube.json"
+hash = "779a6e653bb254bb47592d2cb27cb3e68abb96c0b718577a2cc875682663e124"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/basic_purifying_factory.json"
+hash = "1d633d484d8a8779e4b5797a4422f81f899efb56561318bbcdc622ab19176fe0"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/basic_sawing_factory.json"
+hash = "48f2b041a1e258ab4763a0c06f9749eddc55c0e2059b36dc1bd83a4a71d7ab00"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/basic_smelting_factory.json"
+hash = "2ec3cf3f502c3c4a5863a4b3d7a74ab57d6f30a4f9c22cee712ee1ca775e7374"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/basic_thermodynamic_conductor.json"
+hash = "d3bd60fe5c4ff30cd7e5f62e4a28362baa4a69526699566f2664bd36e53a8060"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/basic_universal_cable.json"
+hash = "2393f2bc1ba335ac2363ae33bebe0fd3230a7707d236d22effd15db50eecfcaf"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/block_bronze.json"
+hash = "e052c14759c1bd462d24d75087e3f830fdda6e7ed7063fe4b28f50d8946d5581"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/block_charcoal.json"
+hash = "825b9d24417172e4397d3d3c87b3aa2a26fcd0c5748624b5aac5d9db08ec964f"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/block_fluorite.json"
+hash = "6fc01878f3acc5c6d68e25151747fd954a2c96ba5c85eeb6a3388b574c5e7cb8"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/block_lead.json"
+hash = "5c48b5799a1f9a5b0410d7bde060455218eea08c41645ab6a81e643ad3148a26"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/block_osmium.json"
+hash = "a8b071e4dae8bd00c47e8073fdf33fd0763c930257f093c4db62827fdd4d7a03"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/block_raw_lead.json"
+hash = "179fcdbee35012b9861c8626250f5f07d44035fd6fd3870918326a0de809dd79"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/block_raw_osmium.json"
+hash = "88d806a46ab65525b20e32c18173d35d298301a16488fc1cac7e95b71081453d"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/block_raw_tin.json"
+hash = "cfc203c86ad49789348fb59933e2b900a181109c6825cf765d52017ccf1ae4c8"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/block_raw_uranium.json"
+hash = "6467ac3ab4752c9025192314d40ac5a0a293d19570fd991abbb8742adb95d4b5"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/block_refined_glowstone.json"
+hash = "a73efe7f258968ebcdc14db48db67ea9e1cca8d22634b8aa974d5344d963f159"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/block_refined_obsidian.json"
+hash = "155654a046838438ce57f0f4194b50ee543bd756e26e0c658ea411f84c6b2f8a"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/block_salt.json"
+hash = "657da94feb60d69761d100af57c352049a07caa9f3f55704f75536d79c010069"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/block_steel.json"
+hash = "e0c2439765eb9241a582eba80eee70354472feddc11b23b6dbbcd94bb1b25532"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/block_tin.json"
+hash = "11c94b2963e549fa4371943e9c8ba5afe5f282bf9ceaca5ac3e9eff8541e9473"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/block_uranium.json"
+hash = "ef48387bd79100cb3b019d8f1c64654896401931c684a64fdf8ac0226682e706"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/boiler_casing.json"
+hash = "cf81bfb0a0b0acd2cd6f94896ce34919a215883cc51d3692389b58cce76d855e"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/boiler_valve.json"
+hash = "df1f956f1b35f04626fa3307b5670641e4cf0680224d83322e29b5a689bd88e7"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/cardboard_box.json"
+hash = "2dde2d2874493ae379cd267e2973a4969cf1fbe8c9277260c8ec9e53017e1e1c"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/chargepad.json"
+hash = "9a260a36f04f55ef6c5239fd4f6a1fcff012c1d3552a647bfda9e7d03933b33f"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/chemical_crystallizer.json"
+hash = "d80a0d3533e5fb96749a51d771dfdc3275d2e2cf755a60a058af8e8bfa645cd7"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/chemical_dissolution_chamber.json"
+hash = "86ef8ac94968deb1f424a2e6f3288b12ad53237250afed14a0540c2ac3132e29"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/chemical_infuser.json"
+hash = "0ec0ecccdb7d3afed2abeb09446055511622d86c5a48a47d2782cb8aa404b395"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/chemical_injection_chamber.json"
+hash = "57afd8413faeab2f540d1ed42183e5acc5d9a62fe96fefb6472b9b17b8bc0587"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/chemical_oxidizer.json"
+hash = "459da32d0c405fbd39869b48ceb339ca6a9ed6022b66592025e3c3e7903ac32a"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/chemical_washer.json"
+hash = "d862615a782af71fec85a2550b1820348e35a6247dffdd3dc21424f44f084839"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/combiner.json"
+hash = "4f77c2a76b9a009a5fa32b6e3b9406a81985f0b9545194f8a4151591d241c4a3"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/creative_bin.json"
+hash = "0c79ff33cc29368f390e9c3dd6b38b12b34785dc35757ceb93b904b1d294a19a"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/creative_chemical_tank.json"
+hash = "463c9e48f602e5b5c0b2e4dba57905dbdc138dbda4fa58b9f555cc4b260b4700"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/creative_energy_cube.json"
+hash = "87201391e6f2fb713fdb1d7bd8e5600d9b465a87ea496cdb1a206d8a60f5fb7e"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/creative_fluid_tank.json"
+hash = "71923bd6b983c608da69811d911692cc1afb83f8bb3d1ec8bf9d87d60c275d37"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/crusher.json"
+hash = "6954786ddb392b9eb0f03dd06ae09955b0d60c9a1063e800759de0149029455c"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/deepslate_fluorite_ore.json"
+hash = "b3b16b73f8bdb9f0db69e1f5bf2384f9cdf7f3018c83d6dca3f96d140fe8bcbc"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/deepslate_lead_ore.json"
+hash = "fde1f8cb86fd8642ddbfb7221520323b2908dfba3ab34852b70d5b1b782b53be"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/deepslate_osmium_ore.json"
+hash = "6f41efa379e391c4489693b8d085f5f83b54caf550e3d8dbd5d0a5c0e3671356"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/deepslate_tin_ore.json"
+hash = "1c80b8a7861a63a7f98c87315e62280d76445975fc3a6d5b851b36cde0e3dae5"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/deepslate_uranium_ore.json"
+hash = "3e350c5dfb76d38c4b3300577bb631b6bf354fda022063215ddd1e5463da64ac"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/digital_miner.json"
+hash = "1928c2e7c0d2b9c179f507dcc00e89081f302e794ac9b32e54eb0daa9b071073"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/dimensional_stabilizer.json"
+hash = "2b14556e4e133c8dcff8b47b6b5dc166f045bb2b62e8be6e70dd2516168eb572"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/diversion_transporter.json"
+hash = "02f0ff7b4e294418011966d1cde88cc69d1717e32c58f43b7ff61e120260f836"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/dynamic_tank.json"
+hash = "ecf17ccafa6427b659e897e73d20a00ce48f3d2f8789e2edb9b4f49ac6376aeb"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/dynamic_valve.json"
+hash = "8ed729b9290ccdd6ae8a7475602146ed3f54a609bbb3e33c12ae3750d727c56d"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/electric_pump.json"
+hash = "9bfd82723367798cac356dc88d54853f52436f88f4935d46c9f3d0e7e61399e3"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/electrolytic_separator.json"
+hash = "119959c75180afbbcfee740132a368164e9db5c03257f52b81c1b2ca34ae83ee"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/elite_bin.json"
+hash = "5e64bb23c589b6ccd10789b0d42bc5a59542c70a2310e57ae190776d0ddb20bc"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/elite_chemical_tank.json"
+hash = "a25576b5ca4bbb55ecbc206c64b7f5b77413bef1a4390cd6f84e82a832ab14e9"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/elite_combining_factory.json"
+hash = "dcc432612e6bf976555d89e2206e7a045c55278364c147b91f436962d705b994"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/elite_compressing_factory.json"
+hash = "c8fb74d04360da9e6c0cca9be44b6cfa88a5a50c91df63073469ac9f3ad041d7"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/elite_crushing_factory.json"
+hash = "60fb43a611666fa19ef56bb0d9c911b5883dc5f56f57a3d332d4822ef8d4c3a4"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/elite_energy_cube.json"
+hash = "30f022cbdf02750d137c64fa73e2454d5da5604e95f06a20fe7468a5d1736aab"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/elite_enriching_factory.json"
+hash = "44d96ca242f99bac242e408bd18b20dcde854fc5a118cd2de58c20704f6f18df"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/elite_fluid_tank.json"
+hash = "b38e8678ed645f993f35592cdfaebc001349e3bafa0615ddd21d3b2b0fe6b411"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/elite_induction_cell.json"
+hash = "59baa9008aea98799859ae11c8b50ed0c8bdc61a399e6e5ac46098e9e58ddb3e"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/elite_induction_provider.json"
+hash = "73a3b48b8e10d6ac4c4238e46fcf2192b0b846ca4b81331018d13c552c6691a3"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/elite_infusing_factory.json"
+hash = "bcab4c7d4d1cded8c95c98de4f399613fd5eb4d7ff6bae5615c7af32a4f204b0"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/elite_injecting_factory.json"
+hash = "063d857a5792d4b875413c083da2c409265119238aefe8d03966f8c9b078d1a6"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/elite_logistical_transporter.json"
+hash = "6ffffb28446e25e2534da25726b09ca086743f3c21d34e3ac29c4959b7a3d9a8"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/elite_mechanical_pipe.json"
+hash = "df61c3f7118a640c0bc1707097088b6abe276a801f9564e674fd35c83a3818f8"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/elite_pressurized_tube.json"
+hash = "281799c256b9aca1e376bee88090c7fe9f0549887a405d85963b9d89f1aedfca"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/elite_purifying_factory.json"
+hash = "387cf3052837eaff375bb46c2d60b239627fe154eee5d4e6eeaa1abcf209070e"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/elite_sawing_factory.json"
+hash = "a7ce2c0a458273ce9918a7fdc47fa4f331073684ae361bd8ec8006a51e8465ac"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/elite_smelting_factory.json"
+hash = "e8ef4a211921ace9e1c1c17f63931acbadf6bdb5ea8b501dc386952431c328fb"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/elite_thermodynamic_conductor.json"
+hash = "1eaa313849cad7c07e307a66a3283d36816d64563a75c776524d3a714ef0a0cf"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/elite_universal_cable.json"
+hash = "864c7da6e539293c03c15315e30f405bb48c3b001c51004fd5dfcb11b5d94588"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/energized_smelter.json"
+hash = "c3cd34308f49a5e6b1d84cadf55bd8d315870711c74acda016c2203c943a4629"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/enrichment_chamber.json"
+hash = "c730c47ebb14d50698e68504f70395c24c9dd61b98e66f10d97750d17b5f1fac"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/fluidic_plenisher.json"
+hash = "f9ccdb4dcee2990a946e997f73ee9309fdf1589a2f50248eaa57dc0b36afac0e"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/fluorite_ore.json"
+hash = "1289b43c5937e6767de5a4c508c0d36cf3c6185f5f0d3c2558bfdbbdde22c73a"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/formulaic_assemblicator.json"
+hash = "c9c1683542e7a49856f0e4d37d6cf21f26099648711dc8c61b5dd9a833ce6835"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/fuelwood_heater.json"
+hash = "7a2af1656917f791f6c44795f953c33188aa0e7407937034a1cf83c6b0c3d27b"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/induction_casing.json"
+hash = "3ac0c2e54776dae19498aa206be6d5051f5e4e02ce5d39c077816088a419cf75"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/induction_port.json"
+hash = "f31f8f243b0eb9153af94a6d19841c58ce666ff6047e10d4a311f5477a3a326c"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/industrial_alarm.json"
+hash = "e34bd3d066579af02900eb4ad210c32f17aeed16e2f17337f6ee41a58ea43a13"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/isotopic_centrifuge.json"
+hash = "dcbe5a052ec704db488764e2c8a0c3280375711a1c9ce6e35639a9b799a81f2f"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/laser.json"
+hash = "9f548b79fa26f367c8e210375935b95ef7a794b2c06f2dcc1ae722816622d727"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/laser_amplifier.json"
+hash = "3ba3112a969330d5daa28ca6b21a4c4da1c991dce1f8c316b191f3eb4d3f15a5"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/laser_tractor_beam.json"
+hash = "f2123177945ac27d9b01239d125beeb0afcff800bb4201d4a6b9ce321c8270ef"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/lead_ore.json"
+hash = "2f69a233e2c4fa572b52883c968d9ca28c705ad6a74fbb82ae166c7d3a710b67"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/logistical_sorter.json"
+hash = "2f7efbaab2b4c5f6544c9012d53f276f4487183ae0e9582c48f06b42136d7186"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/metallurgic_infuser.json"
+hash = "98505651625960e98d84329096ffb1917a9bffe2ea7fb278e943cf1e65ada1bc"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/modification_station.json"
+hash = "7c1b3d98ffbb670ce8b73630b7bdc9ed8b59f64e0f75c0d3276ce9867aae61bf"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/nutritional_liquifier.json"
+hash = "9e8c3503f42e10c46408b1395f64d8c91b8cc3426167cd26bde9e4d76691f8ee"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/oredictionificator.json"
+hash = "3a03744c2d0919df3bfa1bbbd35d1954606636fe47dc05cec219c5302ddb84d1"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/osmium_compressor.json"
+hash = "656779be093be52ca08ccb2ff6d43597737b6e7390817cd4d08ae710a7bb0122"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/osmium_ore.json"
+hash = "817c06918bd845666ea3690ffca58da4da58391ff938fefd13f9aa96b1f401e3"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/painting_machine.json"
+hash = "a7ae9fc8eb0edeea1b988d00d49dd0d680e5553b5709bc0a9fd5b39c51a2d179"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/personal_barrel.json"
+hash = "8bc63dff37947010afaca0cd6ac56c8536ff4b6fade57c8a62881942f79152fa"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/personal_chest.json"
+hash = "6bff8016ae8c45f84e999601a3641b5c8ea6a090396bb34478295cd6f0eb480b"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/pigment_extractor.json"
+hash = "4ebb2f64b15f4fb149429e85a90f4d9c0624d175c4405f031d3302f84661a999"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/pigment_mixer.json"
+hash = "54fd51498280dce281440e534c63ee9f37e4f66410d9daff4440b48ecb5f1864"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/precision_sawmill.json"
+hash = "c33167004938195557b2c75c99d222eb3f984e2e2e8f14a5975404844af31a49"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/pressure_disperser.json"
+hash = "946f164bf068288088bd097d6bb8585957130b5e18042e1802c74feaa0392f34"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/pressurized_reaction_chamber.json"
+hash = "d36c6c08ec2d259682143e0fe7b4d8db1b4b76f3fa51a47a431d162c0d5bdef7"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/purification_chamber.json"
+hash = "7dda6f88ec183101efc96d91dd851c1f5a4646eb662c83ff88ae33811a816e43"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/qio_dashboard.json"
+hash = "f72328ade02f80e71d8215b6be80c14b2c815ac0464e7c9fce9a0f13791903d2"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/qio_drive_array.json"
+hash = "7cf2c7fd63ed1e102864c6d38f0621b99d5306545a4b655f7ceaedb053330125"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/qio_exporter.json"
+hash = "5058dc2e79bfa60f37eaa7f5b84ff2c81d4677a37ec9121d6cb40a280733bbc7"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/qio_importer.json"
+hash = "a51db9c4839deccb57562e3081c331cc2d9b6bfd4d9cd2a5c20d58e03e6d9f16"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/qio_redstone_adapter.json"
+hash = "7c22af0e0833488c139767728b00ee90b9d1a5253a354f1b9e298f44ded9eda0"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/quantum_entangloporter.json"
+hash = "15e2162c0ccb4e720b5d22b038930c8132d96b13eb6d1b6a9b7d0a4674c64ab4"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/radioactive_waste_barrel.json"
+hash = "dd2d08f1f253504706215aaad668c4941d8501c4d9d803e2fcbb52a4eb228e04"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/resistive_heater.json"
+hash = "3680d675befe5359dec761b2fcfb58008b5e4aed912703a1e40df3b3f0aa1dfb"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/restrictive_transporter.json"
+hash = "f1d136212e57916ee30804fc3061807edcf1db7b6a23d53c1aa25aa1ff4c01e6"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/rotary_condensentrator.json"
+hash = "14b102bb150d1d88fa8d6b6e4042afcda332772fa7c121a7cd102779dab381d3"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/security_desk.json"
+hash = "a682b484b49bd83b2983d4f8114ae49d5013955b41cd6f6de1cf5b8de257e246"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/seismic_vibrator.json"
+hash = "28aff66c384a8ae7584bad4c7b5948756b040b39a692dd0831e54cf7b9f9d9d7"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/solar_neutron_activator.json"
+hash = "d36ef347d18432a7f778a0980052b320752eef9fc9b0753613f3c0fe9bc65295"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/sps_casing.json"
+hash = "3ce33503173799f7a0296cdeb24075c8182b7d1632dccb9f40878df6c70bf6d6"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/sps_port.json"
+hash = "3e9889c92529b3725ccfc302397509e182fd1a7cd5aa3270e3df147c00199f3b"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/steel_casing.json"
+hash = "62e8d55ab0793a4500e8dd6af559f96498d8e479b6a5e512dd4ab179b89c20fc"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/structural_glass.json"
+hash = "c6d8a91820f70f64d9c8a044cd5e9343edb7e3227481743525d109e26bb79c4e"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/supercharged_coil.json"
+hash = "f08327eaf363b063a616b684a7e4fa796632cad37413ed7c257cefb89a40b26f"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/superheating_element.json"
+hash = "123d17f0a7147649453909705587bd718e4b08cbc3bf2bb12751556cd50f6d8c"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/teleporter.json"
+hash = "eab3108422851e73dd1157343635fdff7f36c868264c0e6e5740f91ecdd9b88f"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/teleporter_frame.json"
+hash = "7d7033183b42bb4bfc19fa7e9bfece042b50e7da4f2393b6dc2c210280bcafbb"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/thermal_evaporation_block.json"
+hash = "ea914b1d29b2e9a8802bd62da31ab61426bebe11fca21d2c8b88e57ad132d8d4"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/thermal_evaporation_controller.json"
+hash = "1a65ac4d289f7f52fcffc72c8705ab122a239e8cf19b73dc9bd369639a5eb959"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/thermal_evaporation_valve.json"
+hash = "b3709128cab3bf28d094821592e429d50c8d1efc66bb636db279db1bfb8f90ed"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/tin_ore.json"
+hash = "3344a37253bb3480857f7e593743ac7fc79c889bad06249014b918ea8bf342c7"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/ultimate_bin.json"
+hash = "2a7403c1addb65b441166eb3ba60592b2d0aec2bb2a71f05bf36be47fbcab5df"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/ultimate_chemical_tank.json"
+hash = "de771466f7e964461c8f8588e0da5c9f4d88f41d4c4f8cbe103b71f9b315f8e3"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/ultimate_combining_factory.json"
+hash = "f7e23bde6c00da4d58567065c815ca0f0b62f618397bfca2c5844266f5153f31"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/ultimate_compressing_factory.json"
+hash = "40da8e5277c76dcff08dd51c99e99dcee97e651753d4c85262c35d0586601121"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/ultimate_crushing_factory.json"
+hash = "9f40aeb47f82093299c29acee9dbce81d83600d8018a5d22cf2a5f9f844bd654"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/ultimate_energy_cube.json"
+hash = "375b6563512369b10a10c9187293e4ad8367c72c9772e2578296f1f184cfa107"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/ultimate_enriching_factory.json"
+hash = "d9cd204b0fc6f821343e0218a3a0aac76ec9350c50d89f9e3eb003d3ed597f26"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/ultimate_fluid_tank.json"
+hash = "b6f9298f1e91eb486b4c0c129d29f76f57a0d49bc27e6791f32818ed1dbb2646"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/ultimate_induction_cell.json"
+hash = "abe815478137b5541fe4b42d40c27fcedc557cf6b5686704cda29d7b0b7ec300"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/ultimate_induction_provider.json"
+hash = "b200318de69843cc01d62973601376504ea198969aefbafd28fbb68b93045a87"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/ultimate_infusing_factory.json"
+hash = "e2b8022be8782ad83ec34c82cdcebd4eb7932ffab45e82544ad3f0293c0adfce"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/ultimate_injecting_factory.json"
+hash = "04d8a4b344d6d067b1d8eb590794e0b2411aef9305c46cbcb553d68c4daf4525"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/ultimate_logistical_transporter.json"
+hash = "3135a1b7b44de0dee18804d330e89a2c67456afcfb15429d508ad3641c95fcc4"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/ultimate_mechanical_pipe.json"
+hash = "b123e17a22a152fc5caef7f8f71e0ec67a0c7475efa0861b0c8f80ccdb74eb63"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/ultimate_pressurized_tube.json"
+hash = "95e57ba4ff79e0d978c54534a4b011dbf280c6c95eefb68b158edf7cf3827b48"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/ultimate_purifying_factory.json"
+hash = "a6873939dda126b3e36766f877e4d428c9c5d6f6c85d7186d80ce57b6f8785f4"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/ultimate_sawing_factory.json"
+hash = "af5b814034aac8ba0a2f1a016cc3bb5bf6e2e0ee7513f0c3b58b0ce1a10f29d0"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/ultimate_smelting_factory.json"
+hash = "2370cced17269ffa64a6282cb41456271eda5f1733e23c40a1f449932955be46"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/ultimate_thermodynamic_conductor.json"
+hash = "4e2dcdcdf8d2cd9861a2d8ec2356526c66995ef597e909a8e2d78a0eec7d6f87"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/ultimate_universal_cable.json"
+hash = "d346a924d72ce30c6930b506f32b491fea31c696a8a45e09a2f791115b0bc7a9"
+
+[[files]]
+file = "kubejs/data/mekanism/loot_tables/blocks/uranium_ore.json"
+hash = "eed18b235138b38f8a41141c3ef05e3b102775d797859bfad5a5717305600e7f"
 
 [[files]]
 file = "kubejs/data/minecraft/dimension_type/overworld.json"
@@ -17021,6 +16769,318 @@ file = "kubejs/data/minecraft/worldgen/world_preset/single_biome_surface.json"
 hash = "fe783d61887cea41a0dc2eb6e553cb70ce0b5a459d89d17cd4fe726c7bd9d38a"
 
 [[files]]
+file = "kubejs/data/mythicbotany/dimension_type/alfheim.json"
+hash = "51bb52bc7c6e9d47a6f03a096e7605c8a024b070f6d69101e2db9fec15521ad5"
+
+[[files]]
+file = "kubejs/data/mythicbotany/loot_tables/chests/andwari_cave.json"
+hash = "b28af9c3b4a42545661dfe930852bc46e0e236de666f705d123d65b79446c458"
+
+[[files]]
+file = "kubejs/data/mythicbotany/loot_tables/entities/alf_pixie.json"
+hash = "9e77e7a46a70a297d43ab5813c1e9589eae3cca6fa9bd0baebedc92474641f92"
+
+[[files]]
+file = "kubejs/data/mythicbotany/loot_tables/entity_addition/alfsteel_template.json"
+hash = "9edf397cfe1b555fff29554e122c66dd355e57e6d2e1c3b930cf7c5dcdcb42cb"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/biome/alfheim_hills.json"
+hash = "27c62981dbac7713e570ad8d65db9e3e2271fbd0f8798536440454700d50c105"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/biome/alfheim_lakes.json"
+hash = "b287c8c0eb2b8ebc4be4ce486eca3db2a522a74c60885e13677929204f21d974"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/biome/alfheim_plains.json"
+hash = "5d6d212e1dd65a2d082cbf6100857907345bf8a9c3df2ba673e428a4a020c02c"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/biome/dreamwood_forest.json"
+hash = "2887a6a1c5b450804918804fed29f7161ccef76f83ff97c35023932be1073092"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/biome/golden_fields.json"
+hash = "b94c01620db7f950192a67c0641a1e1504c7c25e98f8b0f127b9eb00c6f6db60"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/configured_carver/canyon.json"
+hash = "e030d096a254aa9b5e43d88af7d23b726777a9bbe5600f5c8cded56414040199"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/configured_carver/cave.json"
+hash = "e66540c85f342076312b874eab2e4f81de6f45dbfbe5290bab0e380105611c26"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/configured_feature/abandoned_apothecaries.json"
+hash = "79b34c9b22c2a994e22018fb66a5a178da62b29f5cb1812d1b26b4ff8b2ec2f0"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/configured_feature/alfheim_grass.json"
+hash = "590b9718633439a990f9078486f58fd5c6feef0762d40180d84277e3e65c2ba1"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/configured_feature/dragonstone_ore.json"
+hash = "2b8136885b2becc6d3330c2bd95fa353429fc9a856485abfe8d3875b7b84073d"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/configured_feature/dreamwood_trees.json"
+hash = "935aaca416a3493f3d1a4d5b1e589689d99cc2276f3b984eba849ca8d7e4d5ea"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/configured_feature/elementium_ore.json"
+hash = "af1b79556e0144044f362a1aabcb08fd92fefeeb1199e458e6eccdb0afd6a6a6"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/configured_feature/gold_ore.json"
+hash = "a254ff8b3b2f671db1990996c449808f6e01fa4e51518e22c9618e3d212dbbcf"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/configured_feature/mana_crystals.json"
+hash = "f92ecc6f3a4e46e6d49ffac23f18d98c6eb961e62e34d89bec00f3f1e0ed36f9"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/configured_feature/metamorphic_desert_stone.json"
+hash = "32fe2be4da1505be99e9ffe6db50ce91106ab5eed1e93af842c005383c3d83ac"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/configured_feature/metamorphic_forest_stone.json"
+hash = "413d1096f87e34bf347a34198ee488d9a966a15051603ff114d7e34a77100d65"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/configured_feature/metamorphic_fungal_stone.json"
+hash = "8c5eab1a2d099d047def3233f82e92b6ae163beeb2b3361bab5c60d6b4e7d442"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/configured_feature/metamorphic_mesa_stone.json"
+hash = "e469f0ca841062fa200474a72f8cdb693ee5e9f9e21cbd043fd718111b095ed9"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/configured_feature/metamorphic_mountain_stone.json"
+hash = "eaa801a7a91bcf2eb9dd7b8d3d91ccebed4ea35053d2a2b60d00d00f7f1819b3"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/configured_feature/metamorphic_swamp_stone.json"
+hash = "47bfd4dd9da56fb1a5c0cedc28e4df23174ad69834748e9c689e6aeeca1eeca3"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/configured_feature/metamorphic_taiga_stone.json"
+hash = "2951fa147619c02a93154a6147a5ed51bfb72c97d4517f1ce2bc3547e15e04c5"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/configured_feature/motif_flowers.json"
+hash = "243e3afb237720a260b4efda211b938f508b6d6fb49abcd18f19a811ffb2550d"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/configured_feature/wheat_fields.json"
+hash = "cc3dfa2d60d4381d4e07edf1939fd8a9eaf44644b93c86f2f798f45ba955c79b"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/density_function/alfheim_caves.json"
+hash = "6727b830424094c3822c61c04616d289b6a66e1fbba96cf41568b3c0924bd557"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/density_function/alfheim_continentalness.json"
+hash = "2e9befa01b450919abfb8433b2d7a2e8f881c96fc277c49183994a651fc335fb"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/density_function/alfheim_depth.json"
+hash = "81f942a4764aace2bc8ccf1448ffba8d13a908e63237317dc980914b42381e3e"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/density_function/alfheim_erosion.json"
+hash = "3f634ce62d93d082ce959d4a188e2ff614eac175d09c1a99f816c91db9e3c46c"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/density_function/alfheim_final.json"
+hash = "22dd68810f038c50d602afbf2be96ad3277f8e15545caee392a0ce68a2463038"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/density_function/alfheim_high.json"
+hash = "40d2d34bcca4ad5faf7f6ff7cc52a5d316ec638aeefd0271e1ffe6e298bfa34e"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/density_function/alfheim_initial.json"
+hash = "18e547ef31e5ef130f60ac9d79ca83471795802dd782258f5aff853044385aff"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/density_function/alfheim_low.json"
+hash = "21aaf5f39bffdba167a09b8398057324609058ee4e7d530bcd996f196a642de7"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/density_function/alfheim_temperature.json"
+hash = "709a56bfbfd86283668524ee02ed1ed15ed7538412f11dbcc717a12f01fb5a1d"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/density_function/alfheim_variation.json"
+hash = "d4d2700fdec33941b23262135e6979a3bd48f5f07fb73f6257e15e1bbf18b264"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/noise_settings/alfheim.json"
+hash = "61cdd8907bb1123e8dce57623bdd3dbd2b17140c8eb71aff88538c9f9bc93bd8"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/placed_feature/abandoned_apothecaries.json"
+hash = "e2f99ce9213f7879275b8cef37dd3ade6a91748da9ca988bcc489ee271891504"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/placed_feature/alfheim_grass.json"
+hash = "e6292cc610633b3de89b8d9f7f1dab2ca709fb76e59faa2808ab4decd1fd9ce7"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/placed_feature/dense_dreamwood_trees.json"
+hash = "b2742a96c38469ec70593f2465c04678f53582e05595e72010c730b06d6c4ad8"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/placed_feature/dragonstone_ore.json"
+hash = "d871b0436b9abd261dd41166eaeb65c33c63af203c5b03e5d23ae6814d8b7c65"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/placed_feature/elementium_ore.json"
+hash = "6d3975b751aef438ba2b253b85c4860c0c40b8a07611e2ad309286fa9d543415"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/placed_feature/extra_gold_ore.json"
+hash = "b9a0c98ecf808d41bfb399d35ef2f333e3babd7362d2e3a09129cea0a4b2394a"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/placed_feature/gold_ore.json"
+hash = "f07fe611f0556fc2a5e2c5016a5f81fde6d03b8d6d2105bdc8207a8bde4ec978"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/placed_feature/loose_dreamwood_trees.json"
+hash = "549175384dd1a1fe4d28f3bb38d64b45a9f19c094ca0aad9b8400bf8f3df85e5"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/placed_feature/mana_crystals.json"
+hash = "5b735fa06f557216ac6d3af134d380c97b285dccc8c337e3266aaab64713a8df"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/placed_feature/metamorphic_desert_stone.json"
+hash = "09a2bec6dc7091be35f067266acda17a9d3400991908872eafae85f5ba26b6f0"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/placed_feature/metamorphic_forest_stone.json"
+hash = "caf0390247bed0a4785f6458c727873b1fc95415ff6f0ea1af586a3e80b8cffe"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/placed_feature/metamorphic_fungal_stone.json"
+hash = "d44f42fddc60123a72ca102ff8ec992fb0bae40d2fb782acfff906ea3af7a22e"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/placed_feature/metamorphic_mesa_stone.json"
+hash = "26bb8384b2ce4131b6861c0c00b3ccbcfc54740e255412ce6003873035a7501b"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/placed_feature/metamorphic_mountain_stone.json"
+hash = "31934ad134b5770ac1b8a79f9b3a81b1de96107948ad9aa5cbd31bcc8642d99e"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/placed_feature/metamorphic_swamp_stone.json"
+hash = "1bd4ff122fbeac8a2e065480b6914460a0697a3a79cac03d4f18048545a81171"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/placed_feature/metamorphic_taiga_stone.json"
+hash = "f0950ca6a2437d28586566b6dfc471fd1f58bd3a12a6c6f0a6292406f0b32ad3"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/placed_feature/motif_flowers.json"
+hash = "769e7eb09998107511eb342a6547e19e8beab77a9bb6ec2fc0e8194a961e23bd"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/placed_feature/wheat_fields.json"
+hash = "0ccd46522e87335999da8327b01261cf0e9c6674267bd452d4592109d9801997"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/structure_set/andwari_cave.json"
+hash = "7c7ad5bdc6d9261b41aefd1a4371f5eca6202febdcd142470979e8dcb36018b0"
+
+[[files]]
+file = "kubejs/data/mythicbotany/worldgen/template_pool/andwari_cave.json"
+hash = "e4e524a801cb8d4261b96bce5d7485676de708d73d39c4babb92ce52c93206e3"
+
+[[files]]
+file = "kubejs/data/phantasm/worldgen/biome/dreaming_den.json"
+hash = "3c673790b9d67c02efe336e8bad4834c7a16d3f696e6a7649c187e6d56b2dd26"
+
+[[files]]
+file = "kubejs/data/phantasm/worldgen/configured_feature/crystal_spike.json"
+hash = "e96481edadc96c48fdc29b31e35997f22966040f4cc8c451d0890a53954768cf"
+
+[[files]]
+file = "kubejs/data/phantasm/worldgen/configured_feature/fallen_star.json"
+hash = "8a1fa5034ef6473c0a8b2963d4ea2eb338108760280a8796303c82f4ae9fd393"
+
+[[files]]
+file = "kubejs/data/phantasm/worldgen/configured_feature/obsidian_tower.json"
+hash = "7a6c2c7bd8dc7653ef3a1ae814169f738ea231f868d645e4e8ee128da3aff079"
+
+[[files]]
+file = "kubejs/data/phantasm/worldgen/configured_feature/patch_oblivine.json"
+hash = "368787667ca102abb398fab66822af7df45b45082b65c92c4ed0940e371de591"
+
+[[files]]
+file = "kubejs/data/phantasm/worldgen/configured_feature/patch_starflower.json"
+hash = "60e225c6ed7f10037d52c7285e2ebbfd948c11437cba1a8f75be16caade360fc"
+
+[[files]]
+file = "kubejs/data/phantasm/worldgen/configured_feature/patch_tall_vivid_nihilis.json"
+hash = "a43b1819abfeeca76e3061c402446c1966b2da5fd2be41452c3187267180b8dc"
+
+[[files]]
+file = "kubejs/data/phantasm/worldgen/configured_feature/patch_vivid_nihilis.json"
+hash = "4208df8ad68f3da1b95ef2f8d8a16dfa022930a7872b2beb65ab11f443d0e03f"
+
+[[files]]
+file = "kubejs/data/phantasm/worldgen/configured_feature/pream.json"
+hash = "1ee1de247a3d59ccdc44577d90c3ed6af16195426561fe57498c68cf34bfcad2"
+
+[[files]]
+file = "kubejs/data/phantasm/worldgen/configured_feature/tall_pream.json"
+hash = "3a8b4bed6098cc53eef785f09960447e0dc520c8a0395bd00c9c74b9bcb05bad"
+
+[[files]]
+file = "kubejs/data/phantasm/worldgen/placed_feature/crystal_spike.json"
+hash = "6892bfff77262af127b30b4584920c9536b0ec38b16bb6c0df96ebd75c525dfa"
+
+[[files]]
+file = "kubejs/data/phantasm/worldgen/placed_feature/fallen_star.json"
+hash = "b2a35b06b6ef493ffa09d605bf7c1752ea4c432c6674a8aed0bfc630e88bf280"
+
+[[files]]
+file = "kubejs/data/phantasm/worldgen/placed_feature/obsidian_tower.json"
+hash = "69e89070f440759b62dc35e6c4c1142daaf09839c1d7501d61087ebe39503d25"
+
+[[files]]
+file = "kubejs/data/phantasm/worldgen/placed_feature/patch_oblivine.json"
+hash = "7b59fdfcd5d6c09478d64261f7133bc0bc249d09306ed53a85298e81b4deb23b"
+
+[[files]]
+file = "kubejs/data/phantasm/worldgen/placed_feature/patch_starflower.json"
+hash = "dae5a70af93d72dd315a7761f33032eb51b107c27b07ef656f152c954dcd4109"
+
+[[files]]
+file = "kubejs/data/phantasm/worldgen/placed_feature/patch_tall_vivid_nihilis.json"
+hash = "681ee7834cd38747eab703c1645c42f5608db76920537adb43506ca98df7e012"
+
+[[files]]
+file = "kubejs/data/phantasm/worldgen/placed_feature/patch_vivid_nihilis.json"
+hash = "b101f0080f14b47f7b7032cb13138365e6146f045ea3cb8f08eb648befd52f8f"
+
+[[files]]
+file = "kubejs/data/phantasm/worldgen/placed_feature/pream.json"
+hash = "346673b0dea9ec6e788f9dac7e39efd9310de2ed57f25fd4ce929922fed74b75"
+
+[[files]]
+file = "kubejs/data/phantasm/worldgen/placed_feature/tall_pream.json"
+hash = "07ac7f5c3d820f5a3d84d65b95162a64a60cfda60a701756ec8b70e928229db1"
+
+[[files]]
+file = "kubejs/data/phantasm/worldgen/structure_set/obsidian_tower.json"
+hash = "5f92f8b32045ef438f3b2a99bfaec66971047325b2a45df858b5c75f37cff77e"
+
+[[files]]
 file = "kubejs/data/projectred_exploration/worldgen/configured_carver/marble_cave.json"
 hash = "d4963c764b39482cefb693a2ec039b5abe590386e36af746de5af36578019b13"
 
@@ -17071,6 +17131,230 @@ hash = "77924ec06491c9db18a0d0ee3ed7bfbb72e4145158e34798528933c9bdf733d0"
 [[files]]
 file = "kubejs/data/projectred_exploration/worldgen/placed_feature/tin_ore.json"
 hash = "3b37cc5acbc7379d2a88e86c1f8b897786a1799d43a4c50c1e45d5d637542c9c"
+
+[[files]]
+file = "kubejs/data/quark/loot_tables/entities/crab.json"
+hash = "282cf44e966964ae4d6f092b62478274a28fea200899a278c55b6b14fdb14191"
+
+[[files]]
+file = "kubejs/data/quark/loot_tables/entities/forgotten.json"
+hash = "5294d590e68bcb243044d865a2f99c08e30effb46f260183bfd3891763ffc920"
+
+[[files]]
+file = "kubejs/data/quark/loot_tables/entities/foxhound.json"
+hash = "36147e262d47f2dac6f176d5b925c6552a6334be3c2938014a968094a4f5c77a"
+
+[[files]]
+file = "kubejs/data/quark/loot_tables/entities/stoneling.json"
+hash = "620234e9af0f556de3866e01b36b51c00b77237915c59dea03f9d52e97fc3ed6"
+
+[[files]]
+file = "kubejs/data/quark/loot_tables/entities/stoneling_carry.json"
+hash = "8ef687441455fa38859aaaa4849adcaffefd517e30d72c7e2fa57d613a25cdf4"
+
+[[files]]
+file = "kubejs/data/quark/loot_tables/entities/toretoise.json"
+hash = "af73bfdbddd392cbfcf94acfc3638cdeb8cc8f69f70341727b8e174504a838d3"
+
+[[files]]
+file = "kubejs/data/quark/loot_tables/entities/wraith.json"
+hash = "19cce5a850f8aeefca699046f9ec85e9851ac61a6a21422376a9348b0a27000b"
+
+[[files]]
+file = "kubejs/data/quark/loot_tables/misc/monster_box.json"
+hash = "c58ad3a7ba61e77e6efbdf636c87c46dc402e40fca4c170f6d8f977af6731a1e"
+
+[[files]]
+file = "kubejs/data/quark/loot_tables/misc/monster_box_spawns.json"
+hash = "fb4d23174cac7c1dcf55c34ea51e523d68980fbe759afcbdbe15a7f5c40f9b28"
+
+[[files]]
+file = "kubejs/data/quark/worldgen/biome/glimmering_weald.json"
+hash = "0ff21df44217e31736f52781739dd4e1cfb4d57f3f8c5a4746573068b4f27392"
+
+[[files]]
+file = "kubejs/data/quark/worldgen/configured_feature/ancient_tree.json"
+hash = "24eba09bbe9999c592b245cac8b7eab63c5b4292f814bbb2e564d6454b71b34b"
+
+[[files]]
+file = "kubejs/data/quark/worldgen/configured_feature/blue_blossom.json"
+hash = "00c36ba7ccc9aa3058eddb7ce53a997412bdca42c6deaf5c850b2b529317a466"
+
+[[files]]
+file = "kubejs/data/quark/worldgen/configured_feature/lavender_blossom.json"
+hash = "f605447b40655cc576a546d923e8b646645445b03fbd73b8dac7e81a3f63f40d"
+
+[[files]]
+file = "kubejs/data/quark/worldgen/configured_feature/orange_blossom.json"
+hash = "7e0b37716c35b05372c0bf8f39150fe9b2feb1cef3d1313936253afb9110525b"
+
+[[files]]
+file = "kubejs/data/quark/worldgen/configured_feature/red_blossom.json"
+hash = "2c7ef50ec55c8f981941442611fc39d3b6c1b6a3be6ee5d02cec00f0ab9bedb7"
+
+[[files]]
+file = "kubejs/data/quark/worldgen/configured_feature/yellow_blossom.json"
+hash = "d8d373056586db369a38cf86be3697c4debe99b2520f6a1085f42dc0da9df605"
+
+[[files]]
+file = "kubejs/data/quark/worldgen/placed_feature/blue_blossom_placed.json"
+hash = "e711e6cb0b3dfac4bb408d3dd120d0e6bc6e2cd120f1b3594ffb0ae5776937f3"
+
+[[files]]
+file = "kubejs/data/quark/worldgen/placed_feature/glow_shrooms.json"
+hash = "faf445cf9b0470deeb4156a2f7869c6cddd8f034c7b2e22364106ad9855f430f"
+
+[[files]]
+file = "kubejs/data/quark/worldgen/placed_feature/glow_shrooms_extra.json"
+hash = "d3d19a54df8847fe5409c969acd30c3dd5e28bb88a7cc7f2afe1be92dfeafb3e"
+
+[[files]]
+file = "kubejs/data/quark/worldgen/placed_feature/lavender_blossom_placed.json"
+hash = "1edb9e75a982462398451c4e23d29f4db44efb56f8f7577312f4e88c8a89d35c"
+
+[[files]]
+file = "kubejs/data/quark/worldgen/placed_feature/orange_blossom_placed.json"
+hash = "5510c6db74eba074e2ce810c0593e7087eb2b0b9af1872d0c8eced526cd969a6"
+
+[[files]]
+file = "kubejs/data/quark/worldgen/placed_feature/ore_lapis_extra.json"
+hash = "2466f5a97af81e5429875e49b3969e0ee094d9811e092bc60aaed2f8cd153ae5"
+
+[[files]]
+file = "kubejs/data/quark/worldgen/placed_feature/red_blossom_placed.json"
+hash = "edb51340fcf256d6cd52acfd47f8b6e3609372c4392e52224ead13d22e4fa3f8"
+
+[[files]]
+file = "kubejs/data/quark/worldgen/placed_feature/yellow_blossom_placed.json"
+hash = "b514d32decabad8f540e63ae7c9f7e7afde6de9d9f5a35ca1275c2a8a9305944"
+
+[[files]]
+file = "kubejs/data/simplyswords/loot_tables/grant_book_on_first_join.json"
+hash = "dff0783d40d08805f51a345c46e14bd97180236d3b14066ee4d6fc2d241a7582"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/dungeon_blue_bomb.json"
+hash = "c65d4baa5310e8ff0cbaee32f44ea53cbf69eefdd03c8a306be81a0c4229cecb"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/dungeon_flax.json"
+hash = "b975f1363c09a760cb4646df713d1b6811b19d8c14b68f157137008f2523e722"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/dungeon_quiver.json"
+hash = "41f289ec5b100fbc562b879a37167667276de9a9dc2096f8a3090e3bd0c6b5be"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/end_city_stasis.json"
+hash = "b8f293ff46e41951fdffbdea22612f24164a7c35d6c479eb524b2664249e7591"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/fishing_treasure_antique_ink.json"
+hash = "2911685a3eb41240ff0509f62ea9cae3fcd82772f93126a2eb9545a345e0c6a4"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/fortress_blue_bomb.json"
+hash = "18c0842a6f40a3f3f3e301832902d9081349b5afdc299f06f4138879cbf4919f"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/fortress_bomb.json"
+hash = "387ea0cf47bf01dd236105b9cea3f7e12810624cb131f30e7f04b070017043c5"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/mansion_quiver.json"
+hash = "d282974c841f732258458ec417b2f8ff8e1e60263b81fbb762f1ca1dad88c683"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/mineshaft_blue_bomb.json"
+hash = "85b84ddebb7f8e9d50ba336aaa0b15b4dd53af058e12d9912e6c877bc12ad5e8"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/mineshaft_bomb.json"
+hash = "98939568b505081b01fcfec5c0bcc907e09fac919a91ac6c0c52d34f22b4dbe2"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/mineshaft_flax.json"
+hash = "a6221bb29a403d703d5284c7c6823793345cd49f54260fd73679a2935a56dfc5"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/mineshaft_rope.json"
+hash = "f000f51db6c8278b32212f8b95a28e3d6dffac07b8e07102bae63e241d0080ce"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/pillager_flax.json"
+hash = "cb5b4e4ec0238e3098c040ed5f20ff99f1665bfb902942d2f3b60f2e9dc7abf3"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/shipwreck_storage_flax.json"
+hash = "d158246aa01cdefee33fe99cb1c623b237afe0882502afe008d802eab3353144"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/shipwreck_treasure_globe.json"
+hash = "5695aeb02535907799b1bf9de8173b86e5f23d3220d347a98e2b01a3b10d26c0"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/stronghold_blue_bomb.json"
+hash = "4225a0154a8ef7c6fd6b1d2ea492b2cf61fa614dffcc29937ffd1860fc86afa8"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/stronghold_bomb.json"
+hash = "dc0642184a3897dd7f8e22da4a55a5cc5ad74adccfc66c6d03017be2613f682f"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/temple_blue_bomb.json"
+hash = "061ccf6459811dedfddca7cce3e4ad13107ea3a46d36515a3809209dc5d7ecac"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/temple_bomb.json"
+hash = "e39363830a4685843ecfd3974697c438cf6f5b4b660e9ebe02d70f98e99ebfd2"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/temple_spikes.json"
+hash = "495ade0a71dec30cbdbe5f2efe9b9368728c92a4731a32772ddb502bb78eeb85"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/test.json"
+hash = "b5bc3e50962acfd148e99032aaaa21534cafaf7c72adda86041f90f068ca76b2"
+
+[[files]]
+file = "kubejs/data/supplementaries/worldgen/configured_feature/basalt_ash.json"
+hash = "83118f179d9a76323043550077d486a9f45330aa10681f0b1b038c432b051927"
+
+[[files]]
+file = "kubejs/data/supplementaries/worldgen/configured_feature/cave_urns.json"
+hash = "a4c301b8a3a77c675af875cf954ece8bdf9e627f641db0963f5c9ca7a1a80f7e"
+
+[[files]]
+file = "kubejs/data/supplementaries/worldgen/configured_feature/road_sign.json"
+hash = "e5e8657fa110594ca6d1fa5f0091937c0030760630f83c93994319824532f365"
+
+[[files]]
+file = "kubejs/data/supplementaries/worldgen/configured_feature/wild_flax.json"
+hash = "0f516ed98beada7f2161f81d06e70bf953b973cf99f74040be9a6c330e0c74e4"
+
+[[files]]
+file = "kubejs/data/supplementaries/worldgen/placed_feature/basalt_ash.json"
+hash = "c18e1703c912f6a24afb5e4312a3ae553e5989059a0e7b0505e8f8015d515fa3"
+
+[[files]]
+file = "kubejs/data/supplementaries/worldgen/placed_feature/cave_urns.json"
+hash = "20df440b14e42e78089e99dfeab07af977e66c02c5c5bf58ef469f42b2a8f6dd"
+
+[[files]]
+file = "kubejs/data/supplementaries/worldgen/placed_feature/road_sign.json"
+hash = "2a058503b773fb585d8649d6eab8aab2a48051293a0c2605cd02d40e753431ff"
+
+[[files]]
+file = "kubejs/data/supplementaries/worldgen/placed_feature/wild_flax.json"
+hash = "a300c21de479b60a0893a729dd52ba0e8208efb480a4cc5c65836ff651561ce6"
+
+[[files]]
+file = "kubejs/data/supplementaries/worldgen/structure_set/way_signs.json"
+hash = "eed21cac2bf7d9cc11672d4a0b9f011de2f9712d68ec316335d9c17414386702"
+
+[[files]]
+file = "kubejs/data/supplementaries/worldgen/template_pool/way_sign/feature_pool.json"
+hash = "d13e913f8ba0015a66b13d4ab4e7132a4fdd8b0416c71b982c75ab939b8c6aef"
 
 [[files]]
 file = "kubejs/data/thermal/worldgen/configured_feature/apatite_ore.json"
@@ -17167,6 +17451,890 @@ hash = "bcb837ce3b3392c2aecb5569b364659ad1a8d0f2c28ceee3b1ef30387a77e7f2"
 [[files]]
 file = "kubejs/data/thermal/worldgen/placed_feature/trees_rubberwood.json"
 hash = "55dbe766c9fa09b04d7a45df856d20eca65b8a4f55e448af9a8fdcd1ddb05bba"
+
+[[files]]
+file = "kubejs/data/towns_and_towers/worldgen/structure_set/other.json"
+hash = "935461855d24b471d90ffa7a87a1d9a032014e4acaaae2ebb301c97aafcd19a3"
+
+[[files]]
+file = "kubejs/data/towns_and_towers/worldgen/structure_set/towers.json"
+hash = "c51892aa537918ecfcea61cc4e6b1b1cf978e724833994c5b26cd1326c8ef98a"
+
+[[files]]
+file = "kubejs/data/towns_and_towers/worldgen/structure_set/towns.json"
+hash = "835e72ceb47047b1e05fafacb10e95725c948b3329bf948283383476d12f794f"
+
+[[files]]
+file = "kubejs/data/twilightforest/dimension_type/twilight_forest_type.json"
+hash = "0ba9fb36ef0becd352352a0cdcf584bcd2f31eeb74f6f33c02c2b6ed5319da94"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/chests/aurora_cache.json"
+hash = "223b446829a1ac600490899f3f2f0e4b3da3f0030fe52784f59ca439a3156770"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/chests/aurora_room.json"
+hash = "180979a060405540de07333c642afa4d7b3dd060a1d3edc1bc35b2778e02723a"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/chests/basement.json"
+hash = "aebadb5276a5ae64f0b63984ac665bae0abc582f76305dfb48fb40d7b4c65388"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/chests/darktower_boss.json"
+hash = "9af387780923a0cbb27ccc8f0f070ce96ab56d0342a620c837a823445dc1e9de"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/chests/darktower_cache.json"
+hash = "69857bd5f58b8c62ec6635d62027085c9dc4de7a235763a2bf129e0836ad29e4"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/chests/darktower_key.json"
+hash = "cfc9702f1de11216910d3c70853d9776cd2e07f3227233f4b491b148e3b0affe"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/chests/fancy_well.json"
+hash = "46f5ed9fbfa35ed720071f944946dc7169a7d2f42e7286b34b803d7cc60aa523"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/chests/foundation_basement.json"
+hash = "0ec8732409e4883e0564f4172eccca2acf5cd5ee1f827dd5eeea7a65d611b554"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/chests/graveyard.json"
+hash = "9d18a9fb2cde91d629cc72349702fe7bee025321eb6d584e1c9616858811a73b"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/chests/hedge_maze.json"
+hash = "1364bc8dfc5764a36b047f7021b68ce7ffeef7027df112cc8658b3771d51cced"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/chests/hill_1.json"
+hash = "5fac8cde9781b19095c9a0b67e5448da210735e0306f4cb7188aac423ddd7456"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/chests/hill_2.json"
+hash = "8e148298c5268cc508397713c78f7cc03e4331eb77258376f32fe2e0e2876a27"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/chests/hill_3.json"
+hash = "54c203ddc0366860466c28f35d0c50922850dea71f6a79c0a91f63abdc30fb27"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/chests/labyrinth_dead_end.json"
+hash = "daa64ca31ef6f1f9db54ba24798e615489308ccdb6903175790f2a6e0adf5711"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/chests/labyrinth_room.json"
+hash = "8bd4f1fe567cb43fa3708f7b6cc22aa9831e7d38e53dee0e686aa8ecae9f898b"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/chests/labyrinth_vault.json"
+hash = "5ffe4e1d6b94f94a84b357ab908556fbd9d4fdfaf6aed050db318c14dc295f83"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/chests/labyrinth_vault_jackpot.json"
+hash = "02cb8a15159de3ddff55e684db0e151cc28440c6007d9a95080315981d36d909"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/chests/quest_grove_dropper.json"
+hash = "b0fc708ba5e010a9c50f3d3b2a3219e7bb8b9b64f80f8fae938a66a4eb2216e5"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/chests/stronghold_boss.json"
+hash = "72012aeaa689197883d4c086f85f010529fa5a30f4ed1be06e24c263c5d7758c"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/chests/stronghold_cache.json"
+hash = "24c6601572689572fbfd6a1ce20da151cc588f5b533abd9854744633870cc6d3"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/chests/stronghold_room.json"
+hash = "8ea4ef0b3a014997af6099462a6260a68892edc4943ca319be7a63553eadca40"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/chests/tower_library.json"
+hash = "00bdfda4363ba997b404a9b7a51af94195df11b9c7546c958793b440993317a7"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/chests/tower_room.json"
+hash = "ea7dc1af1d269364578a23f5cc193d0a9f0cda5a14403a6fb4dcff2e400e6a7c"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/chests/tree_cache.json"
+hash = "9a1d4af34a63b02a7fbc706881cf06f41eba9ff6d6926886166413a839c6a619"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/chests/troll_garden.json"
+hash = "8f54bc366da702c9242b57a49466a1e028416b5e16ac9a7e45b68afb649e3fde"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/chests/troll_vault.json"
+hash = "75aba04e5bb71f19b41d5b1478fbf363c0f3308bc15d47c4fa8fe5f62010528f"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/chests/troll_vault_with_lamp.json"
+hash = "ab5861be278ac6a4c98b60aeac5cd162f9ae2ef2410800967eb23d1096ea7c3f"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/chests/useless.json"
+hash = "669dbdf3b91299e5e095ecb533034222407ae217e597a6e6d59ebe2b4f324919"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/chests/well.json"
+hash = "a87e56bc77a69be01f67d7023b24b4f2e8d3be9010d0186e4678cd1bc7defc06"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/adherent.json"
+hash = "148d467cbc2d134ffe640a7ad30ab30913be247ed6063c93f346979693261bae"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/alpha_yeti.json"
+hash = "f7da7b176344b2250e630a2102c229392783480f8cf9d2d48170f438a2f069e0"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/armored_giant.json"
+hash = "c55b5bcce6f9c971f4d194e803e19a7ff3f751cfe72647b64b597116bc51604c"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/bighorn_sheep.json"
+hash = "09e64db553623e2719526cb83708ed64b3b3023c5132a022d152947077d55f8c"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/bighorn_sheep/black.json"
+hash = "0942ac8e73376dfc786a946ebd8ee236e0cbeb569153360698f31ee092c0136d"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/bighorn_sheep/blue.json"
+hash = "b1a688da5f6e6bec32e2ccc4e2b8e95b8da9f6e4e86d77d85236f82000b4a3d0"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/bighorn_sheep/brown.json"
+hash = "37187628fd2ca26ed4737e15bd6310f65f73946c565d3c0803894d7a2ae07483"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/bighorn_sheep/cyan.json"
+hash = "746f3ed79ca98cd921b6797ad3e448eb3e5ed91e50af2cc63efd5286764e80b1"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/bighorn_sheep/gray.json"
+hash = "f034d5722269363c3c3ecd92874d2226a8f59588d5a72ac6aa8c0673f95e9d88"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/bighorn_sheep/green.json"
+hash = "f2311d5cab5ad5cf23de4036fe5357e887f2ba343c67a52b0aef76dd22ed69b1"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/bighorn_sheep/light_blue.json"
+hash = "0794a0c21305b1fe25438b7a9cdebc5e539f01f3eaaf2e7c6864553588ea7312"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/bighorn_sheep/light_gray.json"
+hash = "0d63cd5eb3090f79fb67d97e414acd19bfc1af6046d3e5000d832a16d9af5baf"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/bighorn_sheep/lime.json"
+hash = "566a21468f2f8606a063ceb6605a1640f86f944bbb41330e7cba0a9b39a02106"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/bighorn_sheep/magenta.json"
+hash = "750c7d3ad54ab229542c22987ee9d30302c9877c8256007e9acfa9b574be9beb"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/bighorn_sheep/orange.json"
+hash = "ee9e55b47593b25e334cbd47747ac692f0c2106394ceeeb1a823ab1bfa65ed8b"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/bighorn_sheep/pink.json"
+hash = "d594f64f5b1944fdf64695373de8815146e694dd40d36c0f4f888c855876bff7"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/bighorn_sheep/purple.json"
+hash = "ce0c05fc761a2b988bbc24a04949a121937c7da7413cb84349f592c4af525d7c"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/bighorn_sheep/red.json"
+hash = "258e3452fde4639edb213d49838473c0173657d1d1ae465cd209ab10ad493db0"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/bighorn_sheep/white.json"
+hash = "b89fb48a80ab7e624e193e1061179c19978dec792f5aa9bb8684ac80100287fa"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/bighorn_sheep/yellow.json"
+hash = "b179346f4049435ab198619b24189b89cdba292cb638958567fdb9149393a44d"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/blockchain_goblin.json"
+hash = "1129840649b5ad044d6ea8aaa06d995a58b855e5a300d76501045f77cfe1a807"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/boar.json"
+hash = "458ace868ae89f6e57aca09deb3b7ebc90eb7cf2de0ed764d878a98924cbdb66"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/carminite_broodling.json"
+hash = "e8f21f1193002c81e0cbb03829956a7e90541e27f7cc0fc52fa8ced4d7c34154"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/carminite_ghastguard.json"
+hash = "e333e382cbb7c5651acb27032d539cba61f4a4e5526ab8d2a342202b62cd64dc"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/carminite_ghastling.json"
+hash = "46729c6bf0217a0455d3bef690f7f26260fe12fb409cc31579b2e8c7043e23fa"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/carminite_golem.json"
+hash = "81b2e2f92454fd2e07afeccdba6045b7fb9583f0c445fc4b583ad0b68c615904"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/death_tome.json"
+hash = "01f567082cced59a9270d26313857ce1fc026a4c79a9d874c1b9f1c2dc7c5228"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/death_tome_books.json"
+hash = "fcbf037c610bfdedc1bbce81889cfd2ae788cec41a4664e596a0ceebeb63738d"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/death_tome_hurt.json"
+hash = "812c18d3402d15541c13cb392ff9724b09a4ca4812f79d83c6ef1b279bcc7847"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/deer.json"
+hash = "b06460346c5bd23932f47cb3fed8b2416740200fc7bc2ba6fbc0ceaae64738d8"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/dwarf_rabbit.json"
+hash = "c8f7aec784b8c85e1e473e8a4d2c215e43bd72391a7aa50367d5af663a00b4c1"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/fire_beetle.json"
+hash = "b88b21793f12a75145f9ea2476e9a23891b1d1592219839f77ebfbc94b9e60ea"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/giant_miner.json"
+hash = "974c410a372e9c77c5c271bace21ef300bd97292e74a7a6bc940e9bc9c2ee7bf"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/harbinger_cube.json"
+hash = "816325b0d7757e53a98480bdfb94d09f3927cb4d4a7993693e9569385424dac3"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/hedge_spider.json"
+hash = "85afb6a8e41f176b1df34d7bae8ab9b994bb3c65a78a2d22f9d52e0ee36bf96e"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/helmet_crab.json"
+hash = "50082896a7a249e86099c24dfdf4dad841e65f1f35ee2180d458bbd745b8ce6c"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/hostile_wolf.json"
+hash = "559ad395a4265a4ec8dc1a314b4da6b63c31e23fa41092a205edf76293bff65c"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/hydra.json"
+hash = "d99bd741bbca953925aff750e04dcef177d3dc139af7caca7f693f1ed3cbe101"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/ice_crystal.json"
+hash = "d73411a689b4db19cd8fececc8875ff39628094bdd7ca77dcae5c826f0e5ca5b"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/king_spider.json"
+hash = "f545c59d066e8b4fd0c24dad516afbb1ddf64e110325e7a26ff4c2955d252598"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/knight_phantom.json"
+hash = "222d11fcbdc7606aecfaa5b0a8f4882c5646599bb33220065f442a99e83d4b23"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/kobold.json"
+hash = "582168f04f26c98d7e9901455b3605f313bb7c923a508cde3293762b85d68a32"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/lich.json"
+hash = "a6e15f4cfc85d4539335889480b38906e358b777c7536efe5efdc968c2063bfa"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/lich_minion.json"
+hash = "0d65c9cae90b35d917dcf1647ee22e504eb1b88fdd3b6e4c318e68d7215b5d17"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/lower_goblin_knight.json"
+hash = "915c063dd208ac9c94422ffdbd8b2f51514fafd22755ba4d9101add8ac64258c"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/loyal_zombie.json"
+hash = "b337a0ffc162efe43bfd70a457e1b0535d7484bafd2ffc536b4e95d52e9947e6"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/maze_slime.json"
+hash = "e53bbfa385e1bb214eb29937b3a180ce406e416502a85784bf4ec9a02c633055"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/minoshroom.json"
+hash = "d8c0f0ea3847e7f4abf29ed52f0d472fa1cce97e1240c1129fa540c170a571e1"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/minotaur.json"
+hash = "c8c12c3be65dd4933a04568c8b9fdc1d8c72a94b7359ce860d15ae254373c2f6"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/mist_wolf.json"
+hash = "6aecdb9a82b7c1b3fafb44a3e9603066afdb572882757ad3197288c83d78283d"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/mosquito_swarm.json"
+hash = "640291f5e2e869f070b2ec112c89137a2b955915c24de58754bea94710a47492"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/naga.json"
+hash = "3ecb6b071fba226a76141535c3fdd63b00bf81f1e73185af5566aac5d29216cd"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/penguin.json"
+hash = "c4fb1f2b70416ad0dad508f10720979e7c273cc017bf9343caae04a1da6d095c"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/pinch_beetle.json"
+hash = "afdda45e7d07aa9d00b7a99e42c99adf6c7af767e7ceee241cced1ab26d5eff3"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/plateau_boss.json"
+hash = "8bad9931b2802e1f9020a4ede09f0a6aa61205c4d2f2c7023ea21d035d281835"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/quest_ram.json"
+hash = "87a7e56fbb2d7bce23b9a74f49026aff6eca9014a3f79d9e83141387d25b628f"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/questing_ram_rewards.json"
+hash = "e57bc6a9da352bd047c0c4ac40f7c4178e62cc7485eb8351bfa5bf957f4a6c68"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/raven.json"
+hash = "d98ae08b9df22dfa7546ccde7e167cebf750d9ec8299054c9c3e57eb4235e633"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/redcap.json"
+hash = "ae9f5fc0f6b453ffe1c528174645c87eaa062b0961877c3d936ffe2c2a9fca8c"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/redcap_sapper.json"
+hash = "a7e6ef32886a5c4a9d52a581870e90ea131735d82581402afdcdaa40d55103c9"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/rising_zombie.json"
+hash = "79ad6245e9eab9f778a414b76abd9aca592570c8fcb40f705dced72a4537654f"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/roving_cube.json"
+hash = "d750467cc66f499f90828ebfaffbbc542b9526f4d5334d5365a17fe0ece1fa98"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/skeleton_druid.json"
+hash = "39924230037c70ea8cac6d7ccef2f913a71a4fa6c2d1e9a9a36af8ca5d62d0d7"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/slime_beetle.json"
+hash = "672668eac01381659eec6c2b4d281953574517eec4539a3fcb26f8f25330915d"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/snow_guardian.json"
+hash = "ce63c661f6bb48c4d259ff6650bbe4f0955650263f768b57a4fa6f3631099451"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/snow_queen.json"
+hash = "f828b50ae5613be85cfca35311846c95cf70f02356df41ba12a174bd6c33b78b"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/squirrel.json"
+hash = "18d3df37903e2e8e8adfaec9ce64c8677596defc7f5458ebec3c26f6da63dcef"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/stable_ice_core.json"
+hash = "390ba38b18a2a3f867be910c7ca77d36dfa77c88d606a84f598848cb39d58d44"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/swarm_spider.json"
+hash = "f0656e0f8edc6bc78abab96661e9babbac985fdccdbd9f168f5d6b7679e1f96a"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/tiny_bird.json"
+hash = "2e116b048fda1f71a1f25014f732ed354e18bb2dcd6ba3cfa1deb4862e22d727"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/towerwood_borer.json"
+hash = "8a7576e470318fb448d628452d38aba6fcb0e7660954c075ac17ced0ca93b8a6"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/troll.json"
+hash = "c9e6fa25b967ea45e20e076b9e642f49ece3d47b5bc8d3d54e2c6e24f77fac7e"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/unstable_ice_core.json"
+hash = "312666f3421c42e39541dcc79e2f48a4ce78055db58536c638266e6c6868bd62"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/upper_goblin_knight.json"
+hash = "64f2f599f709522570666c70e9fca4e66eaa694fde0020113904e04d61101c02"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/ur_ghast.json"
+hash = "5b85e5dae09b65702e54aab26ffa5fd63dafb893d220f29b62dd820ac41d08fc"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/winter_wolf.json"
+hash = "0aecf6c8af5bd09a6100e39f57962bea9d6309c40fb82919236ca8e224b4b1a4"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/wraith.json"
+hash = "731f5fe15599b7c4e85acf1ba5b5758168db72ffd77c5022fcba00b355fffc33"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_tables/entities/yeti.json"
+hash = "d91b6d84f915dfd6ac387326b62924a8f8b6895271921d8c104d7be4af037fd2"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/biome/clearing.json"
+hash = "6d07b3ab0773820a53c3be0353b6692cbf92977955ecf90a72c25aa143b7ace4"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/biome/dark_forest.json"
+hash = "bd45c275cc9d0af3c8261427795a73dff8aae0bdf19c10b6a5005ceb4892a252"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/biome/dark_forest_center.json"
+hash = "c2347e6701d6a2d9ddc1ab3bdad9467596c707eedf05b5c67ebe59be7e640229"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/biome/dense_forest.json"
+hash = "912c8e4219790bf7009fb972cbbaec7be07a11a2a67fbc76d8224a516f33b782"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/biome/dense_mushroom_forest.json"
+hash = "ec37a9f0452d255fbd22fc86734468048ba452a6d4e054688ac4dc34cc4028ac"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/biome/enchanted_forest.json"
+hash = "11667d6f583da0c886ad1f34acb0216b4469cfcfae47838a920d5a5c4b3cac61"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/biome/final_plateau.json"
+hash = "d5291c3412b1b4efb21e9bd5288f74749c09ec5eff9a13ccb93973da17489f95"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/biome/fire_swamp.json"
+hash = "f3e5054777a1270668b25bb886a843a60dd819a733b971607e4238871498881d"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/biome/firefly_forest.json"
+hash = "02f32c4d57d7824ce66daff2556624d177e408bd3e6bcd1d413ae9b34e55f60e"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/biome/forest.json"
+hash = "734f21cda552a95df9602dc6292aa1a06e4b8cfd43937b950478f6664ca0a87f"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/biome/glacier.json"
+hash = "e3d4612a449763191acbb46b2cad44f3f0d68bd21dbf76a5675625192f0804a8"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/biome/highlands.json"
+hash = "4924b844e6799148386fd9dbdc330985e0f954402c099e3a1ff007a85a15f446"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/biome/lake.json"
+hash = "f0964347abf3b5424cb96efee4b39df022c81259c17256d2c1243a06af607f7e"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/biome/mushroom_forest.json"
+hash = "4206ab40bf13fd4e0d3c130dbefbeffb0ffc46cfb1477eecf3e51c0b4866d401"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/biome/oak_savannah.json"
+hash = "e115fe4ceff764619b349e27e6bb0353fdf674d00e9c31240286126da290ea36"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/biome/snowy_forest.json"
+hash = "ec1a72db734e8a8027296c6d8ce6e14503bfc77384dee8005aaceef03c1e46b5"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/biome/spooky_forest.json"
+hash = "a27441270948a045b03a2ad52fb793bc7553a2f319fa2856237e4c4192debab5"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/biome/stream.json"
+hash = "19448f077c2738582a8572a5cf2390119879184a38690034cdbf6d998d3a5934"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/biome/swamp.json"
+hash = "bd0a2b2365f27981015b83b3fe7d71ddab731a6dd407b1f6dfcfb2f7d60f79f7"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/biome/thornlands.json"
+hash = "0d44b40481ed6d9028c353047b160d486a051550c50832756e7a441646d05096"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/biome/underground.json"
+hash = "b5f32f6ce665536e06185d6c402d3cb86e8af32472d789d3f964b289adf89a53"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_carver/highland_caves.json"
+hash = "0db01440c55334967b3b45bba4cc6b88fe1405e8b1b24038e6e0633d2b52d6c8"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_carver/tf_caves.json"
+hash = "72a84fdc08a75e3f0e5c1ddb474c01205e6a43bfa703484d625b8f08fbf78462"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/legacy_coal_ore.json"
+hash = "c50ccd333aa3a38038297e51efb233885ef4a7eaaa6d906733608ef94ee0fce3"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/legacy_copper_ore.json"
+hash = "b4141729a812c60f0f9872338a8e73f4e7125869adcc3b960c0500ebd48e0b32"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/legacy_diamond_ore.json"
+hash = "fb438cd35aab40d263adf280f52f16c69380cc95e2dda34d427c3c9470e50898"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/legacy_gold_ore.json"
+hash = "77e4d8ee39d20deeae55e6fd35ffac3e9056c697b8061c79ecb9831bffbf68e5"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/legacy_iron_ore.json"
+hash = "0810f348024895138558159b2d6e5e90cba8dae9f2087a04a0f49dc3ddfa299e"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/legacy_lapis_ore.json"
+hash = "885f361a204d8a48356a878b07aac099a04aef648ef73f2fca5c3b45c9fae89b"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/legacy_redstone_ore.json"
+hash = "26b3d0d4e9d29f3334bec6fbe8c39ea30d7dd6a3b25d4444803b187453640197"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/monolith.json"
+hash = "68792fe007478b6037eedff2f8df578413a94345b7fec7314d255194cdfba3e4"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/mushroom/big_mushgloom.json"
+hash = "abc0612e973a7b246847d6dbae58ffa527563566477a1821c49a15f1dc16224e"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/mushroom/brown_canopy_mushroom.json"
+hash = "740b67d747d34544eae74deeba6d369f93a94576646229998b6fba58071208f1"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/mushroom/canopy_mushrooms_dense.json"
+hash = "f73ead92ef9dfdc206974622749acfc4bd54daece1496650386b1f1aebe44f83"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/mushroom/canopy_mushrooms_sparse.json"
+hash = "c29786bf6503c8835ddf5d4e369ba21aea6430e9bb3b03c0a91227795191b0e1"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/mushroom/red_canopy_mushroom.json"
+hash = "f0316e200e8f23fca6dfb1c45dc47bc86c9e7bc55b6376cce4b9d43112205ad6"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/ore/wood_roots_spread.json"
+hash = "fe86a1742fbc44e2147514570e176c594e8761ff7fce67a768e5c7441e47f8a4"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/outside_stalagmite.json"
+hash = "ea753a1fcdd5940eb046a36214c460354a38221773060e3995f40ef321e798ab"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/canopy_tree.json"
+hash = "b7672189e1d1b343a855cf84055732e6df5620f128bfc49f1267aa40f7a7d486"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/dark_forest_birch_tree.json"
+hash = "ef87f6937253d299ee7a78c804947e175a3fbc1c0d0243a1aee0268f1a9143e1"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/dark_forest_oak_tree.json"
+hash = "5baa14892c00b712eea576d80ec2c3a8d67ffe6a0d771d7fcaadeb2cafec99e8"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/darkwood_lantern_tree.json"
+hash = "4b1808659a78d2c84e033a996bf71f53b028f48ab6b7c3dbea41ccb9020bd20d"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/darkwood_tree.json"
+hash = "91c4c6dd123d3388122fa3fd215d1f9ed4e29d600dc16bbca32481b70708c0f1"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/dead_canopy_tree.json"
+hash = "ea71b0cdf12d48e735c527311ae9a4012588b3cc4b1a760b6016c0a6b5efc49c"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/dummy.json"
+hash = "ea7264356b67359e9f9951341e916a724554c903a6f36b06e7da9ce7b44bbebe"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/firefly_canopy_tree.json"
+hash = "d641ea6e51cc8f8e92738e6c858d49ee274be50f1637d120320e1e6571cef50c"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/forest_canopy_oak_tree.json"
+hash = "ca87dae1da8028146011d6f018c9bae823a87b3fa5f5b3ab5e14319fd466fd75"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/hollow_tree.json"
+hash = "df49022803d3c1d3d42156e233c8f80a9f0574764be8117021548873e0b06c61"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/homegrown_darkwood_tree.json"
+hash = "d0dae62a37c7370ad24ba91918ffeac1718cddf571d6e5821fe75df000490f8c"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/large_rainbow_oak.json"
+hash = "665524d7edb85d727d6843dea232587a85ae041f6a07e115c0fa077f8ad3a57f"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/large_twilight_oak_tree.json"
+hash = "4a13fa91a71ddc31ee9098c4edda14f6db91bfd0deab7f8cfa1ef1ab5dd17fc5"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/large_winter_tree.json"
+hash = "6d874d1471052ecdde1c74dfbe0ee01feb0e6e4b26d4cdea14aca8baeebc6d48"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/mangrove_tree.json"
+hash = "40966db7df5b423b3e1fdab3ec8d5f7cdeaac84344ec296dfca1a8d60718ebd0"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/mega_spruce_tree.json"
+hash = "08fa9b2c93b19eff7494b1ab3e9ce479db472447f818fa0334a9b153625ec0c8"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/mining_tree.json"
+hash = "3bc631ada2c8bcb54c7a139c9c2edd8f4021b4c06bde5e614734a1bbf68038c3"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/rainbow_oak.json"
+hash = "bebf301c6586f4dae7b3c0adcfab71c2ca0389ec48367c00b72ac7c101ca93b8"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/savannah_canopy_oak_tree.json"
+hash = "a7831e32826ed19ccbb8ec604e5495adf424be6558e78638da888d7fb0eaebf7"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/selector/canopy_trees.json"
+hash = "1d81b92576d075ba535055a6fd4720cd7f58f126efa6bfe2e84a35181c7ed9c3"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/selector/dark_forest_trees.json"
+hash = "b8adc477f1843c6242e20e2877b04edeb35a7355b21aa2af7804cedeaa729054"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/selector/dense_canopy_trees.json"
+hash = "4bc0b323eb9bd695b34b227a357e7c5e853aa26f830629581b569e372f73eed2"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/selector/enchanted_forest_trees.json"
+hash = "1691b291bba0f7f27492ac6a72b1073d745d1f3c5d1fcf3bc25d7320b9d40a3b"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/selector/firefly_forest_trees.json"
+hash = "1a21404b320878104c1816c86842886d4d0ff0a4fe87a19a249b641891910441"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/selector/highlands_trees.json"
+hash = "4000e509443147f749c46871ce6f36bc5c4dee8710a6c41a62225c167b371e2d"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/selector/snowy_forest_trees.json"
+hash = "9667681c9234aedb01cf50a34a62556f7e3af311396e68cd48cfa97b5251c5cc"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/selector/vanilla/vanilla_mushrooms.json"
+hash = "5bd482490483f97e10c870fe8207333cbf6696904d6a9d46cb0c0f145ca09bdd"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/selector/vanilla_trees.json"
+hash = "886a07fbfd856ca3d1f6489d3491127cb0b968d8fb0a33bcf7d9c45d7a9f7770"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/smaller_jungle_tree.json"
+hash = "febdd50b2f9bf0d9933c19e1e2ba4ca5045851de5de89d856adc4f2ee12f751b"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/snowy_spruce_tree.json"
+hash = "fc35efe1f066e16ed1f6a7642632c43b30d1e142ea605c6f4b6294943fc16d5d"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/sorting_tree.json"
+hash = "101f9b2c14901280e1c697330af68ec33a90876eeb8af2d23ed38a6eb1f9d310"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/swampy_oak_tree.json"
+hash = "dcd186b2db9d652ed24fb636bfe2d57744e442559c395a7d7c27f5d499d62f89"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/time_tree.json"
+hash = "262432f438e377cb5ec549773f461ca1639727091b1cb9c8779806c8fe25ff81"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/transformation_tree.json"
+hash = "b58cb535ed55373bc55238418d2ffd4da27a65398bd68354d101d0e29eb22888"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/twilight_oak_tree.json"
+hash = "4a7265a142f2c7cfe2c9e2f418d1870734c25cd2a2d1358159c8db69f32c33f4"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/vanilla_birch_tree.json"
+hash = "5e0204fa3805684f8ecb9a7aa1faa27f3c0729d6ac190d27c5dcc486ad6f29f6"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/configured_feature/tree/vanilla_oak_tree.json"
+hash = "ad4db2aed7c0a765f168458f44f08af4393cb54396ffb46645f514d0d0d326be"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/noise_settings/skylight_noise_gen.json"
+hash = "715c36b6476346a37d313f5a7f6e76c78b21b7e7cdf3313d08f20148f53339c1"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/noise_settings/twilight_noise_gen.json"
+hash = "13bea604e3f994964481b9b529bbd4af7925a6a105b7a844b0e4831773814f85"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/placed_feature/fire_jet.json"
+hash = "7ed41b05ddc3bf5277920a682f1e811635c86c31afeb07bed40e5d3738af67b5"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/placed_feature/legacy_coal_ore.json"
+hash = "b3417f3eeb8e834c899e12abf9f3b4c8a8a2b3df5fc7bc57bc6d2d13a0ecb9ba"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/placed_feature/legacy_copper_ore.json"
+hash = "e5e5d4c4ad51f25d40139ef07c6df201966bac7c7487d39cd51a8a56f7787eac"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/placed_feature/legacy_diamond_ore.json"
+hash = "a7f701ee66224ec69531ff66d8265ad7ebcf2f2bce9d270236c13329b7df6f9d"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/placed_feature/legacy_gold_ore.json"
+hash = "63ed8215da733d89e397554cf8009da130b27a28640d1e50c4ed79655fbac3e1"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/placed_feature/legacy_iron_ore.json"
+hash = "20d748e4d276eb303757482432953bb8ef52315f2a90aa6bc81ea3339930bee8"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/placed_feature/legacy_lapis_ore.json"
+hash = "2b644c1edf5cc1a0fab88b34e5d924ae5054b12af8a4148af1c1f5656b670525"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/placed_feature/legacy_redstone_ore.json"
+hash = "8844432288c5f72982d3dcfe3550b3b749decb5cc8c240dc49161f8cf946c37f"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/placed_feature/monolith.json"
+hash = "92825556b623979bb3ca16e14145e4ae3c3b8619bea3133c0bb6366129fd461c"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/placed_feature/outside_stalagmite.json"
+hash = "a0ee0df9335492429eb879607796869e7d0b4833dd6d10616a6c4a891f34350a"
+
+[[files]]
+file = "kubejs/data/twilightforest/worldgen/placed_feature/stone_circle.json"
+hash = "435a227c426a6fae8361238c2331678ba0feb61fb83e810d105a69eb2da538cf"
+
+[[files]]
+file = "kubejs/data/wizards_reborn/trim_material/arcacite.json"
+hash = "3380982b76b2f0e13ad45f2150fd0df3415680441dae1a9a50f9c5e217846d79"
+
+[[files]]
+file = "kubejs/data/wizards_reborn/trim_material/arcane_gold.json"
+hash = "4e37d64f3789283496963b5d1010684f3c76aa066feb704e49a5aa8a3493eef0"
+
+[[files]]
+file = "kubejs/data/wizards_reborn/trim_material/arcanum.json"
+hash = "4635833e19ddebd55fa85f7c8fc5c89b9545f55bbf8d9fd227efc825a85edf1e"
+
+[[files]]
+file = "kubejs/data/wizards_reborn/trim_material/precision_crystal.json"
+hash = "c673e41bbd43e07da34c9d301a735c7587aeb7069d33236fcd701f5cac97063b"
+
+[[files]]
+file = "kubejs/data/wizards_reborn/trim_material/sarcon.json"
+hash = "dd90d9f073965fa8a8ea742209ef2fdf72c664abaa38ebb5d42e8f7d68900004"
+
+[[files]]
+file = "kubejs/data/wizards_reborn/trim_material/vilenium.json"
+hash = "61eccc64b6b58b95578ac09ace73bd64deed922f0cf2d005b1ef52daba9ccf05"
+
+[[files]]
+file = "kubejs/data/wizards_reborn/worldgen/configured_feature/arcane_wood.json"
+hash = "86e4000f528cd0e020d2ebcf655a49196ca11a38e78a1a17c73b49bca594311c"
+
+[[files]]
+file = "kubejs/data/wizards_reborn/worldgen/configured_feature/arcanum_ore.json"
+hash = "21415229cb288f1abe3d2b0cd32c97ea5da325813a2f127f702b6fd7fe7f7d9f"
+
+[[files]]
+file = "kubejs/data/wizards_reborn/worldgen/configured_feature/fancy_arcane_wood.json"
+hash = "9349a8442a43c10b6e2738bc31406f1c4d4c5d06df5731794e88c3e3a0b59e69"
+
+[[files]]
+file = "kubejs/data/wizards_reborn/worldgen/configured_feature/huge_elder_mor.json"
+hash = "a357bef6023f476b17f0c1819f0f4e627405c357c86462d310238ca3a553a600"
+
+[[files]]
+file = "kubejs/data/wizards_reborn/worldgen/configured_feature/huge_mor.json"
+hash = "45af7bc623fb7a45fa0e8363e283b59166899cf722e1340c87f180f1ebd771ff"
+
+[[files]]
+file = "kubejs/data/wizards_reborn/worldgen/configured_feature/innocent_wood.json"
+hash = "d960c95068df282c91a97a055213224ea0d6b2dd161ec017611f4bcabe2f6937"
+
+[[files]]
+file = "kubejs/data/wizards_reborn/worldgen/configured_feature/innocent_wood_bees.json"
+hash = "8a0ddf155fed45608fdb6fcf771ba53245474d9ac2c97169a578d5ab828b18a5"
+
+[[files]]
+file = "kubejs/data/wizards_reborn/worldgen/configured_feature/nether_salt_ore.json"
+hash = "80f7ec0fa2d696e0f42b734461ee720bdc1e36a66de89e1011f107c5780d4263"
+
+[[files]]
+file = "kubejs/data/wizards_reborn/worldgen/configured_feature/patch_elder_mor.json"
+hash = "8f9cca8b4fc8cd964a314966e2212a2d18809c183ffd4697ee69d7ad62d37a48"
+
+[[files]]
+file = "kubejs/data/wizards_reborn/worldgen/configured_feature/patch_mor.json"
+hash = "1a203072977b37f34b733f6c563f0008da48e4a538e3ffb8983200080985ad3c"
+
+[[files]]
+file = "kubejs/data/wizards_reborn/worldgen/configured_feature/tall_elder_mor.json"
+hash = "7e9b95115b1e47f241b850fd6665df812c60477d5359fb1d917eaf37233d519e"
+
+[[files]]
+file = "kubejs/data/wizards_reborn/worldgen/configured_feature/tall_mor.json"
+hash = "df083b5bf991110871cd0d1d1a02ff4baa2715a1087f7dc219b72e53ea9ee850"
+
+[[files]]
+file = "kubejs/data/wizards_reborn/worldgen/placed_feature/arcanum_ore.json"
+hash = "5c90fd0551a41b7a83bc44b53e239be59a0f7df682f393e031123c635eaef1b1"
+
+[[files]]
+file = "kubejs/data/wizards_reborn/worldgen/placed_feature/elder_mor_swamp.json"
+hash = "2b8d1a9512b63790bd9dab989da2d7f7be93facca587d173d951875454b6462b"
+
+[[files]]
+file = "kubejs/data/wizards_reborn/worldgen/placed_feature/mor_swamp.json"
+hash = "484b434baf37256dfe810955c9b76570594cb04c490c5890321183802161f340"
+
+[[files]]
+file = "kubejs/data/wizards_reborn/worldgen/placed_feature/nether_salt_ore.json"
+hash = "efe38c19bd6b5c4de0a947f3502e655641fe97976368dc651de9e8b8abb57d30"
 
 [[files]]
 file = "kubejs/data/xycraft_world/worldgen/configured_feature/ore_aluminum.json"
