@@ -106,19 +106,15 @@ hash = "c15aacfcaceb82b6c720daec70de49e1f3255b9d8033b58bbb4ccc74ec41567b"
 
 [[files]]
 file = "config/ae2/client.json"
-<<<<<<< HEAD
 hash = "c1a4e1058ad7970f2f4d83aab93afda83ea713026c8ebc1d63942ee66a6d3c66"
 
 [[files]]
 file = "config/ae2/common.json"
 hash = "5a8ecae0292541666f6c3c68964f3fcf8bd0fe97c62208ae122dfc2042984f8b"
-=======
-hash = "e535f682895d02e2499d78b8ce179c448f3ba8934c3707a561d9d7c718cc2a1b"
 
 [[files]]
 file = "config/ae2/common.json"
 hash = "7a430b71a2ea48c01cb35fb384c5fc351bca1d63866461d1f6ab22c6ff44cecb"
->>>>>>> a7bb88e87a14554a709b3cb68e1a2e34c867b635
 
 [[files]]
 file = "config/aiimprovements-common.toml"
