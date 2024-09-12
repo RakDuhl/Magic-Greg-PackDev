@@ -2,7 +2,6 @@
 
 JEIEvents.hideItems(
     event => {
-        event.hide(/rebornstorage:(small|medium|large|larger)_(item|fluid)_disk.*/)
         event.hide('mekanism:upgrade_anchor')
         event.hide(Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:}}]}}'))
         event.hide(/gtceu:.*_bucket/)
@@ -10,7 +9,9 @@ JEIEvents.hideItems(
         event.hide(/.*:.*_spawn_egg/)
         event.hide('enderio:filled_soul_vial')
         event.hide('irons_spellbooks:scroll')
+        event.hide(/botania:apothecary_forest|apothecary_plains|apothecary_mountain|apothecary_fungal|apothecary_swamp|apothecary_desert|apothecary_taiga|apothecary_mesa/);
 
+        /*
         Color.DYE.forEach(
             color => {
                 ['controller', 'creative_controller', 'grid', 'crafting_grid', 'pattern_grid', 'fluid_grid', 'network_receiver', 'network_transmitter', 'relay', 'detector', 'security_manager', 'wireless_transmitter', 'disk_manipulator', 'crafter', 'crafter_manager', 'crafting_monitor']
@@ -21,6 +22,7 @@ JEIEvents.hideItems(
                 )
             }
         );
+        */
   
         Color.DYE.forEach(
             color => {
@@ -36,13 +38,6 @@ JEIEvents.hideItems(
                         event.hide(`createframed:${direction}_${color}_${type}`)
                     }
                 )
-            }
-        );
-
-        event.forEach(
-            modID => {
-                ['thermal', 'twilightforest', 'supplementaries', 'quark', 'mythicbotany', 'irons_spellbooks', 'iceandfire', 'minecraft']
-                event.hide(`${modID}:`)
             }
         );
     }

@@ -3,10 +3,6 @@
 
 	[World.Features]
 
-		[World.Features."Oil Sand"]
-			#Whether this feature should naturally spawn in the world.
-			Enable = true
-
 		[World.Features.Silver]
 			#Whether this feature should naturally spawn in the world.
 			Enable = true
@@ -20,10 +16,6 @@
 			Enable = true
 
 		[World.Features."Rubberwood Trees"]
-			#Whether this feature should naturally spawn in the world.
-			Enable = true
-
-		[World.Features.Cinnabar]
 			#Whether this feature should naturally spawn in the world.
 			Enable = true
 
