@@ -2,30 +2,9 @@ ServerEvents.recipes(
     event => {
 
         //Making constants
-
         const AllStone =    Ingredient.of('#forge:stone');
         const Stone =       Ingredient.of('minecraft:stone');
         const Cobblestone=  Ingredient.of('#forge:cobblestone');
-
-        event.shaped(
-            'extendedcrafting:basic_table', [
-                'A',
-                'C'
-            ], {
-                A: '#minecraft:wooden_pressure_plates',
-                C: '#minecraft:logs'
-            }
-        );
-
-        // @ts-ignore
-        event.shapeless(
-            'minecraft:crafting_table', [
-                'extendedcrafting:basic_table'
-            ]
-        );
-
-    
-        //Minecraft Furnace
         const StoneSlabs = [
             'minecraft:stone_slab', 
             'minecraft:smooth_stone_slab', 
@@ -38,7 +17,26 @@ ServerEvents.recipes(
             'blue_skies:turquoise_stone_slab', 
             'blue_skies:turquoise_cobblestone_slab', 
             'botania:livingrock_slab'
-        ]
+        ];
+        const SuperGlue = Ingredient.of('create:super_glue');
+
+
+        //Changing Recipes
+        event.shaped(
+            'extendedcrafting:basic_table', [
+                'A',
+                'C'
+            ], {
+                A: '#minecraft:wooden_pressure_plates',
+                C: '#minecraft:logs'
+            }
+        );
+
+        event.shapeless(
+            'minecraft:crafting_table', [
+                'extendedcrafting:basic_table'
+            ]
+        );
 
         event.shaped(
             'minecraft:furnace', [
@@ -101,13 +99,13 @@ ServerEvents.recipes(
                 S: 'thermal:redstone_servo'
             }
         );
-        const SuperGlue = Ingredient.of('create:super_glue');
 
         event.shapeless(
             'minecraft:sticky_piston', [
                 'minecraft:piston', SuperGlue
             ]
         ).keepIngredient(SuperGlue).damageIngredient(SuperGlue);
+
         event.shaped(
             'minecraft:dispenser', [
                 'CCC',
@@ -120,7 +118,8 @@ ServerEvents.recipes(
                 B: 'minecraft:crossbow',
                 P: 'gtceu:tin_small_item_pipe'
             }
-        )
+        );
+        
         event.shaped(
             'minecraft:dropper', [
                 'CCC',

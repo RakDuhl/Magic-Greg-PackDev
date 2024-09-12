@@ -1,5 +1,7 @@
 ServerEvents.recipes(
     event => {
+
+        //Creating Constants to ease writing the same Items
         const files = Ingredient.of("#forge:tools/files");
         const wrenches = Ingredient.of("#forge:tools/wrenches");
         const screwdrivers = Ingredient.of("#forge:tools/screwdrivers");
@@ -10,7 +12,7 @@ ServerEvents.recipes(
         event.remove({output: 'create:shaft'});
         event.remove({output: 'copycats:copycat_shaft'});
         
-        //Gregify
+        //Gregify Components
         event.shaped(
             '8x create:shaft', [
                 '  A',
