@@ -38,11 +38,13 @@ ServerEvents.recipes(
                 S: 'thermal:redstone_servo'
             }
         );
+        const SuperGlue = Ingredient.of('create:super_glue');
+
         event.shapeless(
             'minecraft:sticky_piston', [
-                'minecraft:piston', 'create:super_glue'
+                'minecraft:piston', SuperGlue
             ]
-        ).keepIngredient(Ingredient.of('create:super_glue')).damageIngredient(Ingredient.of('create:super_glue'));
+        ).keepIngredient(SuperGlue).damageIngredient(SuperGlue);
         event.shaped(
             'minecraft:dispenser', [
                 'CCC',

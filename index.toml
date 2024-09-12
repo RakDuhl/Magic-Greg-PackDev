@@ -2201,6 +2201,106 @@ file = "config/zeta-common.toml"
 hash = "684816927033626b990f8e277a43c0e24f6ef650cb38f9fee935f974fffd7392"
 
 [[files]]
+file = "defaultconfigs/biggerstacks-server.toml"
+hash = "3e5f1691bfec14a9718b24ee9df3a00ca34e958829e050f4660e4117b20cd1d1"
+
+[[files]]
+file = "defaultconfigs/cave_dweller-server.toml"
+hash = "598734393cacbb7692499ed95be9aec0fafdacb1d91b310b4bb77a00bcf21f5b"
+
+[[files]]
+file = "defaultconfigs/cofh_core-server.toml"
+hash = "936cc6909e95faefe50b6aa94199e3c988fa027688f7860ac6040bcd0dcdf735"
+
+[[files]]
+file = "defaultconfigs/constructionwand-server.toml"
+hash = "8bfbd4c0283ab896479590f1c9d2203494c72e6742a5de00ee8cd24ae7703031"
+
+[[files]]
+file = "defaultconfigs/create-server.toml"
+hash = "b91db7b21ed8c2f5f1ce54cbd29abac0c5052d2647f2e3007e89663147659b83"
+
+[[files]]
+file = "defaultconfigs/create_connected-server.toml"
+hash = "80e411392d27da11125501750a1967841908bdd9e438286cfdbdd5c6ea2b01b5"
+
+[[files]]
+file = "defaultconfigs/create_dd-server.toml"
+hash = "77cdf578159964f32976ac54dc974887389305c45173c05cf682dde75896b052"
+
+[[files]]
+file = "defaultconfigs/curios-server.toml"
+hash = "31818944254f689e486489e6ca4fb63a8a409e099e5f3ef99bab39c4d6e8008a"
+
+[[files]]
+file = "defaultconfigs/dankstorage-server.toml"
+hash = "2df5288b9a60ab6d867b1cdff4c9346e97b0f3f8974362ed64ca7ec08cfb5aa2"
+
+[[files]]
+file = "defaultconfigs/fastleafdecay-server.toml"
+hash = "16f73487c57e98f5985bc539f17c3f638a7cb7676517ba9cc68eabd823999c1a"
+
+[[files]]
+file = "defaultconfigs/fluxnetworks-server.toml"
+hash = "4ab8239f1d272fceacabd9b87c2efa485e2b16ab0e20598b2f57d8694ec65b9c"
+
+[[files]]
+file = "defaultconfigs/forge-server.toml"
+hash = "5e6e52616da1b55ebeebc3e6e7faaf5936584b23b26a0517d8ce398a98a95764"
+
+[[files]]
+file = "defaultconfigs/ftbchunks-world.snbt"
+hash = "7dff86530c145f4507bebfe393e4cd1fe75d45bec3fb6313d3f4fd59919ece19"
+
+[[files]]
+file = "defaultconfigs/ftbessentials.snbt"
+hash = "00fa8bdf908d3e18d9c8329c499a04c059b19bf53112138d6c7b86986ea7d728"
+
+[[files]]
+file = "defaultconfigs/irons_spellbooks-server.toml"
+hash = "274dfdd307c5781bc39bd849e559233274e6c9c2f18796f56ad48353059f39ed"
+
+[[files]]
+file = "defaultconfigs/jei-server.toml"
+hash = "56d2d8f8b8760fc2892ebf6523f17fa10836acfa5a276a96322d1a392aee2486"
+
+[[files]]
+file = "defaultconfigs/quarryplus-server.toml"
+hash = "ee3a88c4c51e96abb66a138b25ae28d48cd920e3724ecb0a4a1fba3fc5f09885"
+
+[[files]]
+file = "defaultconfigs/railways-server.toml"
+hash = "8bb806db99040ea909537e1baa2c4621f136f4f85d15e2174cbe1754c62f66d8"
+
+[[files]]
+file = "defaultconfigs/refinedstorage-server.toml"
+hash = "6a42f3226391bd94a7a4e5e4f67565b2b93b1789180a64702befb70f96820a28"
+
+[[files]]
+file = "defaultconfigs/refinedstorageaddons-server.toml"
+hash = "e37d7e565624856ebfb472fbb50b2bc4ef2a49776e6134d3a17885c65ffabf8e"
+
+[[files]]
+file = "defaultconfigs/rsinfinitybooster-server.toml"
+hash = "f995383b1b7d174ebaa180d6bf32dfa30765028d558638a86658319de0281775"
+
+[[files]]
+file = "defaultconfigs/sebastrnlib-server.toml"
+hash = "93c65bb6023a72b157eb2b1f41de8f9707a53c74f44a92fd4cdd5c7e05db3832"
+
+[[files]]
+file = "defaultconfigs/thermal-server.toml"
+hash = "44c140264cdf791aec6f996b21be8c7aeb25e19e0e3949d9d097f84a338418d6"
+
+[[files]]
+file = "defaultconfigs/twerkcropgrowth-server.toml"
+hash = "1070b79ab0b36c877e6a274d1026e3d9d35e50f0b2b5f30b941af08609673d06"
+
+[[files]]
+file = "defaultconfigs/wizards_reborn-server.toml"
+hash = "68811b68a66d3a7891bb349f6d37d3618357574dfa76fb4933f3fdb9c6eb8774"
+
+[[files]]
 file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
@@ -17077,10 +17177,6 @@ file = "kubejs/data/phantasm/worldgen/placed_feature/tall_pream.json"
 hash = "07ac7f5c3d820f5a3d84d65b95162a64a60cfda60a701756ec8b70e928229db1"
 
 [[files]]
-file = "kubejs/data/phantasm/worldgen/structure_set/obsidian_tower.json"
-hash = "5f92f8b32045ef438f3b2a99bfaec66971047325b2a45df858b5c75f37cff77e"
-
-[[files]]
 file = "kubejs/data/projectred_exploration/worldgen/configured_carver/marble_cave.json"
 hash = "d4963c764b39482cefb693a2ec039b5abe590386e36af746de5af36578019b13"
 
@@ -17451,18 +17547,6 @@ hash = "bcb837ce3b3392c2aecb5569b364659ad1a8d0f2c28ceee3b1ef30387a77e7f2"
 [[files]]
 file = "kubejs/data/thermal/worldgen/placed_feature/trees_rubberwood.json"
 hash = "55dbe766c9fa09b04d7a45df856d20eca65b8a4f55e448af9a8fdcd1ddb05bba"
-
-[[files]]
-file = "kubejs/data/towns_and_towers/worldgen/structure_set/other.json"
-hash = "935461855d24b471d90ffa7a87a1d9a032014e4acaaae2ebb301c97aafcd19a3"
-
-[[files]]
-file = "kubejs/data/towns_and_towers/worldgen/structure_set/towers.json"
-hash = "c51892aa537918ecfcea61cc4e6b1b1cf978e724833994c5b26cd1326c8ef98a"
-
-[[files]]
-file = "kubejs/data/towns_and_towers/worldgen/structure_set/towns.json"
-hash = "835e72ceb47047b1e05fafacb10e95725c948b3329bf948283383476d12f794f"
 
 [[files]]
 file = "kubejs/data/twilightforest/dimension_type/twilight_forest_type.json"
@@ -18422,7 +18506,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/server_scripts/chapter 1 - pre-LV/other stuff.js"
-hash = "2cb3888e8ab6c5e8fa349d3ecf3bf0ee3576fc938db048f7bad17164cd2362ba"
+hash = "439dee10dc4c035c78d620292d3be7fc79083d3ee1f5952aa41e1291888458d0"
 
 [[files]]
 file = "kubejs/server_scripts/chapter 1 - pre-LV/wizardry.js"
@@ -19248,6 +19332,11 @@ metafile = true
 [[files]]
 file = "mods/scalable-cats-force.pw.toml"
 hash = "10438fc3a2005f321ce674bb55876b29f071ad705b3088f11b279140cb6c6cfe"
+metafile = true
+
+[[files]]
+file = "mods/searchables.pw.toml"
+hash = "2cb8dd9a3944a6430b49916a4fe1b6cf0bd7efd907054f8e679a02717149404f"
 metafile = true
 
 [[files]]
