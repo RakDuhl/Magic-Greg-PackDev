@@ -18796,6 +18796,11 @@ hash = "e5d249d789a4a40f139d84e526b0c445529ad99d647cc5a5de39a23d23400848"
 metafile = true
 
 [[files]]
+file = "mods/controlling.pw.toml"
+hash = "4063abe583282834b2f78e3b3e6b9ee4d231a680f74c020e405a4ef196f21ee4"
+metafile = true
+
+[[files]]
 file = "mods/cooking-for-blockheads.pw.toml"
 hash = "2945e0fd313653f270be052e26cf352a96d17bbdd79d674bbfc02f8707010413"
 metafile = true
@@ -19412,7 +19417,7 @@ metafile = true
 
 [[files]]
 file = "mods/searchables.pw.toml"
-hash = "e461c1d7534ab618fc1ff30071f4342b1de2bd8037b8ee0238530c7552c32b07"
+hash = "b8c7497acbf4890b4609b6b20de7affdd3482fc99af975d9ff6b29c075e1d8a7"
 metafile = true
 
 [[files]]
@@ -19532,7 +19537,7 @@ metafile = true
 
 [[files]]
 file = "mods/unstable.pw.toml"
-hash = "0b375870e6870379d1727eef9aa7d0dfb7496de4ea4ac0fd6e0ad1633bd07e32"
+hash = "91dec2f9f7d25dce996f28653430fa02a7f72c1df9c9f2c105807beaa18acc0b"
 metafile = true
 
 [[files]]
