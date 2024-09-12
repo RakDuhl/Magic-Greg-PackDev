@@ -1,0 +1,24 @@
+# Binaries for programs and plugins
+/packwiz
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# I use GoLand now
+.idea/
+
+# I no longer have student GoLand
+.vscode/
+
+# Nix build output
+result
+
+dist/
