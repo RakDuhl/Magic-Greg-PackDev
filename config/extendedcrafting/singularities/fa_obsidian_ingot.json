@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.obsidian_ingot",
+  "colors": [
+    "2B2741",
+    "6C4D8B"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/obsidian"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.nether",
+  "colors": [
+    "B19E8F",
+    "F4F2EF"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/quartz"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": false,
+  "enabled": true
+}

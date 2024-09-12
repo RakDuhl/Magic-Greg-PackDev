@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.cinnabar",
+  "colors": [
+    "A8212A",
+    "FCCED0"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/cinnabar"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

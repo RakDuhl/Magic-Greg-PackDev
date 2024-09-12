@@ -1,0 +1,13 @@
+name = "XyCraft: Override"
+filename = "XyCraft Override-0.6.22.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ba2341ec57a45585b108c5f3ce5b29b42673fb57"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4788864
+project-id = 653790

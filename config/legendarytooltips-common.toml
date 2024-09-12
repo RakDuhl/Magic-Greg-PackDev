@@ -1,0 +1,120 @@
+
+# Legendary Tooltips Configuration Instructions
+#
+# *** READ THIS FIRST ***
+#
+# By default, this mod does not apply special borders to most items.  It was designed to work well with mod packs where
+# the available selection of items can vary widely, so it is up to the user or mod pack designer to customize as needed.
+# There are many options available for setting up which custom borders (also called frames) apply to which items.  Follow these steps:
+#   1. Decide which items you want to have custom borders, and which borders.  Note that each custom border has a number associated with it (starting at 0).
+#   2. For each custom border you want to use, fill out the associated list in the "definitions" section.  This will be filled out with a list of "selectors",
+#      each of which tell the mod what items have that border.  Please read the information above the definitions section for specifics.
+#   3. Selectors for borders are checked in the order provided in the "priorities" section.  Once a match is found, that border is displayed.
+#      For example, if border 0 had the selector "%Diamond" and border 1 had the selector "diamond_sword", they would both match for diamond swords.
+#      In this case, whichever border number came first in the priority list would be the border that would get drawn in-game.
+#   4. Optionally, border colors associated with custom borders can be set in the "colors" section.  The start color is the color at the top of the tooltip,
+#      and the end color is the bottom, with a smooth transition between.  Please read the information above the color section for specifics.
+[client]
+
+	[client.visual_options]
+		# Whether item names in tooltips should have a line under them separating them from the rest of the tooltip.
+		name_separator = true
+		# If enabled, tooltip border colors will match item rarity colors (except for custom borders).
+		borders_match_rarity = true
+		# If enabled, tooltips will display a drop shadow.
+		tooltip_shadow = true
+		# If enabled, items showing a custom border will have a special shine effect when hovered over.
+		shine_effect = true
+		# If enabled, tooltip titles will be drawn centered.
+		centered_title = true
+		# If enabled, tooltips with custom borders will always be at least wide enough to display all border decorations.
+		enforce_minimum_width = true
+		# If enabled, some unnecessary text and spacing will be removed from equipment tooltips.
+		compact_tooltips = true
+		# Which items should have a 3D model rendered in the tooltip.  If set to "equipment", the model will only be rendered for items with durability.
+		#Allowed Values: NONE, EQUIPMENT, ALL
+		render_item_model = "EQUIPMENT"
+		# The speed at which 3D models in tooltips will rotate.  Lower values rotate faster, set to 0 to disable rotation.
+		#Range: 0.0 ~ 50.0
+		model_rotation_speed = 12.0
+
+	# Entry types:
+	#    Match all - Specifying just an asterisk (*) will match all items.  Examples: "*"
+	#    Item ID - Use item ID to match single items.  Must include mod name for modded items.  Examples: "minecraft:stick", "iron_ore", "spoiledeggs:spoiled_egg"
+	#    Tag - $ followed by tag name to match all items with that tag.  Examples: "$forge:stone", "$planks"
+	#    Mod name - @ followed by mod identifier to match all items from that mod.  Examples: "@spoiledeggs"
+	#    Rarity - ! followed by item's rarity to match all items with that rarity.  This is ONLY vanilla rarities.  Examples: "!uncommon", "!rare", "!epic"
+	#    Item name color - # followed by color hex code, to match all items with that exact color item name.  Examples: "#23F632"
+	#    Display name - % followed by any text.  Will match any item with this text (case-sensitive) in its tooltip display name.  Examples: "%Netherite", "%Uncommon"
+	#    Tooltip text - ^ followed by any text.  Will match any item with this text (case-sensitive) anywhere in the tooltip text (besides the name).  Examples: "^Legendary"
+	#    NBT tag - & followed by tag name and optional comparator (=, >, <, or !=) and value, in the format <tag><comparator><value> or just <tag>.  Examples: "&Damage=0", "&Tier>1", "&map!=128", "&Enchantments"
+	#    Negation - ~ followed by any selector above.  This selector will be negated, matching every item that does NOT match the selector.  Examples: "~minecraft:stick", "~!uncommon", "~@minecraft"
+	#    Combining selectors - Any number of selectors can be combined by separating them with a plus sign.  Examples: "minecraft:diamond_sword+&Enchantments", "minecraft:stick+~!common+&Damage=0"
+	[client.definitions]
+		level0_entries = ["%Wrought+%Iron", "%ULV", "^(ULV)", "^ULV", "^8+^ULV", "%Ultra+%Low"]
+		level1_entries = ["%LV ", "^(LV)", "^LV", "^32+^LV", "%Coal+~%Alchemical", "%Quartz", "%Redstone"]
+		level2_entries = ["%Aluminium", "%MV ", "^(MV)", "^MV", "^128+^MV", "%Manasteel", "golden_carrot", "%Amethyst", "%Lapis", "%Prismarine", "minecraft:phantom_membrane", "%Chorus", "%Alchemical+%Coal"]
+		level3_entries = ["%Stainless", "%HV ", "^(HV)", "^HV+~^UHV", "^512+^HV", "%Elementium", "!uncommon", "minecraft:rabbit_foot", "minecraft:end_crystal", "%Skull", "%Emerald", "minecraft:golden_apple", "minecraft:dragon_breath", "%Arcane", "forbidden_arcanus:rune_block", "%Mundabitur", "%Strange+%Root", "%Ferrognetic", "%Sanity", "forbidden_arcanus:obsidian_skull", "%Mobius", "%Aeternalis", "%Interdiction", "%Alchemical Chest", "projecte:collector_mk1", "projecte:relay_mk1", "projecte:repair_talisman"]
+		level4_entries = ["%Titanium", "%EV ", "^(EV)", "^EV", "^2048+^EV", "!rare", "nautilus_shell", "echo_shard", "%Diamond", "lodestone", "%Deorum", "forbidden_arcanus:xpetrified_orb", "forbidden_arcanus:eternal_stella", "forbidden_arcanus:soul", "forbidden_arcanus:corrupted_soul", "forbidden_arcanus:enchanted_coul", "forbidden_arcanus:pixie", "forbidden_arcanus:corrupted_pixie", "forbidden_arcanus:golden_feather", "%Quantum+%Catcher", "projecte:collector_mk2", "projecte:relay_mk2", "projecte:condenser_mk1", "%Dark+%Matter", "%Black+%Hole", "%Archangel+%Smite", "%Harvest+%Goddess", "%Ignition+%Ring", "%Zero+%Ring", "%Swiftwolf", "%Watch+%of+%Flowing", "%Evertide", "%Volcanite", "%Gem+%of+%Eternal"]
+		level5_entries = ["%Tungstensteel", "%IV ", "^(IV)", "^IV", "^8192+^IV", "%Terrasteel", "!epic", "trident", "heart_of_the_sea", "nether_star", "reinforced_deepslate", "%Dragon", "%Red+%Matter", "projecte:collector_mk3", "projecte:relay_mk3", "%Void+%Ring", "projecte:arcana_ring", "%Mercurial+%Eye", "%Body+%Stone", "%Soul+%Stone", "%Mind+%Stone", "%Life+%Stone", "projecte:condenser_mk2"]
+		level6_entries = ["%Rhodium+%Plated", "%LuV ", "^(LuV)", "^LuV", "^32768+^LuV", "projecte:dm_pedestal", "%Magenta+%Matter"]
+		level7_entries = ["%Naquadah", "%ZPM", "^(ZPM)", "^ZPM", "^131072+^ZPM", "%Klein+%Star+%Ein", "%Klein+%Star+%Zwei", "%Klein+%Star+%Drei", "%Klein+%Star+%Vier", "%Pink+%Matter"]
+		level8_entries = ["%Darmstadtium", "%UV", "^(UV)", "^UV", "^524288+^UV", "%Gaia", "%Klein+%Star+%Sphere", "%Transmutation+%Tablet", "%Transmutation+%Table", "%Philosopher", "%Purple+%Matter"]
+		level9_entries = ["%Neutronium", "%UHV", "^(UHV)", "^UHV", "%Singularities", "%Singularity", "projecte:klein_star_omega", "%Violet+%Matter", "%Blue+%Matter", "%Cyan+%Matter", "%Green+%Matter", "%Lime+%Matter"]
+		level10_entries = ["&creative", "%creative", "%Creative", "^Creative", "^Infinite", "%Infinite", "projecte:tome"]
+		level11_entries = []
+		level12_entries = []
+		level13_entries = []
+		level14_entries = []
+		level15_entries = []
+		# Enter blacklist selectors here using the same format as above. Any items that match these selectors will NOT show a border.
+		blacklist = []
+
+	# Set border priorities here.  This should be a list of numbers that correspond to border levels, with numbers coming first being higher priority.
+	# Optionally, -1 can be inserted to indicate relative priority of data and api-defined borders.  If you don't know what that means, you don't need to worry about it.
+	[client.priorities]
+		priorities = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+
+	# The colors used for each tooltip, in this order: top border color, bottom border color, top background color, bottom background color.
+	# None of these colors are required, though any colors not specified will be replaced with the default tooltip colors.
+	#
+	# VALID COLOR FORMATS
+	#   Hex color code - A hex color code is preceded by # or 0x and must be quoted.  Supports 3, 4, 6, or 8 digit codes in the formats RGB, ARGB, RRGGBB, AARRGGBB.
+	#     Examples: "#F4C", "0xFEE0", "#40FF2E", "#CC00E2EE"
+	#
+	#   Decimal color code - A decimal color code, which is just a hex color code converted to decimal.  May or may not be quoted.
+	#     Examples: 15614720, "4278251143"
+	#
+	#   Minecraft color name - One of the standard 16 Minecraft color names.  Must be quoted.
+	#     Examples: "red", "dark_purple", "gold"
+	#
+	#   Web color name - One of the standard 140 web/HTML color names or "transparent".  Must be quoted.
+	#     Examples: "chartreuse", "darkorange", "deeppink", "deepskyblue"
+	#
+	#   Modifiers - Colors specified in any of the above formats can be modified by using modifiers.
+	#         Modifiers are specified after any color in the format "<+, -, or =><h, s, v, r, g, b, or a><amount>".
+	#         The letters represent h - hue, s - saturation, v - value, r - red, g - green, b - blue, a - alpha.
+	#         Valid amounts are 0 to 255 for all types except hue, which accepts 0 to 359.
+	#     Examples: "red+h15", "#saddlebrown-v20+s5", "10_aqua_aqua+v15-h5", "#F4C-r15-v10=a40"
+	#
+	#   Animated color - An animated color that fades from one to another in sequence.
+	#         A string in the format "<duration in seconds>_<list of color definitions separated by underscores>".  Must be quoted.
+	#     Examples: "10_black_#7FFF00", "5.5_gold_orange_orangered", "20_red_orange_yellow_green_blue_purple"
+	[client.colors]
+		level0_colors = ["0x759675", "0x3a4a3a", "0x808080", "0x424242"]
+		level1_colors = ["0x808080", "0x616161", "0x7e8f91", "0x394647"]
+		level2_colors = ["0x42ff42", "0x237523", "0x277027", "0x0d2b0d"]
+		level3_colors = ["0x0000FF", "0x141452", "0x1e1e69", "0x0b0b26"]
+		level4_colors = ["0x800080", "0x3d1b3d", "0x3b2b3b", "0x1a0d1a"]
+		level5_colors = ["0xFFA500", "0x5c3f09", "0x3d3629", "0x211807"]
+		level6_colors = ["10_red_red_red_#fcd2b1_white_white_white_white_white", "10_#590000_#3d2525", "7_#241010_#332414_#42403e", "11_#0d0404_#17110b_#242322"]
+		level7_colors = ["7_#ffbf00_#ffe9a6_#ffbf00_#ffbf00_#ffbf00", "11_#806000_#806e39_#806000", "0x4d3800", "0x261c00"]
+		level8_colors = ["20_#00FFFF_#0eb3b3_#2cbfbf_#5dd4d4_#2b7a7a_#6e573f_#45c3cc_#eba45e_#1da7de", "0x00596b", "0x1e2d30", "0x011114"]
+		level9_colors = ["9_#FFFFFF_#E5E4E2_#c8cecf_#f5efc6_#f0eee1_#cadcde", "0xffffff", "9_#4d4d4d_#333332_#252626_#424136_#4d4c48_#353a3b", "0x2e2e2e"]
+		level10_colors = ["10_#9500ff_#551ba6_#a630d9_#3e0ecf_#8000ff", "0x8000ff", "auto", "auto"]
+		level11_colors = ["auto", "auto", "auto", "auto"]
+		level12_colors = ["auto", "auto", "auto", "auto"]
+		level13_colors = ["auto", "auto", "auto", "auto"]
+		level14_colors = ["auto", "auto", "auto", "auto"]
+		level15_colors = ["auto", "auto", "auto", "auto"]
+

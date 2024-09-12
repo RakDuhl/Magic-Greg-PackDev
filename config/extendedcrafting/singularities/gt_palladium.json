@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.palladium",
+  "colors": [
+    "9E9E9E",
+    "E5E5E5"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/palladium"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

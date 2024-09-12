@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.carminite",
+  "colors": [
+    "E32400",
+    "980000"
+  ],
+  "ingredient": {
+    "item": "twilightforest:carminite"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

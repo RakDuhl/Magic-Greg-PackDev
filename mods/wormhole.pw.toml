@@ -1,0 +1,13 @@
+name = "Wormhole (Portals)"
+filename = "wormhole-1.1.16-forge-mc1.20.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/6nHZTTjQ/versions/qTnVesOt/wormhole-1.1.16-forge-mc1.20.jar"
+hash-format = "sha512"
+hash = "142d58d8306d5c4390a240cc2bbdd50a040bf2f40e648052facfe28c60ebbf6af256ab16d22deea90887b760c65f6cc76ede9f40b50f27c48cd0267a05259f99"
+
+[update]
+[update.modrinth]
+mod-id = "6nHZTTjQ"
+version = "qTnVesOt"

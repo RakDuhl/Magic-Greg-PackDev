@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.ender_pearl",
+  "colors": [
+    "032620",
+    "8AF1DF"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/ender_pearl"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.manganese",
+  "colors": [
+    "C7C7C7",
+    "D9D9D5"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/manganese"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

@@ -1,0 +1,21 @@
+{
+    "type": "create:crushing",
+    "group": "minecraft:misc",
+    "ingredients": [
+        {
+            "item": "create:crushed_uranium_ore"
+        }
+    ],
+    "results": [
+        {
+            "item": "mekanism:dust_uranium",
+            "count": 1
+        },
+        {
+            "item": "mekanism:dust_uranium",
+            "count": 1,
+            "chance": 0.1
+        }
+    ],
+    "processingTime": 20
+}

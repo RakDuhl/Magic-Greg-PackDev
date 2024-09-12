@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.blue_xychorium",
+  "colors": [
+    "42DDE4",
+    "AFF6EF"
+  ],
+  "ingredient": {
+    "item": "xycraft_world:xychorium_gem_blue"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

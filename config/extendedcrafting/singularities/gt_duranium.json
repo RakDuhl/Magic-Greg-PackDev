@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.duranium",
+  "colors": [
+    "ABA27E",
+    "F0E4A7"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/duranium"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

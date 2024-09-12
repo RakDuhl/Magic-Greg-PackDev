@@ -1,0 +1,13 @@
+name = "XyCraft: Machines"
+filename = "XyCraft Machines-0.6.22.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "951528b6b3b4b07aaff26a83569ad8ecd368b3c0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4788865
+project-id = 653791

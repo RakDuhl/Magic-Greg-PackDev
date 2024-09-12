@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.fiery_ingot",
+  "colors": [
+    "211511",
+    "D89C52"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/fiery"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

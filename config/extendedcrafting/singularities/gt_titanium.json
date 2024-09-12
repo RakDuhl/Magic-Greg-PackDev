@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.titanium",
+  "colors": [
+    "EECBF1",
+    "C29CCE"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/titanium"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

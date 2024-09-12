@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.rutile",
+  "colors": [
+    "621804",
+    "8B4632"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/rutile"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

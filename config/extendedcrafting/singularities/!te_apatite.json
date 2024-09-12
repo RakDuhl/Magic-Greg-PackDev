@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.apatite",
+  "colors": [
+    "66B7EB",
+    "6F64FC"
+  ],
+  "ingredient": {
+    "item": "blue_skies:diopside_gem"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": false,
+  "enabled": true
+}

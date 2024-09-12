@@ -1,0 +1,9 @@
+
+#General Explosions
+[Performance]
+	#Whether or not an explosion should be used that has more performance at the cost of detail
+	performantExplosion = true
+	#Higher values give more performance at the cost of details, lower values give more details at the cost of performance
+	#Range: 0.3 ~ 0.6
+	explosionPerformanceFactor = 0.3
+

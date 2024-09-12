@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.horizonite",
+  "colors": [
+    "FC8D39",
+    "FCAB39"
+  ],
+  "ingredient": {
+    "item": "blue_skies:horizonite_ingot"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

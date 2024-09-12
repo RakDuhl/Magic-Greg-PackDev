@@ -1,0 +1,23 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "irons_spellbooks:battleground/origin",
+        "processors": "irons_spellbooks:ancient_battlegrounds_randomization"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "irons_spellbooks:battleground/origin_2",
+        "processors": "irons_spellbooks:ancient_battlegrounds_randomization"
+      }
+    }
+  ]
+}

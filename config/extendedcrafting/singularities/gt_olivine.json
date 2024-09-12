@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.olivine",
+  "colors": [
+    "6EA60E",
+    "C4EB5C"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/olivine"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": false,
+  "enabled": true
+}

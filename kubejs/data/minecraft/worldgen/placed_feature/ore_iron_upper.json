@@ -1,0 +1,40 @@
+{
+  "feature": "minecraft:ore_iron",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 2
+    },
+    {
+      "type": "minecraft:noise_based_count",
+      "noise_to_count_ratio": 30,
+      "noise_factor": 0
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 0,
+          "max_inclusive": 15
+        }
+      },
+      "y_spread": 0
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:trapezoid",
+        "min_inclusive": {
+          "absolute": 80
+        },
+        "max_inclusive": {
+          "absolute": 640
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

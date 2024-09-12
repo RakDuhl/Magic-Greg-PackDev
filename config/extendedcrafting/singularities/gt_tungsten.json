@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.tungsten",
+  "colors": [
+    "2F2E22",
+    "000000"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/tungsten"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

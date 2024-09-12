@@ -1,0 +1,82 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "botania:rune_water"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "botania:rune_fire"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "botania:rune_earth"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "botania:rune_air"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "botania:rune_spring"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "botania:rune_summer"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "botania:rune_autumn"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "botania:rune_winter"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "botania:rune_mana"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "botania:rune_lust"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "botania:rune_gluttony"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "botania:rune_greed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "botania:rune_sloth"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "botania:rune_wrath"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "botania:rune_envy"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "botania:rune_pride"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "min": 2,
+            "max": 4
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.tritanium",
+  "colors": [
+    "893C52",
+    "D79398"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/tritanium"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

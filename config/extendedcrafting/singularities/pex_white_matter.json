@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.white_matter",
+  "colors": [
+    "FFFFFF",
+    "FFFFFF"
+  ],
+  "ingredient": {
+    "item": "projectexpansion:white_matter"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

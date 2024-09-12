@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.antimony",
+  "colors": [
+    "E7E7FC",
+    "B0B0C3"
+  ],
+  "ingredient": {
+    "item": "gtceu:antimony_ingot"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": false,
+  "enabled": true
+}

@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.fallen_star",
+  "colors": [
+    "FCFCFC",
+    "9579AF"
+  ],
+  "ingredient": {
+    "item": "phantasm:fallen_star"
+  },
+  "materialCount": 16,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

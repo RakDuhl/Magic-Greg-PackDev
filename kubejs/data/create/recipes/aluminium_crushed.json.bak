@@ -1,0 +1,21 @@
+{
+    "type": "create:crushing",
+    "group": "minecraft:misc",
+    "ingredients": [
+        {
+            "item": "create:crushed_aluminum_ore"
+        }
+    ],
+    "results": [
+        {
+            "item": "immersiveengineering:dust_aluminum",
+            "count": 1
+        },
+        {
+            "item": "immersiveengineering:dust_aluminum",
+            "count": 1,
+            "chance": 0.65
+        }
+    ],
+    "processingTime": 20
+}

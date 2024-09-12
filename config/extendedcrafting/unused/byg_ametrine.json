@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.ametrine",
+  "colors": [
+    "DB7A92",
+    "D69E4E"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/ametrine"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": false,
+  "enabled": true
+}

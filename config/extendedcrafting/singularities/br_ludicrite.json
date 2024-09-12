@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.ludicrite",
+  "colors": [
+    "AA47DD",
+    "AA47DD"
+  ],
+  "ingredient": {
+    "item": "bigreactors:ludicrite_ingot"
+  },
+  "materialCount": 256,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

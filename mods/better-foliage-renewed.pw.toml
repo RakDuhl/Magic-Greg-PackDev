@@ -1,0 +1,13 @@
+name = "Better Foliage Renewed"
+filename = "betterfoliage-5.0.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/czNFt8ef/versions/LGnYiw7R/betterfoliage-5.0.2.jar"
+hash-format = "sha512"
+hash = "dc9f2035dd45005716817cc4621ca11d34f70d1bb72aad35808808f43c32b2e0b402a9c252918b318ff6297eb6c1eb565c6d632f446ebe198fca3f40a032f798"
+
+[update]
+[update.modrinth]
+mod-id = "czNFt8ef"
+version = "LGnYiw7R"

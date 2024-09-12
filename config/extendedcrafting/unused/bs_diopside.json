@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.diopside",
+  "colors": [
+    "4BE548",
+    "007908"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/diopside"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

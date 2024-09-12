@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.red_xychorium",
+  "colors": [
+    "C94A65",
+    "FCB457"
+  ],
+  "ingredient": {
+    "item": "xycraft_world:xychorium_gem_red"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

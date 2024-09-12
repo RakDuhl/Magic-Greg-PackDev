@@ -1,0 +1,13 @@
+name = "Patched"
+filename = "Patched-forge-3.2.3+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/IBlGrJtC/versions/VUXoCJFz/Patched-forge-3.2.3%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "b6055801ed7694275971caaebba7802823aa48aea61e464187ce6e44888e50949ad6b5478aa11b6a30e6c10df91164f685cd7a364bf08af884acf734b632e336"
+
+[update]
+[update.modrinth]
+mod-id = "IBlGrJtC"
+version = "VUXoCJFz"

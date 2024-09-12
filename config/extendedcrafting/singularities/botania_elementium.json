@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.elementium",
+  "colors": [
+    "791890",
+    "DD82A3"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/elementium"
+  },
+  "materialCount": 512,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

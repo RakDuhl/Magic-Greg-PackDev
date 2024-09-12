@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.cobalt",
+  "colors": [
+    "635D91",
+    "A89EB2"
+  ],
+  "ingredient": {
+    "item": "gtceu:cobalt_ingot"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

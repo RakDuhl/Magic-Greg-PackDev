@@ -1,0 +1,13 @@
+name = "XyCraft: World"
+filename = "XyCraft World-0.6.22.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4de402cf6d5cfa651424a9380937d4f477752f48"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4788863
+project-id = 653789

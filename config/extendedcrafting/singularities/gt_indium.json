@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.indium",
+  "colors": [
+    "CEC6D6",
+    "7A6391"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/indium"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "name": "aureal_bottle",
+      "rolls": {
+        "min": 1,
+        "max": 2,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "forbidden_arcanus:aureal_bottle"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "name": "splash_aureal_bottle",
+      "rolls": {
+        "min": 1,
+        "max": 2,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "forbidden_arcanus:splash_aureal_bottle"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 5
+        }
+      ]
+    }
+  ]
+}

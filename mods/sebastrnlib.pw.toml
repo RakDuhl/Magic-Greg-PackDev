@@ -1,0 +1,13 @@
+name = "SebastrnLib"
+filename = "sebastrnlib-4.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/a9K5upFZ/versions/HTnN2Qop/sebastrnlib-4.0.0.jar"
+hash-format = "sha512"
+hash = "2f76d1cf6bcdf23fc64f423e42706a1d41fe82960d5ef92c2ba3eb21f90134b5295ff4ea949ed6607b0bc002697c7723c0fbd090d4236a3874f6f235ccd03950"
+
+[update]
+[update.modrinth]
+mod-id = "a9K5upFZ"
+version = "HTnN2Qop"

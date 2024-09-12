@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.aquite",
+  "colors": [
+    "A1EAF4",
+    "294F94"
+  ],
+  "ingredient": {
+    "item": "blue_skies:aquite"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

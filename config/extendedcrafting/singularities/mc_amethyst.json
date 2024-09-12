@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.amethyst",
+  "colors": [
+    "B18CF0",
+    "533888"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/amethyst"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": false,
+  "enabled": true
+}

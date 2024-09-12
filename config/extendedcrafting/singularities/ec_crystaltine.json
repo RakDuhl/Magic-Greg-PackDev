@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.crystaltine",
+  "colors": [
+    "C5E7F6",
+    "9ADCF9"
+  ],
+  "ingredient": {
+    "item": "extendedcrafting:crystaltine_ingot"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

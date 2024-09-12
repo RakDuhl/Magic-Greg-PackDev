@@ -1,0 +1,13 @@
+name = "Twerk Crop Growth"
+filename = "twerkcropgrowth-2.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/u7CFIOJ1/versions/ZfQmT7WH/twerkcropgrowth-2.1.0.jar"
+hash-format = "sha512"
+hash = "5c863a5961d051f5bec54effa8454bb90ccd3d160d5fb04c74908df61f2c467a2ac7490e4ab785b0197fbc219d0cb38769dba181dc8169ad71d0089e947211bb"
+
+[update]
+[update.modrinth]
+mod-id = "u7CFIOJ1"
+version = "ZfQmT7WH"

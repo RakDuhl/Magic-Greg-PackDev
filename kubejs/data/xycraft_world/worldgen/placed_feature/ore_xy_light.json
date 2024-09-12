@@ -1,0 +1,40 @@
+{
+  "feature": "xycraft_world:ore_xy_light",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 3
+    },
+    {
+      "type": "minecraft:noise_based_count",
+      "noise_to_count_ratio": 20,
+      "noise_factor": 8
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 0,
+          "max_inclusive": 15
+        }
+      },
+      "y_spread": 0
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 196
+        },
+        "max_inclusive": {
+          "absolute": 500
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

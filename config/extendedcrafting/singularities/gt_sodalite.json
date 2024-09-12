@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.sodalite",
+  "colors": [
+    "3342D3",
+    "3C53FC"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/sodalite"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": false,
+  "enabled": true
+}

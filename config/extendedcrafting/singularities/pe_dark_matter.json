@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.dark_matter",
+  "colors": [
+    "36173D",
+    "150919"
+  ],
+  "ingredient": {
+    "item": "projecte:dark_matter"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

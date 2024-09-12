@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.charoite",
+  "colors": [
+    "B587D6",
+    "62467F"
+  ],
+  "ingredient": {
+    "item": "blue_skies:charoite"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": false,
+  "enabled": true
+}

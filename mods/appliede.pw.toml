@@ -1,0 +1,13 @@
+name = "AppliedE"
+filename = "appliede-0.14.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SyKS54UY/versions/vYxs340D/appliede-0.14.0.jar"
+hash-format = "sha512"
+hash = "261c5d37704dd9aa3814d753165a1ee3d40fe430a429645bef5fc9c594589657308df319dee3b56ab8753376a3d2bfc755230d28d60a01f8627bf1551a00f2fc"
+
+[update]
+[update.modrinth]
+mod-id = "SyKS54UY"
+version = "vYxs340D"

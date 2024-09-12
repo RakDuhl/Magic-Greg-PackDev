@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.yttrium",
+  "colors": [
+    "585A51",
+    "ACAC9D"
+  ],
+  "ingredient": {
+    "item": "gtceu:yttrium_ingot"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

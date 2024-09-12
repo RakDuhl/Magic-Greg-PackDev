@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.magenta_matter",
+  "colors": [
+    "B800A2",
+    "ED86DB"
+  ],
+  "ingredient": {
+    "item": "projectexpansion:magenta_matter"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

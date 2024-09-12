@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.ventium",
+  "colors": [
+    "CF2532",
+    "E1626B"
+  ],
+  "ingredient": {
+    "item": "blue_skies:ventium_ingot"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": false,
+  "enabled": true
+}

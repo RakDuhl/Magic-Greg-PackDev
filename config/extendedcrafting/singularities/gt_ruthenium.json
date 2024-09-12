@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.ruthenium",
+  "colors": [
+    "C5CCCF",
+    "74878E"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/ruthenium"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

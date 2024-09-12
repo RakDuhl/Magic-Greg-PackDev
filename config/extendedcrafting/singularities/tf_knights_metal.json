@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.knights_metal",
+  "colors": [
+    "C2D3AC",
+    "F6FCD3"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/knightmetal"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}
