@@ -12449,14 +12449,6 @@ file = "kubejs/data/dungeons_arise/worldgen/processor_list/mushroom_village_hous
 hash = "6be4ee190e2c6053c00ff03d6bd21233498633482660532875836f809cf4f0df"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/worldgen/structure_set/major_structures.json"
-hash = "7f41c9205c72f4200a777d5ac08de7a7e8d1d1185c4ff508fd8cd81dae01da0d"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/worldgen/structure_set/minor_structures.json"
-hash = "cd5176fe1a82c37cee9b052965c9c3d79f5a6b1ac41c670c30a0651bcd2270ff"
-
-[[files]]
 file = "kubejs/data/dungeons_arise/worldgen/template_pool/aquatic/illager_corsair/illager_corsair_main.json"
 hash = "0111d0076044057d9943e161df646baf94be002996ab95b319541bc5636167e3"
 
@@ -17177,18 +17169,6 @@ file = "kubejs/data/thermal/worldgen/placed_feature/trees_rubberwood.json"
 hash = "55dbe766c9fa09b04d7a45df856d20eca65b8a4f55e448af9a8fdcd1ddb05bba"
 
 [[files]]
-file = "kubejs/data/towns_and_towers/worldgen/structure_set/other.json"
-hash = "935461855d24b471d90ffa7a87a1d9a032014e4acaaae2ebb301c97aafcd19a3"
-
-[[files]]
-file = "kubejs/data/towns_and_towers/worldgen/structure_set/towers.json"
-hash = "c51892aa537918ecfcea61cc4e6b1b1cf978e724833994c5b26cd1326c8ef98a"
-
-[[files]]
-file = "kubejs/data/towns_and_towers/worldgen/structure_set/towns.json"
-hash = "835e72ceb47047b1e05fafacb10e95725c948b3329bf948283383476d12f794f"
-
-[[files]]
 file = "kubejs/data/xycraft_world/worldgen/configured_feature/ore_aluminum.json"
 hash = "6478f673df1d12c34bd4c203b36b5c2a01517b21c653a8fb7743dd2e838f418b"
 
@@ -17585,11 +17565,6 @@ metafile = true
 [[files]]
 file = "mods/dank-storage.pw.toml"
 hash = "96ae15d806d73fb0a14022165f8b9ed88d2d061ea952bc55b392229087e4b60f"
-metafile = true
-
-[[files]]
-file = "mods/distanthorizons.pw.toml"
-hash = "5f6c35eca0fde396c1ece31de3c4f360bfbac90a3654f4cd1bf88d275c136908"
 metafile = true
 
 [[files]]

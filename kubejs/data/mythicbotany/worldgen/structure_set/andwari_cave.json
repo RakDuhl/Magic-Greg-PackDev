@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "mythicbotany:andwari_cave",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1328389907,
+    "spacing": 28,
+    "separation": 8
+  }
+}
