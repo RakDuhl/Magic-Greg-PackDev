@@ -17453,6 +17453,11 @@ hash = "6f9ada4ae8dfcf29a7071e0eec596d8408e6e9091385db8fd1cddd0c2d89217a"
 metafile = true
 
 [[files]]
+file = "mods/citadel.pw.toml"
+hash = "05fdc598a3d7461f62d878ebe8d3d7fd714ca8bdeb93831e9f0e0876adfca01a"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "3bacc7b869d008df0e47a425bd6d9cec0950a88b22d9d624a553d124c6259dbd"
 metafile = true
@@ -17465,6 +17470,11 @@ metafile = true
 [[files]]
 file = "mods/codechicken-lib.pw.toml"
 hash = "cabbb2548a8cbe5f1d6d8f6dfc4a2282d21fcffda6a21b7df34b4f6b006ef966"
+metafile = true
+
+[[files]]
+file = "mods/cofh-core.pw.toml"
+hash = "2851d6afaaef7a6295ad252746fd4d200e96f7e85c24f11dca9be06ad221b41b"
 metafile = true
 
 [[files]]
@@ -17575,11 +17585,6 @@ metafile = true
 [[files]]
 file = "mods/dank-storage.pw.toml"
 hash = "96ae15d806d73fb0a14022165f8b9ed88d2d061ea952bc55b392229087e4b60f"
-metafile = true
-
-[[files]]
-file = "mods/destroy.pw.toml"
-hash = "fcb9b5ece4ac6449a3e5ab3c5bf36245f542b2b36a4f16cb208d47d9e9063019"
 metafile = true
 
 [[files]]
