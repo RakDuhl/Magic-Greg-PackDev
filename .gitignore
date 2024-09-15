@@ -22,3 +22,9 @@
 result
 
 dist/
+
+#Ignoring some files, as they are constantly getting updated whenever minecraft launches
+config/oculus.properties
+config/quark-common.toml
+config/worldedit/worldedit.properties
+config/toolleveling/README.txt
