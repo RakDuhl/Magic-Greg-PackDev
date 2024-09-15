@@ -1474,7 +1474,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "86a7e4cc8155db551fe57ff93eb27606aa9c9347e6adb3f2fd6208609c6f2f23"
+hash = "1c6fd164f8860d9ffa224b04ba37d4b2c72ea5d022d1d09c0ff3b94fe2d98eda"
 
 [[files]]
 file = "config/oreexcavation-client.toml"
@@ -1610,15 +1610,15 @@ hash = "ab259e2369fc503c0cd905ec9b57b5867f4dbd249edf7a2b52193b36ffbcdeab"
 
 [[files]]
 file = "config/sound_physics_remastered/allowed_sounds.properties"
-hash = "65b0d033fd9daad9a5326aced89cd70c85d7fe72504cea10ca546cf4c7d28347"
+hash = "50ee1bc5f40ebcbb1063b9185ae97e55b7b9c75a97ae6dc899a89fe58a25eefd"
 
 [[files]]
 file = "config/sound_physics_remastered/occlusion.properties"
-hash = "7f1079d241179f3ce801a3c0a010ebfc42defd03beac227f090faefb033052f0"
+hash = "9b7caa93023c4969dbb4e379ff31904f5f3119b5bc5f2958b8ef8aa15ba703e2"
 
 [[files]]
 file = "config/sound_physics_remastered/reflectivity.properties"
-hash = "0645aa3932ce18d67c127775188f80b57b26e13050f3d0d3e5aae8f48f8ec2e7"
+hash = "56ff6c4e9fe8bc4b10e538de87aadbe410bb39ad478f477cbcd4891536d4be5e"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -2202,7 +2202,7 @@ hash = "9757a6208de6780c7d86d61a75e997848a30a7e759f5e2f3e29d08ab7aa6383f"
 
 [[files]]
 file = "config/worldedit/worldedit.properties"
-hash = "5c0ed5c011d8f3b1aa8253edae67841839a57c567812e2506be753b130211982"
+hash = "15dd5930655e52bc083ddabcf12b7786fe5a44cc85f46a3bdea55e457b7248af"
 
 [[files]]
 file = "config/worldeditcui.config.json"
@@ -17509,102 +17509,6 @@ file = "kubejs/data/supplementaries/worldgen/template_pool/way_sign/feature_pool
 hash = "c615e38503e7f820e6cd0852757e42f508f73124f7260ccfdebd436e065ad565"
 
 [[files]]
-file = "kubejs/data/thermal/worldgen/configured_feature/apatite_ore.json"
-hash = "21e06aac55e40cf5711078d7a2af4d98bce5b98efce65d346fb5ec0d13af6d97"
-
-[[files]]
-file = "kubejs/data/thermal/worldgen/configured_feature/cinnabar_ore.json"
-hash = "e71ec8e20005b2d6934edc7008d738e5cd0b58b015ef38e6e3d658f3f74fff4c"
-
-[[files]]
-file = "kubejs/data/thermal/worldgen/configured_feature/lead_ore.json"
-hash = "554f8f9270923216224816f0bdd0230879471ccc662a9bed7051c51b81e571cf"
-
-[[files]]
-file = "kubejs/data/thermal/worldgen/configured_feature/mega_rubberwood_tree.json"
-hash = "153906acd41f01052bb2f592cafa0ea0b14b4d2c642704606471286201082411"
-
-[[files]]
-file = "kubejs/data/thermal/worldgen/configured_feature/nickel_ore.json"
-hash = "1dd7223aafc07b9dc135ed1c832ed5123a16c4368c1eda58f2e6c0f7c7c2687b"
-
-[[files]]
-file = "kubejs/data/thermal/worldgen/configured_feature/niter_ore.json"
-hash = "64d5a079416bf623f1340dc8445109609e330df67c9fdb4bfe1cc67e5c21532c"
-
-[[files]]
-file = "kubejs/data/thermal/worldgen/configured_feature/oil_sand.json"
-hash = "e6d5fb5cc911431713ef12acf6602e1ecff72b7719920d56c767c1d09d61f890"
-
-[[files]]
-file = "kubejs/data/thermal/worldgen/configured_feature/rubberwood_tree.json"
-hash = "1e88b4572bca27d84cfdc7d5f6a88290ccf54c0d2353a73bebc9f358a20a1acb"
-
-[[files]]
-file = "kubejs/data/thermal/worldgen/configured_feature/silver_ore.json"
-hash = "82949882696299c49d54577e93f710584ca5884d239cd127037dac38b56e5faa"
-
-[[files]]
-file = "kubejs/data/thermal/worldgen/configured_feature/sulfur_ore.json"
-hash = "12d6df1c03fda9f7ef4e5458130596c6bfa5b6cb9ea52b86ad5d1d31fec9cd1b"
-
-[[files]]
-file = "kubejs/data/thermal/worldgen/configured_feature/tin_ore.json"
-hash = "b766875d3e64c78490c7ff4ed05e87915d6db0039df481e418669fda626e9439"
-
-[[files]]
-file = "kubejs/data/thermal/worldgen/configured_feature/trees_rubberwood.json"
-hash = "a2fa35b53358b98e80f9ac12ee4360bc74b47bf683342cf8b2284fa9927dd16b"
-
-[[files]]
-file = "kubejs/data/thermal/worldgen/placed_feature/apatite_ore.json"
-hash = "b6f2946263fe842002b4cf1176ecb7e20d22486b8b83df4de7aa3beb1502b8ec"
-
-[[files]]
-file = "kubejs/data/thermal/worldgen/placed_feature/cinnabar_ore.json"
-hash = "0e6aec63000feb293e817ae51c3bad551d8e806b55465ffabfe6f8756001e497"
-
-[[files]]
-file = "kubejs/data/thermal/worldgen/placed_feature/lead_ore.json"
-hash = "64d2faee3a8071ae4a177ada35682abc89daee7cb7f43673eafba59d00c6079d"
-
-[[files]]
-file = "kubejs/data/thermal/worldgen/placed_feature/mega_rubberwood_tree.json"
-hash = "fafbbfdea86e03a6a459653c6f3aa0cdf74bf568c844a486b4a8bd229129e655"
-
-[[files]]
-file = "kubejs/data/thermal/worldgen/placed_feature/nickel_ore.json"
-hash = "469df35862958e993991dd09c3306c98786591cd5545e11d210a00c0d34ace1a"
-
-[[files]]
-file = "kubejs/data/thermal/worldgen/placed_feature/niter_ore.json"
-hash = "8e36adb6be4f2cd899f268bff0b2eea0d8d0e4667662bbabbe4eba770451dbc6"
-
-[[files]]
-file = "kubejs/data/thermal/worldgen/placed_feature/oil_sand.json"
-hash = "80b590973a037876e35b364ac2ccef2b85652c18e2bb88e162becf2f152fc965"
-
-[[files]]
-file = "kubejs/data/thermal/worldgen/placed_feature/rubberwood_tree.json"
-hash = "4b3af378e27c4ade7e749b654e3bce989d3d907aa48a74a17cff9c170bf557ca"
-
-[[files]]
-file = "kubejs/data/thermal/worldgen/placed_feature/silver_ore.json"
-hash = "67d9476736b9820cad03ee2c07a3da21f9b1aade25535cb88caf264df6369d6c"
-
-[[files]]
-file = "kubejs/data/thermal/worldgen/placed_feature/sulfur_ore.json"
-hash = "577bbd6c1b6bae6f976ded64f145e50dc8ca6ea813b68e8cb9c6a1c21d2242e7"
-
-[[files]]
-file = "kubejs/data/thermal/worldgen/placed_feature/tin_ore.json"
-hash = "0e7981fbc0d2fab1a69ef6eeeb9ab9d11e40e5dd103348f5f068bb90922c69fe"
-
-[[files]]
-file = "kubejs/data/thermal/worldgen/placed_feature/trees_rubberwood.json"
-hash = "cdbc470c7a6e74ecb977e2f257401cfeaf39a6704a1314d16bb10abed4e99613"
-
-[[files]]
 file = "kubejs/data/twilightforest/dimension_type/twilight_forest_type.json"
 hash = "9e5228c3c56ff562f62ca8b1b0787e7d12c528bc283815cc9ae683bdf16d9fef"
 
@@ -18776,11 +18680,6 @@ hash = "ead71238bd7575685312bf66e0bcbd872b344b578d924324c0721b1361e56517"
 metafile = true
 
 [[files]]
-file = "mods/cofh-core.pw.toml"
-hash = "ac620d0295f8b7188860a5600bfb5858123bc4f82308d386b0517fd07276c0bd"
-metafile = true
-
-[[files]]
 file = "mods/collective.pw.toml"
 hash = "3187c997babd368f4367a04d538c845a86fd92aec6c0af26d9bc22e78d4d6dd5"
 metafile = true
@@ -19453,21 +19352,6 @@ metafile = true
 [[files]]
 file = "mods/the-twilight-forest.pw.toml"
 hash = "bed2d0203971bd48e287c406d3bc74817fe3ef7bf5803be489041c2a7e01317a"
-metafile = true
-
-[[files]]
-file = "mods/thermal-dynamics.pw.toml"
-hash = "f04522329f9dc4f534274dfadc36ac43b83717756bd3e22993e2b1f1fbe84917"
-metafile = true
-
-[[files]]
-file = "mods/thermal-foundation.pw.toml"
-hash = "54bad387768ddf110b98efc74a504a57e3a20f8faa787e27160d2ade6fb84ee3"
-metafile = true
-
-[[files]]
-file = "mods/thermal-innovation.pw.toml"
-hash = "0f9598819559f0cc4bdd6afd2dfd4abbb07cdcc57ba1664a48c0e5976589f7a2"
 metafile = true
 
 [[files]]
