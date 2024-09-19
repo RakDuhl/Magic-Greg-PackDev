@@ -1362,7 +1362,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "d7778e616d7fcf023721626be85eff022f44102e76b5065fe6e0009cc61ba920"
+hash = "7fecae062d207c3d18b44dd5a42d393ea68027c2eb624d3c90b063ef3e33c323"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1386,7 +1386,7 @@ hash = "34eb990ae2cf62220a0d1be95629bcac46e6732f1cd6f7b6fdc54bcae02916e5"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "3657d2988215ffbce28129f8a0937f14a3c5f31c890908556286620f89f78ef4"
+hash = "50e34e8fe6d10d350a163e2738ed961920dba935a24bf4969e7eba713af84407"
 
 [[files]]
 file = "config/jei/world/local/Schreibthru/bookmarks.ini"
@@ -1474,7 +1474,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "1c6fd164f8860d9ffa224b04ba37d4b2c72ea5d022d1d09c0ff3b94fe2d98eda"
+hash = "a91b6ae2070ac87331bbddd5adda3017dc893f2dd89f07f0bb91b79cf605c86e"
 
 [[files]]
 file = "config/oreexcavation-client.toml"
@@ -1614,11 +1614,11 @@ hash = "50ee1bc5f40ebcbb1063b9185ae97e55b7b9c75a97ae6dc899a89fe58a25eefd"
 
 [[files]]
 file = "config/sound_physics_remastered/occlusion.properties"
-hash = "9b7caa93023c4969dbb4e379ff31904f5f3119b5bc5f2958b8ef8aa15ba703e2"
+hash = "26a1fe3d803592e9e4ac09d32feab18a8aa6d8ca98ef0a423e114ae28870e6d3"
 
 [[files]]
 file = "config/sound_physics_remastered/reflectivity.properties"
-hash = "56ff6c4e9fe8bc4b10e538de87aadbe410bb39ad478f477cbcd4891536d4be5e"
+hash = "094844ef363bcf864872031a90ed846c942a4534188a6ab3666f1d05e03ffbeb"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -2202,7 +2202,7 @@ hash = "9757a6208de6780c7d86d61a75e997848a30a7e759f5e2f3e29d08ab7aa6383f"
 
 [[files]]
 file = "config/worldedit/worldedit.properties"
-hash = "15dd5930655e52bc083ddabcf12b7786fe5a44cc85f46a3bdea55e457b7248af"
+hash = "9f881da84c2c1692f045fb6fc95cb7b2d301a31f1b263261ee487e43f38890e3"
 
 [[files]]
 file = "config/worldeditcui.config.json"
