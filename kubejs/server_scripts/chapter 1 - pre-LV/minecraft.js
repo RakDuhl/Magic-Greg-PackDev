@@ -80,7 +80,7 @@ ServerEvents.recipes(
             '3x minecraft:hopper', [
                 'PCP',
                 'PcP',
-                ' P'
+                ' P '
             ], {
                 P: '#forge:plates/iron',
                 C: '#forge:chests/wooden',

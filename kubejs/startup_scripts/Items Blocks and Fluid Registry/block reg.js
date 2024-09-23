@@ -1,19 +1,4 @@
-// priority: 9000
-
-//Fluids
-StartupEvents.registry(
-    'fluid',
-    event => {
-        event.create('mana')
-            .displayName('Mana')
-            .noBucket()
-            .stillTexture('magicgreg:block/mana_still')
-            .flowingTexture('magicgreg:block/mana_flowing')
-            .viscosity(1)
-    }
-)
-
-
+// priority: 9002
 //Blocks
 StartupEvents.registry(
     'block',
@@ -87,15 +72,5 @@ StartupEvents.registry(
         .hardness(5)
         .requiresTool(true)
         .soundType('metal');
-    }
-)
-
-StartupEvents.registry(
-    'item',
-    event => {
-        event
-            .create('magicgreg:mainframe_housing')
-            .displayName('Standard Serverrack Frame')
-            .texture('magicgreg:item/mainframe_housing');
     }
 )

@@ -16,7 +16,7 @@
 
 	[parameters.reservoir]
 		#How much fluid (in mb) fits into each Caminite Ring on a Reservoir.
-		capacity = 40000
+		capacity = 64000
 
 	[parameters.mini_boiler]
 		#How much fluid and gas (in mb) fits into a Mini Boiler.
@@ -28,7 +28,7 @@
 
 	[parameters.melter]
 		#The time in ticks it takes to process one recipe.
-		processTime = 200
+		processTime = 50
 		#The ember cost per tick.
 		cost = 1.0
 		#How much fluid (in mb) fits into a Melter.
@@ -36,7 +36,7 @@
 
 	[parameters.geoSeparator]
 		#How much fluid (in mb) fits into a Geologic Seperator.
-		capacity = 1000
+		capacity = 2000
 
 	[parameters.stamper]
 		#How much fluid (in mb) fits into the Stamp Base.
@@ -44,11 +44,11 @@
 
 	[parameters.charger]
 		#How much ember is transferred between item and charger per tick.
-		transfer = 10.0
+		transfer = 50.0
 
 	[parameters.fluidVessel]
 		#How much fluid (in mb) fits into the Fluid Vessel.
-		capacity = 16000
+		capacity = 64000
 
 	[parameters.ember_injector]
 		#The maximum distance that Ember Injectors can be placed from a crystal seed.

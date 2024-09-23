@@ -1,3 +1,5 @@
+// priority: 9200
+//Script for allowing ONLY pulling out mana from the Manapool as a Liquid
 CapabilityEvents.blockEntity(
     event => {
         event.attach('botania:mana_pool',
