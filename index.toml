@@ -305,10 +305,6 @@ file = "config/chunky/config.json"
 hash = "ad1b78ddb1d209a2edcac7177b9a17e7c2af78bccb28920acbc6bb16b1872b56"
 
 [[files]]
-file = "config/chunky/tasks/minecraft/overworld.properties"
-hash = "410742e20d9bc807e1e7181ee54e0a58436e4d432b29f8fffc207c7a4fd0cefd"
-
-[[files]]
 file = "config/citadel-common.toml"
 hash = "3fcd8013137a86c00953d4be1e56945b84b87594be722bbf3b3be8d752e2577f"
 
