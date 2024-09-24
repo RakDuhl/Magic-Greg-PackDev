@@ -409,6 +409,10 @@ file = "config/do_a_barrel_roll-server.json"
 hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
+file = "config/durabilitytooltip-common.toml"
+hash = "2f33433f38df628bf545b76e0ae5babe3efe1ad08dae14b6077a44c768072d7f"
+
+[[files]]
 file = "config/embeddium-fingerprint.json"
 hash = "28d481fc1c308fb0aa6a9469419645bfe5eaff5a3824d17fb6aae0f7fd6eb055"
 
@@ -1362,7 +1366,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "7fecae062d207c3d18b44dd5a42d393ea68027c2eb624d3c90b063ef3e33c323"
+hash = "ab9e2ca50cccfcf1bda108591ec8716a5595e697feec2c1788238d773cc36bb2"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1386,7 +1390,11 @@ hash = "34eb990ae2cf62220a0d1be95629bcac46e6732f1cd6f7b6fdc54bcae02916e5"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "50e34e8fe6d10d350a163e2738ed961920dba935a24bf4969e7eba713af84407"
+hash = "6006fb7a306980291c5ae84dec3eff193295e21efb4292f77faae8666e373036"
+
+[[files]]
+file = "config/jei/world/local/New_World__2/bookmarks.ini"
+hash = "7f47fae31ee41827bbd5c47fec1379073add7a25808584dce43c6853e54e0372"
 
 [[files]]
 file = "config/jei/world/local/Schreibthru/bookmarks.ini"
@@ -1445,6 +1453,10 @@ file = "config/modernfix-mixins.properties"
 hash = "bc53d2c8846366ff58d2f93d0a6ba02741aa1c106bdab140f0069a65a12b1cb4"
 
 [[files]]
+file = "config/molten_metals-common.toml"
+hash = "c642570d61858bb425cb3ebd22543feb8a214c157d832373a79e702fe32193c4"
+
+[[files]]
 file = "config/moonlight-client.toml"
 hash = "135255a72816385345a135fa013c93dd1737c35eebb80690d29d1b572917267d"
 
@@ -1474,7 +1486,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "0bd3662d7c5b2a27b9cc1de677961324d3a712858cadcfb21dd45de68bc93123"
+hash = "faa14edbfcf273e2163ab5623e9f584cc639c44adba6b25883ede46ea905f408"
 
 [[files]]
 file = "config/oreexcavation-client.toml"
@@ -1490,7 +1502,7 @@ hash = "4bfd370bcee2d780a6295feeb5a3b42f7986a5f4c8148741b7981b76ce10b27b"
 
 [[files]]
 file = "config/oreexcavation/shapes.json"
-hash = "be3b154b2a980f8f45ba399084994665fefb30427fd744bee4fff5c76706568a"
+hash = "4f5f4ca3c5a00458196ff9b43544ee3720eb39b655baf2b1361e1937cca5843c"
 
 [[files]]
 file = "config/oreexcavation/tool_overrides.json"
@@ -1610,15 +1622,15 @@ hash = "ab259e2369fc503c0cd905ec9b57b5867f4dbd249edf7a2b52193b36ffbcdeab"
 
 [[files]]
 file = "config/sound_physics_remastered/allowed_sounds.properties"
-hash = "50ee1bc5f40ebcbb1063b9185ae97e55b7b9c75a97ae6dc899a89fe58a25eefd"
+hash = "ed118a21470a17635fb10b45dec1ed253a38c5537e38be9935f235a3dbf07a96"
 
 [[files]]
 file = "config/sound_physics_remastered/occlusion.properties"
-hash = "26a1fe3d803592e9e4ac09d32feab18a8aa6d8ca98ef0a423e114ae28870e6d3"
+hash = "1c287e72bbd46151800d96f23b32576ffea2f62022750b8bff8d53af41c37076"
 
 [[files]]
 file = "config/sound_physics_remastered/reflectivity.properties"
-hash = "094844ef363bcf864872031a90ed846c942a4534188a6ab3666f1d05e03ffbeb"
+hash = "37ba4960115e8769ec0a3f415246521fea79a196aa174b0ca7c830e1b21e10e6"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -1670,7 +1682,7 @@ hash = "fe6d260389ebaedac6e51a329834f6ed75f7d22a9a752f98b530b22cac3811ee"
 
 [[files]]
 file = "config/tombstone-server.toml"
-hash = "afefe0cac99a2ac0fb3c3db04b67c098cac474e6a972ee028b8a7754b2e72503"
+hash = "d34055cfc9c94e7fc748913a8e85332ceeb97f5ea492567771bbf7ff9305e101"
 
 [[files]]
 file = "config/toolleveling/README.txt"
@@ -2202,7 +2214,7 @@ hash = "9757a6208de6780c7d86d61a75e997848a30a7e759f5e2f3e29d08ab7aa6383f"
 
 [[files]]
 file = "config/worldedit/worldedit.properties"
-hash = "34459e35fae46c0f9701fc9301652691a091071e0952fce8752e76fc4a73dc52"
+hash = "7e4ff419c68f64143e51fcd5be115f358acbbf2db9c84d3da2cb32b23462026c"
 
 [[files]]
 file = "config/worldeditcui.config.json"
@@ -11649,6 +11661,26 @@ file = "kubejs/assets/legendarytooltips/textures/gui/tooltip_borders.png"
 hash = "d1227de7d0bbcfc6b87b875b805d2d1bb1a50711ce625a1196c0b95d86efc151"
 
 [[files]]
+file = "kubejs/assets/magicgreg/blockstates/ingot_mold.json"
+hash = "e61e6a424e9c8f52f5b0cc3cafcbc9cec27ccf02288c1554dfc437cecbfe3fa9"
+
+[[files]]
+file = "kubejs/assets/magicgreg/blockstates/molten_manganese_ingot_mold.json"
+hash = "f7303b25b34277e6c3aad3c7fe0890976bff23229c962eee39c0768016de69c2"
+
+[[files]]
+file = "kubejs/assets/magicgreg/models/block/moltendynamics/fluid.json"
+hash = "0503b3722f4dd351dd61e973910c252473fdccdef858ab464394ef7737379df8"
+
+[[files]]
+file = "kubejs/assets/magicgreg/models/block/moltendynamics/mold.json"
+hash = "18029abf903d38c24396c9c680e06ab7ab12755e786df89aa07f731a6dad1a43"
+
+[[files]]
+file = "kubejs/assets/magicgreg/models/block/moltendynamics/molten_manganese_mold.json"
+hash = "08bb5523fb83b9742e643b8d50b605c208a86403e86d02c4e0962a34803c0056"
+
+[[files]]
 file = "kubejs/assets/magicgreg/ponder/arcane_crystal_obelisk_scene.nbt"
 hash = "aa0b2e08f9e6d7a09a6d3995dd86912477be0f5f534d5ec5742b26faff1ff2b9"
 
@@ -11765,6 +11797,18 @@ file = "kubejs/assets/magicgreg/textures/block/mana_still.png.mcmeta"
 hash = "90fb44a3511d279e0f59d80d82799e72ee6295ef29420184f76f218d4d3d653a"
 
 [[files]]
+file = "kubejs/assets/magicgreg/textures/block/moltendynamics/ingot_mold.png"
+hash = "66b51f393bf45cfb48c824c27fdc6075f65b0ee0e01d122d950a2b694500e904"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_manganese_mold.png"
+hash = "50086caa393276f54f09a150f59553f692f55628d67f8c45e1760dd1124f56bf"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_manganese_mold.png.mcmeta"
+hash = "6a19bef21d66aac8fdcd8032751057733e321446b304d38f5ee8ba35efe99a1d"
+
+[[files]]
 file = "kubejs/assets/magicgreg/textures/item/example_item.png"
 hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
 
@@ -11775,6 +11819,802 @@ hash = "3db8ac34ab95a1e94beb90aaa12623f5ad88ed43e6b4b5296bce5a3724034044"
 [[files]]
 file = "kubejs/assets/magicgreg/textures/item/tools/arcane_gold_paxel.png"
 hash = "b90ec1158dba64dc293116093ec86bc3e0c9fc01065bc311e35767d45fa1c535"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/ceramic_ingot_mold.json"
+hash = "a62ed54bc5389e99bfd440eeced17f9646034eb12d07e4b77b7b346c3d3e3337"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/ingot_mold.json"
+hash = "bb0237c81f99f25748615aa47fa0701e60438b4ee545bf64553891e4f639df6f"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_bismuth.json"
+hash = "0ecfee4edabc7a3259c5fef6db6bdcf264e7ca6172bad30e3591c01e9b19e86e"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_bismuth_ceramic_ingot_mold.json"
+hash = "5dd0c5cb43a4226fa474b031c7c0710295934655027d6609ba046598aa622445"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_bismuth_ingot_mold.json"
+hash = "00db3f549ad26803d39bf315ef18f0abd32f46bf52f9e381e9758d40d451430a"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_brass.json"
+hash = "49b9d4af37e83aab4c665ed70fa232953a1363e5d293ba6761e2b1dfdeb74977"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_brass_ceramic_ingot_mold.json"
+hash = "9ade9121622977d9c8737f873b0821b391eab39c125abfe219565a2b4b6f9042"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_brass_ingot_mold.json"
+hash = "e09019bc00ca30f6477fc0d3bcad366beb950488cdaadb699828fb7b7fbeed8f"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_bronze.json"
+hash = "0ecfee4edabc7a3259c5fef6db6bdcf264e7ca6172bad30e3591c01e9b19e86e"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_bronze_ceramic_ingot_mold.json"
+hash = "9b36258d247e018d266b4d47d6f620f3f804e41b00064b4877cca408fc50cfa4"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_bronze_ingot_mold.json"
+hash = "a6b968402e276f244ba24a41b21624b7fe6e3ef31e5e87194dfb4ca045e283aa"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_copper.json"
+hash = "0ecfee4edabc7a3259c5fef6db6bdcf264e7ca6172bad30e3591c01e9b19e86e"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_copper_ceramic_ingot_mold.json"
+hash = "fc4b13433529765f3e0eebf55bacaffb402dd3f12e5eb8b0ff4ca149a1187e27"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_copper_ingot_mold.json"
+hash = "434ba45b72afe8881ad8d4248026931a038c133acf999b1f5a44af4b91bd778a"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_electrum.json"
+hash = "0ecfee4edabc7a3259c5fef6db6bdcf264e7ca6172bad30e3591c01e9b19e86e"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_electrum_ceramic_ingot_mold.json"
+hash = "f81ec284495c5667016fb0841b18a3acfea5cc23df2e39d099613197880acf83"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_electrum_ingot_mold.json"
+hash = "3d2663d0b808f8b3a4ee19e645aa2a68d21920c0f74786f839080e7d75971cb9"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_gold.json"
+hash = "0ecfee4edabc7a3259c5fef6db6bdcf264e7ca6172bad30e3591c01e9b19e86e"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_gold_ceramic_ingot_mold.json"
+hash = "507ab16d0b360bc5e42c934969f7fa71abfe5d7dda2a62c1de57d98c536679c3"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_gold_ingot_mold.json"
+hash = "e4d26cab7d5a82a089420faf13ddbe14043725689891a2c6d4e02d5de00baa24"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_iron.json"
+hash = "0ecfee4edabc7a3259c5fef6db6bdcf264e7ca6172bad30e3591c01e9b19e86e"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_iron_ceramic_ingot_mold.json"
+hash = "b3fe0d71f8e0b7147d9e0017df8223340bc4b768f4fb9209b7ae4e4be886cb14"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_iron_ingot_mold.json"
+hash = "8deea024d801281070a2fb04df635ca6e30239b285869bb0a3ceb1eb869ea33e"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_lead_ceramic_ingot_mold.json"
+hash = "b663e73efe2f2f9d0fe5227cbbe86792cb7e0a7d0242fe68b96e3d44dc411264"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_lead_ingot_mold.json"
+hash = "6a10e2201269d4729e4039f59a04630588eb9b88dd784a8db9a31e6794568415"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_mercury.json"
+hash = "0ecfee4edabc7a3259c5fef6db6bdcf264e7ca6172bad30e3591c01e9b19e86e"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_necromium.json"
+hash = "0ecfee4edabc7a3259c5fef6db6bdcf264e7ca6172bad30e3591c01e9b19e86e"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_necromium_ceramic_ingot_mold.json"
+hash = "98632a93db25c687e8c5b8756243c2ee83bc99546741df46790c32b7b05920ef"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_necromium_ingot_mold.json"
+hash = "ed19d595478f2b9cea061bc5500a5852569515ebbe4e9381b5a247b34859a1e5"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_netherite.json"
+hash = "0ecfee4edabc7a3259c5fef6db6bdcf264e7ca6172bad30e3591c01e9b19e86e"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_netherite_ceramic_ingot_mold.json"
+hash = "070c5d70df1b1cdb65ffb5bbc35bfea2d53584e8473f79c57b2ab71521451b78"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_netherite_ingot_mold.json"
+hash = "2ee32c507852e6d67e1e4a9334782ce7aca6ecf4e8497999db8eb17810314a59"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_rose_gold.json"
+hash = "0ecfee4edabc7a3259c5fef6db6bdcf264e7ca6172bad30e3591c01e9b19e86e"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_silver.json"
+hash = "0ecfee4edabc7a3259c5fef6db6bdcf264e7ca6172bad30e3591c01e9b19e86e"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_silver_ceramic_ingot_mold.json"
+hash = "0b3fc1a15e2a2756aed37275a5b934e9c7eb8bdf9f22b494ebcdc9ce838c749d"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_silver_ingot_mold.json"
+hash = "ad15d12ae06b83611cb2dc239d3fdb844bc7d9ebe14fb0b448d9a86a0c7b19e4"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_steel.json"
+hash = "49b9d4af37e83aab4c665ed70fa232953a1363e5d293ba6761e2b1dfdeb74977"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_steel_ceramic_ingot_mold.json"
+hash = "accf08800ca7e21025eb4ddefcc0b616fedd381e192673b9e2986f0ff83f1d8e"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_steel_ingot_mold.json"
+hash = "a4d2ea2784073a8a0bdbdd3357953d7f78ea931aa7d3da967af9864134b94d7d"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_tin.json"
+hash = "0ecfee4edabc7a3259c5fef6db6bdcf264e7ca6172bad30e3591c01e9b19e86e"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_tin_ceramic_ingot_mold.json"
+hash = "8a208638bf256698abaec08364aa8e1023129328da3da8b0d91d0333b8d147d1"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_tin_ingot_mold.json"
+hash = "79b3308489afca1ffc341526d9a4c6324886731fee5d705ad6f269d7706ac010"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_zinc.json"
+hash = "0ecfee4edabc7a3259c5fef6db6bdcf264e7ca6172bad30e3591c01e9b19e86e"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_zinc_ceramic_ingot_mold.json"
+hash = "2097a7771cf990209f1d32e96e5c0e7f5809bf96fa4ad0ee6649598d5394ea80"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/molten_zinc_ingot_mold.json"
+hash = "dd5f2932984cc385e9bbdc77c4aec94dbc6af3c30c556e76bec256831c9173ed"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/slag_block.json"
+hash = "c3b61e78188b1bf36f03da59ef5934d92d76503f8f42ad849369fb9c23b052c3"
+
+[[files]]
+file = "kubejs/assets/molten_metals/blockstates/unfired_ceramic_ingot_mold.json"
+hash = "b856e201cb573e67fd12413c838794838c7fbb25092f4183df75c1e70a2462fc"
+
+[[files]]
+file = "kubejs/assets/molten_metals/lang/en_us.json"
+hash = "a8dd0b32f16e53b655ad4cd3a02729d4b8ba8ce46751ed993accc1baceef7a06"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/block/fluid.json"
+hash = "458ce20d5e4f92c067e130e9ab920a5ac56bcf875b69f70f3198f828df211fbb"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/block/ingot_mold.json"
+hash = "855718cb381759ecf5b7f6f8246bb49562728676c68200e19856c1e5eeff0a35"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/block/mold.json"
+hash = "aad556ac8a7bce0c9805e434688dfbb231f68524455c4a742ad3ab2d3b704091"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/block/molten_bismuth_ingot_mold.json"
+hash = "c2d2f6a7dd4dfa00ec85c55911ff0b36de16a592a6a4c35f83ea73ef1b0ce9a8"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/block/molten_brass_ingot_mold.json"
+hash = "a0d286b9791ce0d63efe068f4b333bcfff0289b397190baa1b727f251672e38c"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/block/molten_bronze_ingot_mold.json"
+hash = "7ab0e236e58bfc740165d90121a0ba37970592ddab475fc6e1763c0ef78f1d4b"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/block/molten_copper_ingot_mold.json"
+hash = "b550a3c793c03883806e882562beaacbf4a4fcff4778c45c1d4109c2690e878e"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/block/molten_electrum_ingot_mold.json"
+hash = "dde84d4331d1294e9d93cfd6495169f950b00151708641d1249d7e0e4c34c94c"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/block/molten_gold_ingot_mold.json"
+hash = "17413081d16b9e5092e83a9354af934b9e3cec60ff19b790b0c9ada1a07660eb"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/block/molten_iron_ingot_mold.json"
+hash = "b705bec2fa06ac373e100d2a32ca48f57cfe41d34519ccd815c63a046eaee954"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/block/molten_lead_ingot_mold.json"
+hash = "9287bb3bbe0a22cd394a7e9b3398889fb4b25623e037311ae310f385137b661c"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/block/molten_silver_ingot_mold.json"
+hash = "7f1287637dc30b86eb21b4379d40e9f263d9c3c3e5e90f8e6bc519652ca4fb28"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/block/molten_steel_ingot_mold.json"
+hash = "90d422c3bf35b805f9b7884de92e1a0af5a85ab615da6c7269c14f30db9c05f8"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/block/molten_tin_ingot_mold.json"
+hash = "cab31622017b70a50d8428749fe5090e646ad41cf5f65b7d378c738ecdfbd1c9"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/block/molten_zinc_ingot_mold.json"
+hash = "c901cc715096ce49c535a0b76208c893d50df319b5a50f20756d8b35bce89367"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/ceramic_ingot_mold.json"
+hash = "b70aaf2f83d6f35345375c7892aa3701ea85a0a57f29f48e2c98504946a24023"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/ingot_mold.json"
+hash = "a2619a96b4c729d5048f94172db272bc5f53d908d16e135b9c6066e327388fdf"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_bismuth_bucket.json"
+hash = "dcfce344faf7fded5f136ff14a74e238be3497670d5460a57dabeeb013fe4ae2"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_bismuth_ceramic_ingot_mold.json"
+hash = "9bbf27331e280a716da0c356be5d1b8aee97e79dc247ec6b401edc2f84666d85"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_bismuth_ingot_mold.json"
+hash = "186da99ea35658ba686dc512f34a3f5c8c47b809eb5deb833e95aa41881cad26"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_brass_bucket.json"
+hash = "818186fafb41f08d5feb2c22d0b39882390438b7059866b48257c9a01d755b89"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_brass_ceramic_ingot_mold.json"
+hash = "1f3dcc0470d1237f375b39f4a9b9104b27f66433ebf4579c09bdc26117a911f7"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_brass_ingot_mold.json"
+hash = "852d3e7a98ee9c7b255f4686b7ac39a51001d82a8af0c5d91774bc47f476c19d"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_bronze_bucket.json"
+hash = "e89d91bd2026c312ba559f98d533d2517b1d98340e959d9e1025e4c6cb0787f9"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_bronze_ceramic_ingot_mold.json"
+hash = "1e955cba43338e6151907558a8053356f126564bfc21c1f6f8070e781328d1fb"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_bronze_ingot_mold.json"
+hash = "1aa598b8931ea7c70f6974e0f60df39552bfe2d66bcc8c8328d71d3ba0e8e791"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_copper_bucket.json"
+hash = "70451ed0afcddae55da04b38fdb7ee10da4928370dd12768e86b3e11f0d17a6c"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_copper_ceramic_ingot_mold.json"
+hash = "2cdcac03637b4cbc23421c7ab0bc64a54f0799020b343951b82ffe59aa19c15b"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_copper_ingot_mold.json"
+hash = "992a51b86fc58dd402b9ffb0a6ecd775a09d378188cedd34fc3ff72437e1884b"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_electrum_bucket.json"
+hash = "9b258b598d6d862dc569043025ee1929eb1e034b470d1d11532fd39dc67cafcf"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_electrum_ceramic_ingot_mold.json"
+hash = "edd1d61f14a5c8c740953cd131f46e651e658ec1d785fc28f8198a9f02201233"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_electrum_ingot_mold.json"
+hash = "1e0d5797a638ec1db7c1125f9f9c83b6761378fa39856bc6d7f5b1a2c76c2e1e"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_gold_bucket.json"
+hash = "4062e8d572bda21804281d1fe15ce97f508415a5bfb7d5e95dc367a740dcc2e8"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_gold_ceramic_ingot_mold.json"
+hash = "f90a1deb2b5a8427b475f2a4e1daf7d2e3366ac1a04c013bcc2e40a9bf7f8c47"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_gold_ingot_mold.json"
+hash = "56232bbf0210865db79585ebd2b3f30d96bfb9ef53ee2bdfb464f61be3388302"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_iron_bucket.json"
+hash = "8470269c026ba2f541ebbfbdaa8f89a4f72c4e19e9d171d1a6ce71551db412f1"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_iron_ceramic_ingot_mold.json"
+hash = "4e3edf8ad93c3fa68f973489dc16ab62ff66d2482bb2b5675aef1533ca97c904"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_iron_ingot_mold.json"
+hash = "c12388832651eb56dda6bddb6fa2c3d1a62643e9614fe4c6b52fb9c172527771"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_lead_ceramic_ingot_mold.json"
+hash = "73b5e7567c7335e7fc2a1da9228f840b7423645a60557abdcfc99b2764880295"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_lead_ingot_mold.json"
+hash = "2c3345fe98cc8e213ea61f224825b08f38d71eb9dde7cf0d0e8d8aa69d4b9b7b"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_mercury_bucket.json"
+hash = "4aab27bc39a212982ca17283ec9f9c28bebd29118eb1ed202d1dafec8f2dbeca"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_necromium_bucket.json"
+hash = "df6c7b20900cb0dde143b257e1e24ca5b6617802436bb3d11a29a9c6d8d3023f"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_necromium_ceramic_ingot_mold.json"
+hash = "3d8859b6734e62363c09c241c7345e56500b91a81fcf3637aabd1876bb125a49"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_necromium_ingot_mold.json"
+hash = "ee2b73004241b9c5e4008cf7b3123852fb71ba09a6aa8d91e16bfcfad219f127"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_netherite_bucket.json"
+hash = "2320944bc135757e5c24197425aaf1803e6025defce962c8ade91f2934ff4d4a"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_netherite_ceramic_ingot_mold.json"
+hash = "6d6ff0dbf0723b1a9f58faf14ded67f5e5981199c967c0190dfae8db8612c049"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_netherite_ingot_mold.json"
+hash = "f05764b0308c893789aef9b2377c52fefb7bc322b00d05cfbb9d06e82b3b16d5"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_silver_bucket.json"
+hash = "7a1137fe693f5ee4f2b0145553fd17a10acdf75169033d37f0c564ab6da3de1d"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_silver_ceramic_ingot_mold.json"
+hash = "7c85390e0cf39ed52f4ef7b64f53f306b554bba017b8d6e9d2a30d9a336f020f"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_silver_ingot_mold.json"
+hash = "a9b7e8cfa149d5fbc1cbcfcccd774e5789d79599ab3079cb5f434139592b7493"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_steel_bucket.json"
+hash = "504529d03abb44e6e6abd60a09ab0de24e87a9a526aa1b9183f5e3ec9c75f225"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_steel_ceramic_ingot_mold.json"
+hash = "f31d5d37ee43321d72edec2c95c1d78a16df1857fccfa1ab55138900becb8f73"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_steel_ingot_mold.json"
+hash = "54b51611d5743f22380077e9f28c8d4a271aaaf597ec93de6bd9d063e4a4a2ea"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_tin_bucket.json"
+hash = "f307f0f99fa9c372b474ff9a0c2f4952b2b1eba65e1b70eb2ce6fac1eda25417"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_tin_ceramic_ingot_mold.json"
+hash = "308af224445412356e0b97849d6a05455d06b0b9572fb6e22751761b4528426c"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_tin_ingot_mold.json"
+hash = "0270ba19d0e6392f48add0bf49945ee6daca5bb49fab818c1593e138921aebc1"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_zinc_bucket.json"
+hash = "2636588ca4664297d9948bb43587a4b28820fb1f3c8d3551c0d9bb603aedad38"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_zinc_ceramic_ingot_mold.json"
+hash = "080c20c3b0c0c9745e1063d718c4db854bbeab7a1970505c89990c1295e6003e"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/molten_zinc_ingot_mold.json"
+hash = "f49284c3e0ec0f9d7b728c96d49ac07b77932958dba27752acc58d5f44c36e75"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/slag.json"
+hash = "f594bd8d4ed78d66f434c8b2a59f9025808c79d118fbbe33290ad397bbe11387"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/slag_block.json"
+hash = "717fede42313a3c8b4f0595a27d8b6d34bde9c617ac41777a41bdf1641887276"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/slag_nugget.json"
+hash = "2edd678ce79c222fa88ea5ae79c20940cd3fed054682346792f20d75b153d1f7"
+
+[[files]]
+file = "kubejs/assets/molten_metals/models/item/unfired_ceramic_ingot_mold.json"
+hash = "49886941edacbb575892e8c38a30344cc9b6cd9f55c8ad053310ce44c86da0fd"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/ingot_mold.png"
+hash = "66b51f393bf45cfb48c824c27fdc6075f65b0ee0e01d122d950a2b694500e904"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_bismuth.png"
+hash = "58bc8670cb2c650e3d6a256628ab70db4a96f8cc0319a12c3917f863d6a82a19"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_bismuth.png.mcmeta"
+hash = "1c9edbad4ededeb092da43714bd24a257a2d86964481451d3b4937740b7d6f64"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_bismuth_flowing.png"
+hash = "53c6a5866e51d4dc195ea53e730ea13d42a08fe2e1470d3c8649d2a507d42f80"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_bismuth_flowing.png.mcmeta"
+hash = "a1e81ad7f18bcff07c05550cbef39e51603c8985e5f97707f4629b726aa51e8a"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_brass.png"
+hash = "fd5075c17d6ab8ab572ee882a16e0cd594bcade2dca4995ff29c4528dfe0554f"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_brass.png.mcmeta"
+hash = "1cd54e4132aba360c42c7c6efdb2c77864cb5c47e9af3eca445b380d1b080889"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_brass_flowing.png"
+hash = "6422cf6067d7dc1fe8650b0f55ee31ad0ca5640f5fc293aacb82553f51ce50a2"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_brass_flowing.png.mcmeta"
+hash = "65d32cb1d20fa08aece410f949e5e207fd28dde49d5694908b9e7641d6832b7d"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_brass_ingot_mold.png"
+hash = "5d7fc5e203428f6366cff3629feaf360820ba904fa0745d9a6c33a441e3786ac"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_bronze.png"
+hash = "e38792895fbfc38ed9f9042dd36d202be785fb2f9670e2bae12162aca43a9540"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_bronze.png.mcmeta"
+hash = "1cd54e4132aba360c42c7c6efdb2c77864cb5c47e9af3eca445b380d1b080889"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_bronze_flowing.png"
+hash = "ce2c93badec961b1f42093c92c5b6b9cdcead278b6f7a2b9126d90b9bb75f581"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_bronze_flowing.png.mcmeta"
+hash = "61d9ed0268db7dffd14d04ad022ec2da66c2d5f52c3b3f689331ae53880f9e40"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_bronze_ingot_mold.png"
+hash = "949ed67d806f379a74f8da206df834d965817c622238a3f212d135dae63c17ef"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_copper.png"
+hash = "41bd86bcd21e1844c0d2a322b889d35686b6063ff95dc890f66021d60d0c3955"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_copper.png.mcmeta"
+hash = "1cd54e4132aba360c42c7c6efdb2c77864cb5c47e9af3eca445b380d1b080889"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_copper_flowing.png"
+hash = "cd10a2f69feac84d1bf41dfbee69e99ed0395760bb4b63417b7c96f4e7bef5d6"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_copper_flowing.png.mcmeta"
+hash = "b2d0e797914ac4c8e56ebadbee6190e907cdc00094e22c560ad50e6845d52430"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_copper_ingot_mold.png"
+hash = "5bcaa27e745d9b85d693a280f4e33572dc505f75713074e267ada93a2a3502dd"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_electrum.png"
+hash = "e82b76f66ea8b33173fb0771ae85b03bb3a743346ef5fa9201cb9dce6025cb4f"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_electrum.png.mcmeta"
+hash = "1cd54e4132aba360c42c7c6efdb2c77864cb5c47e9af3eca445b380d1b080889"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_electrum_flowing.png"
+hash = "e482c4dbf256c0fdfa5bc1be680e82820382f6138a4da6b34219eeba498bad96"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_electrum_flowing.png.mcmeta"
+hash = "61d9ed0268db7dffd14d04ad022ec2da66c2d5f52c3b3f689331ae53880f9e40"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_electrum_ingot_mold.png"
+hash = "6cd9e3fd74f85343d3f934ac53a58f9c3cffd52c0026870e7ebe89161ef7b3ce"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_gold.png"
+hash = "29c8dff275f48cd61590763c6f637587a30b22b924fffbade4c7ba2f35ae2740"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_gold.png.mcmeta"
+hash = "1cd54e4132aba360c42c7c6efdb2c77864cb5c47e9af3eca445b380d1b080889"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_gold_flowing.png"
+hash = "f365b6309a46633ec4b2de1fdafe5ca0df9002f17db8aadd4ebb012453263e81"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_gold_flowing.png.mcmeta"
+hash = "65d32cb1d20fa08aece410f949e5e207fd28dde49d5694908b9e7641d6832b7d"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_gold_ingot_mold.png"
+hash = "45abcb8b3e998fb8dcfbf65cd546002d6227ec2d05bf86fd007f73c4fe85ed4b"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_iron.png"
+hash = "beee5decd0142801f6b5abe62f985b3b1ca59fbc900e2ae9a62414cb9f04e7a0"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_iron.png.mcmeta"
+hash = "1cd54e4132aba360c42c7c6efdb2c77864cb5c47e9af3eca445b380d1b080889"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_iron_flowing.png"
+hash = "aeb86cb78fb3edcbe2db7bc27fe28400ba8eac1444f36c202abe129b3830aa1f"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_iron_flowing.png.mcmeta"
+hash = "65d32cb1d20fa08aece410f949e5e207fd28dde49d5694908b9e7641d6832b7d"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_iron_ingot_mold.png"
+hash = "abdc1c09af6e90c46181424d514b62157d246313714fcdb75a16b393341f6b90"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_lead_ingot_mold.png"
+hash = "0c6627cf015c339ff032282c9af5c36cdf8ac9ffd4503b8c43a2bbf59b9ed784"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_mercury.png"
+hash = "fadf4e3dad283c415a2ce05463cff200973cbbe67d6dcefd51e8438272525d41"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_mercury.png.mcmeta"
+hash = "1cd54e4132aba360c42c7c6efdb2c77864cb5c47e9af3eca445b380d1b080889"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_mercury_flowing.png"
+hash = "17c10eaecfe0f956feac73d6ae244fccd95c01bfb19790bf36a11eb0ffda29d6"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_mercury_flowing.png.mcmeta"
+hash = "65d32cb1d20fa08aece410f949e5e207fd28dde49d5694908b9e7641d6832b7d"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_necromium.png"
+hash = "c160c997fb2497bcb0907ffe7e11306a280c39c9056184aaaa788e7197698225"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_necromium.png.mcmeta"
+hash = "1cd54e4132aba360c42c7c6efdb2c77864cb5c47e9af3eca445b380d1b080889"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_necromium_flowing.png"
+hash = "a931f8b6f9c0df244fcde7ff18440ecbb7b889cb25bfce5977f5de6fbe2dc180"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_necromium_flowing.png.mcmeta"
+hash = "4034a99cdacecbf821646fbbfd6e1f2383b046b34c409e38d76d39ac5a237a83"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_necromium_ingot_mold.png"
+hash = "3f9564b823145e1bb555ed954330b68e436419e786c937d7cdc49cfd4de01d01"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_netherite.png"
+hash = "f2b459aae86a16665e56f525a5ae10dbf448eac08176e9485fcf42c6a5e62c7a"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_netherite.png.mcmeta"
+hash = "1cd54e4132aba360c42c7c6efdb2c77864cb5c47e9af3eca445b380d1b080889"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_netherite_flowing.png"
+hash = "4d583123d38d8eb5bcea061dcf5448a54424820d15304749b98404066a4f714e"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_netherite_flowing.png.mcmeta"
+hash = "444b9ce7e3f1cf7c88ce6f4e54754ecf59157820b3723b68888f1cdc5de44629"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_netherite_ingot_mold.png"
+hash = "57fc11a7c7c6677eac84d8cae5de097fa533aa92907ef30a8c0c9c59fac03199"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_silver.png"
+hash = "7d651cc1f2d2c753edd0b73ba7398cc1ac1ca0ecf89953a9671379a2b211de4a"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_silver.png.mcmeta"
+hash = "1cd54e4132aba360c42c7c6efdb2c77864cb5c47e9af3eca445b380d1b080889"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_silver_flowing.png"
+hash = "11f0533097413615911c5080530a517bf207641170704cb30c8de352f1a11c88"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_silver_flowing.png.mcmeta"
+hash = "61d9ed0268db7dffd14d04ad022ec2da66c2d5f52c3b3f689331ae53880f9e40"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_silver_ingot_mold.png"
+hash = "5893d66b9859c4f435933d845ee68ba28b2498b21af0964795e9bcd11199e2c8"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_steel.png"
+hash = "50485a7999984595abb22e0ac003901edd83db5d4bbb5dc286c047658968493a"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_steel.png.mcmeta"
+hash = "1cd54e4132aba360c42c7c6efdb2c77864cb5c47e9af3eca445b380d1b080889"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_steel_flowing.png"
+hash = "87d5a71c4e58e6081c6d83e31dc890c305de4d126fc72eaec5c479b38a0b1783"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_steel_flowing.png.mcmeta"
+hash = "65d32cb1d20fa08aece410f949e5e207fd28dde49d5694908b9e7641d6832b7d"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_steel_ingot_mold.png"
+hash = "b2b0a6003a893790d3c4d02ecab46b96fced84e186a54a07888f9cf5e9bf0f98"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_tin.png"
+hash = "6479f0bb5f87e870415d5672251b0165a4da17ff45a328455a8aade8cf129b34"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_tin.png.mcmeta"
+hash = "1cd54e4132aba360c42c7c6efdb2c77864cb5c47e9af3eca445b380d1b080889"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_tin_flowing.png"
+hash = "9164958e92c05b9470f62b3538c7ef888f50f3385d3d40c4642082f3c0f7cd69"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_tin_flowing.png.mcmeta"
+hash = "b2d0e797914ac4c8e56ebadbee6190e907cdc00094e22c560ad50e6845d52430"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_tin_ingot_mold.png"
+hash = "96b75024ccae792d227ba702fa80d735ef9620161b8b1a67398d87ab1c47e5a4"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_zinc.png"
+hash = "b908836c2239b61302c09229d61902918990bb81c246b52af8ffe39f39285e59"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_zinc.png.mcmeta"
+hash = "1cd54e4132aba360c42c7c6efdb2c77864cb5c47e9af3eca445b380d1b080889"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_zinc_flowing.png"
+hash = "b704b2eb352bfa50ed5e023dda42f3b9f7bd86a81814d5bd0b6c0ced13dc14df"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_zinc_flowing.png.mcmeta"
+hash = "61d9ed0268db7dffd14d04ad022ec2da66c2d5f52c3b3f689331ae53880f9e40"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/molten_zinc_ingot_mold.png"
+hash = "9fa455927d774bb7a6633c4dcbed3a5b9907bb6c444b8a7e7f25b54fec2feb3e"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/slag_block.ase"
+hash = "dc73b063d90181f12effe05c6ff4cd89baffffd4a1b33c4fbc4ccf48a5c2cb62"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/block/slag_block.png"
+hash = "c81772e6bca02cf6e61fb164b44c42a6f2b047299d84b07c5c54d46df31778ac"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/item/molten_bismuth_bucket.png"
+hash = "6c83daa3abd4cdb5a6515171d3df584bae9fdec5559d7272fb88e76b11ed323b"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/item/molten_brass_bucket.png"
+hash = "a57a2d16f2151d511cbc034beebdee608e9a40bb2ec2cd81aff8cbae98099c15"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/item/molten_bronze_bucket.png"
+hash = "5f0963fbfca519a188fe39243a397f1d03e1ffcc919ebd4b6efa78cad95a82ca"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/item/molten_copper_bucket.png"
+hash = "fdee9dc5c61431f325a179e13874b4123ccc64ab43d93493af66e3d0b7ab8f01"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/item/molten_electrum_bucket.png"
+hash = "c33a64c52f748cf34b15cf33cd122f0e973e04ea7d33606125b313f14d5d6d59"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/item/molten_gold_bucket.png"
+hash = "828bafed5dfa1f2e22e900ca4b86907dcdb7535542a2e426b70461a885f792f3"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/item/molten_iron_bucket.png"
+hash = "ab032a7345b2ed8dccd5394a451ed97ae708a2c430870468fcd5b7e2e3a50247"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/item/molten_mercury_bucket.png"
+hash = "51d84ec52838ca3902c814585c2dbbf371edb099252b27e92ee08da262ffb68f"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/item/molten_necromium_bucket.png"
+hash = "e881fe755526eac446f7da94c1140605215821ddc90c746b4ae9eeb0c3cedc87"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/item/molten_netherite_bucket.png"
+hash = "75602fe5516333ce81972e2518d61381c5301e2bf47f3b65f4a44b4a19a6f271"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/item/molten_silver_bucket.png"
+hash = "2ad04aedc8e2d1eb6c7889da85160094d4187f4f2a60544973c74d3314adc2d6"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/item/molten_steel_bucket.png"
+hash = "795f284790f2a7f5359dd3563fa0477d1dd56e9b12aa6660ca8d97949fb301d8"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/item/molten_tin_bucket.png"
+hash = "a58f3b54e7665f631fba265a0c5207ef004fdf029cab1ab433d2214b6fb4b20a"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/item/molten_zinc_bucket.png"
+hash = "34b63eeb051be59407db0bc4b61db0515fbbb3a594210c9654866f650eb7f3fc"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/item/slag.png"
+hash = "2e7349e6e0c411248b86d86e8cf21afd8e27a0b2c47efb02466f2ccb2d60e3e2"
+
+[[files]]
+file = "kubejs/assets/molten_metals/textures/item/slag_nugget.png"
+hash = "b3779684a2a0665f0411effe6619c924e6df5629fb5d10a7b3e2ff9bab5ee343"
 
 [[files]]
 file = "kubejs/assets/ponderjs_generated/lang/en_us.json"
@@ -12127,6 +12967,786 @@ hash = "d25171299742bd3f12b47fdaf69b9766d1f9031f45445468cd9a0a8d3e7f98bc"
 [[files]]
 file = "kubejs/data/embers/loot_tables/entities/ancient_golem.json"
 hash = "e9794a9a369bfd29d2916518c12e4b1b96780756b2786dd84448263202be7c86"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/gears/aluminum.json"
+hash = "09f2f3b4e29ee429c4564f7f67bf9276de838f41128df72adab5d7cefa63fa8d"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/gears/brass.json"
+hash = "76a0db7680d1a6624750173c8d15b4d7647f364f1a461ece21f48d2a0328b009"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/gears/bronze.json"
+hash = "65e90ee8a81396e73b8ea4fd11cb381fbaa320c6cabd9324b30e3f30620c1778"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/gears/constantan.json"
+hash = "2b7964fbda8fede3cfdc99ed0e8536d8597d287849fbcaacfb84d6f17fbd40f3"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/gears/copper.json"
+hash = "e2948ff57f9c0e53d793e79bc22fa4f633c182d7283768026d99fa27985fba41"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/gears/dawnstone.json"
+hash = "18d78141a8e1396ba2953a76bc0b145524423b47dcfb77cb4ff025716c03094b"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/gears/electrum.json"
+hash = "63bd0cf972be0c91794bd8f93bf0fe474a03088a5cf97337b84e608447d28a10"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/gears/gold.json"
+hash = "6dadda194e2baca2d209c61ce591bb49494969bfbf2e402540afd4e87715fddb"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/gears/invar.json"
+hash = "89f1edcd8667e43af75b85f184e85b8f3dbb458db72172116c0b9bc306a08a33"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/gears/iron.json"
+hash = "2f301df7dac766c796e17962ae972c9c468bde7ad84481aa383d4b0d77ba0d57"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/gears/lead.json"
+hash = "998d509d1795468d6d80eb4f7233a881a9773ed3e0c91c4ca1d454c0bc58b63d"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/gears/nickel.json"
+hash = "f1c204ac9c7e407d45611a15f244596e4b87bd01000695d9f4b074da295d7910"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/gears/platinum.json"
+hash = "5896f2cc5a2a5981b0553ac8cb6f288cce91f76c6fe6351a67ad02227b78fd1b"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/gears/silver.json"
+hash = "75c36bd845457878405cd206ecc0f8d161a19d6affd4b4525c6ccaec317e4da9"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/gears/tin.json"
+hash = "bec0aab98b7af5a9ba55aaaae679c0272bcdec9ea810269a5ccdb606796a5ae1"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/gears/uranium.json"
+hash = "70a612df40abf287b82e4469b515c097076301cc4be7144e7b96da3f85a84e12"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/gears/zinc.json"
+hash = "3b032b35f1c717e73b91c10de87dc976552585a335dc4876f80b9fa43b9aada0"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/ingots/aluminum.json"
+hash = "fbbcbd6635bc7cbcd1082f1408f57209ba4a0d17424c4b3fc05f9d74dca97510"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/ingots/brass.json"
+hash = "0605a78d9f2a6daf433a536f58a66e8b8e0899e258bd84328f798c0851b0b733"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/ingots/bronze.json"
+hash = "02562f8a089d37457c04810e503446ed8cbdbd5790b8bc7aa33c593b7a74f189"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/ingots/constantan.json"
+hash = "1f80b71c5f460b9a17d45aa1c436493960d73faf98d236b89152fd296d8f45c5"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/ingots/copper.json"
+hash = "cc3dd0bce46135ce5f3586c416bcfc2c3122cf8ae3392484c03622e75813a610"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/ingots/dawnstone.json"
+hash = "64b80b93699ec4110f7731f7364753fdf4b248b82d3c1d728dc2003ed67f6fc9"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/ingots/electrum.json"
+hash = "7c130ffcd549a7d23292edebf87d39b6336d25b4486f488ee4cbe37b6b7354f2"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/ingots/gold.json"
+hash = "daeb3c704d32acd1ba496bd88e9d812fe6e91000dc9761e26f353f16f4ac30c2"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/ingots/invar.json"
+hash = "fd623fe781fc031267da528241f760f9e166523ee3f18acb6800544ad8bdd50b"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/ingots/iron.json"
+hash = "50ff8fa2c2bbea5ef8f121ba57262d5a63d9da8b814f0c51d037445395126327"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/ingots/lead.json"
+hash = "d8908e84ee9b1a350254e3ee120a1e59e7d1e3d48e852b0c9cd81aa1bb703760"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/ingots/nickel.json"
+hash = "8eeab79b05ad1f7d8f662b4b010340d67f01fc2a8effefda451d8801266ae846"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/ingots/platinum.json"
+hash = "1c9d9eee54d13af6d56b7db33c4be8f3ad2a07f10159089509fdf384208030aa"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/ingots/silver.json"
+hash = "fec83375396c127d7ebdf895f379e9fcd17a9049e6a87ed4352cf87612378339"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/ingots/tin.json"
+hash = "247da46a03784d770d9b657764aef065e33d6462cbbcdce37060f4ab0e1dbead"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/ingots/uranium.json"
+hash = "cc071f7c63b7c216fbd0e8e41bcae9a3d30995198c6c73ce37b59efaf40f88d5"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/ingots/zinc.json"
+hash = "5272003af9d100a8afefbc40e323732e805151f11fad3aa5f6195d8aa6c58c3b"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/nuggets/aluminum.json"
+hash = "566832c1c198c06b8e31ca7a543fd863fa074c7ad61529419124f343c2a22e0e"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/nuggets/brass.json"
+hash = "0c1c7cdfbb12f5ccd9e76ca35256c324601b5c6d4a528084bf9b931f18ab5a37"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/nuggets/bronze.json"
+hash = "4991036168a5a28d14c5f17ca146aeaca47ad3cdf204f65ba45e3e9cb9d4569d"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/nuggets/constantan.json"
+hash = "f3767fb2466ee00e4f4d70d53688ca47a80681b8a266ff5b586b8bbbc4ba3453"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/nuggets/copper.json"
+hash = "e93e7ca0fd74d3211eec5553ffd9c149579795c26deb70ff4b65eedcc9f34720"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/nuggets/dawnstone.json"
+hash = "a1fcf8f1e7758e4456a1c1e81559203ad55d644ad03dc2a0f61a8df45a42832b"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/nuggets/electrum.json"
+hash = "b463ffb9371f0cdbaf307ca7accab903eadf30201ee8792c68374dbdd89f194c"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/nuggets/gold.json"
+hash = "47ad129470b72cecd22b13382101441deee2582604216eef9a6e6a1a56d7b81b"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/nuggets/invar.json"
+hash = "8652b3d09089e87a2cc71ea966dccd628947789ffbf51eb7ebaf4ca0fd8bd721"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/nuggets/iron.json"
+hash = "a1494132719a4faf6a0bd4c641e17f3d3bd8713adcb9c61291f53d294f978d6e"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/nuggets/lead.json"
+hash = "2924e83b23439d8aa9835fce10f03dae91609b81f9a2a4dafa2a6f982aa59127"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/nuggets/nickel.json"
+hash = "859d26452fa63c69aaa9a4bc90c11204f8bef20d7912c0bba4941085b086fde7"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/nuggets/platinum.json"
+hash = "012010fa3494045f8967f061ce5018f747d3a0a3fe68dfee11e8534d53c61602"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/nuggets/silver.json"
+hash = "ef62303a0fa8aed5a19e43a2b168e348f9482e94ceebd2994241c24b3b43fd8a"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/nuggets/tin.json"
+hash = "aefcf6f2bc3876d4a3ceb25c2f0da6040304141cba9aab0bdf955e4bdcde1700"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/nuggets/uranium.json"
+hash = "eeba4d83085d685bbee1e73ab3051b57ffcbcba36cc5494cf97da009933d241d"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/nuggets/zinc.json"
+hash = "49202659a739772a03a944fc6fabe6a7bc03b30c787167e106a9cd32a0c3a7dc"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/ores/aluminum_iron.json"
+hash = "a93c00f1855d00e99964062763f41bf3f95ebb78511992847ed7af7da4643200"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/ores/copper_gold.json"
+hash = "a2013c2866e41b43581a9d253a47bc0118e4db5efd8a666a28e587415098744c"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/ores/gold_silver.json"
+hash = "fde2e6488edf95183f84328420a8230b2c950733fa442557f4d3ae2fbbd992dc"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/ores/iron_aluminum.json"
+hash = "266de15b743dd0ed32bfa34b2c9a451d3d1dad6d41777ac9f637a72aeb607b76"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/ores/iron_copper.json"
+hash = "034e716f015a932122960f180fab05259542aa71a03c7df008ea747cd9ce9023"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/ores/iron_nickel.json"
+hash = "d4f6de8187ab5d89fbbd35329b95cc76d6c6417ef77de242b57738c8bd4d82ba"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/ores/lead_silver.json"
+hash = "2519bd251f127537d873d1c963564711dba97762220aba57b4ac70d56bac8596"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/ores/nickel_iron.json"
+hash = "18752b4b87bd2447acb912f5fcf8158b6653d77d9d7cc20cce3aec5932a32bc6"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/ores/platinum_gold.json"
+hash = "c02e87d9ca399951fedb4bcea195fdec6efc7e57fbd63808c2137bad1c48c2fd"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/ores/silver_lead.json"
+hash = "3f526308f8e4afddc462e1ca65284373c939d61783e53c23389f601a5ebdd1db"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/ores/tin_lead.json"
+hash = "9109bb381dfd1ddc58217b6d1cb3ec46f53b4e3f1483f9a3982363e725e22216"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/ores/uranium_lead.json"
+hash = "37dfb672834a3292dfdcd901277578c41f2114d378dee273fb402d659e5175d8"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/ores/zinc_iron.json"
+hash = "2d413380c955d919c1e4edff265258df645a23b6204fa1c8a866047eb47951bd"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/ores/zinc_tin.json"
+hash = "a22fa91c0e7d58dfe8ebca63105111caa0ac2eda09ffb7a5b87ed6e472416cb0"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/plates/aluminum.json"
+hash = "c514fe524c8013f20fdaf364c14cef5651fdecfa7c7b0d1521e3f1a4ba7ac23b"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/plates/brass.json"
+hash = "c2b54ca67d9c90c4d7e9350e88f3bdbcc8cb953f19380ac3214016779997dbbe"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/plates/bronze.json"
+hash = "752764c5336106263d73f77c710acbd327495573a8348f038afa42d3ecb3e1d8"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/plates/constantan.json"
+hash = "49623fbf36ad4a4eb61e40f2ef988059c1764cdf3a62991bca0d830deec68c86"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/plates/copper.json"
+hash = "c9085ca224bbd5d0e7ac6e5a6ecc209da647ea7381f8be4d44a13af35675c7eb"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/plates/dawnstone.json"
+hash = "7a4af9c3cf19668e09b0ce4879818f09b2c82b3b068390d43bc99b26b7d298c3"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/plates/electrum.json"
+hash = "28614068e486fa6a565eae82e41ee99593f0b413f7b605470baea0e4fa67e755"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/plates/gold.json"
+hash = "da638953ae36dfe11295259372278c0b3efa828874017a43d9d535cdd1089384"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/plates/invar.json"
+hash = "d47f494c02d2d3c77b78b48ca423dd4bcf02ab91f01fb1f4d19ffa616a2cf2e9"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/plates/iron.json"
+hash = "fee9985953d210f210b2410a950bdff42b729c3e2660c8f6e5884f816bf6a547"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/plates/lead.json"
+hash = "082654e3431f5df6d0abd74998ce372ad4963fb2b4485112daeb922b231e6edd"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/plates/nickel.json"
+hash = "ef0644a240c95be0f7262d677f00a657df17b9670da2e5ecdcdfad86ede29666"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/plates/platinum.json"
+hash = "69013a7713ea2cadf2b14f68c05f6f8bd0876d063e61992781fc6d92c0940f22"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/plates/silver.json"
+hash = "6cdf69d0e788919c8632299818260164023aba4c065a877781b7b9926c409e90"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/plates/tin.json"
+hash = "049da77cb47a9986e84ef8ef54c6d05d19e1d484b60414c1e6bb214ca720796d"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/plates/uranium.json"
+hash = "a465f3129bd990fb37dd276a6e7536f9d0958c4b35a49c8110855eb455ac051d"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/plates/zinc.json"
+hash = "56d6746500e4b097c32d4b16b6047125712ffb6fe7df8b21213806f23d6fdc42"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/raw_materials/aluminum_iron.json"
+hash = "1a096714b9e9536ce100d8252064f0029b5cfd8b8ba6072cc24682beb0aa48a6"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/raw_materials/copper_gold.json"
+hash = "9d74eb8f45e0ae4761338221031843d2a73c3520c632c9674d83f4be1526c236"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/raw_materials/gold_silver.json"
+hash = "0a1717a297ba9aae49820c8569b5c8c6e193a34dc25597dc46d66bddd0c55bc6"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/raw_materials/iron_aluminum.json"
+hash = "a2ffcedca18a76f394644e025139573b6445125a583c76bc8cd757e4cebefa56"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/raw_materials/iron_copper.json"
+hash = "a3fd450f92ac3b39ffdc1c3857de98c199e4e2d1b8365828296733424e99a6e6"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/raw_materials/iron_nickel.json"
+hash = "e16e73839d1a7b0e77ecaeda12f0d0b75e6d960e055aa1ab3a7ce9afb397de72"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/raw_materials/lead_silver.json"
+hash = "c5e9e27d9a8e02d66e19aa10c2f0c51d5ba6146b9df79a2d78e89f6c02140bbc"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/raw_materials/nickel_iron.json"
+hash = "0cffb079543741ae3a4268c7b1aac8814ce63f1030d42a89fd739ede268db3d1"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/raw_materials/platinum_gold.json"
+hash = "e73ff4d1cebe3c95a854770b7f43d0c16379f2ae394c5060f4417fb5222f8fc9"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/raw_materials/silver_lead.json"
+hash = "9cd7711f51ad7e9622122138f73edf181f58139661c7330862908e9355f1c2bf"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/raw_materials/tin_lead.json"
+hash = "7649eff95ef128d910b9887dffc3ae7602b03b5d0141f618d2ffd1ccb82d432a"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/raw_materials/uranium_lead.json"
+hash = "28b003dc6e05ef0e456dd7a0144623f90d04b6ee19ebff7837d66da8a05deb68"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/raw_materials/zinc_iron.json"
+hash = "997523afee4d620ff8a2201e7da61a74dc19aa85d77618135c21e54f560b855a"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/raw_materials/zinc_tin.json"
+hash = "215255ff647b5dbf5cf6fd8c29adc36a42c12789e9f957ddb29f30f28b38f5c1"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/storage_blocks/aluminum.json"
+hash = "9b139be9ddee052e55a6791418ed6b4cd092a7aa9429972cc573223d53352bc4"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/storage_blocks/brass.json"
+hash = "00e867debc1d25faa43eee95e43da59ec6c25cb4cce386c16ae32fb9e583dd88"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/storage_blocks/bronze.json"
+hash = "ae024612459994d7cdff33f041b16f210d4041b8ced6ee8bafa0c6efd6822fa4"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/storage_blocks/constantan.json"
+hash = "1316dbc43d7dfc72009e59f5951d3d530a164e8d53b3681a83e119888f19fee4"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/storage_blocks/copper.json"
+hash = "4735acf062af34d5fe171f8bea396523599f48cbd24be8a2203c6d932d7a09c8"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/storage_blocks/dawnstone.json"
+hash = "d646b1e6613f1a321b6f671854a3f74754e88fc73f95e5abb1c52e51207fcf1d"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/storage_blocks/electrum.json"
+hash = "0bceb299f5e23d38924970a90521eb1e59e300e2f799dda8c0e26fafd6af19db"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/storage_blocks/gold.json"
+hash = "198ff9398f057dfd5dc97dc5d5e984c1afa48ec96245aed0c5be34773916a5b6"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/storage_blocks/invar.json"
+hash = "4bc1bb9825913b266fe85bad3b90120e72d9e8929686b7a2e0291d4499e38212"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/storage_blocks/iron.json"
+hash = "073cb2fb083db185879afd6c35a3ec27e92e8365e816ed7e1a2fff49284516d8"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/storage_blocks/lead.json"
+hash = "0e3a9f56b839e7d02bfcad7f4608fdfb207472c5e5f88121ab604bcf8ba72b20"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/storage_blocks/nickel.json"
+hash = "1338b9d3a3e7f009e3e4d73105af8389f44ad901cc787af55730f514aa92c261"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/storage_blocks/platinum.json"
+hash = "76d4f0e2064722a1e320718e3edb3fa9cf30e7f9f7062953e64bc20fcea58cde"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/storage_blocks/raw_aluminum_iron.json"
+hash = "55eeac9523568c7ccbdcf37f493056090b261166f030d97306988d1c3770fc34"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/storage_blocks/raw_copper_gold.json"
+hash = "153972acbb916d07964f9bbe581c60466edeee54c7bf17f9d89add5ecf6d29a9"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/storage_blocks/raw_gold_silver.json"
+hash = "a32cac9ea8d240bf073a073dde4aeed663047a7225e83d91fc9f3054ee4f70b1"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/storage_blocks/raw_iron_aluminum.json"
+hash = "9839c8300a5d1af6751b71ffc7604b6f3da70c51c946a94aca9f09fd416e3908"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/storage_blocks/raw_iron_copper.json"
+hash = "a7ade27d475c53efbe11a2dc41ea56fa250c7cf588d864dee7871b07824cc975"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/storage_blocks/raw_iron_nickel.json"
+hash = "a6bf69bff97d1250e2fba410f3b7809382a169a860a7de474c80e44911d17382"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/storage_blocks/raw_lead_silver.json"
+hash = "ff5695f7e8783d6694b4ce9a71c4aeb43ccd155d679e73128b3884e5590941c6"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/storage_blocks/raw_nickel_iron.json"
+hash = "784d47cf69417988139a16b752b510acfe5ec2e7fdd3db2b454c56e49ef2f056"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/storage_blocks/raw_platinum_gold.json"
+hash = "4354fa4e9cc99286c67c9bdce62468067b39ab44a18563cad9d7c836ff76d994"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/storage_blocks/raw_silver_lead.json"
+hash = "1958c4e04c22797f4cb5e3290b33793875e1b5bc2ac6a5cfb7300a2c7b2c5f6c"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/storage_blocks/raw_tin_lead.json"
+hash = "7a0504622f859d35f9353a370b67726a57f35ff94d6dbd26ca810f6776ce32c7"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/storage_blocks/raw_uranium_lead.json"
+hash = "5556fcf03b26f015115a843829ff3baec145716637ec27700e95e2be081b9607"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/storage_blocks/raw_zinc_iron.json"
+hash = "b284113733f120607b52884dc291c33a0616902df51f0e2e976f1d62f22bde60"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/storage_blocks/raw_zinc_tin.json"
+hash = "4f87d49f06eb23d420a1dc2e017e68071040779b60f0bbf45f2d9bc0d10d866d"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/storage_blocks/silver.json"
+hash = "6bcbeb0f6f0354758570089edd0c22c5d39f6b91a0919b26e47cbb95bf9c5033"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/storage_blocks/tin.json"
+hash = "ef32864b471056beed40a42b15e270a90ddb5d22c54ccd19d7b7d483f3eb1a3e"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/storage_blocks/uranium.json"
+hash = "579ccef20e4ff08582303fe2db9c100249e2f413dc15949a10dec4e0d30ad515"
+
+[[files]]
+file = "kubejs/data/embers/recipes/melting/storage_blocks/zinc.json"
+hash = "500967941b79f50fdf1d5b4eeabc1141cef3c29b37b13568f7ede605b1d169b1"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/gears/aluminum.json"
+hash = "101a8be7da2c22ccd1eea6edcee2a9d8dad51b86f68ed0d7f60a48ba0cba5f70"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/gears/brass.json"
+hash = "0dd1edd52d621c0d5cdb804605cb08aa3b5e4f06f81e7f6678f52f695cfd3dfe"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/gears/bronze.json"
+hash = "255c84c869ffa9a6505c6ec83304b7d1e67f2541293a4e7322466b472a9e4bf0"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/gears/constantan.json"
+hash = "d1b85ece69b799d74dd9d0495325e90fa17fdd50a4297e58794135385da95a71"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/gears/copper.json"
+hash = "6af016ff368b0784fb5f9f6dee2cd3993bac5302d06e5af8a6261af11ac672f0"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/gears/dawnstone.json"
+hash = "d5ef3ea66d5e006b0a6a319cd592185d7e7ac823297459c8b56cd7e870bddca7"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/gears/electrum.json"
+hash = "6b0782dba13715ee4570cbcb76e407827178f161d893187a64433598c06a31d5"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/gears/gold.json"
+hash = "976d82d68f68f0d48e2755c28058cd046bdd85433a2df7fa58d5bb59ca28acfb"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/gears/invar.json"
+hash = "31dfc8ec39160de43406207b68d7725fcdd0299f23df12a783ed5c539a0e8b41"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/gears/iron.json"
+hash = "fd98894c580d5ee6a0baf9085caaeaeec256f393e2f6b399795346b92b1e753c"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/gears/lead.json"
+hash = "6e1a4bed45a7935a02bcfc2ec58b5771d20f2307cc311b48d25841fc3706b013"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/gears/nickel.json"
+hash = "f7e51fcef61ddf2563832391cc74d311618ad8a6781664aeb22a426c96a5ce93"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/gears/platinum.json"
+hash = "9e2de56986e8797117b935f7863a8710f298a9210926ac514fe87d8019ca0228"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/gears/silver.json"
+hash = "fcc1e76d8f09cf8629b7d2656c30dbb4005a52eecc1853af2a13521c188d7d79"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/gears/tin.json"
+hash = "35c9372fa878e239d2b6fb5240c9b8d56d92905fb1899d5810b65c9bd4491e0d"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/gears/uranium.json"
+hash = "c0a78c504adaaec343a4c7cbe79e45b5936ca8c4198efc93e7324b88cd563576"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/gears/zinc.json"
+hash = "98db837cee346812b7faa540b46f58c323cd6f4b2a05c9b335b093c8df59c58f"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/ingots/aluminum.json"
+hash = "1a30b7b0d9bb5c3bff79f4ff59c81af24dbf108ab128a6e70dee190c0c1fe80a"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/ingots/brass.json"
+hash = "e95228148f976fa9f5dab48c85065f7336ab3f9aa4993c81353e6aa61dfcf5c5"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/ingots/bronze.json"
+hash = "ca85572ddec8828360f998f746c84d560ccabdad6f94fcea491c4cdda326877f"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/ingots/constantan.json"
+hash = "b503e9f944b5b1aafb4d437c65f7d897d3c9a28da00066ff202773ef77f78498"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/ingots/copper.json"
+hash = "07a247f774a0eaa507a45f0baef617d8d896fe49a0590a68a0a33323bed97edb"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/ingots/dawnstone.json"
+hash = "f5b1c99bb327f8795a16d9242659cafe745780c1144f0717514b813d243f00a2"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/ingots/electrum.json"
+hash = "c569e4eeafbd7c9d44728720716a399fbf212cb5e672a2a04a344e03263b7821"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/ingots/gold.json"
+hash = "2939aed0abc08050973fa28f4247989701380b2c565ff54d6686b0214b8c35e0"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/ingots/invar.json"
+hash = "35ee0717293016236168d14b32b956c0605e808c3faea136be986c9c632c88dd"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/ingots/iron.json"
+hash = "db097b5ec6effc6b6d070e08c8a48203245666c7cf11b1c0944c2cad44d6437d"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/ingots/lead.json"
+hash = "b0f45ede0edde31e1e2d7d11aaf2899a21e54cf5f661707c97d339d207fb0fa9"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/ingots/nickel.json"
+hash = "70580fdd7b9408b86c073001dacd6d984bad790a88cc574d658614fb5f1ba813"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/ingots/platinum.json"
+hash = "df4798b875e757b7537978b3c39ffde11684c901cb6c3a49fa618e1f929c91fe"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/ingots/silver.json"
+hash = "67ccdf0a2287b370541c39304e994b54f5b9bdafb0de3bbe1342d49a745cded0"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/ingots/tin.json"
+hash = "0ae905eb33c0845de530413f818c2fc283dee1f9f8ecfe761436ce742553a64d"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/ingots/uranium.json"
+hash = "9d60c417e18696070acc30edd53ba0079db080fdc268a73eff110797b0f46906"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/ingots/zinc.json"
+hash = "c0fe1eb963363c9a521b71eaf511a5f311133b41967d50fac36bf7fdbe4119fc"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/nuggets/aluminum.json"
+hash = "b92142b2c1502c2043ab4ebf7c51260412b206c63e529012a160efe849015d73"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/nuggets/brass.json"
+hash = "2328680607eff3d6c228a896775d351c84867b0c0128f1f4ff6fa8bc409a3d76"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/nuggets/bronze.json"
+hash = "d8886c3f4d07a98949fd4c32329eabe384bdb9bc92851ecf5eebdbf7ac244b0e"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/nuggets/constantan.json"
+hash = "00607e2ed5e383ebf18547e0654f4153efb9a6bba47aca8f0becce8e27ea898c"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/nuggets/copper.json"
+hash = "74a3991c0e43fb92cc5045bfaf68640ee2e7934d2987a97d0a2f41bf134d287f"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/nuggets/dawnstone.json"
+hash = "74525ef339edf38232b04f2a5712e6c7151cd1ee0c7d7227f6d87347f225c1ff"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/nuggets/electrum.json"
+hash = "6b9a3c796c4bc224029cca2e02169e2b948489235810233029eb4a7d6a103450"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/nuggets/gold.json"
+hash = "826f38d981ab2b1ea82351bb9a5d486f0ab67d54ebeb03414ce5501025e09ec7"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/nuggets/invar.json"
+hash = "adc1f1c6ed838af156e9ec21c5c989b6dfd9f20161fd0a8c22f0b19f540289bb"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/nuggets/iron.json"
+hash = "20b62a03b00188742bf6ba6d882274ef83c3e491b198e2d2fbee50b26fb4167a"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/nuggets/lead.json"
+hash = "774d1660c5577bf894057d06eec992f053c8501d7f33f876e591341b0960f84d"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/nuggets/nickel.json"
+hash = "40d0b7754e218f9fade1497cd87cab99e8b30ba0065a20fbe302510b9fdaeb17"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/nuggets/platinum.json"
+hash = "fc22b36afdfe3ae1af9ca0b0c75239684dc47ad467dc33a8a9ff44d9b6f61bec"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/nuggets/silver.json"
+hash = "e0969612622159ecafdd67f07067f21a99adcf2ee90d3142c7c66c7bca38b997"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/nuggets/tin.json"
+hash = "bf8594b188beab3c72c714b929d458d68c07e13fd2d55a0fad76dd041864e04e"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/nuggets/uranium.json"
+hash = "3c777fdc788e50c782fe24781d27b21e512273a176bfdfa98400dbd415d24606"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/nuggets/zinc.json"
+hash = "76390ef28766dba2f02369fec1310fb0f9583c3b23ca3fb3179100013ed98b1c"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/plates/aluminum.json"
+hash = "de9e92c02f16aff62fce298d0f71eb9850eb3a5a74d2fab1b8a8eb4b0111c486"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/plates/brass.json"
+hash = "5f5fcf86af95f21c7765206a12eb5d74febc5361ca521e55b91ed7b5e673418b"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/plates/bronze.json"
+hash = "27a1c0224c664f812fc56410c9163d5f4fe8ec3fd77fe971dadbceb4d204757d"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/plates/constantan.json"
+hash = "185c120b1039fb04dd77d4c770dd61cc1d8e2c8f8561b5f0f4c2c0e4fdfa7d82"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/plates/copper.json"
+hash = "bda8eff158a7e5397b413e688953cba4ac92b73e244106a2f17b0482d02efc2c"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/plates/dawnstone.json"
+hash = "ea0f515fe1771f614773fb6e0f050e885f2a0f6ca36856b6a233e09209047aeb"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/plates/electrum.json"
+hash = "744c7eb4c30a0e866de2a4cfc8db837d6b8bc1ad6e66048971145309aaa48f9a"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/plates/gold.json"
+hash = "fe1eefc8a11708bf942e90bd6df0e1339db06364c463a82a8eb68aa6c6a79c54"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/plates/invar.json"
+hash = "643653f38060dc0834083654719bb62ef4b20ef172acc82b29ee35e345f357eb"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/plates/iron.json"
+hash = "c74a66fab72493cb2990fcca446005bc080805c2c4e265011cebb752e48bbb3b"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/plates/lead.json"
+hash = "73fa28ee92257f270c8f1f5b9779248e3cf9ca6cf486403c538e6f0927011c71"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/plates/nickel.json"
+hash = "ffdebb7cc9e7f69802419303e2ba1f2d29c7f05594ccf6c6d53cdbec5bbb2860"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/plates/platinum.json"
+hash = "773d38277dace9b0900a002a935a075bd2ba6a07890b81ae892a33936203d49a"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/plates/silver.json"
+hash = "07d42e7b077137e68db7b9511f1ae446cd13b7a672bce20f1817f485dd120869"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/plates/tin.json"
+hash = "d6c0fc2da3279a6d42c4f5b9f11018b35a09e1c09d7133a7ba09d8eb803c8ffc"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/plates/uranium.json"
+hash = "faa9db3a19a4773084f3de4287dbd98ed7b43a06cd95a9f96f88ecbb8eb6223b"
+
+[[files]]
+file = "kubejs/data/embers/recipes/stamping/plates/zinc.json"
+hash = "8a3e68f37a281ac1b34b11877bd85afeb49e38b195160414d6b0f0bb153f5d9a"
 
 [[files]]
 file = "kubejs/data/embers/worldgen/configured_feature/ore_lead.json"
@@ -18445,6 +20065,14 @@ file = "kubejs/jsconfig.json"
 hash = "a0433a8dec696eded50de59d045b762cf9209d2f7588054a6fb80e4b01487946"
 
 [[files]]
+file = "kubejs/server_scripts/Molten Dynamics/embers melter.js"
+hash = "05ae9462049b12981bf1fd9c9001c02d62a470c7f890759e9d9e35820e6a9504"
+
+[[files]]
+file = "kubejs/server_scripts/Molten Dynamics/molten metals integration.js"
+hash = "c4d8cb55f8c32cb0c7d2654a6c3a88cc53d52f68497c77ab506f19bc6dc8d501"
+
+[[files]]
 file = "kubejs/server_scripts/chapter 1 - pre-LV/botania.js"
 hash = "3694a55400f25f8bdc711900dcca90ab68d858c6ceb3bfb73ea947e6afd05e01"
 
@@ -18462,7 +20090,7 @@ hash = "0f89ee6a9f571460a60798d5d99f6f2f0d1ce2474b36a34c7c96bc8f9adc0b67"
 
 [[files]]
 file = "kubejs/server_scripts/chapter 1 - pre-LV/embers.js"
-hash = "76e49c60024240320db2ee783f3c518dcdc87e3496f1e2095eee113523e10484"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/server_scripts/chapter 1 - pre-LV/minecraft.js"
@@ -18513,12 +20141,12 @@ file = "kubejs/server_scripts/src/placeholder.ts"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
-file = "kubejs/startup_scripts/GTAtomphysx/elements.js"
-hash = "6b66f0e69f606423484b49ca594872a81da1ba880d6023e7cff03b2d74f64855"
+file = "kubejs/startup_scripts/GTAtomPhysX/elements.js"
+hash = "ed114f74213ae2f3b5968c3dc5b55240e1d5cab620c6b1e782b0e9a694ac4c4e"
 
 [[files]]
-file = "kubejs/startup_scripts/GTAtomphysx/materials.js"
-hash = "5c79892ad355ddda2154c1a2ec11a0ec0db26e05ffd05578b84f876180f71efd"
+file = "kubejs/startup_scripts/GTAtomPhysX/materials.js"
+hash = "c37b100c8a3d9da822c1bff8aa952ecce80237d8c82b46f7ba7f0ab077d1b55a"
 
 [[files]]
 file = "kubejs/startup_scripts/Item Modifications.js"
@@ -18526,7 +20154,7 @@ hash = "c12a986216e63d409dff1787559a2f0f1fb8d98fbe4c5cd583783404f09e4c9e"
 
 [[files]]
 file = "kubejs/startup_scripts/Items Blocks and Fluid Registry/block reg.js"
-hash = "758cb7374807dc4b87f4a655616f27447b3f282fecef7ed5a67368a17bbef8a0"
+hash = "e4ed7b5bdcf4f6b8c6d28cb19752f4773094465f3d6db8590a12fa47a991a60a"
 
 [[files]]
 file = "kubejs/startup_scripts/Items Blocks and Fluid Registry/fluid reg.js"
@@ -18534,7 +20162,7 @@ hash = "1c1089271f0a639f06febc8009e572e5d583b9f56a1e72766ab92154a59ca814"
 
 [[files]]
 file = "kubejs/startup_scripts/Items Blocks and Fluid Registry/item reg.js"
-hash = "def0d24f538ee8c44b41f160d82885087372039179955e996ceb7e2f69accda0"
+hash = "8561234734b3059fc05c3ed6e6715b6369a60744527e4d5c7d0b8b786a811b73"
 
 [[files]]
 file = "kubejs/startup_scripts/PowerfulJS.js"
@@ -18543,10 +20171,6 @@ hash = "5a0599735ecb3ad29386de49e0902d10f0f225862bb9b1c39c2314311f633693"
 [[files]]
 file = "kubejs/startup_scripts/_init.js"
 hash = "bef7bc1aeefde3a35354776e16d3cf7b8b540e2c65dc12d6f4effa4b7d58ac3f"
-
-[[files]]
-file = "kubejs/startup_scripts/example.js"
-hash = "02d48ff6f28d5a657b8aaf07436957850788d89cd71cee9d90170b1d42b896a1"
 
 [[files]]
 file = "kubejs/startup_scripts/jsconfig.json"
@@ -19093,7 +20717,7 @@ metafile = true
 
 [[files]]
 file = "mods/lucky-tnt-lib.pw.toml"
-hash = "f62265a0f8ce43af88830af255062c455d9101a9b12f2ff36d5a1ce8861c8461"
+hash = "17cad439be9c380ef6757d25a778b0375d6ee8662facb97bb08dca6e68f3ac8e"
 metafile = true
 
 [[files]]
@@ -19525,6 +21149,38 @@ metafile = true
 file = "mods/zeta.pw.toml"
 hash = "ed8474cfb69fe3b5ca21155b3ca060432bfa85b15470bcb9c2a723c68df3c24e"
 metafile = true
+
+[[files]]
+file = "molten_PLACEHOLDER_mold.pdn"
+hash = "ae4da1ace89b1ccad027bd78ed0399f6816186112c202b125d9c0f15931853a7"
+
+[[files]]
+file = "molten_antimony_mold.png"
+hash = "0a10d327a287cd8e2038f4e558b1e2e41661d420e00ede30b3a7d2d33eac96f8"
+
+[[files]]
+file = "molten_beryllium_mold.png"
+hash = "488b364c1c00f1912eecbaf299821fbdac4fbf48eff3cc37c9cfd32fe1bebcf7"
+
+[[files]]
+file = "molten_bismuth_mold.png"
+hash = "51945602be4f4368c4a8e12ec4dcdffeb11067b710b8d997bfd800391566f1d4"
+
+[[files]]
+file = "molten_cobalt_mold.png"
+hash = "1effc0d569fd655a9609429238828fc8b7cbf201b657cb4c6d0bfdba5803c3d9"
+
+[[files]]
+file = "molten_copper_mold.png"
+hash = "45f9a13464bca9ead6278b5e7a836e1ee3da43d156b813d97742fd88a1a782bd"
+
+[[files]]
+file = "molten_gold_mold.png"
+hash = "a09ce86e198181e338d1de97a541d6d0ba882b4a1174e21db0c7903a4301d2ef"
+
+[[files]]
+file = "molten_iron_mold.png"
+hash = "75f1002680e7344c3a467ad18b8626f745269edb822540bb0cb3696a68981066"
 
 [[files]]
 file = "scripts/aa_removingStuff.zs"
