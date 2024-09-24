@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "magicgreg:block/moltendynamics/molten_manganese_ingot_mold",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "magicgreg:block/moltendynamics/molten_manganese_ingot_mold"
+    },
+    "facing=east": {
+      "model": "magicgreg:block/moltendynamics/molten_manganese_ingot_mold",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "magicgreg:block/moltendynamics/molten_manganese_ingot_mold",
+      "y": 270
+    }
+  }
+}

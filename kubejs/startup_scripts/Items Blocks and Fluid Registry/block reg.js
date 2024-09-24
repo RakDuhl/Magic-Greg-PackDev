@@ -72,5 +72,23 @@ StartupEvents.registry(
         .hardness(5)
         .requiresTool(true)
         .soundType('metal');
+
+    event.create('magicgreg:empty_ingot_mold')
+        .displayName('Empty Ingot Mold')
+        .model('magicgreg:block/moltendynamics/mold')
+        .soundType('deepslate')
+        .hardness(0.1)
+        .resistance(0.5)
+        .tagBlock('mineable/pickaxe')
+        .renderType('cutout')
+
+    event.create('magicgreg:molten_manganese_mold')
+        .displayName('Molten Manganese Mold')
+        .model('magicgreg:block/moltendynamics/molten_manganese_mold')
+        .soundType('deepslate')
+        .hardness(0.1)
+        .resistance(0.5)
+        .tagBlock("mineable/pickaxe")
+        .transparent(true)
     }
 )
