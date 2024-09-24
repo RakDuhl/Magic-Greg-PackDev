@@ -1,3 +1,5 @@
+// priority: 9900
+
 //event.create(Element Name (string), Protons Int, Neutrons Int, Half Life Seconds Int, Decay To, Atomic Symbol (string), Is Isotope boolean)
 //If Half-Life is set to -1, set Decay To as null and Is Isotope to false
 //The higher the Atomic Numbers, the longer autoGen recipes from GT will be

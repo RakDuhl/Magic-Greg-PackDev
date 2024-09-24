@@ -1,3 +1,5 @@
+// priority: 8900
+
 GTCEuStartupEvents.materialModification(
     event => {
         TagPrefix.block[    'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('mana_steel'),   () => Item.getItem('botania:manasteel_block'))
@@ -46,4 +48,3 @@ GTCEuStartupEvents.registry(
         )
     }
 )
-
