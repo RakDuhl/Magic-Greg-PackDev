@@ -1,22 +1,20 @@
 // priority:
 const MoltenToIngot = [
-    { fluid: 'molten_metals:molten_copper', mold: 'molten_metals:molten_copper_ingot_mold', item: 'minecraft:copper_ingot'},
-    { fluid: 'molten_metals:molten_gold',   mold: 'molten_metals:molten_gold_ingot_mold', item: 'minecraft:gold_ingot'},
-    { fluid: 'molten_metals:molten_iron',   mold: 'molten_metals:molten_iron_ingot_mold', item: 'minecraft:iron_ingot'},
-    { fluid: 'embers:molten_lead',          mold: 'molten_metals:molten_lead_ingot_mold', item: 'embers:lead_ingot'},
-    { fluid: 'embers:molten_nickel',        mold: 'magicgreg:molten_nickel_ingot_mold', item: 'gtceu:nickel_ingot'},
-    { fluid: 'molten_metals:molten_silver', mold: 'molten_metals:molten_silver_ingot_mold', item: 'embers:silver_ingot'},
-    { fluid: 'molten_metals:molten_tin',    mold: 'molten_metals:molten_tin_ingot_mold', item: 'gtceu:tin_ingot'},
-    { fluid: 'molten_metals:molten_zinc',   mold: 'molten_metals:molten_zinc_ingot_mold', item: 'create:zinc_ingot'},
-    { fluid: 'gtceu:beryllium',             mold: 'magicgreg:molten_beryllium_ingot_mold', item: 'gtceu:beryllium_ingot'},
-    { fluid: 'gtceu:cobalt',                mold: 'magicgreg:molten_cobalt_ingot_mold', item: 'gtceu:cobalt_ingot'},
-    { fluid: 'gtceu:molybdenum',            mold: 'magicgreg:molten_molybdenum_ingot_mold', item: 'gtceu:molybdenum_ingot'},
-    { fluid: 'gtceu:neodymium',             mold: 'magicgreg:molten_neodymium_ingot_mold', item: 'gtceu:neodymium_ingot'},
-    { fluid: 'gtceu:thorium',               mold: 'magicgreg:molten_thorium_ingot_mold', item: 'gtceu:thorium_ingot'},
-    { fluid: 'gtceu:manganese',             mold: 'magicgreg:molten_manganese_ingot_mold', item: 'gtceu:manganese_ingot'},
-    { fluid: 'gtceu:antimony',              mold: 'magicgreg:molten_antimony_ingot_mold', item: 'gtceu:antimony_ingot'},
-    { fluid: 'gtceu:magnesium',             mold: 'magicgreg:molten_magnesiu_ingot_mold', item: 'gtceu:magnesium_dust'},
-    { fluid: 'gtceu:bismuth',               mold: 'molten_metals:molten_bismuth_ingot_mold', item: 'gtceu:bismuth_ingot'}
+    { fluid: 'embers:molten_copper',        mold: 'magicgreg:molten_copper_mold', item: 'minecraft:copper_ingot'},
+    { fluid: 'embers:molten_gold',          mold: 'magicgreg:molten_gold_mold', item: 'minecraft:gold_ingot'},
+    { fluid: 'gtceu:iron',                  mold: 'magicgreg:molten_iron_mold', item: 'minecraft:iron_ingot'},
+    { fluid: 'embers:molten_lead',          mold: 'magicgreg:molten_lead_mold', item: 'embers:lead_ingot'},
+    { fluid: 'embers:molten_nickel',        mold: 'magicgreg:molten_nickel_mold', item: 'gtceu:nickel_ingot'},
+    { fluid: 'embers:molten_silver',        mold: 'magicgreg:molten_silver_mold', item: 'embers:silver_ingot'},
+    { fluid: 'embers:molten_tin',           mold: 'magicgreg:molten_tin_mold', item: 'gtceu:tin_ingot'},
+    { fluid: 'embers:molten_zinc',          mold: 'magicgreg:molten_zinc_mold', item: 'create:zinc_ingot'},
+    { fluid: 'gtceu:beryllium',             mold: 'magicgreg:molten_beryllium_mold', item: 'gtceu:beryllium_ingot'},
+    { fluid: 'gtceu:cobalt',                mold: 'magicgreg:molten_cobalt_mold', item: 'gtceu:cobalt_ingot'},
+    { fluid: 'gtceu:molybdenum',            mold: 'magicgreg:molten_molybdenum_mold', item: 'gtceu:molybdenum_ingot'},
+    { fluid: 'gtceu:manganese',             mold: 'magicgreg:molten_manganese_mold', item: 'gtceu:manganese_ingot'},
+    { fluid: 'gtceu:antimony',              mold: 'magicgreg:molten_antimony_mold', item: 'gtceu:antimony_ingot'},
+    { fluid: 'gtceu:magnesium',             mold: 'magicgreg:molten_magnesium_mold', item: 'gtceu:magnesium_dust'},
+    { fluid: 'gtceu:bismuth',               mold: 'magicgreg:molten_bismuth_mold', item: 'gtceu:bismuth_ingot'}
 ];
 
 //filling molds
@@ -28,7 +26,7 @@ ServerEvents.recipes(
                     'type': 'create:filling',
                     'ingredients': [
                         {
-                            'item': 'molten_metals:ingot_mold' //UND 'molten_metals:ceramic_ingot_mold'
+                            'item': 'magicgreg:empty_ingot_mold' //UND 'molten_metals:ceramic_ingot_mold'
                         },
                         {
                             'fluid': material.fluid,
@@ -63,7 +61,7 @@ ServerEvents.recipes(
                             "item": material.item
                         },
                         {
-                            "item": "molten_metals:ingot_mold"
+                            "item": "magicgreg:empty_ingot_mold"
                         }
                     ]
                 }

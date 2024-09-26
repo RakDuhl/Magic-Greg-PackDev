@@ -1,4 +1,8 @@
 // priority: 9002
+
+//function for general convenience later
+const capitalizeFirstLetter = (str) => str.split('_').map(word => word.charAt(0).toUpperCase() + str.slice(1)).join(' ');
+
 //Blocks
 StartupEvents.registry(
     'block',
@@ -73,22 +77,54 @@ StartupEvents.registry(
         .requiresTool(true)
         .soundType('metal');
 
-    event.create('magicgreg:empty_ingot_mold')
-        .displayName('Empty Ingot Mold')
-        .model('magicgreg:block/moltendynamics/mold')
-        .soundType('deepslate')
-        .hardness(0.1)
-        .resistance(0.5)
-        .tagBlock('mineable/pickaxe')
-        .renderType('cutout')
+    //Molten Dynamics
 
-    event.create('magicgreg:molten_manganese_mold')
-        .displayName('Molten Manganese Mold')
-        .model('magicgreg:block/moltendynamics/molten_manganese_mold')
-        .soundType('deepslate')
-        .hardness(0.1)
-        .resistance(0.5)
-        .tagBlock("mineable/pickaxe")
-        .transparent(true)
+        const MetalTypes = [
+            { metal: 'copper' },
+            { metal: 'gold' },
+            { metal: 'iron' },
+            { metal: 'lead' },
+            { metal: 'nickel' },
+            { metal: 'silver' },
+            { metal: 'tin' },
+            { metal: 'zinc' },
+            { metal: 'beryllium' },
+            { metal: 'cobalt' },
+            { metal: 'molybdenum' },
+            { metal: 'manganese' },
+            { metal: 'antimony' },
+            { metal: 'magnesium' },
+            { metal: 'bismuth' },
+            { metal: 'arcane_gold'}
+        ]
+
+        event.create('magicgreg:empty_ingot_mold')
+            .displayName('Empty Ingot Mold')
+            .model('magicgreg:block/moltendynamics/mold')
+            .soundType('deepslate')
+            .hardness(0.1)
+            .resistance(0.5)
+            .tagBlock('mineable/pickaxe')
+            .renderType('cutout')
+            .fullBlock(false)
+            .box(5, 0, 3, 11, 4, 13, true);
+
+        MetalTypes.forEach(
+            (metalObj) => {
+                const metal = metalObj.metal; 
+                const metalNameUpper = capitalizeFirstLetter(metal);
+        
+                event.create(`magicgreg:molten_${metal}_mold`)
+                    .displayName(`Molten ${metalNameUpper} Mold`)
+                    .model(`magicgreg:block/moltendynamics/molten_${metal}_mold`)
+                    .soundType('deepslate')
+                    .hardness(0.1)
+                    .resistance(0.5)
+                    .tagBlock("mineable/pickaxe")
+                    .transparent(true)
+                    .fullBlock(false)
+                    .box(5, 0, 3, 11, 4, 13, true);
+            }
+        );
     }
 )
