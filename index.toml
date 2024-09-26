@@ -282,11 +282,11 @@ hash = "5cd10c5b4e81f9ffc4d61d576ecabc4c5496010c98e9faff9ba872047ca36e12"
 
 [[files]]
 file = "config/brandon3055/contributors.json"
-hash = "1b047fd7ed96005494863007593c6fc17f1c5c243f7f57725dd55a2f4a23e581"
+hash = "3a349f9847ee2c0e2fcbe5d2d68973cc5292c91aff6c9f0a09a01ffe236443fa"
 
 [[files]]
 file = "config/brandon3055/contributors.json.etag"
-hash = "33ebb594627f35869538ea6a8ca9028351660bb9be3098c5142e7fd45c84403e"
+hash = "e142e8d778ec45e801daad97dc5d97b9ad12c34ef82bc28d171bfd18607f533d"
 
 [[files]]
 file = "config/brandon3055/hud_settings.json"
@@ -1366,7 +1366,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "ab9e2ca50cccfcf1bda108591ec8716a5595e697feec2c1788238d773cc36bb2"
+hash = "cc99dcf8f1589305d718aa1a6da073ab86564d39794f077794c887ec2cc03996"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1486,7 +1486,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "faa14edbfcf273e2163ab5623e9f584cc639c44adba6b25883ede46ea905f408"
+hash = "2b3caa1b95ed97d8f3bccd0659c5653ab0f6347182b1981adb0f2d9a1ef7581b"
 
 [[files]]
 file = "config/oreexcavation-client.toml"
@@ -1526,7 +1526,7 @@ hash = "bdd0d49d0c07cea4ecff57cd0e042ae136b1e1408fb9dc3150e2c5485fc7a632"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "a0cd4d3efd37f87edfcc6e4c572cbb43125860d6450fefb84c682c7bb8bd5a58"
+hash = "a5fbcafab79fd39a5ed091674bd9ecf0177bd92102dc7541080dbe54ba5fbddf"
 
 [[files]]
 file = "config/quarryplus-client.toml"
@@ -1626,11 +1626,11 @@ hash = "ed118a21470a17635fb10b45dec1ed253a38c5537e38be9935f235a3dbf07a96"
 
 [[files]]
 file = "config/sound_physics_remastered/occlusion.properties"
-hash = "1c287e72bbd46151800d96f23b32576ffea2f62022750b8bff8d53af41c37076"
+hash = "92de6957c04114d4a4cfe733e8cb9697dff256522c1c1a7865a3562cc7a4babc"
 
 [[files]]
 file = "config/sound_physics_remastered/reflectivity.properties"
-hash = "37ba4960115e8769ec0a3f415246521fea79a196aa174b0ca7c830e1b21e10e6"
+hash = "18ebed0877161632fe267fd7ffd4727cb77b95b918b81e9e93bb58bf12304d5c"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -2214,7 +2214,7 @@ hash = "9757a6208de6780c7d86d61a75e997848a30a7e759f5e2f3e29d08ab7aa6383f"
 
 [[files]]
 file = "config/worldedit/worldedit.properties"
-hash = "7e4ff419c68f64143e51fcd5be115f358acbbf2db9c84d3da2cb32b23462026c"
+hash = "e827a62e1fc85c1cdbc23e8a3d1fdea0c60350a7375da0c1620b613ba9683a80"
 
 [[files]]
 file = "config/worldeditcui.config.json"
@@ -11665,8 +11665,68 @@ file = "kubejs/assets/magicgreg/blockstates/ingot_mold.json"
 hash = "e61e6a424e9c8f52f5b0cc3cafcbc9cec27ccf02288c1554dfc437cecbfe3fa9"
 
 [[files]]
+file = "kubejs/assets/magicgreg/blockstates/molten_antimony_ingot_mold.json"
+hash = "290beeedcf4075d3671ae1a79629df2526c61e75620cd695429fe5beb4a0ed6c"
+
+[[files]]
+file = "kubejs/assets/magicgreg/blockstates/molten_arcane_gold_ingot_mold.json"
+hash = "f7b6a3bb7c90f109c35d48121d1b5a73f86c6af8fc3e8f36c076e0d9a8bfde70"
+
+[[files]]
+file = "kubejs/assets/magicgreg/blockstates/molten_beryllium_ingot_mold.json"
+hash = "aabe714fee52cc202aa6eb5348040fa7795470f143c42e17fe012af7d2f660e0"
+
+[[files]]
+file = "kubejs/assets/magicgreg/blockstates/molten_bismuth_ingot_mold.json"
+hash = "35c892f0b34c09d4832605500ceff86ffb25afe1ce2ae61a1a42d9426a5019a3"
+
+[[files]]
+file = "kubejs/assets/magicgreg/blockstates/molten_cobalt_ingot_mold.json"
+hash = "8061a4b84cbe3dcfd8553be885847ebc3dc229c15db00cd58379261844bbf7ad"
+
+[[files]]
+file = "kubejs/assets/magicgreg/blockstates/molten_copper_ingot_mold.json"
+hash = "c794c50cfe4d067f23ff4ea2fea170a3682102175042394eaa4392865f9ac1d0"
+
+[[files]]
+file = "kubejs/assets/magicgreg/blockstates/molten_gold_ingot_mold.json"
+hash = "8fbd89994b57548df94be93f043194dc2fa8a9b796d2124df1aa82cbc8d83a1a"
+
+[[files]]
+file = "kubejs/assets/magicgreg/blockstates/molten_iron_ingot_mold.json"
+hash = "7b602461603789591b906f4a223fe0a96e25125d43accb4355a05c274505271f"
+
+[[files]]
+file = "kubejs/assets/magicgreg/blockstates/molten_lead_ingot_mold.json"
+hash = "793f405d8d949d2a86f981bcfa8394eda60d1ffed4a27b6ecfa6ea802df3b15f"
+
+[[files]]
+file = "kubejs/assets/magicgreg/blockstates/molten_magnesium_ingot_mold.json"
+hash = "0076a0bf5b6f0c108b6f0826e7c0fa534b842b33c0e3455ac2f13c050dc9c39f"
+
+[[files]]
 file = "kubejs/assets/magicgreg/blockstates/molten_manganese_ingot_mold.json"
-hash = "f7303b25b34277e6c3aad3c7fe0890976bff23229c962eee39c0768016de69c2"
+hash = "51b7aef7d4dcb432d34d99bb0eee9ae5fe17893e36f24e41933b55e8c7fa603f"
+
+[[files]]
+file = "kubejs/assets/magicgreg/blockstates/molten_molybdenum_ingot_mold.json"
+hash = "4fbe2efeb83e4ad9d5c31b4e92c2043768610d10c389e8bcc5849e0f78d39a46"
+
+[[files]]
+file = "kubejs/assets/magicgreg/blockstates/molten_nickel_ingot_mold.json"
+hash = "e6bf521cb12fda096c20aa85b41130ef877544f5cfd3855ff3dae979fb096ca8"
+
+[[files]]
+file = "kubejs/assets/magicgreg/blockstates/molten_silver_ingot_mold.json"
+hash = "be97cfbf089628ae83d7747fc8e05c32b394858058763e20fd6ac3e1bfa530ee"
+
+[[files]]
+file = "kubejs/assets/magicgreg/blockstates/molten_tin_ingot_mold.json"
+hash = "5d34abef90dcfd9d7b8ed5f011484eb34b000feb89f77ba91e253f606ebf764f"
+
+[[files]]
+file = "kubejs/assets/magicgreg/blockstates/molten_zinc_ingot_mold.json"
+hash = "ee1e2240123abf16497331242d9c0676b4cf69493477a437242ebf53e216307f"
 
 [[files]]
 file = "kubejs/assets/magicgreg/models/block/moltendynamics/fluid.json"
@@ -11677,8 +11737,68 @@ file = "kubejs/assets/magicgreg/models/block/moltendynamics/mold.json"
 hash = "18029abf903d38c24396c9c680e06ab7ab12755e786df89aa07f731a6dad1a43"
 
 [[files]]
+file = "kubejs/assets/magicgreg/models/block/moltendynamics/molten_antimony_mold.json"
+hash = "257b4a8f4456bb28cfa9f97037fc9bb385202da911bbb33272e3c5fc9a53f2ff"
+
+[[files]]
+file = "kubejs/assets/magicgreg/models/block/moltendynamics/molten_arcane_gold_mold.json"
+hash = "0de012e6da2d7558e5e5f317499e67ae7837d5bbbdd12c9cf25f5730b3ec5f19"
+
+[[files]]
+file = "kubejs/assets/magicgreg/models/block/moltendynamics/molten_beryllium_mold.json"
+hash = "2e52a247e288445ec27f48d0db6fd68e2c65b7bfd183fc0d7e4123c26affc310"
+
+[[files]]
+file = "kubejs/assets/magicgreg/models/block/moltendynamics/molten_bismuth_mold.json"
+hash = "9ee92a13f439dda1928394b9e16a4b1792991e115927ec2bcf48803465a320fe"
+
+[[files]]
+file = "kubejs/assets/magicgreg/models/block/moltendynamics/molten_cobalt_mold.json"
+hash = "1c00a13b8d887f3144e7892a091951882a0fce95c4287d3bd164bc3cccc16f1f"
+
+[[files]]
+file = "kubejs/assets/magicgreg/models/block/moltendynamics/molten_copper_mold.json"
+hash = "ccd88afe637af93b03c896ff38725eafb8e5e6c267b4d0f547f6032308612c20"
+
+[[files]]
+file = "kubejs/assets/magicgreg/models/block/moltendynamics/molten_gold_mold.json"
+hash = "07c0d77f577e57a299fda86e80391833f076c7cfe429339e42746dcd61c8fedc"
+
+[[files]]
+file = "kubejs/assets/magicgreg/models/block/moltendynamics/molten_iron_mold.json"
+hash = "2b56a5a388ee194dcfd8dfe1e24868a6284dcdc518cb5573ecae4926be0b531c"
+
+[[files]]
+file = "kubejs/assets/magicgreg/models/block/moltendynamics/molten_lead_mold.json"
+hash = "02603a3f8ed91901b1ab79f0be542f28b87b5e6cf903f27a4c6f6a4be02018d4"
+
+[[files]]
+file = "kubejs/assets/magicgreg/models/block/moltendynamics/molten_magnesium_mold.json"
+hash = "925d7f48d3950fe1107988d6bf414c75dece4399c6560f3eb9bc7d01dc49effc"
+
+[[files]]
 file = "kubejs/assets/magicgreg/models/block/moltendynamics/molten_manganese_mold.json"
 hash = "08bb5523fb83b9742e643b8d50b605c208a86403e86d02c4e0962a34803c0056"
+
+[[files]]
+file = "kubejs/assets/magicgreg/models/block/moltendynamics/molten_molybdenum_mold.json"
+hash = "f48e7112cb9c0e1de7d04a3326c275fd58f2c338de174e44b2d0508cd5d02583"
+
+[[files]]
+file = "kubejs/assets/magicgreg/models/block/moltendynamics/molten_nickel_mold.json"
+hash = "025b041b324c844013eb2a8ca7679e1fbc133f4742fff97c4146993c6d22d272"
+
+[[files]]
+file = "kubejs/assets/magicgreg/models/block/moltendynamics/molten_silver_mold.json"
+hash = "6c76acc3bddab3d9e569f9247a0d8f38c04b4ff5ce035ea7eb2b8b1a11c615c0"
+
+[[files]]
+file = "kubejs/assets/magicgreg/models/block/moltendynamics/molten_tin_mold.json"
+hash = "345b04fba22666ce32619584c8c0abc6787e81d5e9019324870e999faa9c1b5d"
+
+[[files]]
+file = "kubejs/assets/magicgreg/models/block/moltendynamics/molten_zinc_mold.json"
+hash = "f78ed0d3f7c0a1efaa29017da067ce513a4a49bcc4917d0b345b7172051e47e8"
 
 [[files]]
 file = "kubejs/assets/magicgreg/ponder/arcane_crystal_obelisk_scene.nbt"
@@ -11801,11 +11921,131 @@ file = "kubejs/assets/magicgreg/textures/block/moltendynamics/ingot_mold.png"
 hash = "66b51f393bf45cfb48c824c27fdc6075f65b0ee0e01d122d950a2b694500e904"
 
 [[files]]
+file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_antimony_mold.png"
+hash = "0a10d327a287cd8e2038f4e558b1e2e41661d420e00ede30b3a7d2d33eac96f8"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_antimony_mold.png.mcmeta"
+hash = "6a19bef21d66aac8fdcd8032751057733e321446b304d38f5ee8ba35efe99a1d"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_arcane_gold_mold.png"
+hash = "c20ccc2e44cef6dc891f7c66ff93683c2874b39487c53984924ff0a207bef0b3"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_arcane_gold_mold.png.mcmeta"
+hash = "6a19bef21d66aac8fdcd8032751057733e321446b304d38f5ee8ba35efe99a1d"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_beryllium_mold.png"
+hash = "488b364c1c00f1912eecbaf299821fbdac4fbf48eff3cc37c9cfd32fe1bebcf7"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_beryllium_mold.png.mcmeta"
+hash = "6a19bef21d66aac8fdcd8032751057733e321446b304d38f5ee8ba35efe99a1d"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_bismuth_mold.png"
+hash = "51945602be4f4368c4a8e12ec4dcdffeb11067b710b8d997bfd800391566f1d4"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_bismuth_mold.png.mcmeta"
+hash = "6a19bef21d66aac8fdcd8032751057733e321446b304d38f5ee8ba35efe99a1d"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_cobalt_mold.png"
+hash = "1effc0d569fd655a9609429238828fc8b7cbf201b657cb4c6d0bfdba5803c3d9"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_cobalt_mold.png.mcmeta"
+hash = "6a19bef21d66aac8fdcd8032751057733e321446b304d38f5ee8ba35efe99a1d"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_copper_mold.png"
+hash = "5b86bf6e905d375cacac32e1f550ea90ee33b9e387bfec85a35d611b7bafc3a7"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_copper_mold.png.mcmeta"
+hash = "6a19bef21d66aac8fdcd8032751057733e321446b304d38f5ee8ba35efe99a1d"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_gold_mold.png"
+hash = "7f09cf2bdc5b1d6189f202f0e583802a505d2a581b577a897e247d7336902395"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_gold_mold.png.mcmeta"
+hash = "6a19bef21d66aac8fdcd8032751057733e321446b304d38f5ee8ba35efe99a1d"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_iron_mold.png"
+hash = "ccd21ec4021719f03f5ed32eee3a6cf1abb5e5fdec38cb0b019af04a70186463"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_iron_mold.png.mcmeta"
+hash = "6a19bef21d66aac8fdcd8032751057733e321446b304d38f5ee8ba35efe99a1d"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_lead_mold.png"
+hash = "899e5e844afd804380a15c27b3efb48f92e34517abe708c5b7991234a718c581"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_lead_mold.png.mcmeta"
+hash = "6a19bef21d66aac8fdcd8032751057733e321446b304d38f5ee8ba35efe99a1d"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_magnesium_mold.png"
+hash = "b32ca6e2195e8b648f4aaf4c258cdf6d5e5edb55e36e9cda049e893384ffd283"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_magnesium_mold.png.mcmeta"
+hash = "6a19bef21d66aac8fdcd8032751057733e321446b304d38f5ee8ba35efe99a1d"
+
+[[files]]
 file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_manganese_mold.png"
 hash = "50086caa393276f54f09a150f59553f692f55628d67f8c45e1760dd1124f56bf"
 
 [[files]]
 file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_manganese_mold.png.mcmeta"
+hash = "6a19bef21d66aac8fdcd8032751057733e321446b304d38f5ee8ba35efe99a1d"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_molybdenum_mold.png"
+hash = "9602276e6c5146dfb4ba1346cb6e515014668276eccb587ecbe8a0c808bd4b19"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_molybdenum_mold.png.mcmeta"
+hash = "6a19bef21d66aac8fdcd8032751057733e321446b304d38f5ee8ba35efe99a1d"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_nickel_mold.png"
+hash = "f016c5b87a598f374e6bba21c590df3ecc3482451391d589288f89db5f350570"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_nickel_mold.png.mcmeta"
+hash = "6a19bef21d66aac8fdcd8032751057733e321446b304d38f5ee8ba35efe99a1d"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_silver_mold.png"
+hash = "52ad804c728a8f12b9b27fcc1d6bb19d430182dd3d5914d17c97c391c1668dff"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_silver_mold.png.mcmeta"
+hash = "6a19bef21d66aac8fdcd8032751057733e321446b304d38f5ee8ba35efe99a1d"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_tin_mold.png"
+hash = "f3e8a945c3445c52ce9323cff9823e628403a69e0869cf302c47d55d730dfc69"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_tin_mold.png.mcmeta"
+hash = "6a19bef21d66aac8fdcd8032751057733e321446b304d38f5ee8ba35efe99a1d"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_zinc_mold.png"
+hash = "dd55f1eeacf00a128be6e9d06117f9943168a4e120a462996d5f13abc59b1a1c"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/moltendynamics/molten_zinc_mold.png.mcmeta"
 hash = "6a19bef21d66aac8fdcd8032751057733e321446b304d38f5ee8ba35efe99a1d"
 
 [[files]]
@@ -20066,11 +20306,11 @@ hash = "a0433a8dec696eded50de59d045b762cf9209d2f7588054a6fb80e4b01487946"
 
 [[files]]
 file = "kubejs/server_scripts/Molten Dynamics/embers melter.js"
-hash = "05ae9462049b12981bf1fd9c9001c02d62a470c7f890759e9d9e35820e6a9504"
+hash = "587b181f548fc0b10ac74c3668ce3c2098d8a19f70a2ab932c68d7ddae6de50c"
 
 [[files]]
 file = "kubejs/server_scripts/Molten Dynamics/molten metals integration.js"
-hash = "c4d8cb55f8c32cb0c7d2654a6c3a88cc53d52f68497c77ab506f19bc6dc8d501"
+hash = "425a8a1e3d788bd0c19110138ef58f595ae5777bd40acaa3e4cf1947a46d38c5"
 
 [[files]]
 file = "kubejs/server_scripts/chapter 1 - pre-LV/botania.js"
@@ -20154,7 +20394,7 @@ hash = "c12a986216e63d409dff1787559a2f0f1fb8d98fbe4c5cd583783404f09e4c9e"
 
 [[files]]
 file = "kubejs/startup_scripts/Items Blocks and Fluid Registry/block reg.js"
-hash = "e4ed7b5bdcf4f6b8c6d28cb19752f4773094465f3d6db8590a12fa47a991a60a"
+hash = "db45e462490d6ef0bba53d5bb9826e68df7658be8214232e02b6d356ebf7b57d"
 
 [[files]]
 file = "kubejs/startup_scripts/Items Blocks and Fluid Registry/fluid reg.js"
@@ -20170,7 +20410,7 @@ hash = "5a0599735ecb3ad29386de49e0902d10f0f225862bb9b1c39c2314311f633693"
 
 [[files]]
 file = "kubejs/startup_scripts/_init.js"
-hash = "bef7bc1aeefde3a35354776e16d3cf7b8b540e2c65dc12d6f4effa4b7d58ac3f"
+hash = "2092ef6f2ca2c805f9d2fbc27d4d7972219ba757ce9e804d4c51937f210be8c5"
 
 [[files]]
 file = "kubejs/startup_scripts/jsconfig.json"
@@ -20378,11 +20618,6 @@ metafile = true
 [[files]]
 file = "mods/create-misc-and-things.pw.toml"
 hash = "be63e960eb88c7f7972219245d939f2cb90c2b2eb882b67217c9d185f1f1305f"
-metafile = true
-
-[[files]]
-file = "mods/create-molten-metals.pw.toml"
-hash = "849901982b3b6f3508ff70330e1fb3ff5d8d23d10b43dae3dc76dff054799ed4"
 metafile = true
 
 [[files]]
@@ -21153,34 +21388,6 @@ metafile = true
 [[files]]
 file = "molten_PLACEHOLDER_mold.pdn"
 hash = "ae4da1ace89b1ccad027bd78ed0399f6816186112c202b125d9c0f15931853a7"
-
-[[files]]
-file = "molten_antimony_mold.png"
-hash = "0a10d327a287cd8e2038f4e558b1e2e41661d420e00ede30b3a7d2d33eac96f8"
-
-[[files]]
-file = "molten_beryllium_mold.png"
-hash = "488b364c1c00f1912eecbaf299821fbdac4fbf48eff3cc37c9cfd32fe1bebcf7"
-
-[[files]]
-file = "molten_bismuth_mold.png"
-hash = "51945602be4f4368c4a8e12ec4dcdffeb11067b710b8d997bfd800391566f1d4"
-
-[[files]]
-file = "molten_cobalt_mold.png"
-hash = "1effc0d569fd655a9609429238828fc8b7cbf201b657cb4c6d0bfdba5803c3d9"
-
-[[files]]
-file = "molten_copper_mold.png"
-hash = "45f9a13464bca9ead6278b5e7a836e1ee3da43d156b813d97742fd88a1a782bd"
-
-[[files]]
-file = "molten_gold_mold.png"
-hash = "a09ce86e198181e338d1de97a541d6d0ba882b4a1174e21db0c7903a4301d2ef"
-
-[[files]]
-file = "molten_iron_mold.png"
-hash = "75f1002680e7344c3a467ad18b8626f745269edb822540bb0cb3696a68981066"
 
 [[files]]
 file = "scripts/aa_removingStuff.zs"
