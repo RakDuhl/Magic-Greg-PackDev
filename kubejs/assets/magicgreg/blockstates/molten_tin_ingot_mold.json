@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "magicgreg:block/moltendynamics/molten_tin_mold",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "magicgreg:block/moltendynamics/molten_tin_mold"
+    },
+    "facing=east": {
+      "model": "magicgreg:block/moltendynamics/molten_tin_mold",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "magicgreg:block/moltendynamics/molten_tin_mold",
+      "y": 270
+    }
+  }
+}

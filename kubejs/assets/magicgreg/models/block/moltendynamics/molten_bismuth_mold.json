@@ -1,0 +1,6 @@
+{
+  "parent": "magicgreg:block/moltendynamics/mold",
+  "textures": {
+    "mold": "magicgreg:block/moltendynamics/molten_bismuth_mold"
+  }
+}
