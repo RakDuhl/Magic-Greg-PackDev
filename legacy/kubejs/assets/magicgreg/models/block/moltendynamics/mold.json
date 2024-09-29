@@ -2,7 +2,7 @@
 	"credit": "Literally just copypasted over from the Molten Metals Mod",
 	"textures": {
 		"mold": "magicgreg:block/moltendynamics/ingot_mold",
-		"particle": "#mold"
+		"particle": "#ingot_mold"
 	},
 	"elements": [
 		{

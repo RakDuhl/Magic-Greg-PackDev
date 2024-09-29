@@ -98,6 +98,9 @@ StartupEvents.registry(
             { metal: 'arcane_gold'}
         ]
 
+/*
+//This all became useless once I was suggested to add the Create: Metallurgy mod...
+//I'm just keeping it for legacy sake, if I ever need it again...
         event.create('magicgreg:empty_ingot_mold')
             .displayName('Empty Ingot Mold')
             .model('magicgreg:block/moltendynamics/mold')
@@ -109,13 +112,24 @@ StartupEvents.registry(
             .fullBlock(false)
             .box(5, 0, 3, 11, 4, 13, true);
 
+        event.create('magicgreg:empty_block_mold')
+            .displayName('Empty Block Mold')
+            .model('magicgreg:block/moltendynamics/block_mold')
+            .soundType('deepslate')
+            .hardness(0.1)
+            .resistance(0.5)
+            .tagBlock('mineable/pickaxe')
+            .renderType('cutout')
+            .fullBlock(false)
+            .box(1, 0, 1, 14, 14, 14, true)
+
         MetalTypes.forEach(
             (metalObj) => {
                 const metal = metalObj.metal; 
                 const metalNameUpper = capitalizeFirstLetter(metal);
         
                 event.create(`magicgreg:molten_${metal}_mold`)
-                    .displayName(`Molten ${metalNameUpper} Mold`)
+                    .displayName(`Molten ${metalNameUpper} Ingot Mold`)
                     .model(`magicgreg:block/moltendynamics/molten_${metal}_mold`)
                     .soundType('deepslate')
                     .hardness(0.1)
@@ -124,7 +138,19 @@ StartupEvents.registry(
                     .transparent(true)
                     .fullBlock(false)
                     .box(5, 0, 3, 11, 4, 13, true);
+                
+                event.create(`magicgreg:molten_${metal}_block_mold`)
+                    .displayName(`Molten ${metalNameUpper} Block Mold`)
+                    .model(`magicgreg:block/moltendynamics/molten_${metal}_block_mold`)
+                    .soundType('deepslate')
+                    .hardness(0.1)
+                    .resistance(0.5)
+                    .tagBlock('mineable/pickaxe')
+                    .renderType('cutout')
+                    .fullBlock(false)
+                    .box(1, 0, 1, 14, 14, 14, true)
             }
         );
+*/
     }
 )
