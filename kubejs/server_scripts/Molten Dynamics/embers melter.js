@@ -1,4 +1,6 @@
-
+//priority: 8501
+//If anything new appears, just add the new ore here AND in "Metallurgy integration.js"!
+//Keep in mind, I want to encourage the use of Embers! as it gives more and has special bonuses.
 //Creating easily exandable Object List for Embers Melter, those dont have any Bonuses
 const rawMaterials = [
     { item: 'gtceu:raw_beryllium',              fluid: 'gtceu:beryllium',       amount: 272},

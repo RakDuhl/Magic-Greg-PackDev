@@ -1,3 +1,5 @@
+//priority: 9001
+
 ServerEvents.tags(
     'fluid',
     event => {
