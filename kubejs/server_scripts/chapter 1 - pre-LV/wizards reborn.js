@@ -7,7 +7,7 @@ ServerEvents.recipes(
                 ' L',
                 'L '
             ], {
-                L: 'wizards_reborn:arcane_wood_log'
+                L: 'wizards_reborn:arcane_wood_planks'
             }
         )
     }

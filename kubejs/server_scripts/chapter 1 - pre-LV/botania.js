@@ -18,7 +18,7 @@ ServerEvents.recipes(
         //very early game Mana Steel production
         //You need Manasteel in order to make the Mana Pool
         event.recipes.create.mixing(
-            '2x botania:manasteel_nugget',
+            '2x botania:manasteel_ingot',
             [
                 '2x botania:blue_petal',
                 '1x botania:white_petal',

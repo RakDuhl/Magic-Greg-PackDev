@@ -66,17 +66,6 @@ StartupEvents.registry(
         .tagBlock('minecraft:mineable/pickaxe')
         .tagBlock('minecraft:needs_iron_tool');
 
-    event.create('magicgreg:zalloy_coil_block', 'gtceu:coil')
-        .temperature(13499)
-        .level(24)
-        .energyDiscount(16)
-        .tier(10)
-        .coilMaterial(() => GTMaterials.get('mana_steel'))
-        .texture('magicgreg:block/coils/machine_coil_zalloy')
-        .hardness(5)
-        .requiresTool(true)
-        .soundType('metal');
-
     //Molten Dynamics
 
         const MetalTypes = [
