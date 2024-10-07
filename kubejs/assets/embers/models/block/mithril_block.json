@@ -1,0 +1,7 @@
+{
+  "render_type": "embers:mithril",
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "embers:block/block_mithril_normal"
+  }
+}
