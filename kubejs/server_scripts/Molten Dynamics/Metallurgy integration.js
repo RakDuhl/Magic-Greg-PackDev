@@ -82,35 +82,49 @@ const rawMaterials2 = [
     { item: 'create:raw_zinc_block',                    fluid: 'gtceu:zinc',        amount: 900,   heating: 'heated', time: 40, isTag: false},
 ]
 
-const casting = [
-    {fluid: 'forge:molten_iron',        block: 'minecraft:iron_block',      ingot: 'minecraft:iron_ingot',      nugget: 'minecraft:iron_nugget',    moltenTemp: 1538,  isTag: true},
-    {fluid: 'forge:molten_gold',        block: 'minecraft:gold_block',      ingot: 'minecraft:gold_ingot',      nugget: 'minecraft:gold_nugget',    moltenTemp: 1064,  isTag: true},
-    {fluid: 'forge:molten_copper',      block: 'minecraft:copper_block',    ingot: 'create:copper_nugget',      nugget: 'minecraft:copper_ingot',   moltenTemp: 1085,  isTag: true},
-    {fluid: 'forge:molten_lead',        block: 'embers:lead_block',         ingot: 'gtceu:lead_ingot',          nugget: 'gtceu:lead_nugget',        moltenTemp: 327.5,  isTag: true},
-    {fluid: 'forge:molten_silver',      block: 'iceandfire:silver_block',   ingot: 'gtceu:silver_ingot',        nugget: 'gtceu:silver_nugget',      moltenTemp: 961.8,  isTag: true},
-    {fluid: 'forge:molten_nickel',      block: 'gtceu:nickel_block',        ingot: 'gtceu:nickel_ingot',        nugget: 'gtceu:nickel_nugget',      moltenTemp: 1455,  isTag: true},
-    {fluid: 'forge:molten_tin',         block: 'gtceu:tin_block',           ingot: 'gtceu:tin_ingot',           nugget: 'gtceu:tin_nugget',         moltenTemp: 231.9,  isTag: true},
-    {fluid: 'forge:molten_bronze',      block: 'gtceu:bronze_block',        ingot: 'gtceu:bronze_ingot',        nugget: 'gtceu:bronze_nugget',      moltenTemp: 993.3,  isTag: true},
-    {fluid: 'forge:molten_zinc',        block: 'create:zinc_block',         ingot: 'create:zinc_ingot',         nugget: 'create:zinc_nugget',       moltenTemp: 419.5,  isTag: true},
-    {fluid: 'forge:molten_electrum',    block: 'gtceu:electrum_block',      ingot: 'gtceu:electrum_ingot',      nugget: 'gtceu:electrum_nugget',    moltenTemp: 935,  isTag: true},
-    {fluid: 'forge:molten_invar',       block: 'gtceu:invar_block',         ingot: 'gtceu:invar_ingot',         nugget: 'gtceu:invar_nugget',       moltenTemp: 1420,  isTag: true},
-    {fluid: 'forge:molten_brass',       block: 'create:brass_block',        ingot: 'create:brass_ingot',        nugget: 'create:brass_nugget',      moltenTemp: 926,  isTag: true},
-    {fluid: 'embers:molten_dawnstone',  block: 'embers:dawnstone_block',    ingot: 'embers:dawnstone_ingot',    nugget: 'embers:dawnstone_nugget',  moltenTemp: 2863,  isTag: false},
-    {fluid: 'gtceu:beryllium',          block: 'gtceu:beryllium_block',     ingot: 'gtceu:beryllium_ingot',     nugget: 'gtceu:beryllium_nugget',   moltenTemp: 1287,  isTag: false},
-    {fluid: 'gtceu:cobalt',             block: 'gtceu:cobalt_block',        ingot: 'gtceu:cobalt_ingot',        nugget: 'gtceu:cobalt_nugget',      moltenTemp: 1495,  isTag: false},
-    {fluid: 'gtceu:molybdenum',         block: 'gtceu:molybdenum_block',    ingot: 'gtceu:molybdenum_ingot',    nugget: 'gtceu:molybdenum_nugget',  moltenTemp: 2623,  isTag: false},
-    {fluid: 'gtceu:manganese',          block: 'gtceu:manganese_block',     ingot: 'gtceu:manganese_ingot',     nugget: 'gtceu:manganese_nugget',   moltenTemp: 1246,  isTag: false},
-    {fluid: 'gtceu:antimony',           block: 'gtceu:antimony_block',      ingot: 'gtceu:antimony_ingot',      nugget: 'gtceu:antimony_nugget',    moltenTemp: 630.6,  isTag: false},
-    {fluid: 'gtceu:bismuth',            block: 'gtceu:bismuth_block',       ingot: 'gtceu:bismuth_ingot',       nugget: 'gtceu:bismuth_nugget',     moltenTemp: 271.4,  isTag: false},
-    //{fluid: , block: , ingot: , nugget: , timeBlock: , timeIngot: , timeNugget: , isTag: },
-    //{fluid: , block: , ingot: , nugget: , timeBlock: , timeIngot: , timeNugget: , isTag: },
-    //{fluid: , block: , ingot: , nugget: , timeBlock: , timeIngot: , timeNugget: , isTag: },
-    //{fluid: , block: , ingot: , nugget: , timeBlock: , timeIngot: , timeNugget: , isTag: },
-    //{fluid: , block: , ingot: , nugget: , timeBlock: , timeIngot: , timeNugget: , isTag: },
-    //{fluid: , block: , ingot: , nugget: , timeBlock: , timeIngot: , timeNugget: , isTag: },
-    //{fluid: , block: , ingot: , nugget: , timeBlock: , timeIngot: , timeNugget: , isTag: },
-    //{fluid: , block: , ingot: , nugget: , timeBlock: , timeIngot: , timeNugget: , isTag: },
-]
+//this part is made by Sophie!
+//Thank you very much
+function toCastable(input) {
+    const prefix = input.isModded ? "gtceu:" : "minecraft:";
+    const mat =  {
+      fluid: "gtceu:"+input.name,
+      block: prefix+input.name+"_block",
+      ingot: prefix+input.name+"_ingot",
+      nugget: prefix+input.name+"_nugget",
+      moltenTemp: input.temp, isTag: input.isTag
+    }
+    if (!input.overrides) return mat;
+    else return Object.assign({}, mat, input.overrides);
+}
+  const casting = [
+    { name: "iron",       temp: 1538,  isTag: false,  isModded: false },
+    { name: "gold",       temp: 1064,  isTag: false,  isModded: false },
+    { name: "copper",     temp: 1085,  isTag: false,  isModded: false, overrides: { nugget: "gtceu:copper_nugget" } },
+    { name: "lead",       temp: 327.5, isTag: false,  isModded: true },
+    { name: "silver",     temp: 961.8, isTag: false,  isModded: true },
+    { name: "nickel",     temp: 1455,  isTag: false,  isModded: true },
+    { name: "tin",        temp: 231.9, isTag: false,  isModded: true },
+    { name: "bronze",     temp: 993.3, isTag: false,  isModded: true },
+    { name: "zinc",       temp: 419.5, isTag: false,  isModded: true },
+    { name: "electrum",   temp: 935,   isTag: false,  isModded: true },
+    { name: "invar",      temp: 1420,  isTag: false,  isModded: true },
+    { name: "brass",      temp: 926,   isTag: false,  isModded: true },
+    { name: "beryllium",  temp: 1287,  isTag: false,  isModded: true },
+    { name: "cobalt",     temp: 1495,  isTag: false,  isModded: true },
+    { name: "molybdenum", temp: 2623,  isTag: false,  isModded: true },
+    { name: "manganese",  temp: 1246,  isTag: false,  isModded: true },
+    { name: "antimony",   temp: 630.6, isTag: false,  isModded: true },
+    { name: "bismuth",    temp: 271.4, isTag: false,  isModded: true },
+    { name: "dawnstone",  temp: 2863,  isTag: false,  isModded: true,
+      overrides: {
+        fluid:  "embers:molten_dawnstone",
+        block:  "embers:dawnstone_block",
+        ingot:  "embers:dawnstone_ingot",
+        nugget: "embers:dawnstone_nugget"
+      }
+    }
+  ].map(toCastable);
+
 ServerEvents.recipes(
     event => {
 
