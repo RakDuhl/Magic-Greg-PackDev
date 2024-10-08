@@ -1,13 +1,13 @@
 name = "LDLib"
-filename = "ldlib-forge-1.20.1-1.0.29.a.jar"
+filename = "ldlib-forge-1.20.1-1.0.29.b.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/B1CBVXHX/versions/hH6o7vSD/ldlib-forge-1.20.1-1.0.29.a.jar"
+url = "https://cdn.modrinth.com/data/B1CBVXHX/versions/VvyTBJ9e/ldlib-forge-1.20.1-1.0.29.b.jar"
 hash-format = "sha512"
-hash = "1684f7bfb2ff964b5763a99a7375274fed6420a5e7356c13bd10132f18672ea57bbf8893a308386d21ca7280d3dd234a488196e8312ee427429935d592609971"
+hash = "0a0f4f9b71c5b3c3d4f5a14b1160a27b77d4f8da26ffc07f8404902fcf5f2d05cec22cc8f7af58ee1c28b88542f7bf73f51bc31c3693fb6265b72f63a39761f2"
 
 [update]
 [update.modrinth]
 mod-id = "B1CBVXHX"
-version = "hH6o7vSD"
+version = "VvyTBJ9e"

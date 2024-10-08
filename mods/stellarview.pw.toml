@@ -1,13 +1,13 @@
 name = "Stellar View"
-filename = "Stellar View-1.20.1-0.2.4.jar"
+filename = "Stellar View-1.20.1-0.3.0.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/Iairjv0A/versions/1ueLEPg8/Stellar%20View-1.20.1-0.2.4.jar"
+url = "https://cdn.modrinth.com/data/Iairjv0A/versions/cd8X20bc/Stellar%20View-1.20.1-0.3.0.jar"
 hash-format = "sha512"
-hash = "91df5d91e02b9056ac6eb678cafc72fce6ad1d6aa21dfd3358a6bd8a1ec65c5a6bcafbb5f6892b99b50da3160108c13223a11223a81fab2303fe34ab3f6f1bbe"
+hash = "884d65278724ef9bb4c47a252a99796501addf1ba84410e6fc15eca1a74cfc0db74aa22dbaf81b1ba9541971597e718a84add4fb81fd7b38c3b25a32f317c8e4"
 
 [update]
 [update.modrinth]
 mod-id = "Iairjv0A"
-version = "1ueLEPg8"
+version = "cd8X20bc"
