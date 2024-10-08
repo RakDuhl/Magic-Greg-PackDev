@@ -66,6 +66,14 @@ StartupEvents.registry(
         .tagBlock('minecraft:mineable/pickaxe')
         .tagBlock('minecraft:needs_iron_tool');
 
+//    event.create('magicgreg:mana_intake')
+//        .displayName('Mana Intake')
+//        .model('magicgreg:block/mana_intake')
+//        .soundType('metal')
+//        .hardness(2)
+//        .tagBlock('forge:mineable/wrench')
+
+
     //Molten Dynamics
 
         const MetalTypes = [
