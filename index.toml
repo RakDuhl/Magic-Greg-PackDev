@@ -1394,7 +1394,7 @@ hash = "cd9b1ce873914063b537074ff2dc7e1636d9856e3b29a5b177ccc8bfa4645866"
 
 [[files]]
 file = "config/jei/world/local/New_World__2/bookmarks.ini"
-hash = "f166e621556fb8f7aa7b24eb315d06c2cf25f4c7d4ec4e8230115ea2c80074f6"
+hash = "2f44bc8097ef1d304b1268689ba690fd7d65a2f57b1ed59ac1e370ae2a0c2fb9"
 
 [[files]]
 file = "config/jei/world/local/Schreibthru/bookmarks.ini"
@@ -1446,7 +1446,7 @@ hash = "ee2ec38fcfba52f86dfce3a435dd7e2332ddfc9548625673c660e97fb1d3cc6a"
 
 [[files]]
 file = "config/mbd2-common.toml"
-hash = "e07f5c9e99534a13559bb6d5032c193604511237bcd46a0617724c344251ce22"
+hash = "4cee5a870da590689f30cace24aef7b3663aa6d097346750656a4b0333d19b5f"
 
 [[files]]
 file = "config/modernfix-common.toml"
@@ -1490,7 +1490,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "feac3fa907a94f1b63582911320f12c89c160ffe307b63e5d6891247ef57c537"
+hash = "f97c728173852bd18a6c62ca2fb36072e28dbc9120396286ebf0b5ab0695920c"
 
 [[files]]
 file = "config/oreexcavation-client.toml"
@@ -1526,7 +1526,7 @@ hash = "f09398fbdb8880a2e2a0f234aa6578dd49ada68fecbe899608841f39c430034a"
 
 [[files]]
 file = "config/project-expansion.toml"
-hash = "bdd0d49d0c07cea4ecff57cd0e042ae136b1e1408fb9dc3150e2c5485fc7a632"
+hash = "771a2f3e1917356c3b3de038ad46fa270c75a3f11eee3fb0cb17c8dfa2beeea7"
 
 [[files]]
 file = "config/quark-common.toml"
@@ -1630,11 +1630,11 @@ hash = "ed118a21470a17635fb10b45dec1ed253a38c5537e38be9935f235a3dbf07a96"
 
 [[files]]
 file = "config/sound_physics_remastered/occlusion.properties"
-hash = "83c8aad6b6403ac3831f74b31b45d541eaf43d617629b8d27bc4c5059e071395"
+hash = "fbcf8253790f3d2b68458c878c0c00d6589e31cba9050a7f3171754ed6c774d0"
 
 [[files]]
 file = "config/sound_physics_remastered/reflectivity.properties"
-hash = "c6c2db57cfc9d28a30ce49b9261ed227a3669c221cd31627a4cb1a937990ca37"
+hash = "825260073873c530aa3af6f7e4509df9ffbc8bd466d22c8956dd968c98d6c945"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -1642,7 +1642,7 @@ hash = "c9e79968413b6d27a548872869c347d8006b29878cb05210c9b24b4be5efe45a"
 
 [[files]]
 file = "config/stellarview-client.toml"
-hash = "fbbc9a477ca0b72c2fb0a32b0d22706490ffd951d58ed4dab8c1dc9b43d07a8a"
+hash = "b0e4cc7ee5a5c0a25122b4eccce7ad51f057544f83cec6da2b0a0527b9fc6881"
 
 [[files]]
 file = "config/storagedrawers-client.toml"
@@ -1650,7 +1650,7 @@ hash = "327bfd458ff2b57c072af1f192bd8f828f5e91cd6d3551345ef13d1f599e2f78"
 
 [[files]]
 file = "config/storagedrawers-common.toml"
-hash = "f486c28dd56da8183a02d7065deadc4eca3a688e306f8334d01bbfd35a373385"
+hash = "a503f4f73ba5823a0e19bc35c98dd967b7de32d978dc09aa9ecd75a9d7a50412"
 
 [[files]]
 file = "config/supplementaries-client.toml"
@@ -1678,15 +1678,15 @@ hash = "5a6e58197c0ea574218e08c1aeb5b0a761f4c4db6f963ff3fc339b0c13820d99"
 
 [[files]]
 file = "config/tombstone-client.toml"
-hash = "7fdf84ae1ccfaa80c77fa55a60e409a00e421b6343686f09469a38194c37ed24"
+hash = "c0c1521111e07d1197017c843ac4460e2db308e153be72950506995f8d89717a"
 
 [[files]]
 file = "config/tombstone-common.toml"
-hash = "fe6d260389ebaedac6e51a329834f6ed75f7d22a9a752f98b530b22cac3811ee"
+hash = "8eeecb6fbd7be6de1c09e878ae369bb66974ebcda57db385d3c97abbaa4f34e1"
 
 [[files]]
 file = "config/tombstone-server.toml"
-hash = "d34055cfc9c94e7fc748913a8e85332ceeb97f5ea492567771bbf7ff9305e101"
+hash = "d78151963bd29a2308f5f81484ceffb02afea330738e63aef45c259fb1aeca8e"
 
 [[files]]
 file = "config/toolleveling/README.txt"
@@ -2218,7 +2218,7 @@ hash = "9757a6208de6780c7d86d61a75e997848a30a7e759f5e2f3e29d08ab7aa6383f"
 
 [[files]]
 file = "config/worldedit/worldedit.properties"
-hash = "5766c82a327f447fb07f3543b71704dc41015835e0f28506a0d90b8d948c5c1c"
+hash = "9b4c6aa4ff8561c63e7886efc105d44a56419b98562b761dbe540191ff3fa6a1"
 
 [[files]]
 file = "config/worldeditcui.config.json"
@@ -2355,6 +2355,674 @@ hash = "68811b68a66d3a7891bb349f6d37d3618357574dfa76fb4933f3fdb9c6eb8774"
 [[files]]
 file = "kubejs/README.txt"
 hash = "050df4dac58ebda30a898e6c65e91cc4f4e15bcd7c2a19b58ab1c05082e36556"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/activator_bottom.json"
+hash = "19b7aa1893d6bb63ad3963d5e642ca93c490d08881154bf79df93fe8aac3031e"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/activator_top.json"
+hash = "32291f1106c8c729da5e12b85513e282116452c94a1a069484f463ed80e4ad8c"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/alchemy_pedestal_bottom.json"
+hash = "b007dfb799bc0553c50984acac65f5746cf2dc2bc6dd68f9cb934a6e9599025f"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/alchemy_pedestal_top.json"
+hash = "f6b3a3234c5de1163c9e5d216ae7ad5dad916fcd17b0fbf7f9916c70854ddb40"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/alchemy_tablet.json"
+hash = "18eda2d6036ed67a551ae82a0a5dc646d0de23c909f9412e8a473f6dd0d7495e"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/atmospheric_bellows.json"
+hash = "63abdf3a8414de03d795b241cd2de24162c7af551a901d6fd68fff66047bb60e"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/atmospheric_bellows_bottom.json"
+hash = "fc3811192268d789f9ed5aa3a3708c0277efc0c56f4d126ca72e6727558785e5"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/atmospheric_bellows_leather.json"
+hash = "6edc1e39e722650d09109e83eddd8db3acd72360c4e22c4bb9c01be440ab724d"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/atmospheric_bellows_top.json"
+hash = "f12ced8581089b1ae66fcdb26e30474a0880e17608d5b1e6bbc9bd3d2f635119"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/atmospheric_gauge.json"
+hash = "a22f0585e72205a7176b196a67c6e1b785496b85dc62e9018751e0fe0dd112b2"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/automatic_hammer.json"
+hash = "3ee0fd5e5fc261e7a56dffb2aabd7584796f0678537be1fdeed196b0d5276284"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/automatic_hammer_end.json"
+hash = "07e9dfbf3d9422cc7b57dc80098e52541b39c675c15d03f71c89b1699d9e7a0e"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/automatic_hammer_item.json"
+hash = "5e5ef53f79765efc0fdc591bc9bcbc44caaa5391173c39efd29606f738f84fc9"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/beam_cannon.json"
+hash = "7cae5b3178555ab4caf9fabddf68175b32365ad72fcb538a0809a9db75312dc2"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/beam_splitter_x.json"
+hash = "133c89bbcc97204128c0e01b699c15f71e482529bf263a63ab4e78a396d91ac4"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/beam_splitter_z.json"
+hash = "041185f9e7a890323feea3e856f16aaf5dbae2c85f69cae74e56adc46412d71f"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/catalysis_chamber.json"
+hash = "158cac0ab3fe76feab1142f4034971da7677cd926de9359081b2a9b7f841de16"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/catalytic_plug.json"
+hash = "7784294c7cfad4c6d6bd85dbb1b4f3ef9800d577dc55034a60d812e46609b707"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/catalytic_plug_base.json"
+hash = "d0063e35503b1600b99c9fbd4d2a4fe2c4588116da267b052d70052bec5eb9fb"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/catalytic_plug_glass.json"
+hash = "2a42225dc0724d52535f4c2a0b56da37bbcf9820f64f26b9f1a812a10689d7d9"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/chamber_top.json"
+hash = "a7b0370ff2176922a1f01b5d2dd22ff4c7d260728cf064ea8a200c5a1a84ce2f"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/chamber_top_connection.json"
+hash = "750d082d31b6e0e8a7356927733c817fd6ab942cff726e0c4b3f7bd72a2d24b9"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/char_instiller.json"
+hash = "0bbd4218ec603d6fea6db706a3b863cf98a8c4fb761724eb806b9e9c087498ed"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/cinder_plinth.json"
+hash = "39b828bc5059e007443afbc63855c2bbf5b5e32c2440812ca08f604a7391a4fa"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/clockwork_attenuator.json"
+hash = "046480c7f1f8ac1ab9ea2c1928014b170c57b81dcdafa6e1d833eeb1e0e2efcc"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/combustion_chamber.json"
+hash = "07b2fded3fec3daf09fe8355a89508acdd3f895b3825dc588a527f78f477d892"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/copper_cell.json"
+hash = "2abbe1c880a9317ef6970a93e407007ebeb56e926effd0448ecdb953093595e1"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/copper_charger.json"
+hash = "288d4e82a204a16b40027da346c0c7b94416996c2b5e3399771e9a0d083d9a05"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/crate_inferno_forge.json"
+hash = "252e4272e7fc0db7f874b9b80c26923c18e53dea99939d651f87003a7759bfc7"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/creative_ember_source.json"
+hash = "52d578cd12a578a58ac6b9c247d3958e9d109b5a3909700da8ea95c89891335c"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/crystal_cell.json"
+hash = "15e89bb1ee424b9628bcbbf16bbf0f00c6f07e665cad001981a43df71769503a"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/crystal_cell_center.json"
+hash = "07f305ca5d1e348c6c137d7030e81c91e5a4d2a2d71f4cff140c98c0506d8a82"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/crystal_cell_corner.json"
+hash = "8f81f07346ca0890617ead30e5a3b88d3b4ca60ad7c210f0002290e407be9b29"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/crystal_cell_edge.json"
+hash = "5a8c77aa35672cab7c0c500dda6361c5e9a2091a9360f6359c57dfa23fe45060"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/dawnstone.json"
+hash = "bde49b75b70072875369d91dd9df0105cf6dc21afb64767ffac764d0b16c8dbf"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/dawnstone_anvil.json"
+hash = "83ce8b12b16eefccfa460133f8ea1fa439daa2a5b91cacac914d48b49520fc30"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/dawnstone_block.json"
+hash = "5f8e88e4cf4d2eee59a6f2c257da844a29f8ca6ba730ab648526d6294b22fa9b"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/deepslate_lead_ore.json"
+hash = "881d75d8b9e6fa6524a336ffd7cd12bfef5be2db8a9d4b78a221b64224e3e111"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/deepslate_silver_ore.json"
+hash = "f58d631787841945bcaf1b50c30258146cfbb26f99aaeb64fbf0649e3630a652"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/dial.json"
+hash = "cc55adcca03ced1290d509664816cc0cc50c4327ec360393b2b5300406d1dcdc"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/dropper.json"
+hash = "42058f42f543e5eed38208423a0480c57ab09ea8aeb37d19f255c70ea59e33fc"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/dwarven_gas.json"
+hash = "097bc95ad73ce17dc552d193e42a409b3c5ea1adc7abdac7de05834163e8296c"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/dwarven_oil.json"
+hash = "4c85edc62f582ec3f77306fe796f3b41f4bec246833914ab8ff820de1810c243"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/ember_bore.json"
+hash = "b434ee627c0203ba105c01deaf06053ecbc08c09c98eff89f5feb92fddee039a"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/ember_bore_blades.json"
+hash = "fa65b38127915ce27be5c6c74a741d6579041af9d92fb0b948f63a708612ed91"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/ember_bore_center.json"
+hash = "91341bf984ff97108480c4bed8012985b03fe3e0dc4dbe60025ae5caf9690596"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/ember_bore_edge.json"
+hash = "1f671d73d6e228d414024a04328fe64ad46b527d17f561e7584a1c9812ae11cd"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/ember_bore_excavation_buckets.json"
+hash = "836479a1ddf897aeaca9d846c1d1ff083d8e8b65931c58eb65a9be91b7f0f354"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/ember_dial.json"
+hash = "6ff3552d54767b516615c8685de71ada1b9b56f1bfb5e1e126e1f666f25b91be"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/ember_ejector.json"
+hash = "8ed1801b05d0bd18972760362f9d0873c4828dcace3a4b1b908d4a22de8f640f"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/ember_emitter.json"
+hash = "198f6c1097ede36fa149d5c94e2da257f069ecfc0937cfc433df41d4288b730a"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/ember_funnel.json"
+hash = "2c5206c1d821ed0d0b36759920d924729826753fc00bc74ab339cc8b09423e1f"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/ember_injector.json"
+hash = "1fc9907670082129950ce95d1430bafcd4ee598c5d21ca94a5654f51f28233b9"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/ember_lantern.json"
+hash = "44d0288b239bf80002d55897e1ce3b3646798229cd12024b547d6e2a51d88600"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/ember_receiver.json"
+hash = "648d0e805ea59dc8e208af01ee93cecfb665636cc4daf79d42ad0bf9d9a2bb5e"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/ember_relay.json"
+hash = "e7e177e2e20159aa4b5017240c16438f54caca8a1cc6d78cea0c5d0d931df323"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/ember_siphon.json"
+hash = "a7b556325a21b1d3e60b2cd7e97014a7ba5c423e6d399f76052b7415cb4e7372"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/entropic_enumerator.json"
+hash = "42fc01c496c541ca86edc1507ad5d464a5abf6c2d6bb897396229173a56448e6"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/entropic_enumerator_base.json"
+hash = "cdec88f90fcc5033de3ff1c3dc5f75d3a9313849c01431d7ff8b995c99c34fcc"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/entropic_enumerator_dlb.json"
+hash = "222470c34314f2541d8cfb47a910a54bdc7939a7374146ac8a68919770df5948"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/entropic_enumerator_dlf.json"
+hash = "5d9683b4c0253c1eba2ebcc0799373485c8110f72c9ce5e6df5a149fef9f7e08"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/entropic_enumerator_drb.json"
+hash = "c7e4e60a485c57f06ab5340aae343350ca49dab0de0a641bdd4f59c57f6a7bf9"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/entropic_enumerator_drf.json"
+hash = "9dafebdd535c5a27771cc2dc4cabbbecb40ae8c63d503f57ec6da67da900cebe"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/entropic_enumerator_ulb.json"
+hash = "ec021e21dfe7378308150b472595ebf0d2ed909cf9128f2017c9b55511a1c91a"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/entropic_enumerator_ulf.json"
+hash = "432e12e9b0cf47120878c39bd3e3faffaa9bc997106718d60f5923c74fbe1685"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/entropic_enumerator_urb.json"
+hash = "5cbd3263ba48cced32c3f46c70c6ea22e59b4471e0b68f8e2b1bd22668cc68d8"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/entropic_enumerator_urf.json"
+hash = "6e199424d3a8ea01bbf809c15029e5e4c1a41afa6c0d2fd313f8f03f0a947589"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/excavation_buckets.json"
+hash = "9af84304b5a11cf9ac26193e162f07f05d25c40a697ea6515d1bca132342653f"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/excavation_buckets_inventory.json"
+hash = "722cab3b999f1d05765f0fdfd3c390c7826379e84c964548452f00600c9ec488"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/excavation_buckets_wheel.json"
+hash = "bc3c96326953ba774b9d6918cdaed6fce25343ffcc00fb8a9c8d8dfd798848d9"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/explosion_pedestal_top.json"
+hash = "7c8cda5ff26cb85379da98737fb97813b9a3c23f89fbac3115babeaec372f0e6"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/extractor_center.json"
+hash = "fe57edbe57e82ae035ab11fc207457d106e48a284e68618d2534a13167956507"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/geologic_separator.json"
+hash = "12218a6b52084b58cbb5206004fdeb9117ac1e3857ed47a6d2920661d575028d"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/hearth_coil.json"
+hash = "1ea3496a465894aceeb3e9ba1c7da2d39f3239d0c2892f0d6913fa3368796dde"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/hearth_coil_center.json"
+hash = "1c04335ae32b1d8a234c9d0a4e9f3d11750ba23fb2033adf88f4b10f8bc9f529"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/hearth_coil_corner.json"
+hash = "38e5707b9a5d94a812b80fd082d8d56c5c66f48ce26cae70b50ad214f05bc16a"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/hearth_coil_edge_x.json"
+hash = "33e300e336df8d9ebb1b29d296bc6033a4b7ab203ee321955bba5cc0aff5c8f5"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/hearth_coil_edge_z.json"
+hash = "1b30bab6c87a4c2747bbb53d0ae5c25ab60150718f9f869e76823615f99d77c3"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/heat_exchanger.json"
+hash = "be10d3e896ad9ec1283e29d72fb2185165d4fe9148f4352c0fbcec018beb1e4a"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/heat_insulation.json"
+hash = "4e57226543f66ae55f1ec75145a8b596a73c2d19872cc665662609089782dd66"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/ignem_reactor.json"
+hash = "920c0e23ad7eab820ff8d07b7d1e52cbfbb5a82d7b30e050f62590a3b45dfbaa"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/inferno_forge.json"
+hash = "4cb0fde34fa0bd3f93aae7b555a39fb6ad7bdc69611596478a81798581b8f51c"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/inferno_forge_corner_bottom.json"
+hash = "1a4d9a10710ecd418bcedcb047d3547c7a4507ece91dfec419de1d41f624584a"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/inferno_forge_corner_top.json"
+hash = "63a5afb01c1670b12965e5c742fd0097119c1d09477d8e21e39da0e4260edb6f"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/inferno_forge_edge_bottom.json"
+hash = "e1a6144a8bf95f4a34b078c06f3a8086309a2f898f130c4b379f64a633add685"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/inferno_forge_edge_top.json"
+hash = "d33e1c2bacc125e6da57561aaae51734e31e2ac8a5c84ddaf463f0948a7766be"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/inferno_forge_hatch.json"
+hash = "8e0830752f088d21f6522c4f9aecaf426d862fd089fc74f48167eb8a9de7b003"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/mech_core.json"
+hash = "e1b56ae0c5911cbcc4f427d8709fc5966615fee5be99c0d46dca7aa33ab3a262"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/mech_edge_corner.json"
+hash = "460467cb471b09a42d7ebc0ea3dd02eb00e270f487a5ee6be489bb9b130827ed"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/mech_edge_straight.json"
+hash = "68d0053ef13bfc64d607d37daf8ee3718cd502d65fc63657590877e51466f4d2"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/mechanical_pump_bottom.json"
+hash = "6e6c47836464155e4d7ed3331bc0d639bb18727eb655fa8bfd0c5525ddca32b8"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/mechanical_pump_piston_bottom.json"
+hash = "36f210bfe2d08e2345259ad06048e0fc2a8789c19cdbd5798da78aa4966a015c"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/mechanical_pump_piston_top.json"
+hash = "f05d2b874516f976d47b6e93af0a0f2261b506d258f359c8e5f6e68e763349b0"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/mechanical_pump_top.json"
+hash = "58c1c8228f5d3239961862e41c623571db07d281c56de5d4b5cb4d9797727dac"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/melter_bottom.json"
+hash = "f01b970ab5fcee470d7a69c325f907fcd67ffed08272d502900e5846fb9f4ec7"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/melter_top.json"
+hash = "fd91124f32e6c1c7210d211ead7575975b478d3d3c6eaeaa1b8abc3126e579c5"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/metal_platform.json"
+hash = "c27280b726f107981d7940aaf0028ee19e54dbacd3413058b39e8b59a2623aac"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/metal_platform_slab.json"
+hash = "1ed1dbb146ed8f283e2dd5fe17bd1ee786879c2b9120272dc61ad9241decbe34"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/metal_platform_slab_top.json"
+hash = "7617fa71beb149a8c5124eb432c1c6f725c0a1d1de80fe3deaca1c51e10d5092"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/mini_boiler.json"
+hash = "36462d5d14f7e4034d3ec7f9727bc2fccead9b3d646ad929a4d891cb7e5f37f7"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/mini_boiler_pipes.json"
+hash = "24648d6959cfe9a2ceef4c9817612f394d621efa1912934e5a7f98775892d0e2"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/mirror_relay.json"
+hash = "65ad29450ff50353c170c20a01c8a2ba6f12cc453b0ed94b8365338afb9668bb"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/mithril_block.json"
+hash = "af02c7e28d3aa1ea901c5a98846f1fdafa707733a6492d411c1cd2dade44ae30"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/mixer_bottom.json"
+hash = "544f6f74ef87afdb62e7a2fb14856d83e5920b5573166af4c993a9c30f60bb47"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/mixer_bottom_alt.json"
+hash = "569afa53fd6183525336d9de936701c0eb168cd58db0d215384cff0cb7a4fac1"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/mixer_top.json"
+hash = "a9cca9bc744818553859309262a33456ce69b28114307d3e28ad3e03f162bdd7"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/mixer_top_alt.json"
+hash = "5d4a3352c31b14c82f5a22aa84a849a0a6926fb3166f4c2598568bf9e81349e2"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/mnemonic_inscriber.json"
+hash = "2cfcf159992be7211aa362bcc4fcf116ff8c05a297f7c42c900e287fd8fda5e5"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/mnemonic_inscriber_active.json"
+hash = "db9a1ab193065b4076528fce045b8bc6685fddc358703c09e53a824a5331444e"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/refinery_bottom.json"
+hash = "7461c2bcc537e71b9966b0c67db4cf1ec6d99ae0253e110d8a5aa487052f3fa0"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/refinery_top.json"
+hash = "00fd1c00cf68608eb203ee66cca54255206ab4c350b043b3791dd5860dbadd90"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/reinforced_sealed_planks.json"
+hash = "58070002f3fcbbc575a7c4a7f34b4a82f591f4445e7f526d89e0c0860e4308c5"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/reservoir.json"
+hash = "ef44df1ed3a7fa5ae27bdae8771f3b63e1b7864d82360e3a8cefc996a61c470b"
+
+[[files]]
+file = "kubejs/assets/embers/models/block/reservoir_center.json"
+hash = "746e0e7b8c6b8fda97cb0b6adabc4f800c5c9b4a5d4c5eeb75e2fbb0e94c29d5"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/alchemy_pedestal.png"
+hash = "45cbf0cb77707cb4335e0276bd0f347c00cd25e4b8e19d06664a3b3f7caf60d8"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/anvil_sides.png"
+hash = "a3b3a9f4b2287ca0015feaaed61ae4d4e3963c8d727fbb8a2b31e7371ce6e18c"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/anvil_top.png"
+hash = "7a6b4116dee7fc3cdfe03526645b08fbde71a829bac22e72c876f8a3dfae85fe"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/archaic_edge_overlay.png"
+hash = "ae85929f07d37427e90c9d5b92dd97f3f897bdd8741dba3434213cc9da1aa085"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/atmospheric_gauge.png"
+hash = "2bee406623719ed1ed7556c237def79cb52f9257aa639d20b0242638734b8650"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/attenuator.png"
+hash = "ad848a22ff30455dde08460bb3169b43c53985f529d3b646f71209396a114eab"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/auto_hammer.png"
+hash = "5845c6911da9e915d4b0885c2c2a8f90b3742f7b4a6f1ce7d8f0b146350e63bf"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/axle_dawnstone.png"
+hash = "6382705610138fdcc9e34c96af9d196bb00cc7197f96f52a9536d3da7627e539"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/beam_cannon.png"
+hash = "94bcb8721c556a1b6ebf08b787b787da3771ef6c676957c299908e8a3fcb506f"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/beam_splitter_center.png"
+hash = "1278d8bf57e1085c161109c434af018c31214a2fcf15905d0cecac11a4d12ed4"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/beam_splitter_plates.png"
+hash = "74642b4eb90cbc9ec28e9d19d73c02b205dcb6d357240d70946672799f420a87"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/brick_nozzle.png"
+hash = "147487c424e04f1d92216832f45f6583a2c108e697231c4fc34064de3fffa82e"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/combustor.png"
+hash = "8de909cddf3659ba15c15ad989a6525e4ebfe9b6a00f13220680c4e80a3855dc"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/copper_cage_tex.png"
+hash = "a2bae9358d9c0a6149ed9fee4bceb07e297892091dcf6da51946e1d69071b41c"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/copper_coil_side.png"
+hash = "431582a1ee4d217b41b17b6cabec674f854399726a91d78b6822456abc33017d"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/copper_coil_top.png"
+hash = "c572b356392daaa02ac54df3090c3d5d0a9ea0162dc139010d122a37fab2c98d"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/copper_column_side.png"
+hash = "b81d8f30a07d80f781ee9531129028c1361f41de02b219ae6ffe0b7be5a344a0"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/copper_column_top.png"
+hash = "dad6f1edc18807f93d94208fd0dda78be6b286ddf24ada09e5895b5537d30b17"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/copper_pipe_tex.png"
+hash = "b19af231454089364a1c303cc3f420b6d533c5180754446ec2739efce5f7c08c"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/copper_thin_coil.png"
+hash = "6aa9d9024b4310aa9b8b870a45a2fc1aa35c14eb356976d7fc81e56ac1b6e280"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/crystal_grower.png"
+hash = "f43ea1647cfc18e8cb45c629725aab0f964bee8e666e2cafc54757a50e214df7"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/crystal_material.png"
+hash = "037a7dd8cc827ffc45e5131899ec48276dfc2f5ecc12cad6d4aee10de90c4772"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/deep_line_parts.png"
+hash = "28c566aa3c5d20a91ffe692382c276544ba4d9a9334ce003e148e46f5cbd179c"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/dials.png"
+hash = "826113e3c3c4f8540f3a09de14658473757fe7f4247521624c83f2f217689014"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/puff_plating.png"
+hash = "e0f3483b36e91415ec33d3afb102f29b886f7372673dea8087b74d31f0cec704"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/puff_tex.png"
+hash = "491d21b9564eec973280b99ca45af921ffbe3bcb16e19e223b73e714f103e6db"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/pump_bottom.png"
+hash = "7a57bcdbfdd5e5fa49a175bdbe94cf9db8b9ce0143ab1975ef90a58ca2fc2cc8"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/pump_parts.png"
+hash = "bed80cbad42831af3a8aa454c647ad7e94a4ab999575445c3bc6d84da23f54b5"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/pump_piston.png"
+hash = "798c59cfabcebd8d3448bfbb4c6972678452533a27e9ebc8f93f70e3ed098fdf"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/pump_tank.png"
+hash = "6f431b6aa86cbd15119dbe21657e38c65f56cf565564fb3d1ca6825367dfbafb"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/raw_caminite_block.png"
+hash = "4539742408a14c637ef9b1fe846b615598f4351ac5cfef7b2b639e51eeb68676"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/ray_tube_tex.png"
+hash = "ea8a902a113b0303d1935c9fd8c982db786fc7aad1d0d9b4028a9ce67305d7d7"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/reaction_chamber_side.png"
+hash = "29e7568365da7f3103058abd860fa9fa00706bfce5027614d018b7133db86e40"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/reaction_chamber_top.png"
+hash = "ec3717e552424a5bc75e6f6bb86bca61c5c8c7c5c5d1bfd8dda33f50c90a312d"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/red_cable.png"
+hash = "34ae897ec709e4c3435fed3ff9c9b3cbd8111bb814884367d532ef85221bc20d"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/reinforced_sealed_planks.png"
+hash = "6d224bfab7b14edb37db984f78ee544aa0ea8f855b4e2dc92311d77953cb503b"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/remote_gauge.png"
+hash = "e1558791c9d264ac9a3eae889018dd75c033e8112bb1fcae6bdb04d8ce7f59aa"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/sealed_keg_top.png"
+hash = "983144c931ba487ded364c0176f9c97a113d236a502a5012904bda853eea4991"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/sealed_planks.png"
+hash = "6f3af5e8be4a7db40afd49138f10da1331c38d2cc26cd50b85324ba774b40173"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/sealed_wood_tile.png"
+hash = "8500bb1a42c3bcc9c49b7591f9ad8e83c59466b6cfd9c18e64a02d1293831b4a"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/silver_plating.png"
+hash = "566b51c9e216837be1cdbfea9e005e365b24000ed1f2247cce483c03b82ff2cf"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/siphon.png"
+hash = "b9cd60a21539176ad98027a607afd96996aefa7c0e5b5e00663b1adef01e9ba4"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/solidified_metal.png"
+hash = "1cc46f6c930d406fcb6577d2e6b1b081337c2c38b0f391b6e3c61848f40efb03"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/stamp_arm.png"
+hash = "507d12b8f814a713333b1715b99b78ccb72f49bfff9fa1dea57b174746b6cbed"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/stamp_base_parts.png"
+hash = "9ab2c84134f0740a60e42269106a34de02b5c53779af1a60270c52ca005cef2a"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/stamp_bottom.png"
+hash = "9f752995fd8d586db94169eb86c86a4adff1cd13ea02f9e6f82efce30825ea0f"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/stamp_motor.png"
+hash = "6f8a544a87b3847a7aaf7cbe1163cd3cdb9be44ad2db4d205638b70d5982451b"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/stamp_side.png"
+hash = "4f6039b147b9051057d935f4c520ac439a54c260d94e17afbdd3ffa2c72fb252"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/stamp_top.png"
+hash = "e830d9164c7a5ee9bd3fc808a95d6249ada43a61698407e9eadeff9d7dbf8a06"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/steam_engine_copper.png"
+hash = "33bb58df5f342a51aa64e1d7473b793bf4b519864b3fe47fea91e444069d5fa4"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/steam_engine_iron.png"
+hash = "8fd4e66e80751e08833e4e84c30245fc764f10557639a69bfe6bb0c750cb2202"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/stirling_side.png"
+hash = "c1d533e01ca0791aa607550c3e1528016fed4642f33cee370c13004c05d6d2d5"
+
+[[files]]
+file = "kubejs/assets/embers/textures/block/stirling_top.png"
+hash = "58dad116b8a6695d8bd37bd5b515b538761d441fec4eb337bef63dcaee79e9cd"
 
 [[files]]
 file = "kubejs/assets/extendedcrafting/blockstates/advanced_auto_table.json"
@@ -11649,6 +12317,14 @@ file = "kubejs/assets/legendarytooltips/textures/gui/tooltip_borders.png"
 hash = "d1227de7d0bbcfc6b87b875b805d2d1bb1a50711ce625a1196c0b95d86efc151"
 
 [[files]]
+file = "kubejs/assets/magicgreg/blockstates/mana_intake.json"
+hash = "58b568264ceb72c6e6e18509051bde56333efc0b3ffaa6b3a10bef93c3cedbfc"
+
+[[files]]
+file = "kubejs/assets/magicgreg/models/block/mana_intake.json"
+hash = "db05a251fb95aa1189297302a41526e102ee067dc0bd3ad8be453c9096456a48"
+
+[[files]]
 file = "kubejs/assets/magicgreg/ponder/arcane_crystal_obelisk_scene.nbt"
 hash = "aa0b2e08f9e6d7a09a6d3995dd86912477be0f5f534d5ec5742b26faff1ff2b9"
 
@@ -11737,6 +12413,14 @@ file = "kubejs/assets/magicgreg/textures/block/example_block.png"
 hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
 
 [[files]]
+file = "kubejs/assets/magicgreg/textures/block/machines/arcane_casing_base.png"
+hash = "0769cd818d87a479ffa3bf574057fed4e608003b8d20f84ad190c65aeccc0d2a"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/machines/elven_spreader_core.png"
+hash = "0050f1e6fe1aa0cf1a22289194b42c320aaba0ab4c36f85d74e6e26e97932d40"
+
+[[files]]
 file = "kubejs/assets/magicgreg/textures/block/machines/incomplete_generator_side.png"
 hash = "b019ffe8a8eaf6993d6cdc3649e14a2369992f181c6e64be017f3041365cc199"
 
@@ -11747,6 +12431,22 @@ hash = "5e56d72bbfb8b93a7ed7d4facf82da05cb021487e84c67342c77b7899e0be6f9"
 [[files]]
 file = "kubejs/assets/magicgreg/textures/block/machines/incomplete_generator_top.png.mcmeta"
 hash = "3b9db826886f73cea825305a2e6f9e072432203509275182455769fa8dd4900c"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/machines/mana_spreader_back.png"
+hash = "5d1b6a1c00068ee27d6f5745211c69478aac39f844f43cd11c2a28ee9aa8463b"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/machines/mana_spreader_core.png"
+hash = "3abdc1f1ad97b00082047d822ad185d9b456783e3cdeaf30015afd605445c0a6"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/machines/mana_spreader_side.png"
+hash = "910b2a14c30c7ca89eb91308f3413095bf94765932727fc0647fb91ee2e24956"
+
+[[files]]
+file = "kubejs/assets/magicgreg/textures/block/machines/stripped_livingwood_log.png"
+hash = "d7145ce67d5395b267fa8fb473c558f3fdefd61b7c00e058d91e3516f6142922"
 
 [[files]]
 file = "kubejs/assets/magicgreg/textures/block/mana_flowing.png"
@@ -11794,7 +12494,7 @@ hash = "6fd9603e0c50d6c34002007a13d53a92cd075ef39f1e7052a2dc92ab8e44717d"
 
 [[files]]
 file = "kubejs/client_scripts/jsconfig.json"
-hash = "844303f6a3d392e809779dc10bc136a65e6b488502fc47f92dcad29dbd629b45"
+hash = "dee1340c5e7927f5675987957c6b198f9ca2e1e731291d72396278dddc066a04"
 
 [[files]]
 file = "kubejs/client_scripts/ponders/examples/example particles.js.txt"
@@ -18446,19 +19146,19 @@ hash = "a0433a8dec696eded50de59d045b762cf9209d2f7588054a6fb80e4b01487946"
 
 [[files]]
 file = "kubejs/server_scripts/Molten Dynamics/Metallurgy integration.js"
-hash = "0d93603c705072638975c5cd2a47e2c1dd925fffc8c3522079c87fc2067b7070"
+hash = "6a3083cad68a6432fb888ed416eb7a64ac34cd22fa6e70349d5a8fac465e0ac2"
 
 [[files]]
 file = "kubejs/server_scripts/Molten Dynamics/embers melter.js"
-hash = "f62e2742ec424d83361babc22c1ba2b501f8c939a111c1cc9f26bf4e13c841f0"
+hash = "d0fd1aefb1ab01051ab2cc4ada8d9786e06e55b38385cbfc905c9bfd72b6abb0"
 
 [[files]]
 file = "kubejs/server_scripts/_init.js"
-hash = "e30cfcb2cd0f770d8b8a9decc3a2efc0a49044ced0e3379daa6b5da0943e87ab"
+hash = "b9f24981e74f60175b15f70a4528be6c185699de5e534c4f249cd420db3ff467"
 
 [[files]]
 file = "kubejs/server_scripts/chapter 1 - pre-LV/botania.js"
-hash = "3694a55400f25f8bdc711900dcca90ab68d858c6ceb3bfb73ea947e6afd05e01"
+hash = "073014b7f365419fb20062106fcc71f6fad9d385e6156ed1a34d1b2b8113e499"
 
 [[files]]
 file = "kubejs/server_scripts/chapter 1 - pre-LV/coke oven and blast furnace.js"
@@ -18466,7 +19166,7 @@ hash = "c6aa5b3529f57104555d7020f1ae9c5e9ca560e9c3b1a33091dd0a5eb9e37c4d"
 
 [[files]]
 file = "kubejs/server_scripts/chapter 1 - pre-LV/create_recipes/create.js"
-hash = "70dfd936850ffd7caf3c05a2fa8362568bf8e179aa8c4bc058783d47dbaf4b92"
+hash = "6bd191a162f9c23b93e3220465ff74914b29d026c31f9373a3f519f7f9d28b3d"
 
 [[files]]
 file = "kubejs/server_scripts/chapter 1 - pre-LV/create_recipes/mechanical_crafting.js"
@@ -18498,7 +19198,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/server_scripts/chapter 1 - pre-LV/wizards reborn.js"
-hash = "26e122e0c0ba538d0069227c947d81bc59b8b36c34819b6aaa68e1a665878dd8"
+hash = "b62e75d544c107680a0aa4eef0a36427ce47a441386a3b782c212648f8aecbb3"
 
 [[files]]
 file = "kubejs/server_scripts/chapter 2 - LV and energy/lv-circuit.js"
@@ -18510,7 +19210,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/server_scripts/jsconfig.json"
-hash = "8a39f64f8a286ab7e26e6ac118f42c447b5d220e9e1eed0bd98c62d0671a6f87"
+hash = "859b6113943be5159f47d22dacc6278c02a11f3383a60c342f8b481eca99acf6"
 
 [[files]]
 file = "kubejs/server_scripts/modifications/block mods.js"
@@ -18546,7 +19246,7 @@ hash = "c12a986216e63d409dff1787559a2f0f1fb8d98fbe4c5cd583783404f09e4c9e"
 
 [[files]]
 file = "kubejs/startup_scripts/Items Blocks and Fluid Registry/block reg.js"
-hash = "76c87ebc7b580798e07776297b835fdbd7f1272135affa4602efb725f1dc36fa"
+hash = "ed0031cd3ea15d93dfb1291c409d9804d4ad1912da0399e15d197486cb6f873f"
 
 [[files]]
 file = "kubejs/startup_scripts/Items Blocks and Fluid Registry/fluid reg.js"
@@ -18566,7 +19266,7 @@ hash = "b038ec9b4a9cba1ee456c82024be526b71dc8b3e975bfc8cd655b2359f5efded"
 
 [[files]]
 file = "kubejs/startup_scripts/jsconfig.json"
-hash = "23f76104148facdea59426226ca4888814c9eb1a0df42b7ea297ed3f56c3dbe0"
+hash = "a9e6912b8515be242dd76c6c9a536a8d7c73f6b8b949787f538436ebeafbb7ee"
 
 [[files]]
 file = "kubejs/startup_scripts/src/placeholder.ts"
@@ -19027,7 +19727,7 @@ metafile = true
 
 [[files]]
 file = "mods/corail-tombstone.pw.toml"
-hash = "90ae3f8d6c5eda455a7f6ce49ccf3a9eff41bf733de37fa2febaf241b12e1d80"
+hash = "b225e0528a83e24ce56dd356a0fe030aa1950a405567fe5edbb370b70061fb0c"
 metafile = true
 
 [[files]]
@@ -19052,12 +19752,12 @@ metafile = true
 
 [[files]]
 file = "mods/create-framed.pw.toml"
-hash = "f10d2f7a7938ea8d4d8b050622d2f3933175851a28b83fdee57ea5fbdb18942d"
+hash = "e2bdd66da67378489f7139fda7372794e249a0f7742afc4754100d7e4bd5ac93"
 metafile = true
 
 [[files]]
 file = "mods/create-metallurgy.pw.toml"
-hash = "a19b5fbecf6d211a66d254de9a1d53c34bbb6dd8da989af2c31f14eeabbf44d6"
+hash = "8000b99cf0fe6d29f52243125927706e37c5eb8ab679fcd0f12c8837943a733d"
 metafile = true
 
 [[files]]
@@ -19317,7 +20017,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris-flw-compat.pw.toml"
-hash = "56e43e7fdd6af834b73f40de4b1d773b4b0985d33f7b1eb7e4c3fe3c0d954926"
+hash = "f330c14d7aeb826a28fc934aef71d0800d7ed297212ef31f1c8ba6715e0f0429"
 metafile = true
 
 [[files]]
@@ -19332,7 +20032,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "cd5d9d3f77020e26360d20d39c09e6dbc5363dd07797b8448e9771dea2756ef4"
+hash = "e53309f3e24377300fc30a6785f5db1ad51e4e71911ba774f484eb80f2db2e68"
 metafile = true
 
 [[files]]
@@ -19372,7 +20072,7 @@ metafile = true
 
 [[files]]
 file = "mods/ldlib.pw.toml"
-hash = "edb17b704dd1152553d45bb9ef8cb65aa87b94d2e61fcb1911a0ff37971436f7"
+hash = "6a94ad05d1714e59907b390c3a86236c38531f8fe6f59216b7970673eb17bc2c"
 metafile = true
 
 [[files]]
@@ -19427,7 +20127,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "20688b7fdf10c8bdadb78d0352383f4d6b069b5f6100548db637388892ffe256"
+hash = "08c2f0ecb06dd75179048724156d5c3c3766a6632e9f9c4e5e621d4091e3af97"
 metafile = true
 
 [[files]]
@@ -19437,7 +20137,7 @@ metafile = true
 
 [[files]]
 file = "mods/multiblocked2.pw.toml"
-hash = "00e09d51592c9ec402a0d512b481bcdc47a2799f4bf8180e62f1a12ec6854884"
+hash = "1006024895884972fcef92b9ef77e5b0fc9b2eeb1f2458540797ae5cde6fb303"
 metafile = true
 
 [[files]]
@@ -19452,7 +20152,7 @@ metafile = true
 
 [[files]]
 file = "mods/necronomicon.pw.toml"
-hash = "b71a4734dd909f431b735752c343bbd944d227edb64c6528b17f87b9a637d339"
+hash = "1802dcd780c6deb02fb0d9251474f221077c7c80b8d673585ab59a93f4fe2abb"
 metafile = true
 
 [[files]]
@@ -19532,7 +20232,7 @@ metafile = true
 
 [[files]]
 file = "mods/project-expansion.pw.toml"
-hash = "8984d7a677c2758df13e4fa3fdb3815a2be6336cd67d7283a96111cf4df69f8e"
+hash = "3e6aa17e65a2f6561a968db7e06f098752287dcd921b077d5bb7bfc342143dc8"
 metafile = true
 
 [[files]]
@@ -19657,12 +20357,12 @@ metafile = true
 
 [[files]]
 file = "mods/stellarview.pw.toml"
-hash = "b019f5e5c3cf34eb1a676b08aa2cc8079609fa0808522059f45595bcb731a006"
+hash = "fec0891831daee99c6555aa2ee6a9ec4dfdb1f851a2f083607cb4103dafa4008"
 metafile = true
 
 [[files]]
 file = "mods/storage-drawers.pw.toml"
-hash = "c6b242367068600d5d8c7988845418ad6d60013b8673115142e2be4dc58af25b"
+hash = "275f8b40881b3f5fb1f0221a3c12329ce8d6647ffff788daff9ba95247417576"
 metafile = true
 
 [[files]]
@@ -19697,7 +20397,7 @@ metafile = true
 
 [[files]]
 file = "mods/torchmaster.pw.toml"
-hash = "ce89191e6caa0e948fc20f6a3a805ba038435432e7e9ba69ed0e04d63e306370"
+hash = "963ab8502c9a059e8d88a33896044bf89d5b0bfdf083ea5c1549881b204c8d16"
 metafile = true
 
 [[files]]
@@ -19850,7 +20550,3 @@ hash = "6d1cd9859ec1d5384b73249cb5c3b8a0d62ce8fb5e12ba68ef0f30807fc91855"
 [[files]]
 file = "scripts/chapter_1.zs"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "scripts/chapter_1/create.zs"
-hash = "86290485912bdcd6213e1a4d45c6d6f66a2af9b9303355a54c9bcbae7ae51059"
