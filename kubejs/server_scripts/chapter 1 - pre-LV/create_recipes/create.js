@@ -16,13 +16,10 @@ ServerEvents.recipes(
         let BCasing =           Ingredient.of('create:brass_casing');
         let Shaft =             Ingredient.of('create:shaft');
         let AAlloy =            Ingredient.of('create:andesite_alloy');
-    
-
-        //Removing couple items
-        event.remove({output: 'create:shaft'});
-        event.remove({output: 'copycats:copycat_shaft'});
         
         //Gregify Components
+        //Shaft
+        event.remove({output: 'create:shaft'});
         event.shaped(
             '8x create:shaft', [
                 '  A',
@@ -35,7 +32,9 @@ ServerEvents.recipes(
                 S: 'gtceu:long_iron_rod'
             }
         ).keepIngredient([screwdrivers, hammers]).damageIngredient([screwdrivers, hammers]);
-
+        
+        //Copycat Shaft
+        event.remove({output: 'copycats:copycat_shaft'});
         event.shaped(
             '8x copycats:copycat_shaft', [
                 '  A',
@@ -49,6 +48,8 @@ ServerEvents.recipes(
             }
         ).keepIngredient([screwdrivers, hammers]).damageIngredient([screwdrivers, hammers]);
 
+        //Small Water Wheel
+        event.remove({output: 'create:water_wheel'});
         event.shaped(
             'create:water_wheel', [
                 ' P ',
@@ -60,6 +61,8 @@ ServerEvents.recipes(
             }
         );
 
+        //Large Water Wheel
+        event.remove({output: 'create:large_water_wheel'});
         event.shaped(
             'create:large_water_wheel', [
                 'PPP',
@@ -70,7 +73,9 @@ ServerEvents.recipes(
                 W: 'create:water_wheel'
             }
         );
+
         //Millstone
+        event.remove({output: 'create:millstone'});
         event.shaped(
             'create:millstone', [
                 'HC ',
@@ -85,6 +90,7 @@ ServerEvents.recipes(
         ).keepIngredient([Hammer]).damageIngredient([Hammer]);
 
         //Mechanical Pump
+        event.remove({output: 'create:mechanical_pump'});
         event.shaped(
             'create:mechanical_pump', [
                 'PCP',
@@ -100,6 +106,7 @@ ServerEvents.recipes(
         ).keepIngredient([Wrench, Hammer]).damageIngredient([Wrench, Hammer]);
 
         //Mechanical Fan
+        event.remove({output: 'create:encased_fan'});
         event.shaped(
             'create:encased_fan', [
                 ' S ',
@@ -115,6 +122,7 @@ ServerEvents.recipes(
         ).keepIngredient([Mallet, Wrench]).damageIngredient([Mallet, Wrench]);
 
         //weighted ejector
+        event.remove({output: 'create:weighted_ejector'});
         event.shaped(
             'create:weighted_ejector', [
                 'PPP',
@@ -130,6 +138,7 @@ ServerEvents.recipes(
         ).keepIngredient([Hammer, Wrench]).damageIngredient([Hammer, Wrench]);
 
         //Blaze Cage
+        event.remove({output: 'create:empty_blaze_burner'});
         event.shaped(
             'create:empty_blaze_burner', [
                 'I I',
@@ -144,11 +153,13 @@ ServerEvents.recipes(
         );
 
         //Create Pipe
+        event.remove({output: 'create:fluid_pipe'});
         event.shapeless('create:fluid_pipe', 
         	['gtceu:copper_normal_fluid_pipe']
         );
 
         //Fluid Filter
+        event.remove({output: 'create:smart_fluid_pipe'});
         event.shaped(
             'create:smart_fluid_pipe', [
                 'HFW',
@@ -163,6 +174,7 @@ ServerEvents.recipes(
         ).keepIngredient([Wrench, Hammer]).damageIngredient([Wrench, Hammer]);
 
         //Cart Assembler
+        event.remove({output: 'create:cart_assembler'});
         event.shaped(
             'create:cart_assembler', [
                 'iGi',
@@ -177,7 +189,8 @@ ServerEvents.recipes(
             }
         ).keepIngredient([Wrench]).damageIngredient([Wrench]);
 
-            //wooden Bracket
+        //wooden Bracket
+        event.remove({output: 'create:wooden_bracket'});
         event.shaped(
             'create:wooden_bracket', [
                 'MSW',
@@ -194,6 +207,7 @@ ServerEvents.recipes(
         ).keepIngredient([Mallet, Wrench]).damageIngredient([Mallet, Wrench]);
 
         //Mechanical Drill
+        event.remove({output: 'create:mechanical_drill'});
         event.shaped(
             'create:mechanical_drill', [
                 ' D ',
@@ -209,6 +223,7 @@ ServerEvents.recipes(
         ).keepIngredient([Hammer, Wrench]).damageIngredient([Hammer, Wrench]);
 
         //Press
+        event.remove({output: 'create:mechanical_press'});
         event.shaped(
             'create:mechanical_press', [
                 ' S ',
@@ -225,6 +240,7 @@ ServerEvents.recipes(
         ).keepIngredient([Mallet, Wrench]).damageIngredient([Mallet, Wrench]);
 
         //Mixer
+        event.remove({output: 'create:mechanical_mixer'});
         event.shaped(
             'create:mechanical_mixer', [
                 ' C ',
@@ -240,6 +256,7 @@ ServerEvents.recipes(
         ).keepIngredient([Mallet, Wrench]).damageIngredient([Mallet, Wrench]);
 
         //Create Cauldron
+        event.remove({output: 'create:basin'});
         event.shaped(
             'create:basin', [
                 'ACA',
@@ -251,6 +268,7 @@ ServerEvents.recipes(
         );
 
         //Smart Chute
+        event.remove({output: 'create:smart_chute'});
         event.shaped(
             'create:smart_chute', [
                 'BTB',
@@ -265,6 +283,7 @@ ServerEvents.recipes(
         ).keepIngredient([Wrench]).damageIngredient([Wrench]);
 
         //Tank
+        event.remove({output: 'create:fluid_tank'});
         event.shaped(
             'create:fluid_tank', [
                 'CGC',
@@ -278,6 +297,7 @@ ServerEvents.recipes(
         ).keepIngredient([Hammer]).damageIngredient([Hammer]);
 
         //Metal Bracket
+        event.remove({output: 'create:metal_bracket'});
         event.shaped(
             'create:metal_bracket', [
                 'HIW',
@@ -294,6 +314,7 @@ ServerEvents.recipes(
         ).keepIngredient([Hammer, Wrench]).damageIngredient([Hammer, Wrench]);
 
         //Girder
+        event.remove({output: 'create:metal_girder'});
         event.shaped(
             'create:metal_girder', [
                 ' A ',
@@ -308,6 +329,7 @@ ServerEvents.recipes(
         ).keepIngredient([Hammer, Wrench]).damageIngredient([Hammer, Wrench]);
 
         //Electron Tube
+        event.remove({output: 'create:metal_girder'});
         event.shaped(
             'create:metal_girder', [
                 'MRW',
@@ -321,6 +343,7 @@ ServerEvents.recipes(
         ).keepIngredient([Mallet, Wrench]).damageIngredient([Mallet, Wrench]);
 
         //Steam Engine
+        event.remove({output: 'create:steam_engine'});
         event.shaped(
             'create:steam_engine', [
                 ' C ',
@@ -333,9 +356,10 @@ ServerEvents.recipes(
                 P: 'minecraft:piston',
                 T: 'create:fluid_tank'
             }
-        );
+        ).keepIngredient([Hammer, Wrench]).damageIngredient([Hammer, Wrench]);
 
         //Mechanical Saw
+        event.remove({output: 'create:mechanical_saw'});
         event.shaped(
             'create:mechanical_saw', [
                 'HBW',
@@ -346,9 +370,10 @@ ServerEvents.recipes(
                 S: Shaft,
                 A: ACasing
             }
-        );
+        ).keepIngredient([Hammer, Wrench]).damageIngredient([Hammer, Wrench]);
 
         //Sequenced Gearshift
+        event.remove({output: 'create:sequenced_gearshift'});
         event.shaped(
             'create:sequenced_gearshift', [
                 'HEW',
@@ -362,9 +387,10 @@ ServerEvents.recipes(
                 E: 'gtceu:basic_electronic_circuit',
                 T: 'create:electron_tube'
             }
-        );
+        ).keepIngredient([Hammer, Wrench]).damageIngredient([Hammer, Wrench]);
 
         //Rot Speed Controller
+        event.remove({output: 'create:rotation_speed_controller'});
         event.shaped(
             'create:rotation_speed_controller', [
                 'gML',
@@ -381,9 +407,10 @@ ServerEvents.recipes(
                 M: 'create:precision_mechanism',
                 G: 'gtceu:iron_gear'
             }
-        );
+        ).keepIngredient([Hammer, Wrench]).damageIngredient([Hammer, Wrench]);
 
         //mechanical arm
+        event.remove({output: 'create:mechanical_arm'});
         event.shaped(
             'create:mechanical_arm', [
                 ' R ',
@@ -396,6 +423,6 @@ ServerEvents.recipes(
                 C: BCasing,
                 R: 'gtceu:lv_robot_arm'
             }
-        );
+        ).keepIngredient([Hammer, Wrench]).damageIngredient([Hammer, Wrench]);
     }
 );

@@ -115,6 +115,25 @@ function toCastable(input) {
     { name: "manganese",  temp: 1246,  isTag: false,  isModded: true },
     { name: "antimony",   temp: 630.6, isTag: false,  isModded: true },
     { name: "bismuth",    temp: 271.4, isTag: false,  isModded: true },
+    { name: "aluminium",  temp: 660.3, isTag: false,  isModded: true },
+    { name: "antimony",   temp: 630.6, isTag: false,  isModded: true },
+    { name: "chromium",   temp: 1907,  isTag: false,  isModded: true },
+    { name: "gallium",    temp: 29.8,  isTag: false,  isModded: true },
+    { name: "indium",     temp: 156.6, isTag: false,  isModded: true },
+    { name: "iridium",    temp: 2466,  isTag: false,  isModded: true },
+    { name: "neodymium",  temp: 1024,  isTag: false,  isModded: true },
+    { name: "niobium",    temp: 2477,  isTag: false,  isModded: true },
+    { name: "osmium",     temp: 3033,  isTag: false,  isModded: true },
+    { name: "palladium",  temp: 1554.9,isTag: false,  isModded: true },
+    { name: "platinum",   temp: 1768.3,isTag: false,  isModded: true },
+    { name: "rhodium",    temp: 1964,  isTag: false,  isModded: true },
+    { name: "ruthenium",  temp: 2334,  isTag: false,  isModded: true },
+    { name: "samarium",   temp: 1072,  isTag: false,  isModded: true },
+    { name: "tantalum",   temp: 3017,  isTag: false,  isModded: true },
+    { name: "titanium",   temp: 1668,  isTag: false,  isModded: true },
+    { name: "tungsten",   temp: 3422,  isTag: false,  isModded: true },
+    { name: "vanadium",   temp: 1910,  isTag: false,  isModded: true },
+    { name: "yttrium",    temp: 1526,  isTag: false,  isModded: true },
     { name: "dawnstone",  temp: 2863,  isTag: false,  isModded: true,
       overrides: {
         fluid:  "embers:molten_dawnstone",
@@ -174,7 +193,7 @@ ServerEvents.recipes(
             function calculateCoolingTime( temperature ) {
                 const maxTemp = 4500;
                 const minTemp = 21;
-                const maxTime = 400; //Ticks
+                const maxTime = 200; //Ticks
                 const minTime = 1;
 
                 if ( temperature > maxTemp ) {
@@ -190,9 +209,9 @@ ServerEvents.recipes(
                 return roundedCoolingTime;
             }
             
-            let timeIngot = calculateCoolingTime(temperature) ;
+            let timeIngot = Math.ceil(calculateCoolingTime(temperature) );
             let timeNugget = Math.ceil(timeIngot / 2);
-            let timeBlock = calculateCoolingTime(temperature) * 3.8;
+            let timeBlock = Math.ceil(calculateCoolingTime(temperature) * 3.8);
             event.custom(
                 {
                     "type": "createmetallurgy:casting_in_basin",
