@@ -1,0 +1,27 @@
+{
+    "variants": {
+      "facing=down": {
+        "model": "magicgreg:block/mana_intake",
+        "x": 90
+      },
+      "facing=east": {
+        "model": "magicgreg:block/mana_intake",
+        "y": 90
+      },
+      "facing=north": {
+        "model": "magicgreg:block/mana_intake"
+      },
+      "facing=south": {
+        "model": "magicgreg:block/mana_intake",
+        "y": 180
+      },
+      "facing=up": {
+        "model": "magicgreg:block/mana_intake",
+        "x": 270
+      },
+      "facing=west": {
+        "model": "magicgreg:block/mana_intake",
+        "y": 270
+      }
+    }
+  }
