@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "MagicGreg PS.ps1"
+hash = "4d44576416ee58124136878be9afee6e777377bdc694618e1a66c7e76c5199db"
+
+[[files]]
 file = "config/DistantHorizons.toml"
 hash = "728908a122190343c9533a123f18ede0125e6f861dfd1a53057e9b895731ae03"
 
@@ -1366,7 +1370,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "8235864b3653c5a6194eccec5838cbbc98385529b316a0463da8090e103678be"
+hash = "60c4d073d9b45ac516e96fa88630b499e2ee080c3a88cc6b357b98a34e78fe80"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1490,7 +1494,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "f97c728173852bd18a6c62ca2fb36072e28dbc9120396286ebf0b5ab0695920c"
+hash = "a5c1c518142428b57bca85eeb72e18e61164bf34bddebe46c0693f800854fcab"
 
 [[files]]
 file = "config/oreexcavation-client.toml"
@@ -1630,11 +1634,11 @@ hash = "ed118a21470a17635fb10b45dec1ed253a38c5537e38be9935f235a3dbf07a96"
 
 [[files]]
 file = "config/sound_physics_remastered/occlusion.properties"
-hash = "fbcf8253790f3d2b68458c878c0c00d6589e31cba9050a7f3171754ed6c774d0"
+hash = "e2191caeda159b6a58e5e29a8871941c6ca91c94fe22179f645a54758da736a7"
 
 [[files]]
 file = "config/sound_physics_remastered/reflectivity.properties"
-hash = "825260073873c530aa3af6f7e4509df9ffbc8bd466d22c8956dd968c98d6c945"
+hash = "dd5501fe6cc3c260f26ba56ddb2a084cbc6b3d467c7d275866e6a49542371c6c"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -2218,7 +2222,7 @@ hash = "9757a6208de6780c7d86d61a75e997848a30a7e759f5e2f3e29d08ab7aa6383f"
 
 [[files]]
 file = "config/worldedit/worldedit.properties"
-hash = "9b4c6aa4ff8561c63e7886efc105d44a56419b98562b761dbe540191ff3fa6a1"
+hash = "df4dad8d0aa6904cb0c8b39325a5bb333ba0be0c65d369f1a733f2eafedc4f6f"
 
 [[files]]
 file = "config/worldeditcui.config.json"
@@ -12273,6 +12277,22 @@ file = "kubejs/assets/gtceu/textures/item/zpm_voltage_coil.png"
 hash = "48ce4970723ce732575a01e44678b7928286bcd87eb33aba268314601555608a"
 
 [[files]]
+file = "kubejs/assets/kubejs/blockstates/mana_intake.json"
+hash = "58b568264ceb72c6e6e18509051bde56333efc0b3ffaa6b3a10bef93c3cedbfc"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/mana_intake.json"
+hash = "db05a251fb95aa1189297302a41526e102ee067dc0bd3ad8be453c9096456a48"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/arcane_crystal_obelisk_scene.nbt"
+hash = "aa0b2e08f9e6d7a09a6d3995dd86912477be0f5f534d5ec5742b26faff1ff2b9"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/arcane_obelisk.nbt"
+hash = "36cf08baff2d36287d4a6c38551daae3bd47ffb7c7aef79344956c578e67509b"
+
+[[files]]
 file = "kubejs/assets/kubejs/ponder/farm.nbt"
 hash = "d491403ece3b197490007233b7c91249f6c6fc490d18b85765c247d845ad6de8"
 
@@ -12297,6 +12317,14 @@ file = "kubejs/assets/kubejs/ponder/fusion_mek.nbt"
 hash = "8d06ec1200f31762da945b11d68d7a1aa1b0a48d2df4bb5e33deaf8f5d26d025"
 
 [[files]]
+file = "kubejs/assets/kubejs/ponder/hephaestus_forge.nbt"
+hash = "b58ecddbe41fcbc684c037198ae4151763b7af981b632720e54e35754b899a22"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/hephaestus_forge_scene.nbt"
+hash = "70430c80c113af129404128f6146c64b981dbffbe6074e622687774eb22e85ca"
+
+[[files]]
 file = "kubejs/assets/kubejs/ponder/induction_matrix.nbt"
 hash = "d35cc0d7ae007761f5fcc9c990776bc5e2bc1203ba2e07928358890ef61391ee"
 
@@ -12313,172 +12341,148 @@ file = "kubejs/assets/kubejs/ponder/turbine_mek.nbt"
 hash = "db260149b77ba74370499e28c922aeb6d2fbfcf8313e3d3b9772fd6672fe05e8"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/block/casings/machine_casing_bronze_plated_bricks.png"
+hash = "a2e59cfd6f8d6042d33d8013f2de2b24f59cee4642d9c781d38ee0838c5d915d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/casings/machine_casing_bronze_plated_bricks.png.mcmeta"
+hash = "e506ea3640ac47d4b13f4965d3da1f3224fef2fae5b8dbc87fbd5bd339fe53cc"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/casings/machine_casing_bronze_plated_bricks_ctm.png"
+hash = "493402a6d17d13e6514b853c853b88ab9291069c30b9df646a7a4c65ee32af86"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/coils/coil_manasteel.png"
+hash = "da7a8ecff646b561e50135605560d5313879f96c9b8266b9839831858882be3e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/coils/coil_manasteel.png.mcmeta"
+hash = "aef51846947d6139433480de9980857683acd55595dced2e9eafa4ec8b7a77e3"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/coils/coil_manasteel_bloom.png"
+hash = "c072767894ffffe8206189f55541ee7e2c365122642f5a2f22f0f886e2901494"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/coils/coil_manasteel_bloom.png.mcmeta"
+hash = "107aac5de432f35da8c51111ddca2593a2d96fac7fce9ca9a2556511e3d4afba"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/coils/coil_manasteel_bloom_ctm.png"
+hash = "daab037ad72fd6626cdca228d6fd7ffb2c24b5004912972cdef12ee795ebb37d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/coils/coil_manasteel_bloom_ctm.png.mcmeta"
+hash = "d35849f0d5ac47ae88f48ebb45dd5beb9f0bd01253f011ded748c27dc4a42737"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/coils/coil_manasteel_ctm.png"
+hash = "4548319eef2af1e79a49752a55c49f66324d8df27788ea089963740847fed2a3"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/coils/machine_coil_zalloy.png"
+hash = "e31453aed966c2d4230fd9e607bb48533082b7747d6be02fee972acac948f5fa"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/coils/machine_coil_zalloy.png.mcmeta"
+hash = "0753406dc39e1e8e8991cec8a2be464f1e47c1f52db5eb5704c398d910de10d9"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/coils/machine_coil_zalloy_bloom.png"
+hash = "73d790494adf3573988d263d013da3bbbdd75bc245a4c8c58594b888893f82eb"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/coils/machine_coil_zalloy_bloom.png.mcmeta"
+hash = "bc4eb052447afab18223a830a2396031c553b95d061346b4d80cc3c9b0561f96"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/coils/machine_coil_zalloy_bloom_ctm.png"
+hash = "e9532276ef89134517c9afc869cb9091d777711b660ec3e756aece94cede965f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/coils/machine_coil_zalloy_bloom_ctm.png.mcmeta"
+hash = "d35849f0d5ac47ae88f48ebb45dd5beb9f0bd01253f011ded748c27dc4a42737"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/coils/machine_coil_zalloy_ctm.png"
+hash = "bae1ba6d6cc3edda5f8e9b3c7746fc2716abbef3708e64b0883e213c3daf76de"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/example_block.png"
+hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/machines/arcane_casing_base.png"
+hash = "0769cd818d87a479ffa3bf574057fed4e608003b8d20f84ad190c65aeccc0d2a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/machines/elven_spreader_core.png"
+hash = "0050f1e6fe1aa0cf1a22289194b42c320aaba0ab4c36f85d74e6e26e97932d40"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/machines/incomplete_generator_side.png"
+hash = "b019ffe8a8eaf6993d6cdc3649e14a2369992f181c6e64be017f3041365cc199"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/machines/incomplete_generator_top.png"
+hash = "5e56d72bbfb8b93a7ed7d4facf82da05cb021487e84c67342c77b7899e0be6f9"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/machines/incomplete_generator_top.png.mcmeta"
+hash = "3b9db826886f73cea825305a2e6f9e072432203509275182455769fa8dd4900c"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/machines/mana_spreader_back.png"
+hash = "5d1b6a1c00068ee27d6f5745211c69478aac39f844f43cd11c2a28ee9aa8463b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/machines/mana_spreader_core.png"
+hash = "3abdc1f1ad97b00082047d822ad185d9b456783e3cdeaf30015afd605445c0a6"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/machines/mana_spreader_side.png"
+hash = "910b2a14c30c7ca89eb91308f3413095bf94765932727fc0647fb91ee2e24956"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/machines/stripped_livingwood_log.png"
+hash = "d7145ce67d5395b267fa8fb473c558f3fdefd61b7c00e058d91e3516f6142922"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/mana_flowing.png"
+hash = "70a7c04e6f0c97ee86330ba3deb4aeadd4f9382dcd0ed5c745c7d88bb212b5ea"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/mana_flowing.png.mcmeta"
+hash = "4a5dad045d1c6172b28dca8eda5ee036ecf966137cda30c64770bf48689c92d4"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/mana_still.png"
+hash = "e882835b7d18996d2473f842118114fd428c338c95a63fb9901101f88c9f53b4"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/mana_still.png.mcmeta"
+hash = "90fb44a3511d279e0f59d80d82799e72ee6295ef29420184f76f218d4d3d653a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/example_item.png"
+hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/server_rack.png"
+hash = "3db8ac34ab95a1e94beb90aaa12623f5ad88ed43e6b4b5296bce5a3724034044"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tools/arcane_gold_paxel.png"
+hash = "b90ec1158dba64dc293116093ec86bc3e0c9fc01065bc311e35767d45fa1c535"
+
+[[files]]
 file = "kubejs/assets/legendarytooltips/textures/gui/tooltip_borders.png"
 hash = "d1227de7d0bbcfc6b87b875b805d2d1bb1a50711ce625a1196c0b95d86efc151"
 
 [[files]]
-file = "kubejs/assets/magicgreg/blockstates/mana_intake.json"
-hash = "58b568264ceb72c6e6e18509051bde56333efc0b3ffaa6b3a10bef93c3cedbfc"
-
-[[files]]
-file = "kubejs/assets/magicgreg/models/block/mana_intake.json"
-hash = "db05a251fb95aa1189297302a41526e102ee067dc0bd3ad8be453c9096456a48"
-
-[[files]]
-file = "kubejs/assets/magicgreg/ponder/arcane_crystal_obelisk_scene.nbt"
-hash = "aa0b2e08f9e6d7a09a6d3995dd86912477be0f5f534d5ec5742b26faff1ff2b9"
-
-[[files]]
-file = "kubejs/assets/magicgreg/ponder/arcane_obelisk.nbt"
-hash = "36cf08baff2d36287d4a6c38551daae3bd47ffb7c7aef79344956c578e67509b"
-
-[[files]]
-file = "kubejs/assets/magicgreg/ponder/hephaestus_forge.nbt"
-hash = "b58ecddbe41fcbc684c037198ae4151763b7af981b632720e54e35754b899a22"
-
-[[files]]
-file = "kubejs/assets/magicgreg/ponder/hephaestus_forge_scene.nbt"
-hash = "70430c80c113af129404128f6146c64b981dbffbe6074e622687774eb22e85ca"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/block/casings/machine_casing_bronze_plated_bricks.png"
-hash = "a2e59cfd6f8d6042d33d8013f2de2b24f59cee4642d9c781d38ee0838c5d915d"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/block/casings/machine_casing_bronze_plated_bricks.png.mcmeta"
-hash = "e506ea3640ac47d4b13f4965d3da1f3224fef2fae5b8dbc87fbd5bd339fe53cc"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/block/casings/machine_casing_bronze_plated_bricks_ctm.png"
-hash = "493402a6d17d13e6514b853c853b88ab9291069c30b9df646a7a4c65ee32af86"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/block/coils/coil_manasteel.png"
-hash = "da7a8ecff646b561e50135605560d5313879f96c9b8266b9839831858882be3e"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/block/coils/coil_manasteel.png.mcmeta"
-hash = "aef51846947d6139433480de9980857683acd55595dced2e9eafa4ec8b7a77e3"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/block/coils/coil_manasteel_bloom.png"
-hash = "c072767894ffffe8206189f55541ee7e2c365122642f5a2f22f0f886e2901494"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/block/coils/coil_manasteel_bloom.png.mcmeta"
-hash = "107aac5de432f35da8c51111ddca2593a2d96fac7fce9ca9a2556511e3d4afba"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/block/coils/coil_manasteel_bloom_ctm.png"
-hash = "daab037ad72fd6626cdca228d6fd7ffb2c24b5004912972cdef12ee795ebb37d"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/block/coils/coil_manasteel_bloom_ctm.png.mcmeta"
-hash = "d35849f0d5ac47ae88f48ebb45dd5beb9f0bd01253f011ded748c27dc4a42737"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/block/coils/coil_manasteel_ctm.png"
-hash = "4548319eef2af1e79a49752a55c49f66324d8df27788ea089963740847fed2a3"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/block/coils/machine_coil_zalloy.png"
-hash = "e31453aed966c2d4230fd9e607bb48533082b7747d6be02fee972acac948f5fa"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/block/coils/machine_coil_zalloy.png.mcmeta"
-hash = "0753406dc39e1e8e8991cec8a2be464f1e47c1f52db5eb5704c398d910de10d9"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/block/coils/machine_coil_zalloy_bloom.png"
-hash = "73d790494adf3573988d263d013da3bbbdd75bc245a4c8c58594b888893f82eb"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/block/coils/machine_coil_zalloy_bloom.png.mcmeta"
-hash = "bc4eb052447afab18223a830a2396031c553b95d061346b4d80cc3c9b0561f96"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/block/coils/machine_coil_zalloy_bloom_ctm.png"
-hash = "e9532276ef89134517c9afc869cb9091d777711b660ec3e756aece94cede965f"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/block/coils/machine_coil_zalloy_bloom_ctm.png.mcmeta"
-hash = "d35849f0d5ac47ae88f48ebb45dd5beb9f0bd01253f011ded748c27dc4a42737"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/block/coils/machine_coil_zalloy_ctm.png"
-hash = "bae1ba6d6cc3edda5f8e9b3c7746fc2716abbef3708e64b0883e213c3daf76de"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/block/example_block.png"
-hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/block/machines/arcane_casing_base.png"
-hash = "0769cd818d87a479ffa3bf574057fed4e608003b8d20f84ad190c65aeccc0d2a"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/block/machines/elven_spreader_core.png"
-hash = "0050f1e6fe1aa0cf1a22289194b42c320aaba0ab4c36f85d74e6e26e97932d40"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/block/machines/incomplete_generator_side.png"
-hash = "b019ffe8a8eaf6993d6cdc3649e14a2369992f181c6e64be017f3041365cc199"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/block/machines/incomplete_generator_top.png"
-hash = "5e56d72bbfb8b93a7ed7d4facf82da05cb021487e84c67342c77b7899e0be6f9"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/block/machines/incomplete_generator_top.png.mcmeta"
-hash = "3b9db826886f73cea825305a2e6f9e072432203509275182455769fa8dd4900c"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/block/machines/mana_spreader_back.png"
-hash = "5d1b6a1c00068ee27d6f5745211c69478aac39f844f43cd11c2a28ee9aa8463b"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/block/machines/mana_spreader_core.png"
-hash = "3abdc1f1ad97b00082047d822ad185d9b456783e3cdeaf30015afd605445c0a6"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/block/machines/mana_spreader_side.png"
-hash = "910b2a14c30c7ca89eb91308f3413095bf94765932727fc0647fb91ee2e24956"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/block/machines/stripped_livingwood_log.png"
-hash = "d7145ce67d5395b267fa8fb473c558f3fdefd61b7c00e058d91e3516f6142922"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/block/mana_flowing.png"
-hash = "70a7c04e6f0c97ee86330ba3deb4aeadd4f9382dcd0ed5c745c7d88bb212b5ea"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/block/mana_flowing.png.mcmeta"
-hash = "4a5dad045d1c6172b28dca8eda5ee036ecf966137cda30c64770bf48689c92d4"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/block/mana_still.png"
-hash = "e882835b7d18996d2473f842118114fd428c338c95a63fb9901101f88c9f53b4"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/block/mana_still.png.mcmeta"
-hash = "90fb44a3511d279e0f59d80d82799e72ee6295ef29420184f76f218d4d3d653a"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/item/example_item.png"
-hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/item/server_rack.png"
-hash = "3db8ac34ab95a1e94beb90aaa12623f5ad88ed43e6b4b5296bce5a3724034044"
-
-[[files]]
-file = "kubejs/assets/magicgreg/textures/item/tools/arcane_gold_paxel.png"
-hash = "b90ec1158dba64dc293116093ec86bc3e0c9fc01065bc311e35767d45fa1c535"
-
-[[files]]
 file = "kubejs/assets/ponderjs_generated/lang/en_us.json"
-hash = "f650c2e3ee28fbb1b0d0adb7fe087c2b6597a6050fcde9bbd47e80e84df7261b"
+hash = "84fb32025c1a594d8636bd9acc174ba7904bf037dc125c84be78fa9f2df6bc5c"
 
 [[files]]
 file = "kubejs/client_scripts/GTTools_hide.js"
@@ -12509,40 +12513,16 @@ file = "kubejs/client_scripts/ponders/examples/set place modify.js"
 hash = "3d062876a45b0e29187babc653949998b96e27fdbcdb76382c7c4a54bc905444"
 
 [[files]]
-file = "kubejs/client_scripts/ponders/fission_mek_fuelrod.js"
-hash = "dbbc9968385692050e5197824f02df1ef20e996e2fda7d9d30cb939c3cc16f4f"
-
-[[files]]
-file = "kubejs/client_scripts/ponders/fission_mek_logic.js"
-hash = "8d3fdb9e8c044a95eafdf5bf055366fdbcd265ee970999cec88142c69ba7427c"
-
-[[files]]
-file = "kubejs/client_scripts/ponders/fission_mek_port.js"
-hash = "02f51a4be965cc2bcddfe051c21a8d1613ceab020fd620e9bfbda221b5fb09dd"
-
-[[files]]
 file = "kubejs/client_scripts/ponders/forbidden and arcanus.js"
-hash = "547a5f501da062dcae8fba557c1c0362c9791817fa494e4309a9e6c502a0d733"
+hash = "15f6446844522b288e8b53a9218b05d001f48fb040b3421cee713d505a47f1c7"
 
 [[files]]
 file = "kubejs/client_scripts/ponders/forbidden and arcanus.js.bak"
 hash = "423f859ac4b6b45980e3b8d2f179165e601db30fedfeec27a357062749579c5a"
 
 [[files]]
-file = "kubejs/client_scripts/ponders/fusion_activate.js"
-hash = "1bfae2c5954be3a2755914b45873ea86100af35b13be92b8896d77d223024191"
-
-[[files]]
-file = "kubejs/client_scripts/ponders/fusion_reactor.js"
-hash = "e0f091a76ca4d606c5d55c168bfa3f3af09823d31c233719b154b8f87a61b757"
-
-[[files]]
 file = "kubejs/client_scripts/ponders/ponder tags.js"
 hash = "e2d8d5fcfda04fca070912c366c97beed97dff92bbfb1be001aa36a1f7fb9866"
-
-[[files]]
-file = "kubejs/client_scripts/ponders/turbine_mek.js"
-hash = "754de916ffcf8f5b6f6c42c930518cef707cf4ac8ce94cf42f4dc56cd574ac7a"
 
 [[files]]
 file = "kubejs/client_scripts/src/placeholder.ts"
@@ -19246,15 +19226,15 @@ hash = "c12a986216e63d409dff1787559a2f0f1fb8d98fbe4c5cd583783404f09e4c9e"
 
 [[files]]
 file = "kubejs/startup_scripts/Items Blocks and Fluid Registry/block reg.js"
-hash = "ed0031cd3ea15d93dfb1291c409d9804d4ad1912da0399e15d197486cb6f873f"
+hash = "dfbe73dea1aecfa890ee1f4078bd9e22e1d4cbf0380ebefe389cb856732f7a51"
 
 [[files]]
 file = "kubejs/startup_scripts/Items Blocks and Fluid Registry/fluid reg.js"
-hash = "1c1089271f0a639f06febc8009e572e5d583b9f56a1e72766ab92154a59ca814"
+hash = "ab9cd5429f492db7c6319a870af0f8c15e8f5ce41b82f1bcb322b25e1c6a36fc"
 
 [[files]]
 file = "kubejs/startup_scripts/Items Blocks and Fluid Registry/item reg.js"
-hash = "8561234734b3059fc05c3ed6e6715b6369a60744527e4d5c7d0b8b786a811b73"
+hash = "cade99a00fae010131f31ef96219a7b9e6fee74eb4ad84109bec3b788693cb8e"
 
 [[files]]
 file = "kubejs/startup_scripts/PowerfulJS.js"
@@ -19262,7 +19242,7 @@ hash = "5a0599735ecb3ad29386de49e0902d10f0f225862bb9b1c39c2314311f633693"
 
 [[files]]
 file = "kubejs/startup_scripts/_init.js"
-hash = "b038ec9b4a9cba1ee456c82024be526b71dc8b3e975bfc8cd655b2359f5efded"
+hash = "694df0f0df65f70a6e3f300cba665c2bf0146901fee5755365732ed6b10e76c6"
 
 [[files]]
 file = "kubejs/startup_scripts/jsconfig.json"
@@ -20378,6 +20358,11 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "1c899472602064a96990049117b4b755cc32197ac7b9cb6e521758ee1fc2a5a7"
+metafile = true
+
+[[files]]
+file = "mods/terralith.pw.toml"
+hash = "b0978cb7ae7b79c5be89b323ca1bd038f693ff6d11c43dfcbd63953964149af2"
 metafile = true
 
 [[files]]
