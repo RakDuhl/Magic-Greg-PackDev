@@ -1,6 +1,6 @@
 ServerEvents.recipes(
     event => {
-        let inter = 'magicgreg:incomplete_generator_block';//Generator Block
+        let inter = 'kubejs:incomplete_generator_block';//Generator Block
         /*
         event.recipes.create.sequenced_assembly(
             [
@@ -442,7 +442,7 @@ ServerEvents.recipes(
                         type: "create:deploying",
                         ingredients: [
                             {item: mainframe},
-                            [{item: 'magicgreg:manasteel_coil_block'}]
+                            [{item: 'kubejs:manasteel_coil_block'}]
                         ],
                         results: [{item: mainframe}]
                     },
@@ -588,7 +588,7 @@ ServerEvents.recipes(
                         type: "create:deploying",
                         ingredients: [
                             {item: inter5},
-                            [{item: 'magicgreg:manasteel_coil_block'}]
+                            [{item: 'kubejs:manasteel_coil_block'}]
                         ],
                         results: [{item: inter5}]
                     },
@@ -732,7 +732,7 @@ ServerEvents.recipes(
                         type: "create:deploying",
                         ingredients: [
                             {item: mainframe},
-                            [{item: 'magicgreg:manasteel_coil_block'}]
+                            [{item: 'kubejs:manasteel_coil_block'}]
                         ],
                         results: [{item: mainframe}]
                     },
@@ -1014,7 +1014,7 @@ ServerEvents.recipes(
                         type: "create:deploying",
                         ingredients: [
                             {item: mainframe},
-                            [{item: 'magicgreg:manasteel_coil_block'}]
+                            [{item: 'kubejs:manasteel_coil_block'}]
                         ],
                         results: [{item: mainframe}]
                     },
@@ -1167,7 +1167,7 @@ ServerEvents.recipes(
                         type: "create:deploying",
                         ingredients: [
                             {item: mainframe},
-                            [{item: 'magicgreg:manasteel_coil_block'}]
+                            [{item: 'kubejs:manasteel_coil_block'}]
                         ],
                         results: [{item: mainframe}]
                     },
@@ -1320,7 +1320,7 @@ ServerEvents.recipes(
                         type: "create:deploying",
                         ingredients: [
                             {item: mainframe},
-                            [{item: 'magicgreg:manasteel_coil_block'}]
+                            [{item: 'kubejs:manasteel_coil_block'}]
                         ],
                         results: [{item: mainframe}]
                     },

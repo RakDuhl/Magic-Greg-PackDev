@@ -33,7 +33,6 @@ Platform.mods.extendedgears.name            = "Create®"
 
 // Ignore this
 function elementRegistry(func)      { GTCEuStartupEvents.registry('gtceu:element', func); };
-function materialRegistry(func)     { GTCEuStartupEvents.registry('gtceu:material', func); };
 function RecipeRegistry(func)       { GTCEuStartupEvents.registry('gtceu:recipe_type', func); };
 function CustomMultiblock(func)     { GTCEuStartupEvents.registry('gtceu:machine', func); };
 const $IngotProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.IngotProperty');
