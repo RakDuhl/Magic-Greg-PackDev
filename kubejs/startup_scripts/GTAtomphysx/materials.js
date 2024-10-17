@@ -29,7 +29,7 @@ GTCEuStartupEvents.registry(
             .secondaryColor(0xB5FFFC)
             .element(GTElements.get('mana_steel'))
             .cableProperties(V('lv'), 2, 0, true)
-            .iconSet(GTMaterialIconSet.getByName('mana'))
+            .iconSet(METALLIC)
             .flags(
                 foil,
                 fine_wire,
@@ -49,7 +49,7 @@ GTCEuStartupEvents.registry(
             .fluidTemp(1682)
             .color(0x55f609)
             .element(GTElements.get('terrasteel'))
-            .iconSet(GTMaterialIconSet.SHINY)
+            .iconSet(SHINY)
             .cableProperties(V('ev'), 4, 0, true)
             .flags(
                 foil,
@@ -70,7 +70,7 @@ GTCEuStartupEvents.registry(
             .fluidTemp(2045)
             .secondaryColor(0xE27500)
             .element(GTElements.get('alfsteel'))
-            .iconSet(GTMaterialIconSet.SHINY)
+            .iconSet(SHINY)
             .cableProperties(V('luv'), 6, 0, true)
             .flags(
                 foil,
@@ -160,6 +160,7 @@ GTCEuStartupEvents.registry(
             );
 
         event.create('mana')
+            .element(GTElements.get('mana'))
             .fluid()
             .color(0x20DAFF)
             .fluidTemp(271)
