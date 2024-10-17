@@ -5,13 +5,13 @@ Ponder.registry(
                 /**
                  *  "hephaestus",                       -> name of the Ponder
                  *  "Harnessing the greek God's Power", -> Description of the Ponder
-                 *  "magicgreg:hephaestus_forge_scene", -> structure .nbt file location (default is 'kubejs:[location]')
+                 *  "kubejs:hephaestus_forge_scene", -> structure .nbt file location (default is 'kubejs:[location]')
                  *                                         You can define your own resource location like you can with practically everything else,
                  *                                         just keep in mind the structure file for the scene is in kubejs/assets/[yourModID]/ponder/
                  */
             "hephaestus",
             "Harnessing the greek God's Power",
-            "magicgreg:hephaestus_forge_scene",
+            "kubejs:hephaestus_forge_scene",
             (scene, util) => {
                 //Loads and shows the full Structure of the forge
                 scene.showStructure();
@@ -141,7 +141,7 @@ Ponder.registry(
         .scene(
             "obelisk",
             "Farming Arcane Crystals from Arcane Crystal Obilisks",
-            "magicgreg:arcane_crystal_obelisk_scene",
+            "kubejs:arcane_crystal_obelisk_scene",
             (scene, util) => {
                 //Showing the full Obelisk with decoration
 			    scene.world.showSection([0,0,0,  8,3,8], Direction.up);

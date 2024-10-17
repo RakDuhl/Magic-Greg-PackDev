@@ -1,10 +1,35 @@
 // priority: 10000
 /*
-This whole script has been copies over from the Modpack Star Technology!
+Major parts of this script have been copied over from the Modpack Star Technology!
 The Author has been asked for permissions and kindly obliged.
 Curseforge: https://www.curseforge.com/minecraft/modpacks/star-technology
 GitHub:     https://github.com/trulyno/star-technology
 */
+
+Platform.mods.kubejs.name                   = "Arcenia Technologies®"
+Platform.mods.gtceu.name                    = "Arcane Mechanist® Guild"
+//Platform.mods.farmersdelight.name
+//Platform.mods.ends_delight.name
+//Platform.mods.ice_and_fire_delight.name     
+Platform.mods.extendedcrafting.name         = "Mystech Solutions®"
+Platform.mods.iceandfire.name               = "Mythic Beastworks®"
+Platform.mods.create_wizardry.name          = "Aether Company™"
+Platform.mods.embers.name                   = "Eldritch Industries & Alchemical Foundry™"
+Platform.mods.forbidden_arcanus.name        = "Thaumaturgic Syndicate®"
+Platform.mods.draconicevolution.name        = "DrakeFusion Engineering®"
+//Platform.mods..name
+
+//Create Add-Ons
+Platform.mods.createframed.name             = "Create® Crystal & Crown Glassworks™"
+Platform.mods.create_dd.name                = "Create® Monarch's Stone & Masonry Guild™"
+Platform.mods.create_things_and_misc.name   = "Create® Atlas Machinists™"
+Platform.mods.create_connected.name         = "Create® Titanworks Industrial Mechanics™"
+Platform.mods.bellsandwhistles.name         = "Create® Royal Locomotive Consortium™"
+Platform.mods.copycats.name                 = "Create® Royal Ironbound Steelworks™"
+Platform.mods.design_decor.name             = "Create® Imperial Pillar Masonry™"
+Platform.mods.railways.name                 = "Create® Transcontinental Ironway Syndicate™"
+Platform.mods.interiors.name                = "Create® Regency Interiors & Decor™"
+Platform.mods.extendedgears.name            = "Create®"
 
 // Ignore this
 function elementRegistry(func)      { GTCEuStartupEvents.registry('gtceu:element', func); };

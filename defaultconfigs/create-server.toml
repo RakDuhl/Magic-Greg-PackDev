@@ -77,7 +77,7 @@
 	#[in Revolutions per Minute]
 	#Maximum allowed rotation speed for any Kinetic Block.
 	#Range: > 64
-	maxRotationSpeed = 2048
+	maxRotationSpeed = 4500
 	#.
 	#Select what mobs should ignore Deployers when attacked by them.
 	#Allowed Values: ALL, CREEPERS, NONE
@@ -172,11 +172,11 @@
 		#.
 		#Configure how Spawner blocks can be moved by contraptions.
 		#Allowed Values: MOVABLE, NO_PICKUP, UNMOVABLE
-		movableSpawners = "NO_PICKUP"
+		movableSpawners = "MOVABLE"
 		#.
 		#Configure how Budding Amethyst can be moved by contraptions.
 		#Allowed Values: MOVABLE, NO_PICKUP, UNMOVABLE
-		amethystMovement = "NO_PICKUP"
+		amethystMovement = "MOVABLE"
 		#.
 		#Configure how Obsidian blocks can be moved by contraptions.
 		#Allowed Values: MOVABLE, NO_PICKUP, UNMOVABLE
@@ -219,12 +219,12 @@
 		#[in Stress Units]
 		#Minimum stress impact to be considered 'medium'
 		#Range: 0.0 ~ 4096.0
-		mediumStressImpact = 4.0
+		mediumStressImpact = 8.0
 		#.
 		#[in Stress Units]
 		#Minimum stress impact to be considered 'high'
 		#Range: 0.0 ~ 65535.0
-		highStressImpact = 8.0
+		highStressImpact = 16.0
 		#.
 		#[in Stress Units]
 		#Minimum added Capacity by sources to be considered 'medium'
@@ -248,16 +248,16 @@
 			#Configure the individual stress impact of mechanical blocks. Note that this cost is doubled for every speed increase it receives.
 			[kinetics.stressValues.v2.impact]
 				deployer = 4.0
-				cuckoo_clock = 1.0
+				cuckoo_clock = 0.5
 				copper_backtank = 4.0
 				flywheel = 0.0
 				adjustable_chain_gearshift = 0.0
 				mechanical_pump = 4.0
-				mechanical_mixer = 4.0
-				mechanical_arm = 2.0
+				mechanical_mixer = 2.0
+				mechanical_arm = 8.0
 				andesite_encased_shaft = 0.0
-				mechanical_press = 8.0
-				mechanical_drill = 4.0
+				mechanical_press = 6.0
+				mechanical_drill = 8.0
 				stressometer = 0.0
 				shaft = 0.0
 				gearshift = 0.5
@@ -265,25 +265,25 @@
 				andesite_encased_cogwheel = 0.0
 				mechanical_crafter = 2.0
 				display_board = 0.0
-				mechanical_piston = 4.0
-				mechanical_bearing = 4.0
+				mechanical_piston = 2.0
+				mechanical_bearing = 6.0
 				encased_chain_drive = 0.0
-				rotation_speed_controller = 0.0
+				rotation_speed_controller = 0.5
 				netherite_backtank = 4.0
 				brass_encased_large_cogwheel = 0.0
-				mysterious_cuckoo_clock = 1.0
-				hose_pulley = 4.0
-				millstone = 4.0
+				mysterious_cuckoo_clock = 0.5
+				hose_pulley = 1.0
+				millstone = 8.0
 				speedometer = 0.0
 				mechanical_saw = 4.0
-				crushing_wheel = 8.0
+				crushing_wheel = 12.0
 				gantry_shaft = 0.0
 				large_cogwheel = 0.0
 				andesite_encased_large_cogwheel = 0.0
-				sequenced_gearshift = 0.0
+				sequenced_gearshift = 1.0
 				gearbox = 0.0
 				elevator_pulley = 4.0
-				clockwork_bearing = 4.0
+				clockwork_bearing = 2.0
 				clutch = 0.0
 				encased_fan = 2.0
 				rope_pulley = 4.0
@@ -299,11 +299,11 @@
 			#Configure how much stress a source can accommodate for.
 			[kinetics.stressValues.v2.capacity]
 				copper_valve_handle = 8.0
-				hand_crank = 8.0
+				hand_crank = 12.0
 				steam_engine = 1024.0
 				creative_motor = 16384.0
-				large_water_wheel = 128.0
-				water_wheel = 32.0
+				large_water_wheel = 196.0
+				water_wheel = 64.0
 				windmill_bearing = 512.0
 
 #.

@@ -6,8 +6,8 @@ StartupEvents.registry(
         event.create('mana')
             .displayName('Mana')
             .noBucket()
-            .stillTexture('magicgreg:block/mana_still')
-            .flowingTexture('magicgreg:block/mana_flowing')
+            .stillTexture('kubejs:block/mana_still')
+            .flowingTexture('kubejs:block/mana_flowing')
             .viscosity(1)
     }
 )

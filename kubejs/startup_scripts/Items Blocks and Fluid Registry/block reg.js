@@ -7,28 +7,28 @@ const capitalizeFirstLetter = (str) => str.split('_').map(word => word.charAt(0)
 StartupEvents.registry(
     'block',
     event => {
-        event.create('magicgreg:manasteel_coil_block', 'gtceu:coil')
+        event.create('manasteel_coil_block', 'gtceu:coil')
         .soundType('metal')
         .temperature(3750)
         .level(24)
         .energyDiscount(8)
         .tier(3)
         .coilMaterial(() => GTMaterials.get('mana_steel'))
-        .texture('magicgreg:block/coils/coil_manasteel')
+        .texture('kubejs:block/coils/coil_manasteel')
         .hardness(5)
         .requiresTool(true)
         .resistance(5)
         .tagBlock('forge:mineable/wrench')
         .tagBlock('minecraft:needs_iron_tool');
 
-    event.create('magicgreg:incomplete_generator_block')
+    event.create('incomplete_generator_block')
         .displayName('Incomplete Generator')
-        .texture('north', 'magicgreg:block/machines/incomplete_generator_side')
-        .texture('south', 'magicgreg:block/machines/incomplete_generator_side')
-        .texture('east', 'magicgreg:block/machines/incomplete_generator_side')
-        .texture('west', 'magicgreg:block/machines/incomplete_generator_side')
-        .texture('up', 'magicgreg:block/machines/incomplete_generator_top')
-        .texture('down', 'magicgreg:block/machines/incomplete_generator_top')
+        .texture('north', 'kubejs:block/machines/incomplete_generator_side')
+        .texture('south', 'kubejs:block/machines/incomplete_generator_side')
+        .texture('east', 'kubejs:block/machines/incomplete_generator_side')
+        .texture('west', 'kubejs:block/machines/incomplete_generator_side')
+        .texture('up', 'kubejs:block/machines/incomplete_generator_top')
+        .texture('down', 'kubejs:block/machines/incomplete_generator_top')
         .soundType('metal')
         .hardness(3)
         .requiresTool(true)
@@ -36,9 +36,9 @@ StartupEvents.registry(
         .tagBlock('minecraft:mineable/pickaxe')
         .tagBlock('minecraft:needs_iron_tool');
 
-    event.create('magicgreg:incomplete_basic_machine_frame')
+    event.create('incomplete_basic_machine_frame')
         .displayName('Incomplete Basic Machine Frame')
-        .textureAll('magicgreg:block/machines/incomplete_basic_machine')
+        .textureAll('kubejs:block/machines/incomplete_basic_machine')
         .soundType('metal')
         .hardness(3)
         .requiresTool(true)
@@ -46,9 +46,9 @@ StartupEvents.registry(
         .tagBlock('minecraft:mineable/pickaxe')
         .tagBlock('minecraft:needs_iron_tool');
 
-    event.create('magicgreg:incomplete_redstone_controll')
+    event.create('incomplete_redstone_controll')
         .displayName('Incomplete Redstone Controller')
-        .textureAll('magicgreg:block/machines/incomplete_redston_controller')
+        .textureAll('kubejs:block/machines/incomplete_redston_controller')
         .soundType('metal')
         .hardness(3)
         .requiresTool(true)
@@ -56,9 +56,9 @@ StartupEvents.registry(
         .tagBlock('minecraft:mineable/pickaxe')
         .tagBlock('minecraft:needs_iron_tool');
 
-    event.create('magicgreg:incomplete_advanced_machine_frame')
+    event.create('incomplete_advanced_machine_frame')
         .displayName('Incomplete Generator')
-        .textureAll('magicgreg:block/machines/incomplete_advanced_machine')
+        .textureAll('kubejs:block/machines/incomplete_advanced_machine')
         .soundType('metal')
         .hardness(3)
         .requiresTool(true)
@@ -66,9 +66,9 @@ StartupEvents.registry(
         .tagBlock('minecraft:mineable/pickaxe')
         .tagBlock('minecraft:needs_iron_tool');
 
-//    event.create('magicgreg:mana_intake')
+//    event.create('mana_intake')
 //        .displayName('Mana Intake')
-//        .model('magicgreg:block/mana_intake')
+//        .model('kubejs:block/mana_intake')
 //        .soundType('metal')
 //        .hardness(2)
 //        .tagBlock('forge:mineable/wrench')
@@ -98,9 +98,9 @@ StartupEvents.registry(
 /*
 //This all became useless once I was suggested to add the Create: Metallurgy mod...
 //I'm just keeping it for legacy sake, if I ever need it again...
-        event.create('magicgreg:empty_ingot_mold')
+        event.create('kubejs:empty_ingot_mold')
             .displayName('Empty Ingot Mold')
-            .model('magicgreg:block/moltendynamics/mold')
+            .model('kubejs:block/moltendynamics/mold')
             .soundType('deepslate')
             .hardness(0.1)
             .resistance(0.5)
@@ -109,9 +109,9 @@ StartupEvents.registry(
             .fullBlock(false)
             .box(5, 0, 3, 11, 4, 13, true);
 
-        event.create('magicgreg:empty_block_mold')
+        event.create('kubejs:empty_block_mold')
             .displayName('Empty Block Mold')
-            .model('magicgreg:block/moltendynamics/block_mold')
+            .model('kubejs:block/moltendynamics/block_mold')
             .soundType('deepslate')
             .hardness(0.1)
             .resistance(0.5)
@@ -125,9 +125,9 @@ StartupEvents.registry(
                 const metal = metalObj.metal; 
                 const metalNameUpper = capitalizeFirstLetter(metal);
         
-                event.create(`magicgreg:molten_${metal}_mold`)
+                event.create(`kubejs:molten_${metal}_mold`)
                     .displayName(`Molten ${metalNameUpper} Ingot Mold`)
-                    .model(`magicgreg:block/moltendynamics/molten_${metal}_mold`)
+                    .model(`kubejs:block/moltendynamics/molten_${metal}_mold`)
                     .soundType('deepslate')
                     .hardness(0.1)
                     .resistance(0.5)
@@ -136,9 +136,9 @@ StartupEvents.registry(
                     .fullBlock(false)
                     .box(5, 0, 3, 11, 4, 13, true);
                 
-                event.create(`magicgreg:molten_${metal}_block_mold`)
+                event.create(`kubejs:molten_${metal}_block_mold`)
                     .displayName(`Molten ${metalNameUpper} Block Mold`)
-                    .model(`magicgreg:block/moltendynamics/molten_${metal}_block_mold`)
+                    .model(`kubejs:block/moltendynamics/molten_${metal}_block_mold`)
                     .soundType('deepslate')
                     .hardness(0.1)
                     .resistance(0.5)
