@@ -1,13 +1,13 @@
 name = "Multiblocked2"
-filename = "multiblocked2-1.20.1-1.0.8.a.jar"
+filename = "multiblocked2-1.20.1-1.0.10.a.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/R2gjKEpa/versions/nkPYZmkU/multiblocked2-1.20.1-1.0.8.a.jar"
+url = "https://cdn.modrinth.com/data/R2gjKEpa/versions/7LcF70A1/multiblocked2-1.20.1-1.0.10.a.jar"
 hash-format = "sha512"
-hash = "2e1555dd8e6af8c7c22ba7cfdc5239b7a5a94382d3d4bdd1078673712f16b01a8b4899dc96908a320bf4f40cfecfc61ed0d76d63fb839fadd1ee6e4f8af06509"
+hash = "0a2d69e21fe49223d35b709a8fa52ca37e2a4b42c090afef7764e1875af9c486cdc420fd613b5cd216d513d74d2d892f6a4dd1ad9d8b2909168dfd7fab541e0a"
 
 [update]
 [update.modrinth]
 mod-id = "R2gjKEpa"
-version = "nkPYZmkU"
+version = "7LcF70A1"
