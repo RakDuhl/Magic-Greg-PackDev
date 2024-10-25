@@ -2,8 +2,8 @@
 
 //Superscript   ¹²³⁴⁵⁶⁷⁸⁹⁰⁺⁻⁼⁽⁾
 //Subscript     ₁₂₃₄₅₆₇₈₉₀₊₋₌₍₎
-//Special characters ✬
-//Ag₄✬₆
+//Special characters ★
+//Ag₄★₆
 
 GTCEuStartupEvents.registry(
     'gtceu:material',
@@ -11,12 +11,12 @@ GTCEuStartupEvents.registry(
 
         event.create('mana')
 //        .components('2x mana')
-        .element(GTElements.get('Mana'))
+        .element(GTElements.get("mana"))
         .fluid()
         .color(0x20DAFF);
         
         event.create('adamantium')
-        .element(GTElements.get('Adamantium'))
+        .element(GTElements.get("Adamantium"))
         .color(0xAD0F0D).secondaryColor(0x64082B).iconSet(DULL)
         .ingot()
         .fluid()
@@ -41,7 +41,7 @@ GTCEuStartupEvents.registry(
         );
         
         event.create('mithril')
-        //Ag₄✬₆Ti
+        //Ag₄★₆Ti
         .components('4x silver', '6x mana', 'titanium')
         .color(0xd6edff).secondaryColor(0x9BFFFF).iconSet(SHINY)
         .ingot()
@@ -63,10 +63,10 @@ GTCEuStartupEvents.registry(
             no_abs_recipe
         );
         
-        event.create('arcane_gold')
-        //Au₃✬₃
+        event.create('arcanegold')
+        //Au₃★₃
         .components('3x gold', '3x mana')
-        .color(0xEDC992).iconSet(SHINY)
+        .color(0xEDC992).secondaryColor(0xB97B67).iconSet(SHINY)
         .fluid()
         .ingot()
         .cableProperties(V('ev'), 3, 0, true)
@@ -83,7 +83,7 @@ GTCEuStartupEvents.registry(
         
         event.create('vulcanite')
         //
-        .element(GTElements.get('Vulcanite'))
+        .element(GTElements.get("vulcanite"))
         .color(0xFFB08A).secondaryColor(0xF24F00).iconSet(DULL)
         .ingot()
         .fluid()
@@ -105,7 +105,7 @@ GTCEuStartupEvents.registry(
         
         event.create('hihiirokane')
         //
-        .element(GTElements.get('hihiirokan'))
+        .element(GTElements.get("hihiirokan"))
         .color(0xF24F7D).secondaryColor(0xF24F00).iconSet(METALLIC)
         .ingot()
         .fluid()
@@ -127,7 +127,7 @@ GTCEuStartupEvents.registry(
         
         event.create('prometheum')
         //
-        .element(GTElements.get('prometheum'))
+        .element(GTElements.get("prometheum"))
         .color(0x5A8156).secondaryColor(0x354D33).iconSet(DULL)
         .ingot()
         .fluid()
@@ -149,7 +149,7 @@ GTCEuStartupEvents.registry(
         
         event.create('orichalcum')
         //
-        .element(GTElements.get('Orichalcum'))
+        .element(GTElements.get("orichalcum"))
         .color(0x780874).secondaryColor(0xF871E3).iconSet(METALLIC)
         .ingot()
         .fluid()
@@ -169,8 +169,8 @@ GTCEuStartupEvents.registry(
             no_abs_recipe
         );
 
-        event.create('mana_steel')
-        //Fe₃✬₃
+        event.create('manasteel')
+        //Fe₃★₃
         .components('3x iron', '3x mana')
         .color(0x67b9ee).secondaryColor(0xB5FFFC).iconSet(METALLIC)
         .ingot()
@@ -187,8 +187,8 @@ GTCEuStartupEvents.registry(
         );
         
         event.create('elementium')
-        //(Fe₃✬₃)₂(SiO₂)₄Fe
-//        .components('2x mana_steel', '3x amethyst', '2x silver')
+        //(Fe₃★₃)₂(SiO₂)₄Fe
+        .components('2x manasteel', '3x amethyst', '2x silver', '2x mana')
         .color(0xE084A5).secondaryColor(0xC543A8).iconSet(SHINY)
         .fluid()
         .ingot()
@@ -203,9 +203,9 @@ GTCEuStartupEvents.registry(
             long_rod
         );
         
-        event.create('terra_steel')
-        //(Fe₃✬₃)₃✬₆V₃
-//        .components('3x mana_steel', '6x mana', '3x vanadium')
+        event.create('terrasteel')
+        //(Fe₃★₃)₃★₆V₃
+        .components('2x manasteel', '6x mana', '3x vanadium', '1x chromium', '2x prometheum')
         .color(0xCCFFB5).secondaryColor(0x2BB93B).iconSet(SHINY)
         .fluid()
         .ingot()
@@ -222,8 +222,8 @@ GTCEuStartupEvents.registry(
 
         
         event.create('alfsteel')
-        //W₂Ma₇((Fe₃✬₃)₂(SiO₂)₄Fe)₂
-//        .components('2x tungsten', '7x mana', '2x elementium')
+        //W₂Ma₇((Fe₃★₃)₂(SiO₂)₄Fe)₂
+        .components('1x tungsten', '7x mana', '1x elementium', '1x iridium')
         .color(0xFFC74E).secondaryColor(0xE27500).iconSet(SHINY)
         .fluid()
         .ingot()
@@ -246,17 +246,17 @@ GTCEuStartupEvents.registry(
 
 GTCEuStartupEvents.materialModification(
     event => {
-//        TagPrefix.block[    'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('mana_steel'),   () => Item.getItem('botania:manasteel_block'));
-//        TagPrefix.ingot[    'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('mana_steel'),   () => Item.getItem('botania:manasteel_ingot'));
-//        TagPrefix.nugget[   'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('mana_steel'),   () => Item.getItem('botania:manasteel_nugget'));
-//        TagPrefix.block[    'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('terra_steel'),  () => Item.getItem('botania:terrasteel_block'));
-//        TagPrefix.ingot[    'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('terra_steel'),  () => Item.getItem('botania:terrasteel_ingot'));
-//        TagPrefix.nugget[   'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('terra_steel'),  () => Item.getItem('botania:terrasteel_nugget'));
-//        TagPrefix.block[    'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('arcane_gold'),  () => Item.getItem('wizards_reborn:arcane_gold_block'));
-//        TagPrefix.ingot[    'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('arcane_gold'),  () => Item.getItem('wizards_reborn:arcane_gold_ingot'));
-//        TagPrefix.nugget[   'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('arcane_gold'),  () => Item.getItem('wizards_reborn:arcane_gold_nugget'));
-//        TagPrefix.block[    'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('alfsteel'),     () => Item.getItem('mythicbotany:alfsteel_block'));
-//        TagPrefix.ingot[    'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('alfsteel'),     () => Item.getItem('mythicbotany:alfsteel_ingot'));
-//        TagPrefix.nugget[   'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('alfsteel'),     () => Item.getItem('mythicbotany:alfsteel_nugget'));
+        TagPrefix.block[    'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('manasteel'),   () => Item.getItem('botania:manasteel_block'));
+        TagPrefix.ingot[    'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('manasteel'),   () => Item.getItem('botania:manasteel_ingot'));
+        TagPrefix.nugget[   'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('manasteel'),   () => Item.getItem('botania:manasteel_nugget'));
+        TagPrefix.block[    'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('terrasteel'),  () => Item.getItem('botania:terrasteel_block'));
+        TagPrefix.ingot[    'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('terrasteel'),  () => Item.getItem('botania:terrasteel_ingot'));
+        TagPrefix.nugget[   'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('terrasteel'),  () => Item.getItem('botania:terrasteel_nugget'));
+        TagPrefix.block[    'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('arcanegold'),  () => Item.getItem('wizards_reborn:arcane_gold_block'));
+        TagPrefix.ingot[    'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('arcanegold'),  () => Item.getItem('wizards_reborn:arcane_gold_ingot'));
+        TagPrefix.nugget[   'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('arcanegold'),  () => Item.getItem('wizards_reborn:arcane_gold_nugget'));
+        TagPrefix.block[    'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('alfsteel'),     () => Item.getItem('mythicbotany:alfsteel_block'));
+        TagPrefix.ingot[    'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('alfsteel'),     () => Item.getItem('mythicbotany:alfsteel_ingot'));
+        TagPrefix.nugget[   'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('alfsteel'),     () => Item.getItem('mythicbotany:alfsteel_nugget'));
     }
-);
+)
