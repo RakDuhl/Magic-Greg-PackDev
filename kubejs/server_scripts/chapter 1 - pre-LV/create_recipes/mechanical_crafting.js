@@ -69,7 +69,7 @@ ServerEvents.recipes(
                         type: "create:deploying",
                         ingredients: [
                             {item: inter2},
-                            [{item: 'gtceu:fine_mana_steel_wire'}]
+                            [{item: 'gtceu:fine_manasteel_wire'}]
                         ],
                         results: [{item: inter2}]
                     },
@@ -167,7 +167,7 @@ ServerEvents.recipes(
                         type: "create:deploying",
                         ingredients: [
                             {item: inter3},
-                            [{item: 'gtceu:fine_mana_steel_wire'}]
+                            [{item: 'gtceu:fine_manasteel_wire'}]
                         ],
                         results: [{item: inter3}]
                     },
@@ -257,7 +257,7 @@ ServerEvents.recipes(
                         type: "create:deploying",
                         ingredients: [
                             {item: inter4},
-                            [{item: 'gtceu:fine_mana_steel_wire'}]
+                            [{item: 'gtceu:fine_manasteel_wire'}]
                         ],
                         results: [{item: inter4}]
                     },
@@ -265,7 +265,7 @@ ServerEvents.recipes(
                         type: "create:deploying",
                         ingredients: [
                             {item: inter4},
-                            [{item: 'gtceu:fine_mana_steel_wire'}]
+                            [{item: 'gtceu:fine_manasteel_wire'}]
                         ],
                         results: [{item: inter4}]
                     },
@@ -838,7 +838,7 @@ ServerEvents.recipes(
                         type: "create:deploying",
                         ingredients: [
                             {item: inter6},
-                            [{item: 'gtceu:fine_mana_steel_wire'}]
+                            [{item: 'gtceu:fine_manasteel_wire'}]
                         ],
                         results: [{item: inter6}]
                     },
@@ -846,7 +846,7 @@ ServerEvents.recipes(
                         type: "create:deploying",
                         ingredients: [
                             {item: inter6},
-                            [{item: 'gtceu:fine_mana_steel_wire'}]
+                            [{item: 'gtceu:fine_manasteel_wire'}]
                         ],
                         results: [{item: inter6}]
                     },
@@ -886,7 +886,7 @@ ServerEvents.recipes(
                         type: "create:deploying",
                         ingredients: [
                             {item: inter6},
-                            [{item: 'gtceu:fine_mana_steel_wire'}]
+                            [{item: 'gtceu:fine_manasteel_wire'}]
                         ],
                         results: [{item: inter6}]
                     },
