@@ -150,21 +150,21 @@ function Tier(voltage) {
 function V(voltage) {
     let v;
     switch(voltage) {
-        case 'ulv': v = GTValues.V[GTValues.ULV]; break;
-        case 'lv': v = GTValues.V[GTValues.LV]; break;
-        case 'mv': v = GTValues.V[GTValues.MV]; break;
-        case 'hv': v = GTValues.V[GTValues.HV]; break;
-        case 'ev': v = GTValues.V[GTValues.EV]; break;
-        case 'iv': v = GTValues.V[GTValues.IV]; break;
-        case 'luv': v = GTValues.V[GTValues.LuV]; break;
-        case 'zpm': v = GTValues.V[GTValues.ZPM]; break;
-        case 'uv': v = GTValues.V[GTValues.UV]; break;
-        case 'uhv': v = GTValues.V[GTValues.UHV]; break;
-        case 'uev': v = GTValues.V[GTValues.UEV]; break;
-        case 'uiv': v = GTValues.V[GTValues.UIV]; break;
-        case 'uxv': v = GTValues.V[GTValues.UXV]; break;
-        case 'opv': v = GTValues.V[GTValues.OpV]; break;
-        case 'max': v = GTValues.V[GTValues.MAX]; break;
+        case 'ulv': v = GTValues.V[GTValues.ULV]; break;    // 8 Eu/t
+        case 'lv': v = GTValues.V[GTValues.LV]; break;      // 32 Eu/t
+        case 'mv': v = GTValues.V[GTValues.MV]; break;      // 128 Eu/t
+        case 'hv': v = GTValues.V[GTValues.HV]; break;      // 512 Eu/t
+        case 'ev': v = GTValues.V[GTValues.EV]; break;      // 2048 Eu/t
+        case 'iv': v = GTValues.V[GTValues.IV]; break;      // 8192 Eu/t
+        case 'luv': v = GTValues.V[GTValues.LuV]; break;    // 32768 Eu/t
+        case 'zpm': v = GTValues.V[GTValues.ZPM]; break;    // 131072 Eu/t
+        case 'uv': v = GTValues.V[GTValues.UV]; break;      // 524288 Eu/t
+        case 'uhv': v = GTValues.V[GTValues.UHV]; break;    // 2097152 Eu/t
+        case 'uev': v = GTValues.V[GTValues.UEV]; break;    // 8388608 Eu/t
+        case 'uiv': v = GTValues.V[GTValues.UIV]; break;    // 33554432 Eu/t
+        case 'uxv': v = GTValues.V[GTValues.UXV]; break;    // 134217728 Eu/t
+        case 'opv': v = GTValues.V[GTValues.OpV]; break;    // 536870912 Eu/t
+        case 'max': v = GTValues.V[GTValues.MAX]; break;    // 2147483648 Eu/t
     }
     return v;
 }
@@ -196,21 +196,21 @@ function VA(voltage) {
 function VH(voltage) {
     let v;
     switch(voltage) {
-        case 'ulv': v = GTValues.VH[GTValues.ULV]; break;
-        case 'lv': v = GTValues.VH[GTValues.LV]; break;
-        case 'mv': v = GTValues.VH[GTValues.MV]; break;
-        case 'hv': v = GTValues.VH[GTValues.HV]; break;
-        case 'ev': v = GTValues.VH[GTValues.EV]; break;
-        case 'iv': v = GTValues.VH[GTValues.IV]; break;
-        case 'luv': v = GTValues.VH[GTValues.LuV]; break;
-        case 'zpm': v = GTValues.VH[GTValues.ZPM]; break;
-        case 'uv': v = GTValues.VH[GTValues.UV]; break;
-        case 'uhv': v = GTValues.VH[GTValues.UHV]; break;
-        case 'uev': v = GTValues.VH[GTValues.UEV]; break;
-        case 'uiv': v = GTValues.VH[GTValues.UIV]; break;
-        case 'uxv': v = GTValues.VH[GTValues.UXV]; break;
-        case 'opv': v = GTValues.VH[GTValues.OpV]; break;
-        case 'max': v = GTValues.VH[GTValues.MAX]; break;
+        case 'ulv': v = GTValues.VH[GTValues.ULV]; break;   // 4 Eu/t
+        case 'lv': v = GTValues.VH[GTValues.LV]; break;     // 16 Eu/t
+        case 'mv': v = GTValues.VH[GTValues.MV]; break;     // 64 Eu/t
+        case 'hv': v = GTValues.VH[GTValues.HV]; break;     // 256 Eu/t
+        case 'ev': v = GTValues.VH[GTValues.EV]; break;     // 1024 Eu/t
+        case 'iv': v = GTValues.VH[GTValues.IV]; break;     // 4096 Eu/t
+        case 'luv': v = GTValues.VH[GTValues.LuV]; break;   // 16384 Eu/t
+        case 'zpm': v = GTValues.VH[GTValues.ZPM]; break;   // 65536 Eu/t
+        case 'uv': v = GTValues.VH[GTValues.UV]; break;     // 262144 Eu/t
+        case 'uhv': v = GTValues.VH[GTValues.UHV]; break;   // 1048576 Eu/t
+        case 'uev': v = GTValues.VH[GTValues.UEV]; break;   // 4194304 Eu/t
+        case 'uiv': v = GTValues.VH[GTValues.UIV]; break;   // 16777216 Eu/t
+        case 'uxv': v = GTValues.VH[GTValues.UXV]; break;   // 67108864 Eu/t
+        case 'opv': v = GTValues.VH[GTValues.OpV]; break;   // 268435456 Eu/t
+        case 'max': v = GTValues.VH[GTValues.MAX]; break;   // 1073741824 Eu/t
     }
     return V;
 }
