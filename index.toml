@@ -1110,7 +1110,7 @@ hash = "9abe2c7f784810cac3ca71c74d02aacd5fe6861d744cb143d077a525a2b42e76"
 
 [[files]]
 file = "config/gtceu.yaml"
-hash = "da725d4ddbe1f90c2348f7e0d74033737eb9c6949d33b1a77ae3f02464c8bf51"
+hash = "f5444c34c1af6d626e882b94a73b0e04689b2c51f44c08c6fe715b2a021f859f"
 
 [[files]]
 file = "config/ice_and_fire_delight-common.toml"
@@ -1494,7 +1494,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "f31044ab3b5405fa8b217aa50604aa185d63c49b664c6745b76d8b7733e21717"
+hash = "690405247a7d0473ffbdb349c0feca23642555fba55fa2f5f9f8d54ffa8442d8"
 
 [[files]]
 file = "config/oreexcavation-client.toml"
@@ -1534,7 +1534,7 @@ hash = "771a2f3e1917356c3b3de038ad46fa270c75a3f11eee3fb0cb17c8dfa2beeea7"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "a5fbcafab79fd39a5ed091674bd9ecf0177bd92102dc7541080dbe54ba5fbddf"
+hash = "a0cd4d3efd37f87edfcc6e4c572cbb43125860d6450fefb84c682c7bb8bd5a58"
 
 [[files]]
 file = "config/quarryplus-client.toml"
@@ -1634,11 +1634,11 @@ hash = "ed118a21470a17635fb10b45dec1ed253a38c5537e38be9935f235a3dbf07a96"
 
 [[files]]
 file = "config/sound_physics_remastered/occlusion.properties"
-hash = "041687365bc9548bf538535182f89d332f3b9d6c99cc07a246e8e306bf5f98fe"
+hash = "6640d92457205328418a47ab42dc1e320ca61ce7488404e951a01b2da5254d12"
 
 [[files]]
 file = "config/sound_physics_remastered/reflectivity.properties"
-hash = "3c72afc0044d79c89aa7d990f980b48429f7c4af79b59a6a13044d56731fb635"
+hash = "3b5630902883fc1d37cf3082aae2d2e20478c02645483fc21170df14d11c7dbf"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -1690,7 +1690,47 @@ hash = "8eeecb6fbd7be6de1c09e878ae369bb66974ebcda57db385d3c97abbaa4f34e1"
 
 [[files]]
 file = "config/tombstone-server.toml"
-hash = "d78151963bd29a2308f5f81484ceffb02afea330738e63aef45c259fb1aeca8e"
+hash = "82ba73d82a3230f040ddf1c3ef180d8c38b37ce731d3159d40af81c51374482e"
+
+[[files]]
+file = "config/tombstone/loottables/tombstone-pool-archaeology.json"
+hash = "da424913e78597817fd40787330f6aaa854a67c2bc4b818e7fb6231f44eb8771"
+
+[[files]]
+file = "config/tombstone/loottables/tombstone-pool-cat_morning.json"
+hash = "6d67813f79395edae808c25a7535656e053fb7f16787533d19d452f81b72d363"
+
+[[files]]
+file = "config/tombstone/loottables/tombstone-pool-chest_treasure.json"
+hash = "69d355bbec813b02583571cb7e40c00f293f7def8fb0d54c79ac2fa8295e301e"
+
+[[files]]
+file = "config/tombstone/loottables/tombstone-pool-lost_treasure.json"
+hash = "1ef1b14c3f992dbecc1f29759536754d97ac6f4c86c3b47727a230d339f23a3e"
+
+[[files]]
+file = "config/tombstone/loottables/tombstone-pool-seeker_rod.json"
+hash = "a303e7cd090deeed25070ee29a11f368deb1226884c464ffe883e66924bc0780"
+
+[[files]]
+file = "config/tombstone/loottables/tombstone-pool-sniffer_digging.json"
+hash = "35bd219e4be9e46bee50e9e9691676061d056d06a18cdfaa40c92fa2cce3631b"
+
+[[files]]
+file = "config/tombstone/loottables/tombstone-pool-undead_boss.json"
+hash = "320bbfa89cb1f4f79532a8d7b9886f8be3d5a63ce87c8bbef691a3a1be95f3ae"
+
+[[files]]
+file = "config/tombstone/loottables/tombstone-pool-undead_mob.json"
+hash = "1a43589a91aa5a85ba406f14cb3c586b90989607015cfecefe6458a2565ebf34"
+
+[[files]]
+file = "config/tombstone/loottables/tombstone-table-chest_treasure.json"
+hash = "76604c70187b6ca03577528d4b3470d79effa247a119118459042bb4a3c2df38"
+
+[[files]]
+file = "config/tombstone/version.info"
+hash = "dc5ba3e176946bceec954160cf2cdcded85e8705f0854ed85a3e4fc45713a774"
 
 [[files]]
 file = "config/toolleveling/README.txt"
@@ -2222,7 +2262,7 @@ hash = "9757a6208de6780c7d86d61a75e997848a30a7e759f5e2f3e29d08ab7aa6383f"
 
 [[files]]
 file = "config/worldedit/worldedit.properties"
-hash = "5ea93392d1c532bfb21b35d838349459310bf47d40f5072be829e4fd5b195c24"
+hash = "dc92c25e922ea92dde3ff78d3529dfb52ced7188e8201fabe10daedb9b81faec"
 
 [[files]]
 file = "config/worldeditcui.config.json"
@@ -19498,7 +19538,7 @@ hash = "6bd191a162f9c23b93e3220465ff74914b29d026c31f9373a3f519f7f9d28b3d"
 
 [[files]]
 file = "kubejs/server_scripts/chapter 1 - pre-LV/create_recipes/mechanical_crafting.js"
-hash = "db03023c5cbaab2616e504a62b510acbca493bce40aba499c651a1de0dd664b7"
+hash = "8aa005b1474c2fa83d7df9b2f5d6ad7cc0a71ef8f0028ce2193684e10cd218ca"
 
 [[files]]
 file = "kubejs/server_scripts/chapter 1 - pre-LV/embers.js"
@@ -19566,11 +19606,11 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/startup_scripts/GTAtomPhysX/elements.js"
-hash = "00cb9e186e5294e66955a42658a2980287fd3f1b5ec8d15c4d4e4ece0f44cdbc"
+hash = "034e80776f4ea61e77edcf15e917f55267ef9a45a7dc5e070f8ded7d13fec8dd"
 
 [[files]]
 file = "kubejs/startup_scripts/GTAtomPhysX/materials.js"
-hash = "8df54fad50adeba5df06bb6f4201dc118a8d6c6c7caab2e329a4ac337a8892e2"
+hash = "1d3289b1ec71003cc8037ebe28119c9271f7a1c35d076980f819078936af1b60"
 
 [[files]]
 file = "kubejs/startup_scripts/GTAtomPhysX/tagPrefix schiissdreck.js.bak"
