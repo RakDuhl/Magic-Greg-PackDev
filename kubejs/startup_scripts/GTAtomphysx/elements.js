@@ -10,9 +10,10 @@
 elementRegistry(
     event => {
         //Arcane Components
-        event.create('mana',            1, 1, -1, null, '★', false)
+        event.create('mana',            -1, -1, -1, null, '★', false)
         event.create('creativity',      -1, -1, -1, null, 'Create', false)
-        event.create('ember',           1, 1, -1, null, '❖', false)
+        event.create('ember',           -1, -1, -1, null, '🔥', false)
+        event.create('wissen',          -1, -1, -1, null, '⚙', false)
 //        event.create('Mana Steel',      27, 33, -1, null, 'Fe₃★₃', false) //Most stable Fe isotope used, 56Fe, 26 Protons, 32 Neutrons
 //        event.create('Terra Steel',     42, 51, -1, null, 'Fe₃★₆V⁽³⁾₃', false)
 //        event.create('Mana Pearl',      -1, -1, -1, null, '★₆BeK₄N₅', false)
@@ -22,9 +23,10 @@ elementRegistry(
         //Custom Elements
         event.create('adamantium',      58, 82, -1, null, 'Ad', false)
         event.create('vulcanite', 1, 1, -1, null, 'Vc', false)
-        event.create('hihiirokane',     29, 34, -1, null, 'Hk', false)
+//        event.create('hihiirokane',     29, 34, -1, null, 'Hk', false)
         event.create('prometheum', 1, 1, -1, null, 'Ph', false)
         event.create('orichalcum', 1, 1, -1, null, 'Oc', false)
+        event.create('stardust', 1, 1, -1, null, 'Sd', false)
 //        event.create('Mithril',         18, 22, -1, null, 'Ag★', false)
 //        event.create('Dawnstone', 1, 1, -1, null, 'Dw', false)
 //        event.create('Duskstone', 1, 1, -1, null, 'Dk', false)

@@ -1,75 +1,34 @@
 // priority: 8900
 
+console.log('Registering custom artificial materials!')
+
 //Superscript   ¹²³⁴⁵⁶⁷⁸⁹⁰⁺⁻⁼⁽⁾
 //Subscript     ₁₂₃₄₅₆₇₈₉₀₊₋₌₍₎
-//Special characters ★
+//Special characters ★ 🔥 ⚙
 //Ag₄★₆
 
 GTCEuStartupEvents.registry(
     'gtceu:material',
     event => {
-
-        event.create('mana')
-//        .components('2x mana')
-        .element(GTElements.get("mana"))
-        .fluid()
-        .color(0x20DAFF);
+        /**
+         * Now Listen, this is a note to myself
+         * it took you fucking 4 DAYS to figure out what was going on with this whole issue.
+         * The solution to all that agony was really an _, this script, idk what part, does not like the use of snake_case 'names',
+         * so it all needs to be written in either camelCase or lowercase. The same applies to the TagPrefix.() below.
+         * If you register any component, material or element, they ALL need to be written in camelCase or lowercase.
+         */
         
-        event.create('adamantium')
-        .element(GTElements.get("Adamantium"))
-        .color(0xAD0F0D).secondaryColor(0x64082B).iconSet(DULL)
-        .ingot()
-        .fluid()
-        .ore()
-        .cableProperties(V('zpm'), 8, 0, false)
-        .blastTemp(4210, 'high', 24800, 320)
-        .flags(
-            no_unify,
-            plates,
-            dense_plate,
-            rod,
-            bolt_and_screw,
-            frame,
-            gear,
-            long_rod,
-            block,
-            foil,
-            ring,
-            fine_wire,
-            no_smelt,
-            no_abs_recipe
-        );
-        
-        event.create('mithril')
-        //Ag₄★₆Ti
-        .components('4x silver', '6x mana', 'titanium')
-        .color(0xd6edff).secondaryColor(0x9BFFFF).iconSet(SHINY)
-        .ingot()
-        .fluid()
-        .ore()
-        .cableProperties(V('ev'), 2, 0, false)
-        .blastTemp(750, 'mid', 288, 300)
-        .flags(
-            plates,
-            dense_plate,
-            rod,
-            frame,
-            gear,
-            small_gear,
-            long_rod,
-            block,
-            foil,
-            fine_wire,
-            no_abs_recipe
-        );
-        
+        //Arcane Gold
+        //Au★
+        //Early game arcane Alloy with gold
+        //Same as Mithril with conductivity, can take higher Amps
         event.create('arcanegold')
-        //Au₃★₃
-        .components('3x gold', '3x mana')
+        .components('1x gold', '1x mana')
         .color(0xEDC992).secondaryColor(0xB97B67).iconSet(SHINY)
         .fluid()
         .ingot()
-        .cableProperties(V('ev'), 3, 0, true)
+        .ore()
+        .cableProperties(V('ev'), 4, 0, false)
         .flags(
             foil,
             fine_wire,
@@ -80,37 +39,18 @@ GTCEuStartupEvents.registry(
             long_rod,
             solder_mat_good
         );
+        console.log('Registered arcane alloy Arcane Gold ' + GTMaterials.get('arcanegold') + ' !');
         
-        event.create('vulcanite')
-        //
-        .element(GTElements.get("vulcanite"))
-        .color(0xFFB08A).secondaryColor(0xF24F00).iconSet(DULL)
-        .ingot()
-        .fluid()
-        .ore()
-        .cableProperties(V('iv'), 2, 1, false)
-        .blastTemp(2320, 'mid', 3280, 250)
-        .flags(
-            plates,
-            dense_plate,
-            rod,
-            gear,
-            small_gear,
-            long_rod,
-            block,
-            foil,
-            fine_wire,
-            no_abs_recipe
-        );
-        
+        //Hihiirokane
+        //Ir₃Th★
+        //Classical Fusion product, radioactive
         event.create('hihiirokane')
-        //
-        .element(GTElements.get("hihiirokan"))
-        .color(0xF24F7D).secondaryColor(0xF24F00).iconSet(METALLIC)
+//        .element(GTElements.get("hihiirokan"))
+        .components('3x iridium', '1x thorium', '1x mana')
+        .color(0xF24F7D).secondaryColor(0xF24F00).iconSet(RADIOACTIVE)
         .ingot()
         .fluid()
-        .ore()
-        .cableProperties(V('uv'), 3, 0, true)
+//        .cableProperties(V('uv'), 3, 0, true)
         .blastTemp(3972, 'high', 58470, 510)
         .flags(
             plates,
@@ -122,52 +62,13 @@ GTCEuStartupEvents.registry(
             block,
             foil,
             fine_wire,
-            no_abs_recipe
+            no_abs_recipe,
+            no_decomp,
+            no_hand_craft,
+            no_smelt,
+            no_block_craft,
         );
-        
-        event.create('prometheum')
-        //
-        .element(GTElements.get("prometheum"))
-        .color(0x5A8156).secondaryColor(0x354D33).iconSet(DULL)
-        .ingot()
-        .fluid()
-        .ore()
-        .cableProperties(V('hv'), 3, 0, true)
-        .blastTemp(1580, null, 620, 185)
-        .flags(
-            plates,
-            dense_plate,
-            rod,
-            gear,
-            small_gear,
-            long_rod,
-            block,
-            foil,
-            fine_wire,
-            no_abs_recipe
-        );
-        
-        event.create('orichalcum')
-        //
-        .element(GTElements.get("orichalcum"))
-        .color(0x780874).secondaryColor(0xF871E3).iconSet(METALLIC)
-        .ingot()
-        .fluid()
-        .ore()
-        .cableProperties(V('zpm'), 3, 0, false)
-        .blastTemp(2313, 'high', 2100, 720)
-        .flags(
-            plates,
-            dense_plate,
-            rod,
-            gear,
-            small_gear,
-            long_rod,
-            block,
-            foil,
-            fine_wire,
-            no_abs_recipe
-        );
+        console.log('Registered fussion material Hihiirokane ' + GTMaterials.get('hihiirokane') + ' !');
 
         event.create('manasteel')
         //Fe₃★₃
@@ -185,11 +86,12 @@ GTCEuStartupEvents.registry(
             gear,
             long_rod
         );
+        console.log('Registered arcane alloy Manasteel ' + GTMaterials.get('manasteel') + ' !');
         
         event.create('elementium')
         //(Fe₃★₃)₂(SiO₂)₄Fe
         .components('2x manasteel', '3x amethyst', '2x silver', '2x mana')
-        .color(0xE084A5).secondaryColor(0xC543A8).iconSet(SHINY)
+        .color(0xE084A5).secondaryColor(0xC543A8).iconSet(BRIGHT)
         .fluid()
         .ingot()
         .cableProperties(V('ev'), 4, 0, false)
@@ -202,9 +104,10 @@ GTCEuStartupEvents.registry(
             gear,
             long_rod
         );
+        console.log('Registered arcane alloy Elementium ' + GTMaterials.get('elementium') + ' !');
         
         event.create('terrasteel')
-        //(Fe₃★₃)₃★₆V₃
+        //(Fe₃★₃)₂★₆V₃CrPh₂
         .components('2x manasteel', '6x mana', '3x vanadium', '1x chromium', '2x prometheum')
         .color(0xCCFFB5).secondaryColor(0x2BB93B).iconSet(SHINY)
         .fluid()
@@ -219,16 +122,16 @@ GTCEuStartupEvents.registry(
             gear,
             long_rod
         );
-
+        console.log('Registered arcane alloy Terrasteel ' + GTMaterials.get('terrasteel') + ' !');
         
         event.create('alfsteel')
-        //W₂Ma₇((Fe₃★₃)₂(SiO₂)₄Fe)₂
-        .components('1x tungsten', '7x mana', '1x elementium', '1x iridium')
+        //W₃★₇((Fe₃★₃)₂(SiO₂)₄Fe)Ir
+        .components('3x tungsten', '7x mana', '1x elementium', '1x iridium')
         .color(0xFFC74E).secondaryColor(0xE27500).iconSet(SHINY)
         .fluid()
         .ingot()
         .cableProperties(V('luv'), 6, 0, true)
-        .blastTemp(2759, 'mid', 5800, 100)
+        .blastTemp(2759, 'mid', 5800, 890)
         .flags(
             foil,
             fine_wire,
@@ -237,26 +140,117 @@ GTCEuStartupEvents.registry(
             frame,
             gear,
             long_rod,
-            no_abs_recipe 
+            no_abs_recipe
         );
-        
-    }
-)
+        console.log('Registered arcane alloy Alfsteel ' + GTMaterials.get('alfsteel') + ' !');
 
+        event.create('celestialbronze')
+        //Cu₄Sn(Au★)Ag
+        .components('4x copper', '1x tin', '1x arcanegold', '1x silver')
+        .color(0xC88F4A).secondaryColor(0xF2D3A2).iconSet(BRIGHT)
+        .fluid()
+        .ingot()
+        .flags(
+            foil,
+            fine_wire,
+            plates,
+            rod,
+            frame,
+            gear,
+            long_rod,
+            no_abs_recipe
+        );
 
-GTCEuStartupEvents.materialModification(
-    event => {
-        TagPrefix.block[    'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('manasteel'),   () => Item.getItem('botania:manasteel_block'));
-        TagPrefix.ingot[    'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('manasteel'),   () => Item.getItem('botania:manasteel_ingot'));
-        TagPrefix.nugget[   'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('manasteel'),   () => Item.getItem('botania:manasteel_nugget'));
-        TagPrefix.block[    'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('terrasteel'),  () => Item.getItem('botania:terrasteel_block'));
-        TagPrefix.ingot[    'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('terrasteel'),  () => Item.getItem('botania:terrasteel_ingot'));
-        TagPrefix.nugget[   'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('terrasteel'),  () => Item.getItem('botania:terrasteel_nugget'));
-        TagPrefix.block[    'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('arcanegold'),  () => Item.getItem('wizards_reborn:arcane_gold_block'));
-        TagPrefix.ingot[    'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('arcanegold'),  () => Item.getItem('wizards_reborn:arcane_gold_ingot'));
-        TagPrefix.nugget[   'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('arcanegold'),  () => Item.getItem('wizards_reborn:arcane_gold_nugget'));
-        TagPrefix.block[    'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('alfsteel'),     () => Item.getItem('mythicbotany:alfsteel_block'));
-        TagPrefix.ingot[    'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('alfsteel'),     () => Item.getItem('mythicbotany:alfsteel_ingot'));
-        TagPrefix.nugget[   'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('alfsteel'),     () => Item.getItem('mythicbotany:alfsteel_nugget'));
+        event.create('celestialgold')
+        //(Au★)₃Pt
+        .components('3x arcanegold', '1x platinum')
+        .color(0xFFD700).secondaryColor(0xFFF5E1).iconSet(SHINY)
+        .fluid()
+        .ingot()
+        .blastTemp(2453, 'high', 12450, 1860)
+        .flags(
+            foil,
+            fine_wire,
+            plates,
+            rod,
+            frame,
+            gear,
+            long_rod,
+            no_abs_recipe,
+            no_decomp,
+            no_smelt
+        );
+        console.log('Registered celestial alloy Celestial Gold ' + GTMaterials.get('celestialgold') + ' !');
+
+        event.create('spectrium')
+        //ThU₂Ra⚙
+        .components('1x thorium', '2x uranium', '1x radium', '1x wissen')
+        .color(0x36C74A).secondaryColor(0xA13CF8).iconSet(RADIOACTIVE)
+        .fluid()
+        .ingot()
+        .blastTemp(3815, 'high', 38400, 4200)
+        .flags(
+            plates,
+            rod,
+            long_rod,
+            no_abs_recipe,
+            no_smelt,
+            no_hand_craft,
+            no_decomp
+        );
+        console.log('Registered fussion alloy Spectrium ' + GTMaterials.get('spectrium') + ' !');
+
+        event.create('starminite')
+        //TiSd
+        .components('1x titanium', '1x stardust')
+        .color(0x3F63BF).secondaryColor(0xB5DADD).iconSet(SHINY)
+        .ingot()
+        .fluid()
+        .blastTemp(1950, 'high', 685, 930)
+        .flags(
+            plates,
+            dense_plate,
+            rod,
+            long_rod,
+            no_abs_recipe,
+            no_smelt
+        );
+        console.log('Registered cosmic alloy Starminite ' + GTMaterials.get('starminite') + ' !');
+
+        event.create('astralite')
+        //Co₃NiW(TiAc)
+        .components('3x cobalt', '1x nickel', '1x tungsten', '1x starminite')
+        .color(0x3A9DF9).secondaryColor(0xD1E3FF).iconSet(BRIGHT)
+        .fluid()
+        .ingot()
+        .blastTemp(3590, 'mid', 7940, 3100)
+        .flags(
+            foil,
+            plates,
+            rod,
+            long_rod,
+            no_abs_recipe,
+        )
+        //Creating a new tool, figuring out all the fields because documentation doesnt
+        //ToolProperty(Miningspeed?, drawspeed?, Durability, Mininglevel, [????])
+        .toolStats(new ToolProperty(20.0, 1.0, 6840, 5, []));
+        console.log('Registered cosmic Tool alloy Astralite ' + GTMaterials.get('astralite') + ' !');
+
+        event.create('dawnstone')
+        //(Cu₄Sn(Au★)Ag)🔥2
+        .components('celestialbronze', '2x ember')
+        .color(0xF1983B).secondaryColor(0xFFCE78).iconSet(SHINY)
+        .ingot()
+        .fluid()
+        .blastTemp(2431, null, 1480, 2840)
+        .flags(
+            plates,
+            rod,
+            no_abs_recipe,
+            no_decomp,
+            no_hand_craft,
+            no_smelt
+        );
+        console.log('Registered Embers Rekindled GT Material Dawnstone ' + GTMaterials.get('dawnstone') + ' !');
     }
 )
