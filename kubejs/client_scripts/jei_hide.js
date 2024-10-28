@@ -2,14 +2,14 @@
 
 JEIEvents.hideItems(
     event => {
-        event.hide('mekanism:upgrade_anchor')
-        event.hide(Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:}}]}}'))
+//        event.hide('mekanism:upgrade_anchor')
+//        event.hide(Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:}}]}}'))
         event.hide(/gtceu:.*_bucket/)
         event.hide(/gtceu:(granite|diorite|andesite|deepslate|tuff|sand|red_sand|gravel|basalt|netherrack|endstone|red_granite|marble|blackstone)_.*_ore/)
         event.hide(/.*:.*_spawn_egg/)
-        event.hide('enderio:filled_soul_vial')
+//        event.hide('enderio:filled_soul_vial')
         event.hide('irons_spellbooks:scroll')
-        event.hide(/botania:apothecary_forest|apothecary_plains|apothecary_mountain|apothecary_fungal|apothecary_swamp|apothecary_desert|apothecary_taiga|apothecary_mesa/);
+        event.hide(/botania:(apothecary_forest|apothecary_plains|apothecary_mountain|apothecary_fungal|apothecary_swamp|apothecary_desert|apothecary_taiga|apothecary_mesa)/);
 
         /*
         Color.DYE.forEach(
