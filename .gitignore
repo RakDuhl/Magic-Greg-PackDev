@@ -30,3 +30,4 @@ dist/
 Minecraft Related/*
 kubejs/probe/*
 kubejs/*.zip
+kubejs/data/*.mcmeta
