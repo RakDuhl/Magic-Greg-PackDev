@@ -5,6 +5,9 @@
 *.dll
 *.so
 *.dylib
+*.ps1
+*.pdn
+*.zip
 
 # Test binary, build with `go test -c`
 *.test
@@ -24,9 +27,6 @@ result
 dist/
 
 #Ignoring some files, as they are constantly getting updated whenever minecraft launches
-config/oculus.properties
-config/quark-common.toml
-config/worldedit/worldedit.properties
-config/toolleveling/README.txt
 Minecraft Related/*
-/config/chunky/tasks
+kubejs/probe/*
+kubejs/*.zip
