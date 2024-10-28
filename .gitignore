@@ -8,6 +8,8 @@
 *.ps1
 *.pdn
 *.zip
+*.back
+*.backup
 
 # Test binary, build with `go test -c`
 *.test
