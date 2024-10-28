@@ -1,6 +1,0 @@
-
-#Client Settings
-[client_settings]
-	#Should Cursed Earth emit particles?
-	cursed_earth_particles = true
-
