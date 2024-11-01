@@ -26,37 +26,50 @@ WorldgenEvents.remove(
 
 let UtilsJS = Java.loadClass("dev.latvian.mods.kubejs.util.UtilsJS")
 
-GTCEuStartupEvents.registry('gtceu:tag_prefix', e => {
-    function createStoneTypeOre(type, properties) {
-        if (properties === undefined);
-            properties = {};
+GTCEuStartupEvents.registry(
+    'gtceu:tag_prefix', 
+    event => {
+        function createStoneTypeOre(type, properties) {
+            if (properties === undefined);
+                properties = {};
 
-        if (properties.baseModel === undefined);
-            properties.baseModel = type.namespace + ":block/" + type.path;
+            if (properties.baseModel === undefined);
+                properties.baseModel = type.namespace + ":block/" + type.path;
 
-        if (properties.material === undefined);
-            properties.material = null;
+            if (properties.material === undefined);
+                properties.material = null;
 
-        if (properties.blockState === undefined);
-            properties.blockState = (() => Block.getBlock(type).defaultBlockState());
+            if (properties.blockState === undefined);
+                properties.blockState = (() => Block.getBlock(type).defaultBlockState());
 
-        e.create(type.path, 'ore')
-            .stateSupplier(properties.blockState)
-            .baseModelLocation(properties.baseModel)
-            .materialSupplier(properties.material)
-            .unificationEnabled(true)
-            .materialIconType(GTMaterialIconType.ore)
-            .miningToolTag("mineable/pickaxe")
-            .generationCondition(ItemGenerationCondition.hasOreProperty);
-    };
+            event.create(type.path, 'ore')
+                .stateSupplier(properties.blockState)
+                .baseModelLocation(properties.baseModel)
+                .materialSupplier(properties.material)
+                .unificationEnabled(true)
+                .materialIconType(GTMaterialIconType.ore)
+                .miningToolTag("mineable/pickaxe")
+                .generationCondition(ItemGenerationCondition.hasOreProperty);
+        };
 
-    createStoneTypeOre('xycraft_world:kivi');
+        createStoneTypeOre('xycraft_world:kivi');
 
-    createStoneTypeOre('create:asurine', { baseModel: 'create:block/asurine_natural_0' });
-    createStoneTypeOre('create:crimsite', { baseModel: 'create:block/crimsite_natural_0' });
-    createStoneTypeOre('create:limestone');
-    createStoneTypeOre('create:ochrum', { baseModel: 'create:block/ochrum_natural_0' });
-    createStoneTypeOre('create:scoria');
-    createStoneTypeOre('create:scorchia');
-    createStoneTypeOre('create:veridium', { baseModel: 'create:block/veridium_natural_0' });
-})
+        createStoneTypeOre('create:asurine');
+        createStoneTypeOre('create:crimsite');
+        createStoneTypeOre('create:limestone');
+        createStoneTypeOre('create:ochrum');
+        createStoneTypeOre('create:scoria');
+        createStoneTypeOre('create:scorchia');
+        createStoneTypeOre('create:veridium');
+    }
+)
+
+//WorldGen Layers
+GTCEuStartupEvents.registry(
+    'gtceu:world_gen_layer',
+    event => {
+        event.create('twilight_forest')
+            .targets('minecraft:stone', 'minecraft:diorite', 'minecraft:andesite', 'minecraft:granite')
+            .dimensions('twilightforest:twilight_forest_type')
+    }
+)

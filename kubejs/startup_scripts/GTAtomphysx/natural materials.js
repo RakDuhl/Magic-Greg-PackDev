@@ -40,6 +40,8 @@ GTCEuStartupEvents.registry(
         );
         console.log('Registered arcane element Wissen ' + GTElements.get('wissen') + ' !');
 
+        //Stardust
+        //Found anywhere, very rare
         event.create('stardust')
         //Sd
         .element(GTElements.get("stardust"))
