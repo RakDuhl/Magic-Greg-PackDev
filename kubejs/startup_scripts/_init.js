@@ -5,7 +5,7 @@ The Author has been asked for permissions and kindly obliged.
 Curseforge: https://www.curseforge.com/minecraft/modpacks/star-technology
 GitHub:     https://github.com/trulyno/star-technology
 */
-
+/*
 Platform.mods.kubejs.name                   = "Arcenia Technologies®"
 Platform.mods.gtceu.name                    = "Arcane Mechanist® Guild"
 //Platform.mods.farmersdelight.name
@@ -30,7 +30,7 @@ Platform.mods.design_decor.name             = "Create® Imperial Pillar Masonry�
 Platform.mods.railways.name                 = "Create® Transcontinental Ironway Syndicate™"
 Platform.mods.interiors.name                = "Create® Regency Interiors & Decor™"
 Platform.mods.extendedgears.name            = "Create®"
-
+*/
 // Ignore this
 function elementRegistry(func)      { GTCEuStartupEvents.registry('gtceu:element', func); };
 function RecipeRegistry(func)       { GTCEuStartupEvents.registry('gtceu:recipe_type', func); };
