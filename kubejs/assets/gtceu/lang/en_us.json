@@ -1,0 +1,24 @@
+{
+    "tagprefix.kivi": "Kivi %s Ore",
+    "tagprefix.asurine": "Asurine %s Ore",
+    "tagprefix.crimsite": "Crimsite %s Ore",
+    "tagprefix.limestone": "Limestone %s Ore",
+    "tagprefix.ochrum": "Ochrum %s Ore",
+    "tagprefix.scoria": "Scoria %s Ore",
+    "tagprefix.scorchia": "Scorchia %s Ore",
+    "tagprefix.veridium": "Veridium %s Ore",
+
+    "material.gtceu.adamantium": "Adamantium",
+    "material.gtceu.mithril": "Mithril",
+    "material.gtceu.prometheum": "Prometheum",
+    "material.gtceu.orichalcum": "Orichalcum",
+    "material.gtceu.vulcanite": "Vulcanite",
+    "material.gtceu.hihhirokane": "Hihhirokane",
+    "material.gtceu.celestialbronze": "Celestial Bronze",
+    "material.gtceu.celestialgold": "Celestial Gold",
+    "material.gtceu.spectrium": "Spectrium",
+    "material.gtceu.starminite": "Starminite",
+    "material.gtceu.astralite": "Astralite",
+    "material.gtceu.dawnstone": "Dawnstone"
+
+}
