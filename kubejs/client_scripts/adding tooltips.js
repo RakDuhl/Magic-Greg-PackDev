@@ -24,61 +24,24 @@
  * Platform.mods.interiors.name                = "Create® Regency Interiors & Decor™"
  * Platform.mods.extendedgears.name            = "Create®"
 */ 
-ItemEvents.modifyTooltips(
+ItemEvents.tooltip(
     event => {
-        event.modify(/gtceu:/, tooltip => {
-            tooltip.add(Text['GregTech Community Edition unofficial'])
-        });
-        event.modify(/extendedcrafting:/, tooltip => {
-            tooltip.add(Text['Extended Crafting'])
-        });
-        event.modify(/iceandfire:/, tooltip => {
-            tooltip.add(Text['Ice And Fire'])
-        });
-        event.modify(/create_wizardry:/, tooltip => {
-            tooltip.add(Text['Create Wizardry'])
-        });
-        event.modify(/embers:/, tooltip => {
-            tooltip.add(Text['Embers Rekindled'])
-        });
-        event.modify(/forbidden_arcanus:/, tooltip => {
-            tooltip.add(Text['Forbidden and Arcanus'])
-        });
-        event.modify(/draconicevolution:/, tooltip => {
-            tooltip.add(Text['Draconic Evolution'])
-        });
-        event.modify(/createframed:/, tooltip => {
-            tooltip.add(Text['Create: Framed'])
-        });
-        event.modify(/create_dd:/, tooltip => {
-            tooltip.add(Text['Create: Dreams & Desires'])
-        });
-        event.modify(/create_things_and_misc:/, tooltip => {
-            tooltip.add(Text['Create: Things and Misc'])
-        });
-        event.modify(/create_connected:/, tooltip => {
-            tooltip.add(Text['Create: Connected'])
-        });
-        event.modify(/bellsandwhistles:/, tooltip => {
-            tooltip.add(Text['Create: Bells and Whistles'])
-        });
-        event.modify(/copycats:/, tooltip => {
-            tooltip.add(Text['Create: Copycats'])
-        });
-        event.modify(/design_decor:/, tooltip => {
-            tooltip.add(Text['Create: Design & Decor'])
-        });
-        event.modify(/railways:/, tooltip => {
-            tooltip.add(Text['Create: Railways'])
-        });
-        event.modify(/interiors:/, tooltip => {
-            tooltip.add(Text['Create: Interiors'])
-        });
-        event.modify(/extendedgears:/, tooltip => {
-            tooltip.add(Text['Create: Extended gears'])
-        });
-//        event.modify(/ :/, tooltip => {
-//            tooltip.add(Text[''])
-//        });
+        event.add(/gtceu:/, 'Arcane Mechanist® Guild');
+        event.add(/extendedcrafting:/, 'Mystech Solutions®');
+        event.add(/iceandfire:/, 'Mythic Beastworks®');
+        event.add(/create_wizardry:/, 'Aether Company™');
+        event.add(/embers:/, 'Eldritch Industries & Alchemical Foundry™');
+        event.add(/forbidden_arcanus:/, "Thaumaturgic Syndicate®");
+        event.add(/draconicevolution:/, "DrakeFusion Engineering®");
+        event.add(/createframed:/, "Create® Crystal & Crown Glassworks™");
+        event.add(/create_dd:/, "Create® Monarch's Stone & Masonry Guild™");
+        event.add(/create_things_and_misc:/, "Create® Atlas Machinists™");
+        event.add(/create_connected:/, "Create® Titanworks Industrial Mechanics™");
+        event.add(/bellsandwhistles:/, "Create® Royal Locomotive Consortium™");
+        event.add(/copycats:/, "Create® Royal Ironbound Steelworks™");
+        event.add(/design_decor:/, "Create® Imperial Pillar Masonry™");
+        event.add(/railways:/, "Create® Transcontinental Ironway Syndicate™");
+        event.add(/interiors:/, "Create® Regency Interiors & Decor™");
+//        event.add(/extendedgears:/,);
     }
 )
