@@ -1,5 +1,48 @@
 //priority: 9305
 
+//This part is used from the modpack ReFactory: Expert
+let UtilsJS = Java.loadClass("dev.latvian.mods.kubejs.util.UtilsJS")
+
+GTCEuStartupEvents.registry(
+    'gtceu:tag_prefix', 
+    event => {
+        function createStoneTypeOre(type, properties) {
+            if (properties === undefined);
+                properties = {};
+
+            if (properties.baseModel === undefined);
+                properties.baseModel = type.namespace + ":block/" + type.path;
+
+            if (properties.material === undefined);
+                properties.material = null;
+
+            if (properties.blockState === undefined);
+                properties.blockState = (() => Block.getBlock(type).defaultBlockState());
+
+            event.create(type.path, 'ore')
+                .stateSupplier(properties.blockState)
+                .baseModelLocation(properties.baseModel)
+                .materialSupplier(properties.material)
+                .unificationEnabled(true)
+                .materialIconType(GTMaterialIconType.ore)
+                .miningToolTag("mineable/pickaxe")
+                .generationCondition(ItemGenerationCondition.hasOreProperty);
+        };
+
+        createStoneTypeOre('xycraft_world:kivi');
+
+//        createStoneTypeOre('create:asurine', {blockState: () => UtilsJS.parseBlockState("creat:asurine")});
+//        createStoneTypeOre('create:crimsite', {blockState: () => UtilsJS.parseBlockState("creat:crimsite")});
+        createStoneTypeOre('create:limestone');
+//        createStoneTypeOre('create:ochrum', {blockState: () => UtilsJS.parseBlockState("creat:ochrum")});
+        createStoneTypeOre('create:scoria');
+        createStoneTypeOre('create:scorchia');
+//        createStoneTypeOre('create:veridium', {blockState: () => UtilsJS.parseBlockState("creat:veridium")});
+    }
+)
+
+
+
 GTCEuStartupEvents.materialModification(
     event => {
         TagPrefix.block[    'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('manasteel'),    () => Item.getItem('botania:manasteel_block'));
