@@ -24,46 +24,6 @@ WorldgenEvents.remove(
     }
 )
 
-let UtilsJS = Java.loadClass("dev.latvian.mods.kubejs.util.UtilsJS")
-
-GTCEuStartupEvents.registry(
-    'gtceu:tag_prefix', 
-    event => {
-        function createStoneTypeOre(type, properties) {
-            if (properties === undefined);
-                properties = {};
-
-            if (properties.baseModel === undefined);
-                properties.baseModel = type.namespace + ":block/" + type.path;
-
-            if (properties.material === undefined);
-                properties.material = null;
-
-            if (properties.blockState === undefined);
-                properties.blockState = (() => Block.getBlock(type).defaultBlockState());
-
-            event.create(type.path, 'ore')
-                .stateSupplier(properties.blockState)
-                .baseModelLocation(properties.baseModel)
-                .materialSupplier(properties.material)
-                .unificationEnabled(true)
-                .materialIconType(GTMaterialIconType.ore)
-                .miningToolTag("mineable/pickaxe")
-                .generationCondition(ItemGenerationCondition.hasOreProperty);
-        };
-
-        createStoneTypeOre('xycraft_world:kivi');
-
-        createStoneTypeOre('create:asurine');
-        createStoneTypeOre('create:crimsite');
-        createStoneTypeOre('create:limestone');
-        createStoneTypeOre('create:ochrum');
-        createStoneTypeOre('create:scoria');
-        createStoneTypeOre('create:scorchia');
-        createStoneTypeOre('create:veridium');
-    }
-)
-
 //WorldGen Layers
 GTCEuStartupEvents.registry(
     'gtceu:world_gen_layer',
