@@ -35,7 +35,8 @@ GTCEuStartupEvents.registry(
         .color(0x577FB8).secondaryColor(0xCDEDFE).iconSet(NETHERSTAR)
         .gem()
         .flags(
-            lens
+            lens,
+            no_decomp
         );
         console.log('Registered arcane element Wissen ' + GTElements.get('wissen') + ' !');
 
@@ -45,18 +46,44 @@ GTCEuStartupEvents.registry(
         //Sd
         .element(GTElements.get("stardust"))
         .color(0x42599D).secondaryColor(0xCCF2FF).iconSet(NETHERSTAR)
-        .dust();
+        .dust()
+        .flags(
+            centrifuge
+        );
         console.log('Registered cosmic material Stardust ' + GTElements.get('stardust') + ' !');
         
+        //Create Rose Quartz
+        event.create('rosequartz')
+        .components('8x redstone', '1x quartz')
+        .gem()
+        .color(0xFC8C88).secondaryColor(0xFFAA5C).iconSet(QUARTZ)
+        .flags(
+            electrolyze
+        );
+
+
+        
+        //Ember Quartz
+        //gem material for getting Ember
+        event.create('emberquartz')
+        .components('1x rosequartz', '3x ember')
+        .color(0xFF5200).secondaryColor(0xFFAA5C).iconSet(CERTUS)
+        .gem(2, 18000)
+        .ore(3, 2, true)
+        .flags(
+            not_alloy,
+            electrolyze
+        );
+
         //Adamantium
         //ZPM metal
         //Used for extreme stress and pressure situations, extremely tough
         event.create('adamantium')
         .element(GTElements.get("Adamantium"))
         .color(0xAD0F0D).secondaryColor(0x64082B).iconSet(DULL)
-        .ingot()
+        .ingot(5)
         .fluid()
-        .ore()
+        .ore(1, 2)
 //        .cableProperties(V('zpm'), 8, 0, false)
         .blastTemp(4210, 'high', 24800, 320)
         .flags(
@@ -92,7 +119,7 @@ GTCEuStartupEvents.registry(
         .color(0xd6edff).secondaryColor(0x9BFFFF).iconSet(SHINY)
         .ingot()
         .fluid()
-        .ore()
+        .ore(1, 2)
         .cableProperties(V('ev'), 2, 0, true)
         .blastTemp(750, 'mid', 288, 300)
         .flags(
@@ -109,7 +136,7 @@ GTCEuStartupEvents.registry(
             no_abs_recipe,
             solder_mat
         );
-        console.log('Registered natural Mithril ' + GTElements.get('mithril') + ' !');
+        console.log('Registered natural Mithril ' + GTMaterials.get('mithril') + ' !');
                 
         //Prometheum
         //Catalyst element, used for various chemical tasks
