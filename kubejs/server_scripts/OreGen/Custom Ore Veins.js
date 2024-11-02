@@ -2,11 +2,17 @@
 
 GTCEuServerEvents.oreVeins(
     event => {
+        /**
+         * .layeredVeinGenerator generates a huge blob that has horizontally layers of different ores
+         * 
+         * .layer is as it sounds, it makes a horizontal layer and spreads it out in the vein vertically,
+         * the more layers you declare, the more different layers there will be
+         */
         event.add(
             'kubejs:prometheum_vein',
             vein => {
                 vein.layer('stone')
-                vein.weight(20)
+                vein.weight(60)
                 vein.clusterSize(30)
                 vein.density(0.6)
                 vein.discardChanceOnAirExposure(0)
@@ -37,11 +43,14 @@ GTCEuServerEvents.oreVeins(
             }
         );
         
+        /**
+         * .dikeVeinGenerator generates a vertical collum
+         */
         event.add(
             'kubejs:adamantium_vein',
             vein => {
                 vein.layer('deepslate')
-                vein.weight(1)
+                vein.weight(10)
                 vein.clusterSize(10)
                 vein.density(0.1)
                 vein.heightRangeUniform(-120, -62)
@@ -50,10 +59,11 @@ GTCEuServerEvents.oreVeins(
                 vein.dikeVeinGenerator(
                     generator => generator
                     //.withBlock(GTMaterials or Block.getBlock(), weight, fromHeight, toHeight)
-                    .withBlock(GTMaterials.get('adamantium'), 1, -120, -95)
+                    .withBlock(GTMaterials.get('adamantium'), 2, -120, -95)
                     .withBlock(GTMaterials.Tungstate, 2, -120, -81)
-                    .withBlock(GTMaterials.Ruby, 2, -93, -62)
-                    .withBlock(GTMaterials.GarnetRed, 1, -101, -62)
+                    .withBlock(GTMaterials.Ruby, 3, -93, -62)
+                    .withBlock(GTMaterials.GarnetRed, 4, -101, -62)
+                    .withBlock()
                     //.withBlock(Block.getBlock('minecraft:diamond_ore'), 1, -74, -62)
                 );
                 vein.surfaceIndicatorGenerator(
@@ -65,18 +75,31 @@ GTCEuServerEvents.oreVeins(
             }
         );
 
+        //Beispiel für das "screenshots/mithril vein.png"
+        /**
+         * .classicVeinGenerator is basically a two layer sandwich
+         * it generates as a horizontal line and can be three layers if .between is used
+         * 
+         * .primary is the top layer, spawns above center of the vein
+         * .secondary is the bottom layer, spawns below center of vein
+         * .between is used for literally between the two
+         * .sporadic generates ores throughout the whole vein
+         */
         event.add(
             'kubejs:mithril_vein',
             vein => {
                 vein.layer('stone')
-                vein.weight(3)
+                vein.weight(25)
                 vein.clusterSize(52)
                 vein.density(0.3)
                 vein.heightRangeTriangle(0, 260)
                 vein.classicVeinGenerator(
                     generator => generator
-                    .primary(b => b.mat(GTMaterials.get('mithril')).size(6))
+                    //primary declares which ore spawns above
+                    .primary(b => b.mat(GTMaterials.get('mithril')).size(2))
+                    //secondary declares which ore spawns below
                     .secondary(b => b.mat(GTMaterials.Ilmenite).size(2))
+                    //between is to be taken literally
                     .between(b => b.mat(GTMaterials.Silver).size(3))
                     .sporadic(b => b.mat(GTMaterials.Cobaltite).size(1))
                     .sporadic(b => b.mat(GTMaterials.Platinum).size(1))
@@ -96,7 +119,7 @@ GTCEuServerEvents.oreVeins(
             'kubejs:vulcanite_vein',
             vein => {
                 vein.layer('deepslate')
-                vein.weight(1)
+                vein.weight(5)
                 vein.clusterSize(10)
                 vein.density(1)
                 vein.heightRangeTriangle(-126, 85)
