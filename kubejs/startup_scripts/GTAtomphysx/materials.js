@@ -1,4 +1,4 @@
-// priority: 8900
+// priority: 9308
 
 console.log('Registering custom artificial materials!')
 

@@ -1,3 +1,5 @@
+//priority: 9253
+
 CustomMultiblock(
     event => {
         event.create('create_combustion_engine', 'multiblock', Tier('MV'), Tier('hv'), Tier('ev'))

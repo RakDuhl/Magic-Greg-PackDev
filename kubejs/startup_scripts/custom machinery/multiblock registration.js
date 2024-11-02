@@ -1,3 +1,6 @@
+//priority: 9398
+
+
 GTCEuStartupEvents.registry(
     'gtceu:recipe_type',
     event => {
@@ -46,5 +49,6 @@ GTCEuStartupEvents.registry(
         event.create('mana_steam_boiler')
             .category('mana_steam_boiler')
             .setMaxIOSize(2, 0, 6, 2)
+            .setSound(GTSoundEntries.BOILER);
     }
 )

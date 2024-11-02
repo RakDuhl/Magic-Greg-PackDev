@@ -1,4 +1,4 @@
-// priority: 9900
+// priority: 9399
 
 //event.create(Element Name (string), Protons Int, Neutrons Int, Half Life Seconds Int, Decay To, Atomic Symbol (string), Is Isotope boolean)
 //If Half-Life is set to -1, set Decay To as null and Is Isotope to false

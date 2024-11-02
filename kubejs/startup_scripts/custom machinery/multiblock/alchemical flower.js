@@ -1,3 +1,5 @@
+//priority: 9251
+
 CustomMultiblock(
     event => {
         event.create('alchemical_flower', 'multiblock', Tier('lv'), Tier('mv'), Tier('hv'), Tier('ev'), Tier('iv'), Tier('luv'), Tier('zpm'), Tier('uv'))

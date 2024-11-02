@@ -1,4 +1,4 @@
-// priority: 9001
+// priority: 9025
 //Fluids
 StartupEvents.registry(
     'fluid',

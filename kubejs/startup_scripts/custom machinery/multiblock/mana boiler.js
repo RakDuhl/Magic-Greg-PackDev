@@ -1,8 +1,10 @@
+//priority: 9254
+
 GTCEuStartupEvents.registry(
     'gtceu:machine',
     event => {
         event.create('mana_steam_boiler', 'multiblock', Tier('ulv'), Tier('lv'), Tier('mv'), Tier('hv'), Tier('ev'))
-        .recipetype('mana_steam_boiler')
+        .recipeType('mana_steam_boiler')
         .appearanceBlock(GTBlocks.CASING_BRONZE_BRICKS)
         .rotationState(RotationState.NON_Y_AXIS)
         .pattern(
@@ -11,14 +13,17 @@ GTCEuStartupEvents.registry(
             .aisle('FCCCF', 'CPPPC', 'MPPPM', 'CPPPC', '.OOO.')
             .aisle('FCCCF', 'CPPPC', 'MPPPM', 'CPPPC', '.OOO.')
             .aisle('FCCCF', 'CPPPC', 'MPPPM', 'CPPPC', '.OOO.')
-            .aisle('.IcI.', '.CCC.', '.MMM.', '.CCC.', '.....')
-            .where('I', Predicates.blocks(GTBlocks.CASING_BRONZE_BRICKS).or(Predicates.abilities(PartAbility.IMPORT_ITEMS).setMinGlobalLimited(1)))
-            .where('F', Predicates.blocks(GTBlocks.CASING_BRONZE_BRICKS).or(Predicates.abilities(PartAbility.IMPORT_FLUIDS).setMaxGlobalLimited(6)))
-            .where('O', Predicates.blocks(GTBlocks.CASING_BRONZE_BRICKS).or(Predicates.abilities(PartAbility.EXPORT_FLUIDS).setMaxGlobalLimited(9).setMinGlobalLimited(1)))
-            .where('C', Predicates.blocks(GTBlocks.CASING_BRONZE_BRICKS).setMinGlobalLimited(24))
-            .where('P', Predicates.blocks(GTBlocks.CASING_BRONZE_PIPE))
+            .aisle('.IEI.', '.CCC.', '.MMM.', '.CCC.', '.....')
+            .where('I', Predicates.blocks(GTBlocks.CASING_BRONZE_BRICKS.get())
+                    .or(Predicates.abilities(PartAbility.IMPORT_ITEMS).setMinGlobalLimited(1)))
+            .where('F', Predicates.blocks(GTBlocks.CASING_BRONZE_BRICKS.get())
+                    .or(Predicates.abilities(PartAbility.IMPORT_FLUIDS).setMaxGlobalLimited(6)))
+            .where('O', Predicates.blocks(GTBlocks.CASING_BRONZE_BRICKS.get())
+                    .or(Predicates.abilities(PartAbility.EXPORT_FLUIDS).setMaxGlobalLimited(9).setMinGlobalLimited(1)))
+            .where('C', Predicates.blocks(GTBlocks.CASING_BRONZE_BRICKS.get()).setMinGlobalLimited(24))
+            .where('P', Predicates.blocks(GTBlocks.CASING_BRONZE_PIPE.get()))
             .where('M', Predicates.blocks('botania:manasteel_block'))
-            .where('c', Predicates.controller(Predicates.blocks(definition.gt())))
+            .where('E', Predicates.controller(Predicates.blocks(definition.get())))
             .where('.', Predicates.any())
             .build()
         )

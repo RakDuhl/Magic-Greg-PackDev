@@ -1,4 +1,4 @@
-//priority: 8800
+//priority: 9305
 
 GTCEuStartupEvents.materialModification(
     event => {

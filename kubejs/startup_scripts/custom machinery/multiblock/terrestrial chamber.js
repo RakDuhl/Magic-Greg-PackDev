@@ -1,11 +1,15 @@
-CustomMultiblock(
+//priority: 9256
+
+GTCEuStartupEvents.registry(
+    'gtceu:machine',
     event => {
         event.create('terrestrial_chamber', 'multiblock', Tier('iv'), Tier('luv'), Tier('zpm'), Tier('uv'))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('terrestrial_chamber')
         .appearanceBlock(GTBlocks.CASING_TUNGSTENSTEEL_ROBUST)
         .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.PERFECT_OVERCLOCK)])
-        .pattern(definition => FactoryBlockPattern.start()
+        .pattern(
+            definition => FactoryBlockPattern.start()
             .aisle('..RLR..', '..LML..', '..RLR..', '.......', '.......')
             .aisle('..CCC..', '..CGC..', '..CCC..', '.......', '.......')
             .aisle('RCRLRCR', 'LCGGGCL', 'RCGGGCR', '..CCC..', '..RLR..')

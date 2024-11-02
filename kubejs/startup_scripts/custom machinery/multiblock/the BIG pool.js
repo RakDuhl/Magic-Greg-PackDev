@@ -1,3 +1,5 @@
+//priority: 9257
+
 CustomMultiblock(
     event => {
         event.create('big_pool', 'multiblock', Tier('ev'), Tier('iv'), Tier('luv'), Tier('zpm'), Tier('uv'),)

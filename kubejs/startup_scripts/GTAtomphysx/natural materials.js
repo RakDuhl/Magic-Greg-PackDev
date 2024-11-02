@@ -1,4 +1,4 @@
-//priority: 8990
+//priority: 9309
 /**
  * Script for all the naturally spawning materials
  */
@@ -35,7 +35,6 @@ GTCEuStartupEvents.registry(
         .color(0x577FB8).secondaryColor(0xCDEDFE).iconSet(NETHERSTAR)
         .gem()
         .flags(
-            fine_wire,
             lens
         );
         console.log('Registered arcane element Wissen ' + GTElements.get('wissen') + ' !');

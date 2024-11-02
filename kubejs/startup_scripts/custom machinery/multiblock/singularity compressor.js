@@ -1,3 +1,5 @@
+//priority: 9255
+
 CustomMultiblock(
     event => {
         event.create('singularity_compressor', 'multiblock', Tier('luv'), Tier('uhv'))
