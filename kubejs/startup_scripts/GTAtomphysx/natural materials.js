@@ -65,14 +65,17 @@ GTCEuStartupEvents.registry(
         );
         console.log('Registered cosmic material Stardust ' + GTElements.get('stardust') + ' !');
         
+
         //Create Rose Quartz
         event.create('rosequartz')
-        .components('8x redstone', '1x quartz')
+        .components('8x redstone', '1x quartzite')
+        //GTMaterials.Reds
         .gem()
         .color(0xFC8C88).secondaryColor(0xFFAA5C).iconSet('rosequartz')
         .flags(
             electrolyze
         );
+
 
         //Arcane Gold
         //Au★
@@ -96,7 +99,8 @@ GTCEuStartupEvents.registry(
             solder_mat_good
         );
         console.log('Registered arcane alloy Arcane Gold ' + GTMaterials.get('arcanegold') + ' !');
-        
+
+
         //Ember Quartz
         //gem material for getting Ember
         event.create('emberquartz')
