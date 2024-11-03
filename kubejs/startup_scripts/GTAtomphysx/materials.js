@@ -8,6 +8,19 @@ console.log('Registering custom artificial materials!')
 //Ag₄★₆
 
 GTCEuStartupEvents.registry(
+    'gtceu:material_icon_set',
+    event => {
+        event.create('manasteel').parent(SHINY)
+        event.create('elementium').parent(BRIGHT)
+        event.create('terrasteel').parent(SHINY)
+        event.create('alfsteel').parent(DULL)
+        event.create('dawnstone').parent(BRIGHT)
+//        event.create().parent()
+//        event.create().parent()
+    }
+)
+
+GTCEuStartupEvents.registry(
     'gtceu:material',
     event => {
         /**
@@ -17,29 +30,6 @@ GTCEuStartupEvents.registry(
          * so it all needs to be written in either camelCase or lowercase. The same applies to the TagPrefix.() below.
          * If you register any component, material or element, they ALL need to be written in camelCase or lowercase.
          */
-        
-        //Arcane Gold
-        //Au★
-        //Early game arcane Alloy with gold
-        //Same as Mithril with conductivity, can take higher Amps
-        event.create('arcanegold')
-        .components('1x gold', '1x mana')
-        .color(0xEDC992).secondaryColor(0xB97B67).iconSet(SHINY)
-        .fluid()
-        .ingot()
-        .ore()
-        .cableProperties(V('ev'), 4, 0, false)
-        .flags(
-            foil,
-            fine_wire,
-            plates,
-            rod,
-            frame,
-            gear,
-            long_rod,
-            solder_mat_good
-        );
-        console.log('Registered arcane alloy Arcane Gold ' + GTMaterials.get('arcanegold') + ' !');
         
         //Hihiirokane
         //Ir₃Th★
@@ -73,7 +63,7 @@ GTCEuStartupEvents.registry(
         event.create('manasteel')
         //Fe₃★₃
         .components('3x iron', '3x mana')
-        .color(0x67b9ee).secondaryColor(0xB5FFFC).iconSet(METALLIC)
+        .color(0x67b9ee).secondaryColor(0xB5FFFC).iconSet('manasteel')
         .ingot()
         .fluid()
         .cableProperties(V('mv'), 2, 0, false)
@@ -91,7 +81,7 @@ GTCEuStartupEvents.registry(
         event.create('elementium')
         //(Fe₃★₃)₂(SiO₂)₄Fe
         .components('2x manasteel', '3x amethyst', '2x silver', '2x mana')
-        .color(0xE084A5).secondaryColor(0xC543A8).iconSet(BRIGHT)
+        .color(0xE084A5).secondaryColor(0xC543A8).iconSet('elementium')
         .fluid()
         .ingot()
         .cableProperties(V('ev'), 4, 0, false)
@@ -109,7 +99,7 @@ GTCEuStartupEvents.registry(
         event.create('terrasteel')
         //(Fe₃★₃)₂★₆V₃CrPh₂
         .components('2x manasteel', '6x mana', '3x vanadium', '1x chromium', '2x prometheum')
-        .color(0xCCFFB5).secondaryColor(0x2BB93B).iconSet(SHINY)
+        .color(0xCCFFB5).secondaryColor(0x2BB93B).iconSet('terrasteel')
         .fluid()
         .ingot()
         .cableProperties(V('iv'), 4, 0, true)
@@ -127,7 +117,7 @@ GTCEuStartupEvents.registry(
         event.create('alfsteel')
         //W₃★₇((Fe₃★₃)₂(SiO₂)₄Fe)Ir
         .components('3x tungsten', '7x mana', '1x elementium', '1x iridium')
-        .color(0xFFC74E).secondaryColor(0xE27500).iconSet(SHINY)
+        .color(0xFFC74E).secondaryColor(0xE27500).iconSet('alfsteel')
         .fluid()
         .ingot()
         .cableProperties(V('luv'), 6, 0, true)
@@ -239,7 +229,7 @@ GTCEuStartupEvents.registry(
         event.create('dawnstone')
         //(Cu₄Sn(Au★)Ag)🔥2
         .components('celestialbronze', '2x ember')
-        .color(0xF1983B).secondaryColor(0xFFCE78).iconSet(SHINY)
+        .color(0xF1983B).secondaryColor(0xFFCE78).iconSet('dawnstone')
         .ingot()
         .fluid()
         .blastTemp(2431, null, 1480, 2840)

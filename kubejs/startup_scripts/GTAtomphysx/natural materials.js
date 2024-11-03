@@ -6,6 +6,19 @@
 console.log('Registering all custom natural Materials and Elements!')
 
 GTCEuStartupEvents.registry(
+    'gtceu:material_icon_set',
+    event => {
+        event.create('wissen').parent(NETHERSTAR)
+        event.create('orichalcum').parent(BRIGHT)
+        event.create('rosequartz').parent(CERTUS)
+        event.create('arcanegold').parent(BRIGHT)
+//        event.create().parent()
+//        event.create().parent()
+//        event.create().parent()
+    }
+)
+
+GTCEuStartupEvents.registry(
     'gtceu:material',
     event => {
 
@@ -32,7 +45,7 @@ GTCEuStartupEvents.registry(
         event.create('wissen')
         //⚙
         .element(GTElements.get("wissen"))
-        .color(0x577FB8).secondaryColor(0xCDEDFE).iconSet(NETHERSTAR)
+        .color(0x577FB8).secondaryColor(0xCDEDFE).iconSet('wissen')
         .gem()
         .flags(
             lens,
@@ -56,12 +69,33 @@ GTCEuStartupEvents.registry(
         event.create('rosequartz')
         .components('8x redstone', '1x quartz')
         .gem()
-        .color(0xFC8C88).secondaryColor(0xFFAA5C).iconSet(QUARTZ)
+        .color(0xFC8C88).secondaryColor(0xFFAA5C).iconSet('rosequartz')
         .flags(
             electrolyze
         );
 
-
+        //Arcane Gold
+        //Au★
+        //Early game arcane Alloy with gold
+        //Same as Mithril with conductivity, can take higher Amps
+        event.create('arcanegold')
+        .components('1x gold', '1x mana')
+        .color(0xEDC992).secondaryColor(0xB97B67).iconSet('arcanegold')
+        .fluid()
+        .ingot(2)
+        .ore(1, 2)
+        .cableProperties(V('ev'), 4, 0, false)
+        .flags(
+            foil,
+            fine_wire,
+            plates,
+            rod,
+            frame,
+            gear,
+            long_rod,
+            solder_mat_good
+        );
+        console.log('Registered arcane alloy Arcane Gold ' + GTMaterials.get('arcanegold') + ' !');
         
         //Ember Quartz
         //gem material for getting Ember
@@ -165,7 +199,7 @@ GTCEuStartupEvents.registry(
         //
         event.create('orichalcum')
         .element(GTElements.get("orichalcum"))
-        .color(0x780874).secondaryColor(0xF871E3).iconSet(METALLIC)
+        .color(0x780874).secondaryColor(0xF871E3).iconSet('orichalcum')
         .ingot()
         .fluid()
         .ore()
