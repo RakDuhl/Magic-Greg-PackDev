@@ -10,6 +10,7 @@
 *.zip
 *.back
 *.backup
+*.java
 
 # Test binary, build with `go test -c`
 *.test
@@ -34,3 +35,4 @@ kubejs/probe/*
 kubejs/*.zip
 kubejs/data/*.mcmeta
 logs
+screenshots/*
