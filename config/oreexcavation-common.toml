@@ -3,13 +3,13 @@
 [common]
 	#The maximum number of blocks that can be excavated at once
 	#Range: > 1
-	Limit = 128
+	Limit = 512
 	#How many blocks per tick can be excavated
 	#Range: > 1
 	Speed = 64
 	#How far from the origin an excavation can travel
 	#Range: > 1
-	Range = 16
+	Range = 32
 	#Amount of exhaustion per block excavated
 	#Range: 0.0 ~ 1.7976931348623157E308
 	Ehxaustion = 0.1
