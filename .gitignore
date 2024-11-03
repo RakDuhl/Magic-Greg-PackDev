@@ -11,6 +11,8 @@
 *.back
 *.backup
 *.java
+*.txt
+*.webp
 
 # Test binary, build with `go test -c`
 *.test
