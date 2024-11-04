@@ -1,3 +1,5 @@
+//priority: 70
+
 Ponder.registry(
     (event) => {
         event.create('forbidden_arcanus:hephaestus_forge')

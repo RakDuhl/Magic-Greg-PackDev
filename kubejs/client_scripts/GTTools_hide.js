@@ -1,3 +1,4 @@
+//priority: 99
 JEIEvents.hideItems(
     event => {
         let GTTools = [

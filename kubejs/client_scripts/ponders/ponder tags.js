@@ -1,3 +1,5 @@
+//priority: 80
+
 Ponder.tags(
     (event) => {
         /**

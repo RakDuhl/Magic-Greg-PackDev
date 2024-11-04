@@ -1,3 +1,5 @@
+//priority: 90
+
 /**
  * Platform.mods.kubejs.name                   = "Arcenia Technologies®"
  * Platform.mods.gtceu.name                    = "Arcane Mechanist® Guild"
