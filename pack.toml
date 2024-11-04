@@ -1,16 +1,13 @@
 name = "Magic Greg: Arcane Breakthrough"
 author = "Ra'Ahm"
-version = "ALPHA 1.1.1"
+version = "ALPHA 1.5"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "e1e4d0359f2cee90d6636bbcccdc00410ac31a8065c8c67fdabbd7a8a50a858c"
+hash = "5ff0d0734073438460265169a7e22e11cc6bf88de8a8dc60cf7e59b70123fc47"
 
 [versions]
 forge = "47.3.7"
 minecraft = "1.20.1"
-
-[options]
-acceptable-game-versions = ["1.20.1"]
