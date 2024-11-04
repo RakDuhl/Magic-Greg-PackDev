@@ -7,71 +7,82 @@ console.log('Registering all custom natural Materials and Elements!')
 
 GTCEuStartupEvents.registry(
     'gtceu:material_icon_set',
-    event => {
-        event.create('wissen').parent(NETHERSTAR)
-        event.create('orichalcum').parent(BRIGHT)
-        event.create('rosequartz').parent(CERTUS)
-        event.create('arcanegold').parent(BRIGHT)
-//        event.create().parent()
-//        event.create().parent()
-//        event.create().parent()
+    icon => {
+        icon.create('wissen').parent(NETHERSTAR)
+        icon.create('orichalcum').parent(BRIGHT)
+        icon.create('rosequartz').parent(CERTUS)
+        icon.create('arcanegold').parent(BRIGHT)
+        icon.create('spinel').parent(RUBY)
+        icon.create('mana').parent(QUARTZ)
+        icon.create('ember').parent(QUARTZ)
+//        icon.create().parent()
+//        icon.create().parent()
     }
 )
 
+//First Stage Materials
 GTCEuStartupEvents.registry(
     'gtceu:material',
-    event => {
-
+    material => {
         //Arcane Element for Mana
-        event.create('mana')
+        material.create('mana')
 //        .components('2x mana')
         .element(GTElements.get("mana"))
         .fluid()
         .gem()
-        .color(0x20DAFF);
+        .color(0xFFFFFF).iconSet('mana');
         console.log('Registered arcane element Mana ' + GTElements.get('mana') + ' !');
 
         //Arcane Element for Ember
-        event.create('ember')
+        material.create('ember')
         //🔥
         .element(GTElements.get("ember"))
-        .color(0xFF5200).secondaryColor(0xFFAA5C).iconSet(LAPIS)
+        .color(0xFFFFFF).iconSet('ember')
         .gem()
         .flags(
             lens
         );
         console.log('Registered arcane element Ember ' + GTElements.get('ember') + ' !');
 
-        event.create('wissen')
+        material.create('wissen')
         //⚙
         .element(GTElements.get("wissen"))
-        .color(0x577FB8).secondaryColor(0xCDEDFE).iconSet('wissen')
+        .color(0xFFFFFF).secondaryColor(0xCDEDFE).iconSet('wissen')
         .gem()
         .flags(
             lens,
-            no_decomp
+            no_decomp,
         );
         console.log('Registered arcane element Wissen ' + GTElements.get('wissen') + ' !');
 
         //Stardust
         //Found anywhere, very rare
-        event.create('stardust')
+        material.create('stardust')
         //Sd
         .element(GTElements.get("stardust"))
         .color(0x42599D).secondaryColor(0xCCF2FF).iconSet(NETHERSTAR)
         .dust()
+        .ore()
         .flags(
             centrifuge
-        );
+        )
+        .addOreByproducts();
         console.log('Registered cosmic material Stardust ' + GTElements.get('stardust') + ' !');
-        
+    }
+)
+
+GTCEuStartupEvents.registry(
+    'gtceu:material',
+    material => {
+
+
 
         //Create Rose Quartz
-        event.create('rosequartz')
+        material.create('rosequartz')
         .components('8x redstone', '1x quartzite')
         //GTMaterials.Reds
         .gem()
-        .color(0xFC8C88).secondaryColor(0xFFAA5C).iconSet('rosequartz')
+        .color(0xFFFFFF).secondaryColor(0xFFF2E0).iconSet('rosequartz')
         .flags(
             electrolyze
         );
@@ -81,9 +92,9 @@ GTCEuStartupEvents.registry(
         //Au★
         //Early game arcane Alloy with gold
         //Same as Mithril with conductivity, can take higher Amps
-        event.create('arcanegold')
+        material.create('arcanegold')
         .components('1x gold', '1x mana')
-        .color(0xEDC992).secondaryColor(0xB97B67).iconSet('arcanegold')
+        .color(0xFFFFFF).iconSet('arcanegold')
         .fluid()
         .ingot(2)
         .ore(1, 2)
@@ -96,14 +107,16 @@ GTCEuStartupEvents.registry(
             frame,
             gear,
             long_rod,
-            solder_mat_good
-        );
+            solder_mat_good,
+            electrolyze
+        )
+        .addOreByproducts();
         console.log('Registered arcane alloy Arcane Gold ' + GTMaterials.get('arcanegold') + ' !');
 
 
         //Ember Quartz
         //gem material for getting Ember
-        event.create('emberquartz')
+        material.create('emberquartz')
         .components('1x rosequartz', '3x ember')
         .color(0xFF5200).secondaryColor(0xFFAA5C).iconSet(CERTUS)
         .gem(2, 18000)
@@ -116,7 +129,7 @@ GTCEuStartupEvents.registry(
         //Adamantium
         //ZPM metal
         //Used for extreme stress and pressure situations, extremely tough
-        event.create('adamantium')
+        material.create('adamantium')
         .element(GTElements.get("Adamantium"))
         .color(0xAD0F0D).secondaryColor(0x64082B).iconSet(DULL)
         .ingot(5)
@@ -145,14 +158,17 @@ GTCEuStartupEvents.registry(
             no_plate_compressor_craft,
             no_smashing
         )
-        .toolStats(new ToolProperty(25.0, 1.0, 12400, 5, []));
+        .toolStats(
+            ToolProperty.Builder.of(25.0, 1.0, 12400, 5).attackSpeed(0.1).enchantability(18).build()
+        )
+        .addOreByproducts('scheelite', 'hematite', 'ruby',);
         console.log('Registered natural Adamantium ' + GTElements.get('adamantium') + ' !');
         
         //Mithril
         //Ag₄★₆Ti
         //EV alloy, great conductivity, magical superconductor
         //Required for circuits
-        event.create('mithril')
+        material.create('mithril')
         .components('4x silver', '6x mana', 'titanium')
         .color(0xd6edff).secondaryColor(0x9BFFFF).iconSet(SHINY)
         .ingot()
@@ -172,14 +188,16 @@ GTCEuStartupEvents.registry(
             foil,
             fine_wire,
             no_abs_recipe,
-            solder_mat
-        );
+            solder_mat,
+            electrolyze
+        )
+        .addOreByproducts('ilmenite', 'silver',);
         console.log('Registered natural Mithril ' + GTMaterials.get('mithril') + ' !');
-                
+        
         //Prometheum
         //Catalyst element, used for various chemical tasks
         //Horrible conductor
-        event.create('prometheum')
+        material.create('prometheum')
         .element(GTElements.get("prometheum"))
         .color(0x5A8156).secondaryColor(0x354D33).iconSet(DULL)
         .ingot()
@@ -196,14 +214,15 @@ GTCEuStartupEvents.registry(
             fine_wire,
             no_abs_recipe,
             no_unify
-        );
+        )
+        .addOreByproducts('spodumene', 'alunite',);
         console.log('Registered natural Prometheum ' + GTElements.get('prometheum') + ' !');
         
         //Orichalcum
         //
-        event.create('orichalcum')
+        material.create('orichalcum')
         .element(GTElements.get("orichalcum"))
-        .color(0x780874).secondaryColor(0xF871E3).iconSet('orichalcum')
+        .color(0xFFFFFF).iconSet('orichalcum')
         .ingot()
         .fluid()
         .ore()
@@ -226,7 +245,7 @@ GTCEuStartupEvents.registry(
         //Vulcanite
         //Natural ultra high heat resistance and very good Heating properties
         //Will be used for EBF Coils
-        event.create('vulcanite')
+        material.create('vulcanite')
         .element(GTElements.get("vulcanite"))
         .color(0xFFB08A).secondaryColor(0xF24F00).iconSet(DULL)
         .ingot()
@@ -249,7 +268,26 @@ GTCEuStartupEvents.registry(
             no_hand_craft,
             no_smelt,
             no_block_craft,
-        );
+        )
+        .addOreByproducts('obsidian', 'hematite',);
         console.log('Registered natural Vulcanite ' + GTElements.get('vulcanite') + ' !');
+
+        //Ca(Li₂Al)Al₆(BO₃)₃Si₆O₁₈(OH)₃F
+        material.create('arcanespinel')
+ //       .element(GTElements.get('arcanespinel'))
+        .components('2x mana', 'calcium', 'dilithiumalumite', '6x aluminium', 'borate3', '6x silicon', '18x oxygen', '4x ember', 'hydroxyl', 'fluorine')
+        .color(0xFFFFFF).iconSet('spinel')
+        .gem(3)
+        .ore(2,3, true,)
+        .flags(
+            block,
+            electrolyze
+        )
+    }
+)
+
+GTCEuStartupEvents.materialModification(
+    event => {
+        GTMaterials.get('arcanespinel').setFormula('★2Ca(Li2Al)Al6(BO3)3Si6O18🔥4(OH)3F');
     }
 )

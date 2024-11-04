@@ -1,4 +1,4 @@
-// priority: 9399
+//priority: 9399
 
 //event.create(Element Name (string), Protons Int, Neutrons Int, Half Life Seconds Int, Decay To, Atomic Symbol (string), Is Isotope boolean)
 //If Half-Life is set to -1, set Decay To as null and Is Isotope to false
@@ -22,16 +22,11 @@ elementRegistry(
 
         //Custom Elements
         event.create('adamantium',      58, 82, -1, null, 'Ad', false)
-        event.create('vulcanite', 1, 1, -1, null, 'Vc', false)
-//        event.create('hihiirokane',     29, 34, -1, null, 'Hk', false)
-        event.create('prometheum', 1, 1, -1, null, 'Ph', false)
-        event.create('orichalcum', 1, 1, -1, null, 'Oc', false)
-        event.create('stardust', 1, 1, -1, null, 'Sd', false)
-//        event.create('Mithril',         18, 22, -1, null, 'Ag★', false)
-//        event.create('Dawnstone', 1, 1, -1, null, 'Dw', false)
-//        event.create('Duskstone', 1, 1, -1, null, 'Dk', false)
-//        event.create('Astral Silver', 1, 1, -1, null, '', false)
-//        event.create('', 1, 1, -1, null, '', false)
+        event.create('vulcanite',       1, 1, -1, null, 'Vc', false)
+        event.create('prometheum',      1, 1, -1, null, 'Ph', false)
+        event.create('orichalcum',      1, 1, -1, null, 'Oc', false)
+        event.create('stardust',        1, 1, -1, null, 'Sd', false)
+//        event.create('arcanespinel',   -1, -1, -1, null, 'Ca(Li₂Al)Al₆(BO₃)₃Si₆O₁₈(OH)₃F', false)
 //        event.create('', 1, 1, -1, null, '', false)
     }
 )

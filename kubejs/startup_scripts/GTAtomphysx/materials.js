@@ -1,4 +1,4 @@
-// priority: 9308
+//priority: 9308
 
 console.log('Registering custom artificial materials!')
 
@@ -45,9 +45,6 @@ GTCEuStartupEvents.registry(
         .flags(
             plates,
             dense_plate,
-            rod,
-            gear,
-            small_gear,
             long_rod,
             block,
             foil,
@@ -63,25 +60,27 @@ GTCEuStartupEvents.registry(
         event.create('manasteel')
         //Fe₃★₃
         .components('3x iron', '3x mana')
-        .color(0x67b9ee).secondaryColor(0xB5FFFC).iconSet('manasteel')
+        .color(0xFFFFFF).iconSet('manasteel')
         .ingot()
         .fluid()
         .cableProperties(V('mv'), 2, 0, false)
         .flags(
+            frame,
             foil,
             fine_wire,
             plates,
+            dense_plate,
             rod,
-            frame,
+            long_rod,
             gear,
-            long_rod
+            small_gear
         );
         console.log('Registered arcane alloy Manasteel ' + GTMaterials.get('manasteel') + ' !');
         
         event.create('elementium')
         //(Fe₃★₃)₂(SiO₂)₄Fe
         .components('2x manasteel', '3x amethyst', '2x silver', '2x mana')
-        .color(0xE084A5).secondaryColor(0xC543A8).iconSet('elementium')
+        .color(0xFFFFFF).iconSet('elementium')
         .fluid()
         .ingot()
         .cableProperties(V('ev'), 4, 0, false)
@@ -91,15 +90,14 @@ GTCEuStartupEvents.registry(
             plates,
             rod,
             frame,
-            gear,
-            long_rod
+            gear
         );
         console.log('Registered arcane alloy Elementium ' + GTMaterials.get('elementium') + ' !');
         
         event.create('terrasteel')
         //(Fe₃★₃)₂★₆V₃CrPh₂
         .components('2x manasteel', '6x mana', '3x vanadium', '1x chromium', '2x prometheum')
-        .color(0xCCFFB5).secondaryColor(0x2BB93B).iconSet('terrasteel')
+        .color(0xFFFFFF).iconSet('terrasteel')
         .fluid()
         .ingot()
         .cableProperties(V('iv'), 4, 0, true)
@@ -109,27 +107,22 @@ GTCEuStartupEvents.registry(
             plates,
             rod,
             frame,
-            gear,
-            long_rod
+            gear
         );
         console.log('Registered arcane alloy Terrasteel ' + GTMaterials.get('terrasteel') + ' !');
         
         event.create('alfsteel')
         //W₃★₇((Fe₃★₃)₂(SiO₂)₄Fe)Ir
         .components('3x tungsten', '7x mana', '1x elementium', '1x iridium')
-        .color(0xFFC74E).secondaryColor(0xE27500).iconSet('alfsteel')
+        .color(0xFFFFFF).iconSet('alfsteel')
         .fluid()
         .ingot()
         .cableProperties(V('luv'), 6, 0, true)
         .blastTemp(2759, 'mid', 5800, 890)
         .flags(
-            foil,
-            fine_wire,
             plates,
             rod,
-            frame,
             gear,
-            long_rod,
             no_abs_recipe
         );
         console.log('Registered arcane alloy Alfsteel ' + GTMaterials.get('alfsteel') + ' !');
@@ -229,7 +222,7 @@ GTCEuStartupEvents.registry(
         event.create('dawnstone')
         //(Cu₄Sn(Au★)Ag)🔥2
         .components('celestialbronze', '2x ember')
-        .color(0xF1983B).secondaryColor(0xFFCE78).iconSet('dawnstone')
+        .color(0xFFFFFF).iconSet('dawnstone')
         .ingot()
         .fluid()
         .blastTemp(2431, null, 1480, 2840)
