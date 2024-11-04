@@ -42,7 +42,7 @@ GTCEuStartupEvents.registry(
 )
 
 
-
+/*
 GTCEuStartupEvents.materialModification(
     event => {
         TagPrefix.block[    'setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('manasteel'),    () => Item.getItem('botania:manasteel_block'));
@@ -79,3 +79,4 @@ GTCEuStartupEvents.materialModification(
 
     }
 )
+*/
