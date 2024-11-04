@@ -11,7 +11,7 @@ GTCEuServerEvents.oreVeins(
         event.add(
             'kubejs:prometheum_vein',
             vein => {
-                vein.layer('stone')
+                vein.layer(stone)
                 vein.weight(60)
                 vein.clusterSize(30)
                 vein.density(0.6)
@@ -46,10 +46,11 @@ GTCEuServerEvents.oreVeins(
         /**
          * .dikeVeinGenerator generates a vertical collum
          */
+        
         event.add(
             'kubejs:adamantium_vein',
             vein => {
-                vein.layer('deepslate')
+                vein.layer(deepslate)
                 vein.weight(10)
                 vein.clusterSize(10)
                 vein.density(0.1)
@@ -63,7 +64,7 @@ GTCEuServerEvents.oreVeins(
                     .withBlock(GTMaterials.Tungstate, 2, -120, -81)
                     .withBlock(GTMaterials.Ruby, 3, -93, -62)
                     .withBlock(GTMaterials.GarnetRed, 4, -101, -62)
-                    .withBlock()
+                    .withBlock(GTMaterials.Diamond, 1, -74, -62)
                     //.withBlock(Block.getBlock('minecraft:diamond_ore'), 1, -74, -62)
                 );
                 vein.surfaceIndicatorGenerator(
@@ -74,7 +75,7 @@ GTCEuServerEvents.oreVeins(
                 );
             }
         );
-
+        
         //Beispiel für das "screenshots/mithril vein.png"
         /**
          * .classicVeinGenerator is basically a two layer sandwich
@@ -88,7 +89,7 @@ GTCEuServerEvents.oreVeins(
         event.add(
             'kubejs:mithril_vein',
             vein => {
-                vein.layer('stone')
+                vein.layer(stone)
                 vein.weight(25)
                 vein.clusterSize(52)
                 vein.density(0.3)
@@ -118,7 +119,7 @@ GTCEuServerEvents.oreVeins(
         event.add(
             'kubejs:vulcanite_vein',
             vein => {
-                vein.layer('deepslate')
+                vein.layer(deepslate)
                 vein.weight(5)
                 vein.clusterSize(10)
                 vein.density(1)
@@ -146,13 +147,37 @@ GTCEuServerEvents.oreVeins(
                 )
             }
         );
+
+        event.add(
+            'kubejs:deep_orichalcum_vein',
+            vein => {
+                vein.layer(deepslate)
+                vein.weight(10)
+                vein.clusterSize(10)
+                vein.density(0.1)
+                vein.heightRangeUniform(-120, -62)
+                //dikeVeinGenerator generates a vertical collum from the heightRange
+                //The .withBlock attribute determins which blocks or materials it generates with
+                vein.dikeVeinGenerator(
+                    generator => generator
+                    //.withBlock(GTMaterials or Block.getBlock(), weight, fromHeight, toHeight)
+                    .withBlock(GTMaterials.get('orichalcum'), 2, -120, -95)
+                    .withBlock(GTMaterials.get('rosequartz'), 2, -120, -81)
+                    .withBlock(GTMaterials.Ruby, 3, -93, -62)
+                    .withBlock(GTMaterials.GarnetRed, 4, -101, -62)
+                    .withBlock(GTMaterials.Diamond, 1, -74, -62)
+                    //.withBlock(Block.getBlock('minecraft:diamond_ore'), 1, -74, -62)
+                );
+            }
+        )
+
     }
 )
 
 GTCEuServerEvents.bedrockOreVeins(
     event => {
         event.add(
-            'kubejs:orichalcum',
+            'kubejs:bedrock_orichalcum',
             vein => {
                 vein.weight(100)
                     .size(3)
