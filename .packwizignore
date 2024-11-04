@@ -18,3 +18,5 @@ kubejs/probe/*
 legacy/*
 screenshots/*
 .git/*
+logs*
+logs/*
