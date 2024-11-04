@@ -1,0 +1,7 @@
+{
+  "parent": "gtceu:item/material_sets/alfsteel/ingot",
+  "textures": {
+    "layer0": "gtceu:item/material_sets/alfsteel/ingot",
+    "layer1": "gtceu:item/material_sets/alfsteel/ingot_hot_overlay"
+  }
+}

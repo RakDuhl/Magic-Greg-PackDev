@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "gtceu:item/material_sets/wissen/gem_flawless",
+    "layer2": "gtceu:item/material_sets/wissen/gem_flawless_overlay"
+  }
+}

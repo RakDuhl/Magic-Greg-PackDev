@@ -1,0 +1,6 @@
+{
+    "parent": "gtceu:item/material_sets/dawnstone/plate",
+    "textures": {
+        "layer0": "gtceu:item/material_sets/dawnstone/plate_double"
+    }
+}
