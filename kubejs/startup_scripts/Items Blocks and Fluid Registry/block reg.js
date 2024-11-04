@@ -1,4 +1,4 @@
-// priority: 9035
+//priority: 9035
 
 //function for general convenience later
 const capitalizeFirstLetter = (str) => str.split('_').map(word => word.charAt(0).toUpperCase() + str.slice(1)).join(' ');

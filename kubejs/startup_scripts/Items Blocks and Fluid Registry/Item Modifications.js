@@ -1,4 +1,4 @@
-// priority: 9010
+//priority: 9010
 
 ItemEvents.modification(
     event => {

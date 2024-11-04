@@ -1,4 +1,4 @@
-// priority: 9015
+//priority: 9015
 
 //ItemEvent.toolTierRegistry(
 //    event => {

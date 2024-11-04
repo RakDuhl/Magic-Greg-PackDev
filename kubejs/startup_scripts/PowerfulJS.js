@@ -1,4 +1,4 @@
-// priority: 5200
+//priority: 5200
 //Script for allowing ONLY pulling out mana from the Manapool as a Liquid
 CapabilityEvents.blockEntity(
     event => {

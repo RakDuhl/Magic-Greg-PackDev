@@ -1,4 +1,4 @@
-// priority: 10000
+//priority: 10000
 /*
 Major parts of this script have been copied over from the Modpack Star Technology!
 The Author has been asked for permissions and kindly obliged.
