@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.neutronium",
+  "colors": [
+    "D5D5D5",
+    "D5D5D5"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/neutronium"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.tantalum",
+  "colors": [
+    "484C54",
+    "77788B"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/tantalum"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

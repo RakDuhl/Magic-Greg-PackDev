@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.almandine",
+  "colors": [
+    "C47979",
+    "3F100A"
+  ],
+  "ingredient": {
+    "item": "gtceu:almandine_gem"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": false,
+  "enabled": true
+}

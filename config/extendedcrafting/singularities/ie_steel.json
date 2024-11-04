@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.steel",
+  "colors": [
+    "565656",
+    "232323"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/steel"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": false,
+  "enabled": false
+}

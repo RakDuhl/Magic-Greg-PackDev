@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.arcane_crystal",
+  "colors": [
+    "ECFBFB",
+    "6F64FC"
+  ],
+  "ingredient": {
+    "item": "forbidden_arcanus:arcane_crystal"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

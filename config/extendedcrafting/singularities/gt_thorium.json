@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.thorium",
+  "colors": [
+    "313427",
+    "CBCBC8"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/thorium"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.cyanite",
+  "colors": [
+    "AADAFC",
+    "7BACDD"
+  ],
+  "ingredient": {
+    "item": "bigreactors:cyanite_ingot"
+  },
+  "materialCount": 2048,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

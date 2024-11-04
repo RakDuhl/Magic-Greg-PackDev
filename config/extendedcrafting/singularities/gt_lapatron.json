@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.lapotron",
+  "colors": [
+    "6D8EDC",
+    "D4DEF6"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/lapotron"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

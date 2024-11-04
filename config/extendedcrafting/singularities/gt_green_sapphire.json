@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.green_sapphire",
+  "colors": [
+    "C0E9CC",
+    "9AD5AB"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/green_sapphire"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": false,
+  "enabled": true
+}

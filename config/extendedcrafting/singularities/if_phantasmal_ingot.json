@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.phantasmal_ingot",
+  "colors": [
+    "E2FCF7",
+    "FFFFFF"
+  ],
+  "ingredient": {
+    "item": "iceandfire:ghost_ingot"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

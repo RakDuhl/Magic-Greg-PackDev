@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.gallium",
+  "colors": [
+    "D7D8F0",
+    "F3F3F9"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/gallium"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

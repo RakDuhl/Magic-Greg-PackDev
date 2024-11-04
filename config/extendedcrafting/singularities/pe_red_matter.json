@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.red_matter",
+  "colors": [
+    "980707",
+    "FCF08F"
+  ],
+  "ingredient": {
+    "item": "projecte:red_matter"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

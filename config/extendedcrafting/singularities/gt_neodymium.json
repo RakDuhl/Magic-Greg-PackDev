@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.neodymium",
+  "colors": [
+    "70656C",
+    "70656C"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/neodymium"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": false,
+  "enabled": true
+}

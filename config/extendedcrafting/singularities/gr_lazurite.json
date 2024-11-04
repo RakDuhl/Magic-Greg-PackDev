@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.lazurite",
+  "colors": [
+    "10206B",
+    "2735EE"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/lazurite"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

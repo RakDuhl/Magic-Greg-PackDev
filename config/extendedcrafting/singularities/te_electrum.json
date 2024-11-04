@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.electrum",
+  "colors": [
+    "f5f18e",
+    "9e8d3e"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/electrum"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": false,
+  "enabled": false
+}

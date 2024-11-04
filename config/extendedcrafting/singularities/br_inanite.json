@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.inanite",
+  "colors": [
+    "F12664",
+    "FC618D"
+  ],
+  "ingredient": {
+    "item": "bigreactors:inanite_ingot"
+  },
+  "materialCount": 64,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

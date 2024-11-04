@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.uvarovite",
+  "colors": [
+    "7DF190",
+    "2CEA4B"
+  ],
+  "ingredient": {
+    "item": "gtceu:uvarovite_gem"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": false,
+  "enabled": true
+}

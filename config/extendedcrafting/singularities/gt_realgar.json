@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.realgar",
+  "colors": [
+    "B12724",
+    "FC8F89"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/realgar"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.insanite",
+  "colors": [
+    "38D58D",
+    "38F68D"
+  ],
+  "ingredient": {
+    "item": "bigreactors:insanite_ingot"
+  },
+  "materialCount": 256,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

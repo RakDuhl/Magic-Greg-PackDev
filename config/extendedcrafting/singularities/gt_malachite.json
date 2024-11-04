@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.malachite",
+  "colors": [
+    "02C990",
+    "01D59B"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/malachite"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": false,
+  "enabled": true
+}

@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.monazite",
+  "colors": [
+    "C4E08F",
+    "EEF7DE"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/monazite"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": false,
+  "enabled": true
+}

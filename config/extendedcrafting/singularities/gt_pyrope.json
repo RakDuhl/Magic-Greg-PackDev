@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.pyrope",
+  "colors": [
+    "ED6991",
+    "AE1638"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/pyrope"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

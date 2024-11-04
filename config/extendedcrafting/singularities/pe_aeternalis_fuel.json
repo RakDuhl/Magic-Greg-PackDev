@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.aeternalis_fuel",
+  "colors": [
+    "F6FC46",
+    "9B9B9B"
+  ],
+  "ingredient": {
+    "item": "projecte:aeternalis_fuel"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}

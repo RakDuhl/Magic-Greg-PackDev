@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.blutonium",
+  "colors": [
+    "3434CA",
+    "3434CA"
+  ],
+  "ingredient": {
+    "item": "bigreactors:blutonium_ingot"
+  },
+  "materialCount": 1024,
+  "inUltimateSingularity": true,
+  "enabled": false
+}

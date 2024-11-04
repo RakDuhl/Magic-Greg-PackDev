@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.naquadria",
+  "colors": [
+    "191919",
+    "191919"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/naquadria"
+  },
+  "materialCount": 500,
+  "inUltimateSingularity": true,
+  "enabled": true
+}
