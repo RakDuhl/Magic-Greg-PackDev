@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "gtceu:item/material_sets/spinel/dust",
+    "layer1": "gtceu:item/material_sets/spinel/dust_impure_overlay"
+  }
+}
