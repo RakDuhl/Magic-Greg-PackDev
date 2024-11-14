@@ -1,26 +1,6 @@
 ServerEvents.recipes(
     event => {
 
-        //Making constants
-        const AllStone =    Ingredient.of('#forge:stone');
-        const Stone =       Ingredient.of('minecraft:stone');
-        const Cobblestone=  Ingredient.of('#forge:cobblestone');
-        const StoneSlabs = [
-            'minecraft:stone_slab', 
-            'minecraft:smooth_stone_slab', 
-            'minecraft:cobblestone_slab', 
-            'minecraft:granite_slab', 
-            'minecraft:andesite_slab', 
-            'minecraft:diorite_slab', 
-            'minecraft:cobbled_deepslate_slab', 
-            'minecraft:blackstone_slab', 
-            'blue_skies:turquoise_stone_slab', 
-            'blue_skies:turquoise_cobblestone_slab', 
-            'botania:livingrock_slab'
-        ];
-        const SuperGlue = Ingredient.of('create:super_glue');
-
-
         //Changing Recipes
         event.shaped(
             'extendedcrafting:basic_table', [
@@ -76,17 +56,6 @@ ServerEvents.recipes(
             }
         );
         
-        event.shaped(
-            '3x minecraft:hopper', [
-                'PCP',
-                'PcP',
-                ' P '
-            ], {
-                P: '#forge:plates/iron',
-                C: '#forge:chests/wooden',
-                c: 'create:chute'
-            }
-        );
         event.shaped(
             'minecraft:piston', [
                 'sss',
@@ -182,7 +151,7 @@ ServerEvents.recipes(
             }
         );
         event.shaped(
-            'minecraft:rail', [
+            '12x minecraft:rail', [
                 'ISI',
                 'NSN',
                 'ISI'
@@ -193,7 +162,7 @@ ServerEvents.recipes(
             }
         );
         event.shaped(
-            'minecraft:powered_rail', [
+            '8x minecraft:powered_rail', [
                 'ISI',
                 'GLG',
                 'ISI'
@@ -205,7 +174,7 @@ ServerEvents.recipes(
             }
         );
         event.shaped(
-            'minecraft:detector_rail', [
+            '4x minecraft:detector_rail', [
                 'IPI',
                 'NLN',
                 'ISI'
@@ -218,7 +187,7 @@ ServerEvents.recipes(
             }
         );
         event.shaped(
-            'minecraft:activator_rail', [
+            '4x minecraft:activator_rail', [
                 'ISI',
                 'NLN',
                 'ISI'

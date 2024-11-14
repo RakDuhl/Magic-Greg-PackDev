@@ -2,16 +2,6 @@ ServerEvents.recipes(
     event => {    
        
         //Replaces th create propeller item with GTCEu propeller
-        let hammer =            Ingredient.of('#forge:tools/hammers');
-        let wrench =            Ingredient.of('#forge:tools/wrenches');
-        let hammerSoft =        Ingredient.of('#forge:tools/mallets');
-        let LivingRock =        Ingredient.of('botania:livingrock');
-        let Manasteel =         Ingredient.of('botania:manasteel_ingot');
-        let Caminite =          Ingredient.of('embers:caminite_blend');
-        let ArcaneCrys =        Ingredient.of('forbidden_arcanus:arcane_crystal');
-        const ArcanumDust =     Ingredient.of('wizards_reborn:arcanum_dust');
-        const Petals =          Ingredient.of('#botania:petals');
-
         event.replaceInput({ input: 'create:propeller'}, 'create:propeller', 'gtceu:iron_rotor')
     
         

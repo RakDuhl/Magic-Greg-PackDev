@@ -186,7 +186,9 @@ ServerEvents.recipes(event => {
         'gtceu:wetware_processor_mainframe',
         'gtceu:compressed_coke_clay',
         'gtceu:coke_oven_brick',
-        'gtceu:fireclay_dust'
+        'gtceu:fireclay_dust',
+        'gtceu:lv_machine_casing', 'gtceu:mv_machine_casing', 'gtceu:hv_machine_casing', 'gtceu:ev_machine_casing', 'gtceu:iv_machine_casing', 'gtceu:luv_machine_casing', 'gtceu:zpm_machine_casing', 'gtceu:uv_machine_casing', 'gtceu:uhv_machine_casing',
+        'gtceu:lv_machine_hull', 'gtceu:mv_machine_hull', 'gtceu:hv_machine_hull', 'gtceu:ev_machine_hull', 'gtceu:iv_machine_hull', 'gtceu:luv_machine_hull', 'gtceu:zpm_machine_hull', 'gtceu:uv_machine_hull', 'gtceu:uhv_machine_hull'
     ]
     
     event.remove(
