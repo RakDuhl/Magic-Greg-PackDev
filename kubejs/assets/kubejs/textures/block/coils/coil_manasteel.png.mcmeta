@@ -1,5 +1,5 @@
 {
     "ldlib": {
-        "connection": "magicgreg:block/coils/coil_manasteel_ctm"
+        "connection": "kubejs:block/coils/coil_manasteel_ctm"
     }
 }
