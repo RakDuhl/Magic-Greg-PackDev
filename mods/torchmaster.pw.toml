@@ -1,13 +1,13 @@
 name = "TorchMaster"
-filename = "torchmaster-20.1.8.jar"
+filename = "torchmaster-20.1.9.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Tl8ESrhX/versions/QUWhIY1r/torchmaster-20.1.8.jar"
+url = "https://cdn.modrinth.com/data/Tl8ESrhX/versions/OTbqpyC8/torchmaster-20.1.9.jar"
 hash-format = "sha512"
-hash = "50950828c968da3533411db0edc4fcaa6e00ec45cfde741d2f41590d0c3ae296b2f3b52da24902f6cabe4ce03623b31a1427837a129e83c82d36b7a36623aa5c"
+hash = "9d813c615bd084d7115d542aab5394911e0c403c6ef0a986aa7cbe25a887d59c5f0145c91997b4a1c025c2c790889e0a1b19f9814fc3e7c4312c5433a7976e0f"
 
 [update]
 [update.modrinth]
 mod-id = "Tl8ESrhX"
-version = "QUWhIY1r"
+version = "OTbqpyC8"

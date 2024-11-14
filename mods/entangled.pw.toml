@@ -1,13 +1,13 @@
 name = "Entangled"
-filename = "entangled-1.3.19-forge-mc1.20.4.jar"
+filename = "entangled-1.3.20-forge-mc1.20.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/rylMOguI/versions/4GUCMIl3/entangled-1.3.19-forge-mc1.20.4.jar"
+url = "https://cdn.modrinth.com/data/rylMOguI/versions/q9HaCHHv/entangled-1.3.20-forge-mc1.20.4.jar"
 hash-format = "sha512"
-hash = "8c569daa65e7ad2d6c3ab573b748794aa0b0617833f66830751d4e706b7321091d1aab23bd4bf2e0aab3e3a8704facf43706c67f721864c0577e00a97ee97372"
+hash = "97653dd741a1fb39b25f67d2971e1ed98462af75dd80cafe5d76ed1f8db8965ba059f8ce2f6fa9ab2db8404463a2c32df10f9a1dd718548ef2a56a75b9a68436"
 
 [update]
 [update.modrinth]
 mod-id = "rylMOguI"
-version = "4GUCMIl3"
+version = "q9HaCHHv"

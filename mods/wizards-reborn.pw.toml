@@ -1,13 +1,13 @@
 name = "Wizard's Reborn"
-filename = "wizards_reborn-1.20.1-0.1.6.jar"
+filename = "wizards_reborn-1.20.1-0.2.3.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/axZDcOCH/versions/VKvQj28e/wizards_reborn-1.20.1-0.1.6.jar"
+url = "https://cdn.modrinth.com/data/axZDcOCH/versions/RWW2w05v/wizards_reborn-1.20.1-0.2.3.jar"
 hash-format = "sha512"
-hash = "fcd2670e69649df3427c321d6554af667a634115926b630ff72689c98462cb8c2bc14665f4c28e4ccc49a2f4b0a0eff352ef127ac91c19b915672cd34d08638b"
+hash = "05415d95f771ec80395cbfeb81f923624b1b40cee626a36c8289fa9fb85287a8434f0de7a6ea7a507da8bcb5c129d9b8fb58ff41421fdd520874db593c8061a0"
 
 [update]
 [update.modrinth]
 mod-id = "axZDcOCH"
-version = "VKvQj28e"
+version = "RWW2w05v"

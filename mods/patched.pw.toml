@@ -1,13 +1,13 @@
 name = "Patched"
-filename = "Patched-forge-3.3.0+1.20.1.jar"
+filename = "Patched-3.4.1+1.20.1-forge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/IBlGrJtC/versions/Vnq5HiFb/Patched-forge-3.3.0%2B1.20.1.jar"
+url = "https://cdn.modrinth.com/data/IBlGrJtC/versions/VEVX8qmw/Patched-3.4.1%2B1.20.1-forge.jar"
 hash-format = "sha512"
-hash = "72894bd326dbdf0961c5d29341182daa4db97879923f7d2a919c3dcf0a4574dcfbe66c53f7d19e188bc3b6ceb9c8a4157686ea804a35f8990bf8de114f499bbc"
+hash = "9fba90ad8753e38eb609ee796e987ea9665af8f4224eef5810f1cb05bcc119c2e0360efa0ad1bd314fea089fb0983a3c97172ff53149cc7719fcab8ade0de96c"
 
 [update]
 [update.modrinth]
 mod-id = "IBlGrJtC"
-version = "Vnq5HiFb"
+version = "VEVX8qmw"
