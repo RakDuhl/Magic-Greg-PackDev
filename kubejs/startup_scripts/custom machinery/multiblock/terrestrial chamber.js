@@ -7,7 +7,14 @@ GTCEuStartupEvents.registry(
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('terrestrial_chamber')
         .appearanceBlock(GTBlocks.CASING_TUNGSTENSTEEL_ROBUST)
-        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.PERFECT_OVERCLOCK)])
+        .recipeModifiers(
+            [
+                GTRecipeModifiers.PARALLEL_HATCH,
+                GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(
+                    OverclockingLogic.PERFECT_OVERCLOCK
+                )
+            ]
+        )
         .pattern(
             definition => FactoryBlockPattern.start()
             .aisle('..RLR..', '..LML..', '..RLR..', '.......', '.......')
