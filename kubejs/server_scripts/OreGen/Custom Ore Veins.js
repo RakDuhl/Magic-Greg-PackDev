@@ -53,7 +53,7 @@ GTCEuServerEvents.oreVeins(
                 vein.layer(deepslate)
                 vein.weight(10)
                 vein.clusterSize(10)
-                vein.density(0.1)
+                vein.density(0.3)
                 vein.heightRangeUniform(-120, -62)
                 //dikeVeinGenerator generates a vertical collum from the heightRange
                 //The .withBlock attribute determins which blocks or materials it generates with
@@ -90,14 +90,14 @@ GTCEuServerEvents.oreVeins(
             'kubejs:mithril_vein',
             vein => {
                 vein.layer(stone)
-                vein.weight(25)
-                vein.clusterSize(52)
-                vein.density(0.3)
+                vein.weight(4)
+                vein.clusterSize(88)
+                vein.density(0.2)
                 vein.heightRangeTriangle(0, 260)
                 vein.classicVeinGenerator(
                     generator => generator
                     //primary declares which ore spawns above
-                    .primary(b => b.mat(GTMaterials.get('mithril')).size(2))
+                    .primary(b => b.mat(GTMaterials.get('mithril')).size(4))
                     //secondary declares which ore spawns below
                     .secondary(b => b.mat(GTMaterials.Ilmenite).size(2))
                     //between is to be taken literally
@@ -120,8 +120,8 @@ GTCEuServerEvents.oreVeins(
             'kubejs:vulcanite_vein',
             vein => {
                 vein.layer(deepslate)
-                vein.weight(5)
-                vein.clusterSize(10)
+                vein.weight(1)
+                vein.clusterSize(56)
                 vein.density(1)
                 vein.heightRangeTriangle(-126, 85)
                 vein.veinedVeinGenerator(
@@ -144,7 +144,7 @@ GTCEuServerEvents.oreVeins(
                     .placement('below')
                     .density(1.0)
                     .radius(20)
-                )
+                );
             }
         );
 
@@ -152,9 +152,9 @@ GTCEuServerEvents.oreVeins(
             'kubejs:deep_orichalcum_vein',
             vein => {
                 vein.layer(deepslate)
-                vein.weight(10)
-                vein.clusterSize(10)
-                vein.density(0.1)
+                vein.weight(1)
+                vein.clusterSize(26)
+                vein.density(0.186)
                 vein.heightRangeUniform(-120, -62)
                 //dikeVeinGenerator generates a vertical collum from the heightRange
                 //The .withBlock attribute determins which blocks or materials it generates with
