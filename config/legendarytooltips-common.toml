@@ -51,21 +51,37 @@
 	#    Negation - ~ followed by any selector above.  This selector will be negated, matching every item that does NOT match the selector.  Examples: "~minecraft:stick", "~!uncommon", "~@minecraft"
 	#    Combining selectors - Any number of selectors can be combined by separating them with a plus sign.  Examples: "minecraft:diamond_sword+&Enchantments", "minecraft:stick+~!common+&Damage=0"
 	[client.definitions]
+		#Common Items
 		level0_entries = ["!epic", "!rare"]
-		level1_entries = []
-		level2_entries = []
-		level3_entries = []
-		level4_entries = []
-		level5_entries = []
-		level6_entries = []
-		level7_entries = []
-		level8_entries = []
-		level9_entries = []
-		level10_entries = []
-		level11_entries = []
-		level12_entries = []
+		#Plant Items
+		level1_entries = ["$minecraft:saplings", "$forge:seeds", "$quark:seed_pouch_holdable", "$supplementaries:flower_box_plantable", "$forge:plants"]
+		#Arcane Items
+		level2_entries = ["$forge:magicitems"]
+		#Electrical + ULV + LV
+		level3_entries = ["%ULV", "^(ULV)", "^ULV", "^8+^ULV", "%Ultra+%Low", "^(LV)", "^LV", "^32+^LV", "$forge:circuit_parts", "gtceu:lv_super_chest", "gtceu:lv_super_tank"]
+		#Mechanical
+		level4_entries = ["@create", "@create*"]
+		#MV
+		level5_entries = ["%Aluminium", "%MV ", "^(MV)", "^MV", "^128+^MV", "gtceu:mv_super_chest", "gtceu:mv_super_tank"]
+		#HV
+		level6_entries = ["%Stainless", "%HV ", "^(HV)", "^HV+~^UHV", "^512+^HV", "gtceu:hv_super_chest", "gtceu:hv_super_tank"]
+		#EV
+		level7_entries = ["%Titanium", "%EV ", "^(EV)", "^EV", "^2048+^EV", "gtceu:ev_super_chest", "gtceu:ev_super_tank"]
+		#IV
+		level8_entries = ["%Tungstensteel", "%IV ", "^(IV)", "^IV", "^8192+^IV", "gtceu:iv_quantum_chest", "gtceu:iv_quantum_tank"]
+		#LuV
+		level9_entries = ["%Rhodium+%Plated", "%LuV ", "^(LuV)", "^LuV", "^32768+^LuV", "gtceu:luv_quantum_chest", "gtceu:luv_quantum_tank"]
+		#ZPM
+		level10_entries = ["%Naquadah", "%ZPM", "^(ZPM)", "^ZPM", "^131072+^ZPM", "gtceu:zpm_quantum_chest", "gtceu:zpm_quantum_tank"]
+		#UV
+		level11_entries = ["%Darmstadtium", "%UV", "^(UV)", "^UV", "^524288+^UV", "gtceu:uv_quantum_chest", "gtceu:uv_quantum_tank"]
+		#UHV
+		level12_entries = ["%Neutronium", "%UHV", "^(UHV)", "^UHV", "gtceu:uhv_quantum_chest", "gtceu:uhv_quantum_tank"]
+		#divine
 		level13_entries = []
-		level14_entries = []
+		#creativity
+		level14_entries = ["&creative", "%creative", "%Creative", "^Creative", "^Infinite", "%Infinite", "projecte:tome"]
+		#Creative Mode
 		level15_entries = []
 		# Enter blacklist selectors here using the same format as above. Any items that match these selectors will NOT show a border.
 		blacklist = []
