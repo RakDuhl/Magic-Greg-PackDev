@@ -15,6 +15,11 @@ GTCEuStartupEvents.registry(
         icon.create('spinel').parent(RUBY)
         icon.create('mana').parent(QUARTZ)
         icon.create('ember').parent(QUARTZ)
+        icon.create('darkxy').parent(QUARTZ)
+        icon.create('redxy').parent(QUARTZ)
+        icon.create('greenxy').parent(QUARTZ)
+        icon.create('bluexy').parent(QUARTZ)
+        icon.create('lightxy').parent(QUARTZ)
 //        icon.create().parent()
 //        icon.create().parent()
     }
@@ -24,49 +29,24 @@ GTCEuStartupEvents.registry(
 GTCEuStartupEvents.registry(
     'gtceu:material',
     material => {
+        //Arcane Element for Ember
+        //🔥
+        material.create('ember').element(GTElements.get("ember")).color(0xFFFFFF).iconSet('ember').gem().flags(lens);
+        console.log('Registered arcane element Ember ' + GTElements.get('ember') + ' !');
+        
         //Arcane Element for Mana
-        material.create('mana')
-//        .components('2x mana')
-        .element(GTElements.get("mana"))
-        .fluid()
-        .gem()
-        .color(0xFFFFFF).iconSet('mana');
+        //        .components('2x mana')
+        material.create('mana').element(GTElements.get("mana")).fluid().gem().color(0xFFFFFF).iconSet('mana');
         console.log('Registered arcane element Mana ' + GTElements.get('mana') + ' !');
 
-        //Arcane Element for Ember
-        material.create('ember')
-        //🔥
-        .element(GTElements.get("ember"))
-        .color(0xFFFFFF).iconSet('ember')
-        .gem()
-        .flags(
-            lens
-        );
-        console.log('Registered arcane element Ember ' + GTElements.get('ember') + ' !');
-
-        material.create('wissen')
         //⚙
-        .element(GTElements.get("wissen"))
-        .color(0xFFFFFF).secondaryColor(0xCDEDFE).iconSet('wissen')
-        .gem()
-        .flags(
-            lens,
-            no_decomp,
-        );
+        material.create('wissen').element(GTElements.get("wissen")).color(0xFFFFFF).secondaryColor(0xCDEDFE).iconSet('wissen').gem().flags(lens,no_decomp,);
         console.log('Registered arcane element Wissen ' + GTElements.get('wissen') + ' !');
 
         //Stardust
         //Found anywhere, very rare
-        material.create('stardust')
         //Sd
-        .element(GTElements.get("stardust"))
-        .color(0x42599D).secondaryColor(0xCCF2FF).iconSet(NETHERSTAR)
-        .dust()
-        .ore()
-        .flags(
-            centrifuge
-        )
-        .addOreByproducts();
+        material.create('stardust').element(GTElements.get("stardust")).color(0x42599D).secondaryColor(0xCCF2FF).iconSet(NETHERSTAR).dust().ore().flags(centrifuge).addOreByproducts();
         console.log('Registered cosmic material Stardust ' + GTElements.get('stardust') + ' !');
     }
 )
@@ -78,14 +58,7 @@ GTCEuStartupEvents.registry(
 
 
         //Create Rose Quartz
-        material.create('rosequartz')
-        .components('8x redstone', '1x quartzite')
-        //GTMaterials.Reds
-        .gem()
-        .color(0xFFFFFF).secondaryColor(0xFFF2E0).iconSet('rosequartz')
-        .flags(
-            electrolyze
-        );
+        material.create('rosequartz').components('8x redstone', '1x quartzite').gem().color(0xFFFFFF).secondaryColor(0xFFF2E0).iconSet('rosequartz').flags(electrolyze);
 
 
         //Arcane Gold
@@ -269,7 +242,7 @@ GTCEuStartupEvents.registry(
             no_smelt,
             no_block_craft,
         )
-        .addOreByproducts('obsidian', 'hematite',);
+        .addOreByproducts('obsidian', 'hematite');
         console.log('Registered natural Vulcanite ' + GTElements.get('vulcanite') + ' !');
 
         //Ca(Li₂Al)Al₆(BO₃)₃Si₆O₁₈(OH)₃F
@@ -282,7 +255,54 @@ GTCEuStartupEvents.registry(
         .flags(
             block,
             electrolyze
-        )
+        );
+/*
+        material.create('darkxychorium')
+        .components('3x titanium', '2x carbon', '1x obsidian')
+        .color(0xFFFFFF).iconSet('darkxy')
+        .gem()
+        .ore(4,2, true)
+        .flags(
+            centrifuge
+        );
+
+        material.create('redxychorium')
+        .components('2x chromium', '5x manganese', '1x ruby')
+        .color(0xFFFFFF).iconSet('redxy')
+        .gem()
+        .ore(4,2, true)
+        .flags(
+            centrifuge
+        );
+
+        material.create('greenxychorium')
+        .components('5x vanadium', '2x nickel', '1x emerald')
+        .color(0xFFFFFF).iconSet('greenxy')
+        .gem()
+        .ore(4,2, true)
+        .flags(
+            centrifuge
+        );
+
+        material.create('bluexychorium')
+        .components('2x copper', '4x cobalt', '1x lazurite')
+        .color(0xFFFFFF).iconSet('bluexy')
+        .gem()
+        .ore(4,2, true)
+        .flags(
+            centrifuge
+        );
+        
+        material.create('lightxychorium')
+        .components('2x titaniumdioxide', '2x barium', '1x opal')
+        .color(0xFFFFFF).iconSet('lightxy')
+        .gem()
+        .ore(4,2, true)
+        .flags(
+            centrifuge
+        );
+*/
+        
     }
 )
 

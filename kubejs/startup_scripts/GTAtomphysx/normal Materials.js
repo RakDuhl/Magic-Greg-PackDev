@@ -27,6 +27,19 @@ GTCEuStartupEvents.registry(
         .liquid()
         .color(0x471E22)
         .flags(electrolyze);
+
+        material.create('distrontiumruthenate')
+        .components('2x strontium', '1x ruthenium', '4x oxygen')
+        .color(0x9ECAD5).secondaryColor(0x240A11).iconSet(METALLIC)
+        .dust()
+        .flags(centrifuge);
+
+        material.create('titaniumdioxide')
+        .components('1x titanium', '2x oxygen')
+        .color(0xed8eea).secondaryColor(0x4CC3FF).iconSet(FINE)
+        .dust()
+        .flags(electrolyze);
+        
     }
 )
 

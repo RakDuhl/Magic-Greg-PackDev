@@ -9,20 +9,20 @@ console.log('Registering custom artificial materials!')
 
 GTCEuStartupEvents.registry(
     'gtceu:material_icon_set',
-    event => {
-        event.create('manasteel').parent(SHINY)
-        event.create('elementium').parent(BRIGHT)
-        event.create('terrasteel').parent(SHINY)
-        event.create('alfsteel').parent(DULL)
-        event.create('dawnstone').parent(BRIGHT)
-//        event.create().parent()
-//        event.create().parent()
+    icon => {
+        icon.create('manasteel').parent(SHINY)
+        icon.create('elementium').parent(BRIGHT)
+        icon.create('terrasteel').parent(SHINY)
+        icon.create('alfsteel').parent(DULL)
+        icon.create('dawnstone').parent(BRIGHT)
+//        material.create().parent()
+//        material.create().parent()
     }
 )
 
 GTCEuStartupEvents.registry(
     'gtceu:material',
-    event => {
+    material => {
         /**
          * Now Listen, this is a note to myself
          * it took you fucking 4 DAYS to figure out what was going on with this whole issue.
@@ -34,14 +34,14 @@ GTCEuStartupEvents.registry(
         //Hihiirokane
         //Ir₃Th★
         //Classical Fusion product, radioactive
-        event.create('hihiirokane')
+        material.create('hihiirokane')
 //        .element(GTElements.get("hihiirokan"))
         .components('3x iridium', '1x thorium', '1x mana')
         .color(0xF24F7D).secondaryColor(0xF24F00).iconSet(RADIOACTIVE)
         .ingot()
         .fluid()
 //        .cableProperties(V('uv'), 3, 0, true)
-        .blastTemp(3972, 'high', 58470, 510)
+        .blastTemp(3972, 'high', 58470, 8510)
         .flags(
             plates,
             dense_plate,
@@ -57,7 +57,7 @@ GTCEuStartupEvents.registry(
         );
         console.log('Registered fussion material Hihiirokane ' + GTMaterials.get('hihiirokane') + ' !');
 
-        event.create('manasteel')
+        material.create('manasteel')
         //Fe₃★₃
         .components('3x iron', '3x mana')
         .color(0xFFFFFF).iconSet('manasteel')
@@ -77,7 +77,7 @@ GTCEuStartupEvents.registry(
         );
         console.log('Registered arcane alloy Manasteel ' + GTMaterials.get('manasteel') + ' !');
         
-        event.create('elementium')
+        material.create('elementium')
         //(Fe₃★₃)₂(SiO₂)₄Fe
         .components('2x manasteel', '3x amethyst', '2x silver', '2x mana')
         .color(0xFFFFFF).iconSet('elementium')
@@ -94,7 +94,7 @@ GTCEuStartupEvents.registry(
         );
         console.log('Registered arcane alloy Elementium ' + GTMaterials.get('elementium') + ' !');
         
-        event.create('terrasteel')
+        material.create('terrasteel')
         //(Fe₃★₃)₂★₆V₃CrPh₂
         .components('2x manasteel', '6x mana', '3x vanadium', '1x chromium', '2x prometheum')
         .color(0xFFFFFF).iconSet('terrasteel')
@@ -111,14 +111,14 @@ GTCEuStartupEvents.registry(
         );
         console.log('Registered arcane alloy Terrasteel ' + GTMaterials.get('terrasteel') + ' !');
         
-        event.create('alfsteel')
+        material.create('alfsteel')
         //W₃★₇((Fe₃★₃)₂(SiO₂)₄Fe)Ir
         .components('3x tungsten', '7x mana', '1x elementium', '1x iridium')
         .color(0xFFFFFF).iconSet('alfsteel')
         .fluid()
         .ingot()
         .cableProperties(V('luv'), 6, 0, true)
-        .blastTemp(2759, 'mid', 5800, 890)
+        .blastTemp(2759, 'mid', 5800, 4890)
         .flags(
             plates,
             rod,
@@ -127,7 +127,7 @@ GTCEuStartupEvents.registry(
         );
         console.log('Registered arcane alloy Alfsteel ' + GTMaterials.get('alfsteel') + ' !');
 
-        event.create('celestialbronze')
+        material.create('celestialbronze')
         //Cu₄Sn(Au★)Ag
         .components('4x copper', '1x tin', '1x arcanegold', '1x silver')
         .color(0xC88F4A).secondaryColor(0xF2D3A2).iconSet(BRIGHT)
@@ -144,13 +144,13 @@ GTCEuStartupEvents.registry(
             no_abs_recipe
         );
 
-        event.create('celestialgold')
+        material.create('celestialgold')
         //(Au★)₃Pt
         .components('3x arcanegold', '1x platinum')
         .color(0xFFD700).secondaryColor(0xFFF5E1).iconSet(SHINY)
         .fluid()
         .ingot()
-        .blastTemp(2453, 'high', 12450, 1860)
+        .blastTemp(2453, 'high', 12450, 2160)
         .flags(
             foil,
             fine_wire,
@@ -165,7 +165,7 @@ GTCEuStartupEvents.registry(
         );
         console.log('Registered celestial alloy Celestial Gold ' + GTMaterials.get('celestialgold') + ' !');
 
-        event.create('spectrium')
+        material.create('spectrium')
         //ThU₂Ra⚙
         .components('1x thorium', '2x uranium', '1x radium', '1x wissen')
         .color(0x36C74A).secondaryColor(0xA13CF8).iconSet(RADIOACTIVE)
@@ -183,13 +183,13 @@ GTCEuStartupEvents.registry(
         );
         console.log('Registered fussion alloy Spectrium ' + GTMaterials.get('spectrium') + ' !');
 
-        event.create('starminite')
+        material.create('starminite')
         //TiSd
         .components('1x titanium', '1x stardust')
         .color(0x3F63BF).secondaryColor(0xB5DADD).iconSet(SHINY)
         .ingot()
         .fluid()
-        .blastTemp(1950, 'high', 685, 930)
+        .blastTemp(1950, 'high', 685, 4830)
         .flags(
             plates,
             dense_plate,
@@ -200,13 +200,13 @@ GTCEuStartupEvents.registry(
         );
         console.log('Registered cosmic alloy Starminite ' + GTMaterials.get('starminite') + ' !');
 
-        event.create('astralite')
+        material.create('astralite')
         //Co₃NiW(TiAc)
         .components('3x cobalt', '1x nickel', '1x tungsten', '1x starminite')
         .color(0x3A9DF9).secondaryColor(0xD1E3FF).iconSet(BRIGHT)
         .fluid()
         .ingot()
-        .blastTemp(3590, 'mid', 7940, 3100)
+        .blastTemp(3590, 'mid', 7940, 5100)
         .flags(
             foil,
             plates,
@@ -219,7 +219,7 @@ GTCEuStartupEvents.registry(
         .toolStats(new ToolProperty(20.0, 1.0, 6840, 5, []));
         console.log('Registered cosmic Tool alloy Astralite ' + GTMaterials.get('astralite') + ' !');
 
-        event.create('dawnstone')
+        material.create('dawnstone')
         //(Cu₄Sn(Au★)Ag)🔥2
         .components('celestialbronze', '2x ember')
         .color(0xFFFFFF).iconSet('dawnstone')
@@ -235,5 +235,18 @@ GTCEuStartupEvents.registry(
             no_smelt
         );
         console.log('Registered Embers Rekindled GT Material Dawnstone ' + GTMaterials.get('dawnstone') + ' !');
+
+        material.create('seprom')
+        .components('celestialgold', 'distrontiumruthenate')
+        .ore(2, 1, true)
+        .ingot()
+        .blastTemp(1530, 'mid', 340, 6840)
+        .cableProperties(V('luv'), 4, 0, true)
+        .flags(
+            no_decomp,
+            no_hand_craft,
+            no_smelt
+        );
+        
     }
 )
