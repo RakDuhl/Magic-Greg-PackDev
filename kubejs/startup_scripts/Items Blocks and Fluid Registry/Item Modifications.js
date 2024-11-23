@@ -1,5 +1,7 @@
 //priority: 9010
 
+const $WireProperties = Java.loadClass("com.gregtechceu.gtceu.api.data.chemical.material.properties.WireProperties")
+
 ItemEvents.modification(
     event => {
         /*
@@ -335,6 +337,103 @@ ItemEvents.modification(
                 item.rarity = "common"
             }
         )
+    }
+)
+
+GTCEuStartupEvents.registry(
+    'gtceu:material',
+    event => {
+        /*
+        CableMaterialsCustom.forEach(
+            element => {
+                let mat = GTMaterials.get(element.ele)
+                mat.properties.removeProperty(PropertyKey.WIRE);
+                mat.setProperty(
+                    PropertyKey.WIRE, 
+                    new $WireProperties(element.v, element.a, element.loss)
+                );
+            }
+        );
+        */
+        GTMaterials.Aluminium.properties.removeProperty(PropertyKey.WIRE);
+        GTMaterials.Cobalt.properties.removeProperty(PropertyKey.WIRE);
+        GTMaterials.Copper.properties.removeProperty(PropertyKey.WIRE);
+        GTMaterials.Europium.properties.removeProperty(PropertyKey.WIRE);
+        GTMaterials.Gold.properties.removeProperty(PropertyKey.WIRE);
+        GTMaterials.Iron.properties.removeProperty(PropertyKey.WIRE);
+        GTMaterials.Lead.properties.removeProperty(PropertyKey.WIRE);
+        GTMaterials.Nickel.properties.removeProperty(PropertyKey.WIRE);
+        GTMaterials.Osmium.properties.removeProperty(PropertyKey.WIRE);
+        GTMaterials.Platinum.properties.removeProperty(PropertyKey.WIRE);
+        GTMaterials.Silver.properties.removeProperty(PropertyKey.WIRE);
+        GTMaterials.Tin.properties.removeProperty(PropertyKey.WIRE);
+        GTMaterials.Tungsten.properties.removeProperty(PropertyKey.WIRE);
+        GTMaterials.Naquadah.properties.removeProperty(PropertyKey.WIRE);
+        GTMaterials.Tritanium.properties.removeProperty(PropertyKey.WIRE);
+        GTMaterials.Trinium.properties.removeProperty(PropertyKey.WIRE);
+        GTMaterials.AnnealedCopper.properties.removeProperty(PropertyKey.WIRE);
+        GTMaterials.Cupronickel.properties.removeProperty(PropertyKey.WIRE);
+        GTMaterials.Electrum.properties.removeProperty(PropertyKey.WIRE);
+        GTMaterials.Kanthal.properties.removeProperty(PropertyKey.WIRE);
+        GTMaterials.Nichrome.properties.removeProperty(PropertyKey.WIRE);
+        GTMaterials.NiobiumNitride.properties.removeProperty(PropertyKey.WIRE);
+        GTMaterials.NiobiumTitanium.properties.removeProperty(PropertyKey.WIRE);
+        GTMaterials.RTMAlloy.properties.removeProperty(PropertyKey.WIRE);
+        GTMaterials.Steel.properties.removeProperty(PropertyKey.WIRE);
+        GTMaterials.VanadiumGallium.properties.removeProperty(PropertyKey.WIRE);
+        GTMaterials.YttriumBariumCuprate.properties.removeProperty(PropertyKey.WIRE);
+        GTMaterials.Graphene.properties.removeProperty(PropertyKey.WIRE);
+        GTMaterials.BlackSteel.properties.removeProperty(PropertyKey.WIRE);
+        GTMaterials.TungstenSteel.properties.removeProperty(PropertyKey.WIRE);
+        GTMaterials.NaquadahAlloy.properties.removeProperty(PropertyKey.WIRE);
+        GTMaterials.HSSG.properties.removeProperty(PropertyKey.WIRE);
+        GTMaterials.RedAlloy.properties.removeProperty(PropertyKey.WIRE);
+        GTMaterials.BlueAlloy.properties.removeProperty(PropertyKey.WIRE);
+
+        //very Good normal conductors
+        GTMaterials.RedAlloy.setProperty(PropertyKey.WIRE,              new $WireProperties(V('ulv'), 1, 0));
+        GTMaterials.BlueAlloy.setProperty(PropertyKey.WIRE,             new $WireProperties(V('hv'), 2, 1));
+        GTMaterials.Graphene.setProperty(PropertyKey.WIRE,              new $WireProperties(V('iv'), 1, 1));
+        GTMaterials.NiobiumNitride.setProperty(PropertyKey.WIRE,        new $WireProperties(V('luv'), 1, 1));
+        GTMaterials.NiobiumTitanium.setProperty(PropertyKey.WIRE,       new $WireProperties(V('luv'), 4, 1));
+        GTMaterials.VanadiumGallium.setProperty(PropertyKey.WIRE,       new $WireProperties(V('zpm'), 4, 1));
+        GTMaterials.Naquadah.setProperty(PropertyKey.WIRE,              new $WireProperties(V('zpm'), 2, 2));
+        GTMaterials.YttriumBariumCuprate.setProperty(PropertyKey.WIRE,  new $WireProperties(V('uv'), 4, 1));
+
+        //Good Conductors
+        GTMaterials.Copper.setProperty(PropertyKey.WIRE,                new $WireProperties(V('mv'), 1, 3));
+        GTMaterials.AnnealedCopper.setProperty(PropertyKey.WIRE,        new $WireProperties(V('mv'), 1, 3));
+        GTMaterials.Gold.setProperty(PropertyKey.WIRE,                  new $WireProperties(V('hv'), 3, 3));
+        GTMaterials.Silver.setProperty(PropertyKey.WIRE,                new $WireProperties(V('hv'), 1, 3));
+        GTMaterials.Electrum.setProperty(PropertyKey.WIRE,              new $WireProperties(V('hv'), 2, 3));
+        GTMaterials.Aluminium.setProperty(PropertyKey.WIRE,             new $WireProperties(V('ev'), 1, 3));
+
+        //average conductor
+        GTMaterials.Cobalt.setProperty(PropertyKey.WIRE,                new $WireProperties(V('lv'), 2, 4));
+        GTMaterials.Nickel.setProperty(PropertyKey.WIRE,                new $WireProperties(V('lv'), 3, 4));
+        GTMaterials.Tin.setProperty(PropertyKey.WIRE,                   new $WireProperties(V('lv'), 1, 4));
+        GTMaterials.Iron.setProperty(PropertyKey.WIRE,                  new $WireProperties(V('mv'), 2, 4));
+        GTMaterials.RTMAlloy.setProperty(PropertyKey.WIRE,              new $WireProperties(V('ev'), 6, 4));
+        GTMaterials.Tungsten.setProperty(PropertyKey.WIRE,              new $WireProperties(V('iv'), 2, 4));
+        GTMaterials.Platinum.setProperty(PropertyKey.WIRE,              new $WireProperties(V('iv'), 2, 4));
+        GTMaterials.Osmium.setProperty(PropertyKey.WIRE,                new $WireProperties(V('luv'), 4, 4));
+
+        //mediocre conductors
+        GTMaterials.Lead.setProperty(PropertyKey.WIRE,                  new $WireProperties(V('ulv'), 2, 5));
+        GTMaterials.Cupronickel.setProperty(PropertyKey.WIRE,           new $WireProperties(V('mv'), 1, 5));
+        GTMaterials.Kanthal.setProperty(PropertyKey.WIRE,               new $WireProperties(V('hv'), 4, 5));
+        GTMaterials.TungstenSteel.setProperty(PropertyKey.WIRE,         new $WireProperties(V('iv'), 3, 5));
+        GTMaterials.Nichrome.setProperty(PropertyKey.WIRE,              new $WireProperties(V('ev'), 4, 5));
+        GTMaterials.Steel.setProperty(PropertyKey.WIRE,                 new $WireProperties(V('ev'), 2, 5));
+
+        //bad conductors
+        GTMaterials.Europium.setProperty(PropertyKey.WIRE,              new $WireProperties(V('hv'), 2,32));
+        GTMaterials.BlackSteel.setProperty(PropertyKey.WIRE,            new $WireProperties(V('ev'), 3, 6));
+        GTMaterials.HSSG.setProperty(PropertyKey.WIRE,                  new $WireProperties(V('luv'), 4, 6));
+        GTMaterials.Trinium.setProperty(PropertyKey.WIRE,               new $WireProperties(V('zpm'), 6, 7));
+        GTMaterials.Tritanium.setProperty(PropertyKey.WIRE,             new $WireProperties(V('uv'), 1, 8));
+        GTMaterials.NaquadahAlloy.setProperty(PropertyKey.WIRE,         new $WireProperties(V('uv'), 2, 7));
+
     }
 )
 
