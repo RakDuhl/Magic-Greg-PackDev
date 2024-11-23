@@ -55,7 +55,6 @@ GTCEuStartupEvents.registry(
             no_smelt,
             no_block_craft,
         );
-        console.log('Registered fussion material Hihiirokane ' + GTMaterials.get('hihiirokane') + ' !');
 
         material.create('manasteel')
         //Fe₃★₃
@@ -75,7 +74,6 @@ GTCEuStartupEvents.registry(
             gear,
             small_gear
         );
-        console.log('Registered arcane alloy Manasteel ' + GTMaterials.get('manasteel') + ' !');
         
         material.create('elementium')
         //(Fe₃★₃)₂(SiO₂)₄Fe
@@ -92,7 +90,6 @@ GTCEuStartupEvents.registry(
             frame,
             gear
         );
-        console.log('Registered arcane alloy Elementium ' + GTMaterials.get('elementium') + ' !');
         
         material.create('terrasteel')
         //(Fe₃★₃)₂★₆V₃CrPh₂
@@ -109,7 +106,6 @@ GTCEuStartupEvents.registry(
             frame,
             gear
         );
-        console.log('Registered arcane alloy Terrasteel ' + GTMaterials.get('terrasteel') + ' !');
         
         material.create('alfsteel')
         //W₃★₇((Fe₃★₃)₂(SiO₂)₄Fe)Ir
@@ -125,7 +121,6 @@ GTCEuStartupEvents.registry(
             gear,
             no_abs_recipe
         );
-        console.log('Registered arcane alloy Alfsteel ' + GTMaterials.get('alfsteel') + ' !');
 
         material.create('celestialbronze')
         //Cu₄Sn(Au★)Ag
@@ -144,9 +139,9 @@ GTCEuStartupEvents.registry(
             no_abs_recipe
         );
 
-        material.create('celestialgold')
+        material.create('celestial_gold')
         //(Au★)₃Pt
-        .components('3x arcanegold', '1x platinum')
+        .components('3x arcanegold', '12x gold', '1x platinum', '2x silver', '24x mana')
         .color(0xFFD700).secondaryColor(0xFFF5E1).iconSet(SHINY)
         .fluid()
         .ingot()
@@ -163,7 +158,6 @@ GTCEuStartupEvents.registry(
             no_decomp,
             no_smelt
         );
-        console.log('Registered celestial alloy Celestial Gold ' + GTMaterials.get('celestialgold') + ' !');
 
         material.create('spectrium')
         //ThU₂Ra⚙
@@ -181,7 +175,6 @@ GTCEuStartupEvents.registry(
             no_hand_craft,
             no_decomp
         );
-        console.log('Registered fussion alloy Spectrium ' + GTMaterials.get('spectrium') + ' !');
 
         material.create('starminite')
         //TiSd
@@ -198,7 +191,6 @@ GTCEuStartupEvents.registry(
             no_abs_recipe,
             no_smelt
         );
-        console.log('Registered cosmic alloy Starminite ' + GTMaterials.get('starminite') + ' !');
 
         material.create('astralite')
         //Co₃NiW(TiAc)
@@ -217,7 +209,6 @@ GTCEuStartupEvents.registry(
         //Creating a new tool, figuring out all the fields because documentation doesnt
         //ToolProperty(Miningspeed?, drawspeed?, Durability, Mininglevel, [????])
         .toolStats(new ToolProperty(20.0, 1.0, 6840, 5, []));
-        console.log('Registered cosmic Tool alloy Astralite ' + GTMaterials.get('astralite') + ' !');
 
         material.create('dawnstone')
         //(Cu₄Sn(Au★)Ag)🔥2
@@ -234,10 +225,9 @@ GTCEuStartupEvents.registry(
             no_hand_craft,
             no_smelt
         );
-        console.log('Registered Embers Rekindled GT Material Dawnstone ' + GTMaterials.get('dawnstone') + ' !');
 
         material.create('seprom')
-        .components('celestialgold', 'distrontiumruthenate')
+        .components('celestial_gold', 'distrontiumruthenate')
         .ore(2, 1, true)
         .ingot()
         .blastTemp(1530, 'mid', 340, 6840)
@@ -248,5 +238,19 @@ GTCEuStartupEvents.registry(
             no_smelt
         );
         
+        material.create('polyether_ether_ketone')
+        .components('19x carbon', '12x hydrogen', '3x oxygen')
+        .color(0xD2C1AD)
+        .polymer()
+        .flags(
+            no_decomp,
+            no_hand_craft,
+            no_smelt,
+            not_alloy,
+            plates,
+            foil,
+            ring,
+            dense_plate
+        );
     }
 )

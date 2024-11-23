@@ -9,6 +9,7 @@ GTCEuStartupEvents.registry(
     'gtceu:material_icon_set',
     icon => {
         icon.create('wissen').parent(NETHERSTAR)
+        icon.create('arcanum').parent(SHINY)
         icon.create('orichalcum').parent(BRIGHT)
         icon.create('rosequartz').parent(CERTUS)
         icon.create('arcanegold').parent(BRIGHT)
@@ -66,7 +67,7 @@ GTCEuStartupEvents.registry(
         //Early game arcane Alloy with gold
         //Same as Mithril with conductivity, can take higher Amps
         material.create('arcanegold')
-        .components('1x gold', '1x mana')
+        .components('2x gold', '6x wissen')
         .color(0xFFFFFF).iconSet('arcanegold')
         .fluid()
         .ingot(2)
@@ -89,7 +90,7 @@ GTCEuStartupEvents.registry(
 
         //Ember Quartz
         //gem material for getting Ember
-        material.create('emberquartz')
+        material.create('ember_quartz')
         .components('1x rosequartz', '3x ember')
         .color(0xFF5200).secondaryColor(0xFFAA5C).iconSet(CERTUS)
         .gem(2, 18000)
@@ -262,6 +263,7 @@ GTCEuStartupEvents.registry(
         .color(0xFFFFFF).iconSet('darkxy')
         .gem()
         .ore(4,2, true)
+        .addOreByproducts('arcanespinel', )
         .flags(
             centrifuge
         );
@@ -301,7 +303,19 @@ GTCEuStartupEvents.registry(
         .flags(
             centrifuge
         );
-*/
+        */
+
+        material.create('arcanum')
+        //.components('4x wissen', '1x cobalt')
+        .element(GTElements.get('arcanum'))
+        .color(0xFFFFFF).iconSet('arcanum')
+        .gem(3)
+        .ore(3,4, true)
+        .addOreByproducts('lapis', 'sapphire', 'opal')
+        .flags(
+            centrifuge
+        );
+        
         
     }
 )

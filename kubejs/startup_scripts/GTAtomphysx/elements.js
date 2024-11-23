@@ -22,10 +22,11 @@ elementRegistry(
 
         //Custom Elements
         event.create('adamantium',      58, 82, -1, null, 'Ad', false)
-        event.create('vulcanite',       1, 1, -1, null, 'Vc', false)
-        event.create('prometheum',      1, 1, -1, null, 'Ph', false)
-        event.create('orichalcum',      1, 1, -1, null, 'Oc', false)
-        event.create('stardust',        1, 1, -1, null, 'Sd', false)
+        event.create('vulcanite',       72, 81, -1, null, 'Vc', false)
+        event.create('prometheum',      10, 12, -1, null, 'Ph', false)
+        event.create('orichalcum',      52, 67, -1, null, 'Oc', false)
+        event.create('stardust',        -1, -1, -1, null, 'Sd', false)
+        event.create('arcanum',         16, 24, -1, null, 'Arc', false)
 //        event.create('arcanespinel',   -1, -1, -1, null, 'Ca(Li₂Al)Al₆(BO₃)₃Si₆O₁₈(OH)₃F', false)
 //        event.create('', 1, 1, -1, null, '', false)
     }
