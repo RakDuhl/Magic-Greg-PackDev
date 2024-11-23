@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "kubejs:pure_daisy_patch",
+        "placement": []
+      },
+      {
+        "feature": "kubejs:hydroangeas_patch",
+        "placement": []
+      },
+      {
+        "feature": "kubejs:endoflame_patch",
+        "placement": []
+      },
+      {
+        "feature": "kubejs:munchdew_patch",
+        "placement": []
+      },
+      {
+        "feature": "kubejs:thermalily_patch",
+        "placement": []
+      }
+    ]
+  }
+}
