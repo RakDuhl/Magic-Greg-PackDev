@@ -1,13 +1,13 @@
 name = "Ice and Fire Delight"
-filename = "ice_and_fire_delight-forge-1.20.1-0.1.8.jar"
+filename = "ice_and_fire_delight-forge-1.20.1-0.1.9.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/mGwAPysv/versions/TIIq14NL/ice_and_fire_delight-forge-1.20.1-0.1.8.jar"
+url = "https://cdn.modrinth.com/data/mGwAPysv/versions/mrOKrZtx/ice_and_fire_delight-forge-1.20.1-0.1.9.jar"
 hash-format = "sha512"
-hash = "f4a3242df8d95f9f752baf1cfa1b8c122a3dfb5cfcf1b9a1b7d471395c555b2b2f5b5c45e91053911d99420e6c92ae1be7bb6c09fe589f99cdbf9cac1fc6aed9"
+hash = "e4fa875b12cca47e3f636b06108d4cea740b7b705338fd7affb85530ad62ca1c9cd47f42e7a168a9ae5e4569963278e261aa1de3aeaec08b38b6e3af1596927e"
 
 [update]
 [update.modrinth]
 mod-id = "mGwAPysv"
-version = "TIIq14NL"
+version = "mrOKrZtx"
