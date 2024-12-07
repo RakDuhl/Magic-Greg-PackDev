@@ -20,3 +20,4 @@ screenshots/*
 .git/*
 logs*
 logs/*
+resources/*
