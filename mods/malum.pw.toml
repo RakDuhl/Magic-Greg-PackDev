@@ -1,0 +1,13 @@
+name = "Malum"
+filename = "malum-1.20.1-1.6.5.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/jgzwYsAN/versions/hmpAzpC1/malum-1.20.1-1.6.5.1.jar"
+hash-format = "sha512"
+hash = "3a01eab048120db837b8e95dce79429257342c86eaca431d23ff885a6030f2902a4af8ca178c7bb695bd3b44ad6232743b2f206e91200443f9681adb40087f9a"
+
+[update]
+[update.modrinth]
+mod-id = "jgzwYsAN"
+version = "hmpAzpC1"

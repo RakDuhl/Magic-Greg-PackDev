@@ -1,0 +1,13 @@
+name = "Thaumon"
+filename = "thaumon-forge-2.3.0+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/PvssKrgi/versions/Tb7PHu9J/thaumon-forge-2.3.0%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "c532ed655a21539123cd8fcb491eaec020997f836c02b3ee3ca3621ab02d66780c3e425267f752fd41077afb8d451d003999ae44e06621ff126decc7b91afde4"
+
+[update]
+[update.modrinth]
+mod-id = "PvssKrgi"
+version = "Tb7PHu9J"
