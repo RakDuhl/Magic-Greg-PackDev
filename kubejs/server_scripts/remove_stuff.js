@@ -188,7 +188,8 @@ ServerEvents.recipes(event => {
         'gtceu:coke_oven_brick',
         'gtceu:fireclay_dust',
         'gtceu:lv_machine_casing', 'gtceu:mv_machine_casing', 'gtceu:hv_machine_casing', 'gtceu:ev_machine_casing', 'gtceu:iv_machine_casing', 'gtceu:luv_machine_casing', 'gtceu:zpm_machine_casing', 'gtceu:uv_machine_casing', 'gtceu:uhv_machine_casing',
-        'gtceu:lv_machine_hull', 'gtceu:mv_machine_hull', 'gtceu:hv_machine_hull', 'gtceu:ev_machine_hull', 'gtceu:iv_machine_hull', 'gtceu:luv_machine_hull', 'gtceu:zpm_machine_hull', 'gtceu:uv_machine_hull', 'gtceu:uhv_machine_hull'
+        //'gtceu:lv_machine_hull', 'gtceu:mv_machine_hull', 'gtceu:hv_machine_hull', 'gtceu:ev_machine_hull', 'gtceu:iv_machine_hull', 'gtceu:luv_machine_hull', 'gtceu:zpm_machine_hull', 'gtceu:uv_machine_hull', 'gtceu:uhv_machine_hull',
+        'gtceu:ulv_voltage_coil', 'gtceu:lv_voltage_coil', 'gtceu:mv_voltage_coil', 'gtceu:hv_voltage_coil', 'gtceu:ev_voltage_coil', 'gtceu:iv_voltage_coil', 'gtceu:luv_voltage_coil', 'gtceu:zpm_voltage_coil', 'gtceu:uv_voltage_coil'
     ]
     
     event.remove(

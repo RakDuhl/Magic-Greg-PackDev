@@ -189,7 +189,7 @@ ServerEvents.recipes(
                 ? { fluidTag: input, "amount": 10} : { fluid: input, "amount": 10};
 
 
-                    //function for calculating the cooling time of the difference metals
+            //function for calculating the cooling time of the difference metals
             function calculateCoolingTime( temperature ) {
                 const maxTemp = 4500;
                 const minTemp = 21;

@@ -3,19 +3,26 @@
 
 ServerEvents.recipes(
     event => {
-        event.shaped(
-            '2x gtceu:zpm_machine_casing',
-            [
-                'DID',
-                'PFP',
-                'DWD'
-            ], {
-                D: DoublePlateNaquAlloy,
-                I: 'gtceu:naquadah_alloy_frame', 
-                P: PlateAlfsteel,
-                F: 'gtceu:celestialgold_frame',
-                W: wrench
+
+        event.custom(
+            {
+                'type': 'wizards_reborn:arcane_workbench',
+                'pattern': [
+                    'DID',
+                    'PFP',
+                    'DWD',
+                    '    '
+                ], 
+                'key': {
+                    'D': DoublePlateNaquAlloy,
+                    'I': {'item': 'gtceu:naquadah_alloy_frame'}, 
+                    'P': PlateAlfsteel,
+                    'F': {'item': 'gtceu:celestialgold_frame'},
+                    'W': wrench
+                },
+                'output': {'item': 'gtceu:zpm_machine_casing', 'count': 2},
+                'wissen': 6900
             }
-        )
+        );
     }
 )

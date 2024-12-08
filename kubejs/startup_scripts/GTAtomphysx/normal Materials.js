@@ -10,7 +10,7 @@ GTCEuStartupEvents.registry(
         .color(0x70A593).iconSet(FINE)
         .flags(centrifuge);
 
-        material.create('borate3')
+        material.create('borate_three')
         .components('3x boron', '9x oxygen')
         .dust()
         .color(0x6EA34B).iconSet(FINE)
@@ -45,7 +45,7 @@ GTCEuStartupEvents.registry(
 
 GTCEuStartupEvents.materialModification(
     event => {
-        GTMaterials.get('borate3').setFormula('(BO3)3')
+        //GTMaterials.get('borate_three').setFormula('(BO3)3')
         GTMaterials.get('hydroxyl').setFormula('(OH)3')
     }
 )

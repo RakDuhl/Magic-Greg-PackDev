@@ -252,5 +252,37 @@ GTCEuStartupEvents.registry(
             ring,
             dense_plate
         );
+
+        material.create('atlarus')
+        .components('1x adamantium', '1x vulcanite')
+        .color(0xFF6A21).secondaryColor(0xEF0500).iconSet(DULL)
+        .ingot()
+        .fluid()
+        .blastTemp(8760, 'highest', 3680, 36000)
+        .cableProperties(V('zpm'), 2, 1, false)
+        .flags(
+            no_abs_recipe,
+            no_block_craft,
+            no_decomp,
+            no_hand_craft,
+            no_smashing,
+            no_smelt,
+            plates,
+            dense_plate
+        );
+
+        material.create('emberscorch')
+        .components('4x nickel', '1x chromium', '3x ember')
+        .color(0xFF7E7C).iconSet(SHINY)
+        .ingot()
+        .blastTemp(3550, 'mid', 1250, 6600)
+        .flags(
+            no_decomp,
+            no_hand_craft,
+            no_smelt,
+            foil,
+            plates,
+        );
+        
     }
 )

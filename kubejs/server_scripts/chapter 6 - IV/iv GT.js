@@ -3,19 +3,26 @@
 
 ServerEvents.recipes(
     event => {
-        event.shaped(
-            '2x gtceu:iv_machine_casing',
-            [
-                'DID',
-                'PFP',
-                'DWD'
-            ], {
-                D: DoublePlateTungSteel,
-                I: 'gtceu:tungsten_steel_frame', 
-                P: PlateTerrasteel,
-                F: 'gtceu:terrasteel_frame',
-                W: wrench
+
+        event.custom(
+            {
+                'type': 'wizards_reborn:arcane_workbench',
+                'pattern': [
+                    'DID',
+                    'PFP',
+                    'DWD',
+                    '    '
+                ], 
+                'key': {
+                    'D': DoublePlateTungSteel,
+                    'I': {'item': 'gtceu:tungsten_steel_frame'}, 
+                    'P': PlateTerrasteel,
+                    'F': {'item': 'gtceu:terrasteel_frame'},
+                    'W': wrench
+                },
+                'output': {'item': 'gtceu:iv_machine_casing', 'count': 2},
+                'wissen': 3300
             }
-        )
+        );
     }
 )

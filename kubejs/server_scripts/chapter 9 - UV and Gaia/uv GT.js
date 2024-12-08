@@ -3,19 +3,26 @@
 
 ServerEvents.recipes(
     event => {
-        event.shaped(
-            '2x gtceu:uv_machine_casing',
-            [
-                'DID',
-                'PFP',
-                'DWD'
-            ], {
-                D: DoublePlateDarmstadt,
-                I: 'gtceu:celestialgold_frame', 
-                P: IngotGaia,
-                F: 'gtceu:adamantium_frame',
-                W: wrench
+
+        event.custom(
+            {
+                'type': 'wizards_reborn:arcane_workbench',
+                'pattern': [
+                    'DID',
+                    'PFP',
+                    'DWD',
+                    '    '
+                ], 
+                'key': {
+                    'D': DoublePlateDarmstadt,
+                    'I': {'item': 'gtceu:celestialgold_frame'}, 
+                    'P': IngotGaia,
+                    'F': {'item': 'gtceu:adamantium_frame'},
+                    'W': wrench
+                },
+                'output': {'item': 'gtceu:uv_machine_casing', 'count': 2},
+                'wissen': 8500
             }
-        )
+        );
     }
 )

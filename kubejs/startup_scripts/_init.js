@@ -35,10 +35,14 @@ Platform.mods.extendedgears.name            = "Create®"
 function elementRegistry(func)      { GTCEuStartupEvents.registry('gtceu:element', func); };
 function RecipeRegistry(func)       { GTCEuStartupEvents.registry('gtceu:recipe_type', func); };
 function CustomMultiblock(func)     { GTCEuStartupEvents.registry('gtceu:machine', func); };
-const $IngotProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.IngotProperty');
-const $DustProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.DustProperty');
-const $FluidProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.FluidProperty');
-const $BlastProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.BlastProperty');
+const $PropertyKey = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.PropertyKey')
+const $IngotProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.IngotProperty')
+const $FluidProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.FluidProperty')
+const $FluidStorageKeys = Java.loadClass('com.gregtechceu.gtceu.api.fluids.store.FluidStorageKeys')
+const $FluidPipeProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.FluidPipeProperties')
+const $WireProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.WireProperties')
+const $BlastProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.BlastProperty')
+const $FluidBuilder = Java.loadClass('com.gregtechceu.gtceu.api.fluids.FluidBuilder');
 
 //This whole constant creation makes it much simpler to type out all the different GT Material Sets and Flags.
 //Removes the need to constantly type out 'GTMaterial...' when making new materials
@@ -237,6 +241,81 @@ function VHA(voltage) {
     }
     return V;
 }
+
+//all of the standard Cables from GT
+const CableMaterialsDefault = [
+    {ele: GTMaterials.Aluminium,            v: V('ev'),     a: 1,   loss: 1},
+    {ele: GTMaterials.Cobalt,               v: V('lv'),     a: 2,   loss: 2},
+    {ele: GTMaterials.Copper,               v: V('mv'),     a: 1,   loss: 2},
+    {ele: GTMaterials.Europium,             v: V('hv'),     a: 2,   loss: 32},
+    {ele: GTMaterials.Gold,                 v: V('hv'),     a: 3,   loss: 2},
+    {ele: GTMaterials.Iron,                 v: V('mv'),     a: 2,   loss: 3},
+    {ele: GTMaterials.Lead,                 v: V('ulv'),    a: 2,   loss: 2},
+    {ele: GTMaterials.Nickel,               v: V('lv'),     a: 3,   loss: 3},
+    {ele: GTMaterials.Osmium,               v: V('luv'),    a: 4,   loss: 2},
+    {ele: GTMaterials.Platinum,             v: V('iv'),     a: 2,   loss: 1},
+    {ele: GTMaterials.Silver,               v: V('hv'),     a: 1,   loss: 1},
+    {ele: GTMaterials.Tin,                  v: V('lv'),     a: 1,   loss: 1},
+    {ele: GTMaterials.Tungsten,             v: V('iv'),     a: 2,   loss: 2},
+    {ele: GTMaterials.Naquadah,             v: V('zpm'),    a: 2,   loss: 2},
+    {ele: GTMaterials.Tritanium,            v: V('uv'),     a: 1,   loss: 8},
+    {ele: GTMaterials.Trinium,              v: V('zpm'),    a: 6,   loss: 4},
+    {ele: GTMaterials.AnnealedCopper,       v: V('mv'),     a: 1,   loss: 1},
+    {ele: GTMaterials.Cupronickel,          v: V('mv'),     a: 1,   loss: 1},
+    {ele: GTMaterials.Electrum,             v: V('hv'),     a: 2,   loss: 2},
+    {ele: GTMaterials.Kanthal,              v: V('hv'),     a: 4,   loss: 3},
+    {ele: GTMaterials.Nichrome,             v: V('ev'),     a: 4,   loss: 4},
+    {ele: GTMaterials.NiobiumNitride,       v: V('luv'),    a: 1,   loss: 1},
+    {ele: GTMaterials.NiobiumTitanium,      v: V('luv'),    a: 4,   loss: 2},
+    {ele: GTMaterials.RTMAlloy,             v: V('ev'),     a: 6,   loss: 2},
+    {ele: GTMaterials.Steel,                v: V('ev'),     a: 2,   loss: 2},
+    {ele: GTMaterials.VanadiumGallium,      v: V('zpm'),    a: 4,   loss: 2},
+    {ele: GTMaterials.YttriumBariumCuprate, v: V('uv'),     a: 4,   loss: 4},
+    {ele: GTMaterials.Graphene,             v: V('iv'),     a: 1,   loss: 1},
+    {ele: GTMaterials.BlackSteel,           v: V('ev'),     a: 3,   loss: 2},
+    {ele: GTMaterials.TungstenSteel,        v: V('iv'),     a: 3,   loss: 2},
+    {ele: GTMaterials.NaquadahAlloy,        v: V('uv'),     a: 2,   loss: 4},
+    {ele: GTMaterials.HSSG,                 v: V('luv'),    a: 4,   loss: 2},
+    {ele: GTMaterials.RedAlloy,             v: V('ulv'),    a: 1,   loss: 0},
+    {ele: GTMaterials.BlueAlloy,            v: V('hv'),     a: 2,   loss: 1}
+]
+
+const CableMaterialsCustom = [
+    {ele: GTMaterials.Aluminium,            v: V('ev'),     a: 1,   loss: 3},
+    {ele: GTMaterials.Cobalt,               v: V('lv'),     a: 2,   loss: 4},
+    {ele: GTMaterials.Copper,               v: V('mv'),     a: 1,   loss: 3},
+    {ele: GTMaterials.Europium,             v: V('hv'),     a: 2,   loss: 32},
+    {ele: GTMaterials.Gold,                 v: V('hv'),     a: 3,   loss: 3},
+    {ele: GTMaterials.Iron,                 v: V('mv'),     a: 2,   loss: 4},
+    {ele: GTMaterials.Lead,                 v: V('ulv'),    a: 2,   loss: 5},
+    {ele: GTMaterials.Nickel,               v: V('lv'),     a: 3,   loss: 4},
+    {ele: GTMaterials.Osmium,               v: V('luv'),    a: 4,   loss: 4},
+    {ele: GTMaterials.Platinum,             v: V('iv'),     a: 2,   loss: 4},
+    {ele: GTMaterials.Silver,               v: V('hv'),     a: 1,   loss: 3},
+    {ele: GTMaterials.Tin,                  v: V('lv'),     a: 1,   loss: 4},
+    {ele: GTMaterials.Tungsten,             v: V('iv'),     a: 2,   loss: 4},
+    {ele: GTMaterials.Naquadah,             v: V('zpm'),    a: 2,   loss: 2},
+    {ele: GTMaterials.Tritanium,            v: V('uv'),     a: 1,   loss: 8},
+    {ele: GTMaterials.Trinium,              v: V('zpm'),    a: 6,   loss: 7},
+    {ele: GTMaterials.AnnealedCopper,       v: V('mv'),     a: 1,   loss: 3},
+    {ele: GTMaterials.Cupronickel,          v: V('mv'),     a: 1,   loss: 5},
+    {ele: GTMaterials.Electrum,             v: V('hv'),     a: 2,   loss: 3},
+    {ele: GTMaterials.Kanthal,              v: V('hv'),     a: 4,   loss: 5},
+    {ele: GTMaterials.Nichrome,             v: V('ev'),     a: 4,   loss: 5},
+    {ele: GTMaterials.NiobiumNitride,       v: V('luv'),    a: 1,   loss: 1},
+    {ele: GTMaterials.NiobiumTitanium,      v: V('luv'),    a: 4,   loss: 1},
+    {ele: GTMaterials.RTMAlloy,             v: V('ev'),     a: 6,   loss: 4},
+    {ele: GTMaterials.Steel,                v: V('ev'),     a: 2,   loss: 5},
+    {ele: GTMaterials.VanadiumGallium,      v: V('zpm'),    a: 4,   loss: 1},
+    {ele: GTMaterials.YttriumBariumCuprate, v: V('uv'),     a: 4,   loss: 1},
+    {ele: GTMaterials.Graphene,             v: V('iv'),     a: 1,   loss: 1},
+    {ele: GTMaterials.BlackSteel,           v: V('ev'),     a: 3,   loss: 6},
+    {ele: GTMaterials.TungstenSteel,        v: V('iv'),     a: 3,   loss: 5},
+    {ele: GTMaterials.NaquadahAlloy,        v: V('uv'),     a: 2,   loss: 7},
+    {ele: GTMaterials.HSSG,                 v: V('luv'),    a: 4,   loss: 6},
+    {ele: GTMaterials.RedAlloy,             v: V('ulv'),    a: 1,   loss: 0},
+    {ele: GTMaterials.BlueAlloy,            v: V('hv'),     a: 2,   loss: 1}
+];
 
 //function to make easy Materials for already registered Periodic Elements from GT
 //just type in periodicTableElement(FULL NAME, declare what type)

@@ -249,7 +249,7 @@ GTCEuStartupEvents.registry(
         //Ca(Li₂Al)Al₆(BO₃)₃Si₆O₁₈(OH)₃F
         material.create('arcanespinel')
  //       .element(GTElements.get('arcanespinel'))
-        .components('2x mana', 'calcium', 'dilithiumalumite', '6x aluminium', 'borate3', '6x silicon', '18x oxygen', '4x ember', 'hydroxyl', 'fluorine')
+        .components('2x mana', 'calcium', 'dilithiumalumite', '6x aluminium', 'borate_three', '6x silicon', '18x oxygen', '4x ember', 'hydroxyl', 'fluorine')
         .color(0xFFFFFF).iconSet('spinel')
         .gem(3)
         .ore(2,3, true,)

@@ -173,7 +173,7 @@ GTCEuServerEvents.oreVeins(
 
     }
 )
-
+/*
 GTCEuServerEvents.bedrockOreVeins(
     event => {
         event.add(
@@ -188,3 +188,4 @@ GTCEuServerEvents.bedrockOreVeins(
         );
     }
 )
+*/

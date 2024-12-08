@@ -34,6 +34,7 @@ ServerEvents.recipes(
         ).keepIngredient([screwdrivers, hammers]).damageIngredient([screwdrivers, hammers]);
         
         //Copycat Shaft
+        /*
         event.remove({output: 'copycats:copycat_shaft'});
         event.shaped(
             '8x copycats:copycat_shaft', [
@@ -47,7 +48,7 @@ ServerEvents.recipes(
                 S: 'gtceu:long_iron_rod'
             }
         ).keepIngredient([screwdrivers, hammers]).damageIngredient([screwdrivers, hammers]);
-
+*/
         //Small Water Wheel
         event.remove({output: 'create:water_wheel'});
         event.shaped(
