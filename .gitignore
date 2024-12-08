@@ -35,3 +35,4 @@ kubejs/*.zip
 kubejs/data/*.mcmeta
 logs
 screenshots/*
+resources/*

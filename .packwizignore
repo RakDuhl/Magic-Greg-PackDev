@@ -11,13 +11,14 @@
 *.java
 *.txt
 *.webp
+.gitattributes
 
 #Folders 
 .vscode/*
 kubejs/probe/*
 legacy/*
 screenshots/*
-.git/*
+.git/**
 logs*
 logs/*
 resources*
