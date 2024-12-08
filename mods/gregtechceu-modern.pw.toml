@@ -1,13 +1,13 @@
 name = "GregTechCEu Modern"
-filename = "gtceu-1.20.1-1.5.2.jar"
+filename = "gtceu-1.20.1-1.5.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/7tG215v7/versions/Q8smbDUZ/gtceu-1.20.1-1.5.2.jar"
+url = "https://cdn.modrinth.com/data/7tG215v7/versions/9F8LmbEZ/gtceu-1.20.1-1.5.4.jar"
 hash-format = "sha512"
-hash = "9285928e74caa14f0fb848826c403bff53b8e8d84d07f74ef1f3b6045b78765b3198595b5de417697d7845a9887fe6cc49411578fce54fb304550d9e3d3c5c0e"
+hash = "148d3d8169df1630c0102f629949a908da25d3d2c0e696c9a3f75d1d05e4f7c728f5b23a3bc965759bbe25eb48fe1772e6b948407e346312c5203a75ffe8fe02"
 
 [update]
 [update.modrinth]
 mod-id = "7tG215v7"
-version = "Q8smbDUZ"
+version = "9F8LmbEZ"

@@ -11,3 +11,7 @@ hash = "b4864f46176ddf4df95836cc237a622283f3c7158d3591e67d9b44678037c1a170fdb14b
 [update.modrinth]
 mod-id = "Iairjv0A"
 version = "fHmO0u5r"
+
+[option]
+optional = true
+description = "Adds a lot of Nightsky atmosphere, does not change the pack in any way if enabled or disabled, strictly visual."
