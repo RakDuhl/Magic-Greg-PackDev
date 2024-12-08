@@ -11,3 +11,7 @@ hash = "72d5eb0bdb2fdb21b5a19a65208fc07f8e92c32976b614e5b293677e0801fdc42a01d10e
 [update.modrinth]
 mod-id = "lOELapP1"
 version = "SRJCpmta"
+
+[option]
+optional = true
+description = "If you need the use of Worldedit GUI featurs. Worldedit needs to be enabled!"

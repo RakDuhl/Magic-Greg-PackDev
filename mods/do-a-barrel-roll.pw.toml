@@ -11,3 +11,7 @@ hash = "f07294a0e43826c400d10fe52b6d3a5f58ba9c51eecd464f30957faae875d397a8fbfdd8
 [update.modrinth]
 mod-id = "6FtRfnLg"
 version = "VH8QpKA5"
+
+[option]
+optional = true
+description = "Spice up the Elytra Flight with Do a Barrel Roll if you want"

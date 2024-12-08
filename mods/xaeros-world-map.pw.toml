@@ -11,3 +11,7 @@ hash = "009065642ee160718285a2bde5a4f9b297303f9837f48169f9c74707cf30bdf57e1d614d
 [update.modrinth]
 mod-id = "NcUtCpym"
 version = "zGpACLsy"
+
+[option]
+optional = true
+description = "Want to use a Worldmap?"

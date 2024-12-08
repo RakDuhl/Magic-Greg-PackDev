@@ -11,3 +11,7 @@ hash = "4b81641027bd90d115adad0de4a171cf2b73cf7068a1ecf7b622875d87a22fdf37c8936e
 [update.modrinth]
 mod-id = "1bokaNcj"
 version = "C3YstOIl"
+
+[option]
+optional = true
+description = "Want to use a Minimap?"

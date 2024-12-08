@@ -1,13 +1,17 @@
 name = "XaeroPlus"
-filename = "XaeroPlus-2.24.5+forge-1.20.1-WM1.39.0-MM24.6.1.jar"
+filename = "XaeroPlus-2.24.7+forge-1.20.1-WM1.39.0-MM24.6.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/EnPUzSTg/versions/cuSxUFX7/XaeroPlus-2.24.5%2Bforge-1.20.1-WM1.39.0-MM24.6.1.jar"
+url = "https://cdn.modrinth.com/data/EnPUzSTg/versions/vygLYB8R/XaeroPlus-2.24.7%2Bforge-1.20.1-WM1.39.0-MM24.6.1.jar"
 hash-format = "sha512"
-hash = "39be8bed2b47a41e15bd6e06016c5ae6d54995fef705af7b02ce3b4f0424b1819485b209868bece4746ef38dfda6345172e979fa1de004ed5c9f62eec1350ed2"
+hash = "64cefa0c971123a707717e7029dbce42a071f17cea95b2f9c259bfa672f07b47868ccf2f87324398849c23bfebd142f2192117620b07e6236454b7c7c5a493d2"
 
 [update]
 [update.modrinth]
 mod-id = "EnPUzSTg"
-version = "cuSxUFX7"
+version = "vygLYB8R"
+
+[option]
+optional = true
+description = "Adds additional Features to Xaeros Mini AND World Map. Xaero's Mods NEED to be activated if enabled!"

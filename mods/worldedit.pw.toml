@@ -11,3 +11,7 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 4586218
 project-id = 225608
+
+[option]
+optional = true
+description = "If you need to use Worldedit."
