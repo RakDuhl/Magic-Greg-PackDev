@@ -1,13 +1,13 @@
 name = "MythicBotany"
-filename = "MythicBotany-1.20.1-4.0.3.jar"
+filename = "MythicBotany-1.20.1-4.0.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/7tl2Pt3c/versions/6gsjBrW3/MythicBotany-1.20.1-4.0.3.jar"
+url = "https://cdn.modrinth.com/data/7tl2Pt3c/versions/1IR2M8cY/MythicBotany-1.20.1-4.0.4.jar"
 hash-format = "sha512"
-hash = "b8c42596953e56d590cd16269be0b594a4850969be70bf5f2e876637a0fac67c49a7f369b7f6dfefa87e5e5936b7819611c8da5245d86112e08ea857e06dc548"
+hash = "a67d4bf6834aff1059640b798eea8d5c75c18aa9099d950148d54902acf2f6a25b8c78beb5ca58a269f83b5e6e14cfae664cae4e09f6a8fe4e7205a782c45228"
 
 [update]
 [update.modrinth]
 mod-id = "7tl2Pt3c"
-version = "6gsjBrW3"
+version = "1IR2M8cY"

@@ -1,13 +1,13 @@
 name = "KubeJS Additions"
-filename = "kubejsadditions-forge-4.3.3.jar"
+filename = "kubejsadditions-forge-4.3.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/BZemjxZb/versions/peAxAwpF/kubejsadditions-forge-4.3.3.jar"
+url = "https://cdn.modrinth.com/data/BZemjxZb/versions/6D8WV9Cf/kubejsadditions-forge-4.3.4.jar"
 hash-format = "sha512"
-hash = "695c45ef4aa342de12c31787744ccb400ffc75c7c525da67adf4273ea8087e8765293faba7e1ee92d120bcdb84d09780280eb4eb050327cf9d367f5792143d0e"
+hash = "08f6426ab4466573ac7c4407d78df113c6ed88643cfd71c078382f2677c68db8b59c57aeee6c792cef0fefa16f7f7cba7912f73610de417d2fbed908201784cf"
 
 [update]
 [update.modrinth]
 mod-id = "BZemjxZb"
-version = "peAxAwpF"
+version = "6D8WV9Cf"

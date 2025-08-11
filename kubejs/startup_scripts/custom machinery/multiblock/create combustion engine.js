@@ -38,10 +38,6 @@ CustomMultiblock(
 //            .where('I', GTMachines.ITEM_IMPORT_BUS, Direction.WEST)
 //            .build()
 //        )
-        .workableCasingRenderer(
-            GTCEu.id("block/casings/solid/machine_casing_bronze_plated_bricks"),
-            GTCEu.id("block/multiblock/blast_furnace"),
-            false
-        )
+        .workableCasingModel("gtceu:block/casings/solid/machine_casing_bronze_plated_bricks", "gtceu:block/multiblock/blast_furnace")
     }
 )

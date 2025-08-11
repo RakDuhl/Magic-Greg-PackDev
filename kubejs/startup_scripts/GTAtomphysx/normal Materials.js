@@ -46,6 +46,6 @@ GTCEuStartupEvents.registry(
 GTCEuStartupEvents.materialModification(
     event => {
         //GTMaterials.get('borate_three').setFormula('(BO3)3')
-        GTMaterials.get('hydroxyl').setFormula('(OH)3')
+        //GTMaterials.get('hydroxyl').setFormula('(OH)3');
     }
 )

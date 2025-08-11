@@ -1,13 +1,13 @@
 name = "Malum"
-filename = "malum-1.20.1-1.6.5.1.jar"
+filename = "malum-1.20.1-1.6.7.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/jgzwYsAN/versions/hmpAzpC1/malum-1.20.1-1.6.5.1.jar"
+url = "https://cdn.modrinth.com/data/jgzwYsAN/versions/U88VbrNU/malum-1.20.1-1.6.7.jar"
 hash-format = "sha512"
-hash = "3a01eab048120db837b8e95dce79429257342c86eaca431d23ff885a6030f2902a4af8ca178c7bb695bd3b44ad6232743b2f206e91200443f9681adb40087f9a"
+hash = "76b3a9d6fad5a4f0e1a24dd4ff40b3215b78319373f5b3ed7261570f2ae22c3601dd873907356476a03e10104669194c9fdb693ef7643edccd6062c97083cd2b"
 
 [update]
 [update.modrinth]
 mod-id = "jgzwYsAN"
-version = "hmpAzpC1"
+version = "U88VbrNU"

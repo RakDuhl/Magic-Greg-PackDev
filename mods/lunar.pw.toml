@@ -1,13 +1,13 @@
 name = "Lunar"
-filename = "Lunar-forge-1.20.1-0.2.0.jar"
+filename = "Lunar-forge-1.20.1-0.2.3.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/PwhlJMsW/versions/VieGTPKo/Lunar-forge-1.20.1-0.2.0.jar"
+url = "https://cdn.modrinth.com/data/PwhlJMsW/versions/Jp7zrPj5/Lunar-forge-1.20.1-0.2.3.jar"
 hash-format = "sha512"
-hash = "01c03a8741b4dcc0b726458b3e491d7aafb05457731406f061fc22b1027ee9043822d7c8b94a89423160d769c0ef6c4741d6233568112814aa4fc2e5435a7891"
+hash = "54aa459d9d45976c4ec8d14f8b3bf6b966174ad6bb1cb7bfaff6193c7bfd98ff2abe3e27855ba23e8f92d6a24627e1977b05d0e15360a8941f16f8afac8dbc64"
 
 [update]
 [update.modrinth]
 mod-id = "PwhlJMsW"
-version = "VieGTPKo"
+version = "Jp7zrPj5"

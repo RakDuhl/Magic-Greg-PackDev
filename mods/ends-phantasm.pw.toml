@@ -1,13 +1,13 @@
 name = "End's Phantasm"
-filename = "phantasm-0.4.1.jar"
+filename = "phantasm-1.0.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/JGfljjtd/versions/MEFYqwWP/phantasm-0.4.1.jar"
+url = "https://cdn.modrinth.com/data/JGfljjtd/versions/Cox3nlK0/phantasm-1.0.1.jar"
 hash-format = "sha512"
-hash = "0a89500fbaa29a9d38eb62012ded5e66dee3840149c9a141c340e503cb1bf847fab33529f60d13c1e30ff7c03e884f49e458a2a7a48ebcd79e38d122be03576e"
+hash = "203c5bf59ba7e31649db7375dac75520f35a4416e3bab712d45e9f7874d54597c1f5ad064da80fb0603c97639a95ef0e76f873776772d3e5b1dd37de48bd52fd"
 
 [update]
 [update.modrinth]
 mod-id = "JGfljjtd"
-version = "MEFYqwWP"
+version = "Cox3nlK0"

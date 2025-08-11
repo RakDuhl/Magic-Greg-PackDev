@@ -37,7 +37,7 @@ GTCEuStartupEvents.registry(
         
         //Arcane Element for Mana
         //        .components('2x mana')
-        material.create('mana').element(GTElements.get("mana")).fluid().gem().color(0xFFFFFF).iconSet('mana');
+        material.create('mana').element(GTElements.get("mana")).gem().color(0xFFFFFF).fluid().iconSet('mana');
         console.log('Registered arcane element Mana ' + GTElements.get('mana') + ' !');
 
         //⚙
@@ -63,14 +63,14 @@ GTCEuStartupEvents.registry(
 
 
         //Arcane Gold
-        //Au★
+        //Au★ 
         //Early game arcane Alloy with gold
         //Same as Mithril with conductivity, can take higher Amps
         material.create('arcanegold')
         .components('2x gold', '6x wissen')
         .color(0xFFFFFF).iconSet('arcanegold')
-        .fluid()
         .ingot(2)
+        .fluid()
         .ore(1, 2)
         .cableProperties(V('ev'), 4, 0, false)
         .flags(
@@ -101,7 +101,7 @@ GTCEuStartupEvents.registry(
         );
 
         //Adamantium
-        //ZPM metal
+        //ZPM metal 
         //Used for extreme stress and pressure situations, extremely tough
         material.create('adamantium')
         .element(GTElements.get("Adamantium"))
@@ -139,7 +139,7 @@ GTCEuStartupEvents.registry(
         console.log('Registered natural Adamantium ' + GTElements.get('adamantium') + ' !');
         
         //Mithril
-        //Ag₄★₆Ti
+        //Ag₄★₆Ti 
         //EV alloy, great conductivity, magical superconductor
         //Required for circuits
         material.create('mithril')
@@ -170,7 +170,7 @@ GTCEuStartupEvents.registry(
         
         //Prometheum
         //Catalyst element, used for various chemical tasks
-        //Horrible conductor
+        //Horrible conductor 
         material.create('prometheum')
         .element(GTElements.get("prometheum"))
         .color(0x5A8156).secondaryColor(0x354D33).iconSet(DULL)
@@ -198,8 +198,8 @@ GTCEuStartupEvents.registry(
         .element(GTElements.get("orichalcum"))
         .color(0xFFFFFF).iconSet('orichalcum')
         .ingot()
-        .fluid()
         .ore()
+        .fluid()
         .cableProperties(V('zpm'), 3, 0, false)
         .blastTemp(2313, 'high', 2100, 720)
         .flags(
@@ -218,7 +218,7 @@ GTCEuStartupEvents.registry(
                 
         //Vulcanite
         //Natural ultra high heat resistance and very good Heating properties
-        //Will be used for EBF Coils
+        //Will be used for EBF Coils 
         material.create('vulcanite')
         .element(GTElements.get("vulcanite"))
         .color(0xFFB08A).secondaryColor(0xF24F00).iconSet(DULL)
@@ -322,6 +322,6 @@ GTCEuStartupEvents.registry(
 
 GTCEuStartupEvents.materialModification(
     event => {
-        GTMaterials.get('arcanespinel').setFormula('★2Ca(Li2Al)Al6(BO3)3Si6O18🔥4(OH)3F');
+        GTMaterials.get('arcanespinel').setFormula('★2Ca(Li2Al)Al6(BO3)3Si6O18🔥4(OH)3F', true);
     }
 )

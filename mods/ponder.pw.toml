@@ -1,13 +1,13 @@
 name = "Ponder for KubeJS"
-filename = "ponderjs-1.20.1-1.4.0.jar"
+filename = "ponderjs-1.20.1-2.0.6.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/5A34Stj8/versions/9iZDJ3Sl/ponderjs-1.20.1-1.4.0.jar"
+url = "https://cdn.modrinth.com/data/5A34Stj8/versions/rdDCSAh8/ponderjs-1.20.1-2.0.6.jar"
 hash-format = "sha512"
-hash = "c5974dac0035979c52381902585cff6e735284aabf3f801f994264aade600417a585f7dbe45001dd9f78c229ddb95c9fe7258215fe81ab2522cede8cb49fcbcc"
+hash = "ce1e023ae22b26d7cead53260878650692a683f4f4afa42431e8418175486709b1fdd36466db62f3ebcb9dd9c5591de0fba3250fa74807bc96c18362065fe74d"
 
 [update]
 [update.modrinth]
 mod-id = "5A34Stj8"
-version = "9iZDJ3Sl"
+version = "rdDCSAh8"

@@ -7,7 +7,37 @@
 //Subscript     ₁₂₃₄₅₆₇₈₉₀₊₋₌₍₎
 //Special characters ★
 
-elementRegistry(
+function createElement(name, protons, neutrons, sym, iso, halfLife, decays) {
+    if (!name || !protons || !neutrons || !sym) {
+        throw new Error("Required parameters missing: name, protons, neutrons, and sym are all required.");
+    }
+
+    GTCEuStartupEvents.registry(
+        'gtceu:element',
+        event => {
+            let elem = event.create(name)
+                .protons(protons)
+                .neutrons(neutrons)
+                .symbol(sym);
+
+            if (typeof halfLife === 'number') {
+                elem.halfLifeSeconds(halfLife);
+            }
+
+            if (typeof decays === 'string' && decays.trim() !== '') {
+                elem.decayTo(decays);
+            }
+
+            if (typeof iso === 'boolean') {
+                elem.isIsotope(iso);
+            }
+        }
+    );
+}
+
+createElement('mana', -1, -1, '★');
+/*
+GTCEuStartupEvents.registry('gtceu:element',
     event => {
         //Arcane Components
         event.create('mana',            -1, -1, -1, null, '★', false)
@@ -31,3 +61,4 @@ elementRegistry(
 //        event.create('', 1, 1, -1, null, '', false)
     }
 )
+*/

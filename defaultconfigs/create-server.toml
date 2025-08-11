@@ -301,7 +301,7 @@
 				copper_valve_handle = 8.0
 				hand_crank = 12.0
 				steam_engine = 1024.0
-				creative_motor = 16384.0
+				creative_motor = 1048576.0
 				large_water_wheel = 196.0
 				water_wheel = 64.0
 				windmill_bearing = 512.0

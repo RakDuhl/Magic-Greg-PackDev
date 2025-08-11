@@ -1,7 +1,68 @@
-//priority: 9255
+const $RecipeIO = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.IO');
+const $ItemStackHashStrategy = Java.loadClass('com.gregtechceu.gtceu.utils.ItemStackHashStrategy');
+const $ItemRecipeCapability = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.ItemRecipeCapability');
+const $GTHashMaps = Java.loadClass('com.gregtechceu.gtceu.utils.GTHashMaps');
 
-CustomMultiblock(
+const $Collections = Java.loadClass('java.util.Collections');
+const $Object2IntOpenCustomHashMap = Java.loadClass('it.unimi.dsi.fastutil.objects.Object2IntOpenCustomHashMap');
+const $Objects = Java.loadClass('java.util.Objects');
+const $CosmicPartAbility = Java.loadClass('com.ghostipedia.cosmiccore.api.machine.part.CosmicPartAbility');
+
+GTCEuStartupEvents.registry(
+    'gtceu:machine', 
     event => {
+        event.create('alchemical_flower', 'multiblock')
+        //Tier('lv'), Tier('mv'), Tier('hv'), Tier('ev'), Tier('iv'), Tier('luv'), Tier('zpm'), Tier('uv')
+        .recipeType('alchemical_flower')
+        .rotationState(RotationState.NON_Y_AXIS)
+        .recipeModifiers([GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.PERFECT_OVERCLOCK)])
+        .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
+        .pattern(definition => FactoryBlockPattern.start()
+            .aisle('..S..', '..A..', '..S..', '..G..', '.....', '.....')
+            .aisle('.SSS.', '.ACA.', '.SCS.', '.GMG.', '..G..', '.....')
+            .aisle('SSCSS', 'ACPCA', 'SCPCS', 'GMMMG', '.GMG.', '..G..')
+            .aisle('.SCS.', '.APA.', '.SCS.', '.GMG.', '..G..', '.....')
+            .aisle('.SCS.', '.APA.', '..C..', '..G..', '.....', '.....')
+            .aisle('.SCS.', '.APA.', '.ACA.', '.AAA.', '.....', '.....')
+            .aisle('.SCS.', '.APA.', '.CCC.', '.ACA.', '.....', '.....')
+            .aisle('.SSS.', '.ACA.', '.CcC.', '.ACA.', '.....', '.....')
+            .where('S', Predicates.blocks('gtceu:steel_frame')
+                        .or(Predicates.autoAbilities(definition.getRecipeTypes()))
+                        .or(Predicates.abilities(PartAbility.INPUT_ENERGY).setExactLimit(3)))
+                        .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1))
+            .where('C', Predicates.blocks(GTBlocks.CASING_STEEL_SOLID.get()))
+            .where('A', Predicates.blocks('create:brass_casing'))
+            .where('P', Predicates.blocks(GTBlocks.CASING_STEEL_PIPE.get()))
+            .where('.', Predicates.any())
+            .where('G', Predicates.blocks('minecraft:glowstone'))
+            .where('M', Predicates.blocks('botania:manasteel_block'))
+            .where('c', Predicates.controller(Predicates.blocks(definition.get())))
+            .build()
+        )
+        //        .shapeInfo(controller => MultiblockShapeInfo.builder()
+        //            .aisle('..e..', '..A..', '..S..', '..G..', '.....', '.....')
+        //            .aisle('.eSe.', '.ACA.', '.ICI.', '.GMG.', '..G..', '.....')
+        //            .aisle('SSCSS', 'ACPCA', 'SCPCS', 'GMMMG', '.GMG.', '..G..')
+        //            .aisle('.SCS.', '.APA.', '.SCS.', '.GMG.', '..G..', '.....')
+        //            .aisle('.SCS.', '.APA.', '..C..', '..G..', '.....', '.....')
+        //            .aisle('.SCS.', '.APA.', '.ACA.', '.AAA.', '.....', '.....')
+        //            .aisle('.SCS.', '.APA.', '.CCC.', '.ACA.', '.....', '.....')
+        //            .aisle('.OSO.', '.ACA.', '.CcC.', '.ACA.', '.....', '.....')
+        //            .where('S', Block.getBlock('gtceu:steel_frame'))
+        //            .where('C', GTBlocks.CASING_STEEL_SOLID.get())
+        //            .where('A', Block.GTBlock('create:brass_casing'))
+        //            .where('P', GTBlocks.CASING_STEEL_PIPE.get())
+        //            .where('.', Block.getBlock('minecraft:air'))
+        //            .where('G', Block.getBlock('minecraft:glowstone'))
+        //            .where('M', Block.getBlock('botania:manasteel_block'))
+        //            .where('e', GTMachines.ENERGY_INPUT_HATCH[1], Direction.NORTH)
+        //            .where('I', GTMachines.ITEM_IMPORT_BUS[1], Direction.DOWN)
+        //            .where('O', GTMachines.ITEM_EXPORT_BUS[1], Direction.SOUTH)
+        //            .where('c', controller, Direction.SOUTH)
+        //            .build()
+        //        )
+        .workableCasingModel("gtceu:block/casings/solid/machine_casing_solid_steel", "gtceu:block/multiblock/blast_furnace");
+
         event.create('singularity_compressor', 'multiblock', Tier('luv'), Tier('uhv'))
         .recipeType('singularity_compressor')
         .rotationState(RotationState.NON_Y_AXIS)
@@ -75,10 +136,98 @@ CustomMultiblock(
             .where('F', Predicates.abilities(PartAbility.IMPORT_FLUIDS).setMaxGlobalLimited(6).setMinGlobalLimited(11))
             .build()
         )
-        .workableCasingRenderer(
-            GTCEu.id("block/casings/solid/machine_casing_stable_titanium"),
-            GTCEu.id("block/multiblock/fusion_reactor"),
-            false
+        .workableCasingModel("gtceu:block/casings/solid/machine_casing_stable_titanium","gtceu:block/multiblock/fusion_reactor");
+
+        event.create('big_pool', 'multiblock')
+        .recipeType('big_pool')
+        .appearanceBlock(GTBlocks.CASING_STAINLESS_CLEAN)
+        .rotationState(RotationState.NON_Y_AXIS)
+        .pattern(definition => FactoryBlockPattern.start()
+            .aisle('...CLC...', '...CLC...', '...CLC...', '...CCC...', '.........')
+            .aisle('.LCCCCCL.', '.LCRRRCL.', '.LCRRRCL.', '.LMGGGML.', '.........')
+            .aisle('.CCRRRCC.', '.CM   MC.', '.CR   RC.', '.MG   GM.', '...GGG...')
+            .aisle('CCRRRRRCC', 'CR     RC', 'CR     RC', 'CG     GC', '..GGGGG..')
+            .aisle('LCRRMRRCL', 'LR     RL', 'LR     RL', 'CG     GC', '..GGGGG..')
+            .aisle('CCRRRRRCC', 'CR     RC', 'CR     RC', 'CG     GC', '..GGGGG..')
+            .aisle('.CCRRRCC.', '.CM   MC.', '.CR   RC.', '.MG   GM.', '...GGG...')
+            .aisle('.LCCCCCL.', '.LCRRRCL.', '.LCRRRCL.', '.LMGGGML.', '.........')
+            .aisle('...CcC...', '...CLC...', '...CLC...', '...CCC...', '.........')
+            .where('R', Predicates.blocks('botania:livingrock'))
+            .where('M', Predicates.blocks('botania:manasteel_block'))
+            .where('L', Predicates.blocks('botania:livingwood_log'))
+            .where('G', Predicates.blocks('botania:mana_glass'))
+            .where('C', Predicates.blocks(GTBlocks.CASING_STAINLESS_CLEAN.get())
+                        .or(Predicates.autoAbilities(definition.getRecipeTypes()))
+                        .or(Predicates.abilities(PartAbility.INPUT_ENERGY).setExactLimit(2).setMinGlobalLimited(1)))
+            .where('c', Predicates.controller(Predicates.blocks(definition.get())))
+            .where('.', Predicates.any())
+            .where(' ', Predicates.air())
+            .build()
         )
+        .workableCasingModel("gtceu:block/casings/solid/machine_casing_robust_tungstensteel", "gtceu:block/multiblock/implosion_compressor");
+
+        event.create('terrestrial_chamber', 'multiblock', Tier('iv'), Tier('luv'), Tier('zpm'), Tier('uv'))
+        .rotationState(RotationState.NON_Y_AXIS)
+        .recipeType('terrestrial_chamber')
+        .appearanceBlock(GTBlocks.CASING_TUNGSTENSTEEL_ROBUST)
+        .recipeModifiers(
+            [
+                GTRecipeModifiers.PARALLEL_HATCH,
+                GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(
+                    OverclockingLogic.PERFECT_OVERCLOCK
+                )
+            ]
+        )
+        .pattern(
+            definition => FactoryBlockPattern.start()
+            .aisle('..RLR..', '..LML..', '..RLR..', '.......', '.......')
+            .aisle('..CCC..', '..CGC..', '..CCC..', '.......', '.......')
+            .aisle('RCRLRCR', 'LCGGGCL', 'RCGGGCR', '..CCC..', '..RLR..')
+            .aisle('LCLTLCL', 'MGG GGM', 'LCGGGCL', '..CGC..', '..LML..')
+            .aisle('RCRLRCR', 'LCGGGCL', 'RCGGGCR', '..CCC..', '..RLR..')
+            .aisle('..CCC..', '..CGC..', '..CCC..', '.......', '.......')
+            .aisle('..RcR..', '..LML..', '..RLR..', '.......', '.......')
+            .where('R', Predicates.blocks('botania:livingrock'))
+            .where('M', Predicates.blocks('botania:manasteel_block'))
+            .where('G', Predicates.blocks('botania:mana_glass'))
+            .where('T', Predicates.blocks('botania:terrasteel_block'))
+            .where('L', Predicates.blocks('minecraft:lapis_block'))
+            .where('C', Predicates.blocks(GTBlocks.CASING_TUNGSTENSTEEL_ROBUST.get())
+                        .or(Predicates.autoAbilities(definition.getRecipeTypes()))
+                        .or(Predicates.abilities(PartAbility.INPUT_ENERGY).setMinGlobalLimited(1).setMaxGlobalLimited(4)))
+            .where('c', Predicates.controller(Predicates.blocks(definition.get())))
+            .where('.', Predicates.any())
+            .where(' ', Predicates.air())
+            .build()
+        )
+        .workableCasingModel("gtceu:block/casings/solid/machine_casing_robust_tungstensteel", "gtceu:block/multiblock/implosion_compressor");
+
+        event.create('mana_steam_boiler', 'multiblock', Tier('ulv'), Tier('lv'), Tier('mv'), Tier('hv'), Tier('ev'))
+        .recipeType('mana_steam_boiler')
+        .appearanceBlock(GTBlocks.CASING_BRONZE_BRICKS)
+        .rotationState(RotationState.NON_Y_AXIS)
+        .pattern(
+            definition => FactoryBlockPattern.start()
+            .aisle('.ICI.', '.CCC.', '.MMM.', '.CCC.', '.....')
+            .aisle('FCCCF', 'CPPPC', 'MPPPM', 'CPPPC', '.OOO.')
+            .aisle('FCCCF', 'CPPPC', 'MPPPM', 'CPPPC', '.OOO.')
+            .aisle('FCCCF', 'CPPPC', 'MPPPM', 'CPPPC', '.OOO.')
+            .aisle('.IEI.', '.CCC.', '.MMM.', '.CCC.', '.....')
+            .where('I', Predicates.blocks(GTBlocks.CASING_BRONZE_BRICKS.get())
+                    .or(Predicates.abilities(PartAbility.IMPORT_ITEMS).setMinGlobalLimited(1)))
+            .where('F', Predicates.blocks(GTBlocks.CASING_BRONZE_BRICKS.get())
+                    .or(Predicates.abilities(PartAbility.IMPORT_FLUIDS).setMaxGlobalLimited(6)))
+            .where('O', Predicates.blocks(GTBlocks.CASING_BRONZE_BRICKS.get())
+                    .or(Predicates.abilities(PartAbility.EXPORT_FLUIDS).setMaxGlobalLimited(9).setMinGlobalLimited(1)))
+            .where('C', Predicates.blocks(GTBlocks.CASING_BRONZE_BRICKS.get()).setMinGlobalLimited(24))
+            .where('P', Predicates.blocks(GTBlocks.CASING_BRONZE_PIPE.get()))
+            .where('M', Predicates.blocks('botania:manasteel_block'))
+            .where('E', Predicates.controller(Predicates.blocks(definition.get())))
+            .where('.', Predicates.any())
+            .build()
+        )
+        .workableCasingModel("gtceu:block/casings/solid/machine_casing_bronze_plated_bricks","gtceu:block/multiblock/steam_oven");
+
+
     }
 )

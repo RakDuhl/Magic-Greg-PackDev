@@ -3,11 +3,11 @@ filename = "lodestone-1.20.1-1.6.4.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/bN3xUWdo/versions/riljz5Ik/lodestone-1.20.1-1.6.4.1.jar"
+url = "https://cdn.modrinth.com/data/bN3xUWdo/versions/dRIycWqx/lodestone-1.20.1-1.6.4.1.jar"
 hash-format = "sha512"
-hash = "473c53cc8ce12c0023115d995b929902283e71b04327af302c858923f247a866a9665157c5ccf1a2a5f44e5242df4aa656a40d20c20b16d17f0f7844839e6c14"
+hash = "fec5107deb73c06c4b1756349cb874e0933c4181fd20e8528e46a24e35ccb048898c8607830deea3242d7303784a9c3a03f3fadd40d13fb6dc27a34a77f5cc85"
 
 [update]
 [update.modrinth]
 mod-id = "bN3xUWdo"
-version = "riljz5Ik"
+version = "dRIycWqx"

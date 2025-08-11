@@ -1,0 +1,100 @@
+Priorities StartUp Events:
+10000   - _init.js
+
+GTRegistry 9300-9399
+9399    - Element Registry
+9398    - Multiblock Registry
+9397    - Singleblock Registry
+9309    - natural Material Registry
+9308    - Material Registry
+9305    - Material Modification TagPrefix
+9300    - GT Registry
+
+GT Machines 9200-9299
+9250-9299 Multiblock
+9289    - 
+9288    - 
+9287    - 
+9286    - 
+9285    - 
+9284    - 
+9283    - 
+9282    - 
+9281    - 
+9280    - 
+9279    - 
+9278    - 
+9277    - 
+9276    - 
+9275    - 
+9274    - 
+9273    - 
+9272    - 
+9271    - 
+9270    - 
+9269    - 
+9268    - 
+9267    - 
+9266    - 
+9265    - 
+9264    - 
+9263    - 
+9262    - 
+9261    - 
+9260    - 
+9259    - 
+9258    - 
+9257    - The BIG Mana Pool
+9256    - Terrestrial Chamber
+9255    - Singularity Compressor
+9254    - Mana Steam Boiler
+9253    - Create Combustion Engine
+9252    - Arcane Alloyer                (DEACTIVATED)
+9251    - Alchemical Flower
+9200-9249 Singleblock
+9239    - 
+9238    - 
+9237    - 
+9236    - 
+9235    - 
+9234    - 
+9233    - 
+9232    - 
+9231    - 
+9230    - 
+9229    - 
+9228    - 
+9227    - 
+9226    - 
+9225    - 
+9224    - 
+9223    - 
+9222    - 
+9221    - 
+9220    - 
+9219    - 
+9218    - 
+9217    - 
+9216    - 
+9215    - 
+9214    - 
+9213    - 
+9212    - 
+9211    - 
+9210    - 
+9209    - 
+9208    - 
+9207    - 
+9206    - 
+9205    - 
+9204    - 
+9203    - 
+9202    - 
+9201    - 
+MC Registry 9000-9099
+9035    - Block Registry
+9030    - Block Modifications
+9025    - Fluid Registry
+9020    - Fluid Modifications
+9015    - Item Registry
+9010    - Item Modifications
