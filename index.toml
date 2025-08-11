@@ -8005,12 +8005,12 @@ file = "kubejs/startup_scripts/_init.js"
 hash = "1ac1a1dfaf3da30c406a7062f0883347bcf1b513a1d82dc03900e436458e1aad"
 
 [[files]]
-file = "kubejs/startup_scripts/custom machinery/multiblock registration.js"
-hash = "7443a0b26ecfa5e4178e56a6d540453616e98cd7c921e02e70a32d185db24c9c"
+file = "kubejs/startup_scripts/custom machinery/multiblock machines.js"
+hash = "2cfe9124d464bada4cedc271a8a78039f7e51973da84ca52f92337c46471d7b1"
 
 [[files]]
-file = "kubejs/startup_scripts/custom machinery/multiblock/alchemical flower.js"
-hash = "d338ddfb4d92f993986d693d62fa3ba16c39b230fc9acad67bacf51ea9d1bf7a"
+file = "kubejs/startup_scripts/custom machinery/multiblock registration.js"
+hash = "7443a0b26ecfa5e4178e56a6d540453616e98cd7c921e02e70a32d185db24c9c"
 
 [[files]]
 file = "kubejs/startup_scripts/custom machinery/multiblock/create combustion engine.js"
@@ -8027,22 +8027,6 @@ hash = "020f49478a591ca4b09071896ccf35cd8e432d8b6c8424c7f63d4004ad97e390"
 [[files]]
 file = "kubejs/startup_scripts/custom machinery/multiblock/kinetic_steam_turbine.js"
 hash = "e192e68912202a48535f97d84987ca061c62e25736ce9f3626ca4df3575b3eb2"
-
-[[files]]
-file = "kubejs/startup_scripts/custom machinery/multiblock/mana boiler.js"
-hash = "cf1ecec828cfee9bf7b26398c8d26c742ec72ba0dc3d8a08f712cba58277c2ea"
-
-[[files]]
-file = "kubejs/startup_scripts/custom machinery/multiblock/singularity compressor.js"
-hash = "624ebc93f54fbc7717236c6c5ad265965249bde3e972fe43664cec6fd5a85c0f"
-
-[[files]]
-file = "kubejs/startup_scripts/custom machinery/multiblock/terrestrial chamber.js"
-hash = "7b8e59493ccf1144d5506d304e4318d4e808058a4204a45dd7c2cdee37bf5804"
-
-[[files]]
-file = "kubejs/startup_scripts/custom machinery/multiblock/the BIG pool.js"
-hash = "e243cf318a6279f12f7f0ce020a2dc2136a3cbdabb53c7b26962b68d25eac581"
 
 [[files]]
 file = "kubejs/startup_scripts/custom machinery/singleblock registration.js"
