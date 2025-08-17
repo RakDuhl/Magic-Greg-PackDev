@@ -7958,7 +7958,7 @@ hash = "8cbc89775aecc5af8c59bbdbce2f18abdd8d52ffcdc4a6dd58abdaba0032bfef"
 
 [[files]]
 file = "kubejs/startup_scripts/GTAtomPhysX/missing materials.js"
-hash = "8ad8ba73c3f2e0a0f33343e4df4e99ac21b17c39234321be77d0d3382e227002"
+hash = "e6dd541e47b84ee6feb0307b31f77c7ab61fbe2cff464421e76898308ce8d1e4"
 
 [[files]]
 file = "kubejs/startup_scripts/GTAtomPhysX/natural materials.js"
@@ -8002,31 +8002,15 @@ hash = "7b1fdb1a70788ae998f10776470eec5c38c47fc0f1102394db0702b6d01797ed"
 
 [[files]]
 file = "kubejs/startup_scripts/_init.js"
-hash = "1ac1a1dfaf3da30c406a7062f0883347bcf1b513a1d82dc03900e436458e1aad"
+hash = "555a71e094c52d385ea5f14c1b2e53559ebf6f4cc84d64dc8a3cd7eceb07bc74"
 
 [[files]]
 file = "kubejs/startup_scripts/custom machinery/multiblock machines.js"
-hash = "2cfe9124d464bada4cedc271a8a78039f7e51973da84ca52f92337c46471d7b1"
+hash = "20c5cb38526d7b88e987ebaf7c3d8a728caf44c1a8d7e057c850381806a5e0e4"
 
 [[files]]
 file = "kubejs/startup_scripts/custom machinery/multiblock registration.js"
 hash = "7443a0b26ecfa5e4178e56a6d540453616e98cd7c921e02e70a32d185db24c9c"
-
-[[files]]
-file = "kubejs/startup_scripts/custom machinery/multiblock/create combustion engine.js"
-hash = "a70f6b1c98f0fe17429c7b6d34f7937cd66827ac0ecf0c697871879254d4c690"
-
-[[files]]
-file = "kubejs/startup_scripts/custom machinery/multiblock/extreme_embers_boiler.js"
-hash = "bb933a4ad1f983bbd21cf68aa2977bb2c8ca32499e2a38c82f273ae2c8773d1c"
-
-[[files]]
-file = "kubejs/startup_scripts/custom machinery/multiblock/huge_kinetic_alternator.js"
-hash = "020f49478a591ca4b09071896ccf35cd8e432d8b6c8424c7f63d4004ad97e390"
-
-[[files]]
-file = "kubejs/startup_scripts/custom machinery/multiblock/kinetic_steam_turbine.js"
-hash = "e192e68912202a48535f97d84987ca061c62e25736ce9f3626ca4df3575b3eb2"
 
 [[files]]
 file = "kubejs/startup_scripts/custom machinery/singleblock registration.js"

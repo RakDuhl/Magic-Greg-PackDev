@@ -24,15 +24,14 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     GTMaterials.BlueAlloy.addFlags(GTMaterialFlags.GENERATE_DENSE)
     GTMaterials.Neutronium.addFlags(GTMaterialFlags.GENERATE_LONG_ROD, GTMaterialFlags.GENERATE_RING, GTMaterialFlags.GENERATE_ROUND, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_SMALL_GEAR, GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_DENSE)
 
-    addFluid(GTMaterials.Einsteinium, $FluidStorageKeys.LIQUID);
-    GTMaterials.Americium.getProperty($PropertyKey.FLUID).storage.enqueueRegistration($FluidStorageKeys.PLASMA, new GTFluidBuilder())
-    addFluid(GTMaterials.Berkelium, $FluidStorageKeys.LIQUID);
+    //addFluid(GTMaterials.Einsteinium, $FluidStorageKeys.LIQUID);
+    //addFluid(GTMaterials.Berkelium, $FluidStorageKeys.LIQUID);
     GTMaterials.Berkelium.setMaterialARGB(0x992600);
-    addFluid(GTMaterials.Californium, $FluidStorageKeys.LIQUID);
-    addFluid(GTMaterials.Neptunium, $FluidStorageKeys.LIQUID);
-    addFluid(GTMaterials.Curium, $FluidStorageKeys.LIQUID);
-    addFluid(GTMaterials.Ruridit, $FluidStorageKeys.LIQUID);
-    addFluid(GTMaterials.NetherStar, $FluidStorageKeys.LIQUID);
+    //addFluid(GTMaterials.Californium, $FluidStorageKeys.LIQUID);
+    //addFluid(GTMaterials.Neptunium, $FluidStorageKeys.LIQUID);
+    //addFluid(GTMaterials.Curium, $FluidStorageKeys.LIQUID);
+    //addFluid(GTMaterials.Ruridit, $FluidStorageKeys.LIQUID);
+    //addFluid(GTMaterials.NetherStar, $FluidStorageKeys.LIQUID);
 
     const missingGears = ['Electrum', 'Lead', 'Silver', 'Nickel', 'Ruby', 'Sapphire', 'Gold', 'Copper', 'Lapis', 'Emerald', 'NetherQuartz']
     missingGears.forEach(missingGears => {

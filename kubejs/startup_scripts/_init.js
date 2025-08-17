@@ -322,7 +322,7 @@ const CableMaterialsCustom = [
 //available types are Ingot, Dust, Fluid, Gas, Plasma, molten
 //I.e. if you desire to have Promethium, type in this:
 //periodicTableElement('promethium', ingot)
-function periodicTableElement(material, type) {
+/* function periodicTableElement(material, type) {
     let mat = GTMaterials.get(material);
     switch(type) {
         case 'ingot': mat.setProperty(PropertyKey.INGOT, new $IngotProperty()); break;
@@ -336,7 +336,7 @@ function periodicTableElement(material, type) {
                 }
             break;
     }
-}
+} */
 
 //Creates an easy function for making Electric Blast Furnace recipe!
 function blastProperty(material, temperature, gasTier, voltage, duration) {
