@@ -33,24 +33,24 @@ GTCEuStartupEvents.registry(
         //Arcane Element for Ember
         //🔥
         material.create('ember').element(GTElements.get("ember")).color(0xFFFFFF).iconSet('ember').gem().flags(lens);
-        console.log('Registered arcane element Ember ' + GTElements.get('ember') + ' !');
         
         //Arcane Element for Mana
         //        .components('2x mana')
         material.create('mana').element(GTElements.get("mana")).gem().color(0xFFFFFF).fluid().iconSet('mana');
-        console.log('Registered arcane element Mana ' + GTElements.get('mana') + ' !');
 
         //⚙
         material.create('wissen').element(GTElements.get("wissen")).color(0xFFFFFF).secondaryColor(0xCDEDFE).iconSet('wissen').gem().flags(lens,no_decomp,);
-        console.log('Registered arcane element Wissen ' + GTElements.get('wissen') + ' !');
 
         //Stardust
         //Found anywhere, very rare
         //Sd
         material.create('stardust').element(GTElements.get("stardust")).color(0x42599D).secondaryColor(0xCCF2FF).iconSet(NETHERSTAR).dust().ore().flags(centrifuge).addOreByproducts();
-        console.log('Registered cosmic material Stardust ' + GTElements.get('stardust') + ' !');
     }
 )
+console.log('Registered arcane element Ember ' + GTElements.get('ember') + ' !');
+console.log('Registered arcane element Mana ' + GTElements.get('mana') + ' !');
+console.log('Registered arcane element Wissen ' + GTElements.get('wissen') + ' !');
+console.log('Registered cosmic material Stardust ' + GTElements.get('stardust') + ' !');
 
 GTCEuStartupEvents.registry(
     'gtceu:material',
@@ -58,7 +58,6 @@ GTCEuStartupEvents.registry(
 
 
 
-        //Create Rose Quartz
         material.create('rosequartz').components('8x redstone', '1x quartzite').gem().color(0xFFFFFF).secondaryColor(0xFFF2E0).iconSet('rosequartz').flags(electrolyze);
 
 
@@ -85,7 +84,6 @@ GTCEuStartupEvents.registry(
             electrolyze
         )
         .addOreByproducts();
-        console.log('Registered arcane alloy Arcane Gold ' + GTMaterials.get('arcanegold') + ' !');
 
 
         //Ember Quartz
@@ -136,7 +134,6 @@ GTCEuStartupEvents.registry(
             ToolProperty.Builder.of(25.0, 1.0, 12400, 5).attackSpeed(0.1).enchantability(18).build()
         )
         .addOreByproducts('scheelite', 'hematite', 'ruby',);
-        console.log('Registered natural Adamantium ' + GTElements.get('adamantium') + ' !');
         
         //Mithril
         //Ag₄★₆Ti 
@@ -190,7 +187,6 @@ GTCEuStartupEvents.registry(
             no_unify
         )
         .addOreByproducts('spodumene', 'alunite',);
-        console.log('Registered natural Prometheum ' + GTElements.get('prometheum') + ' !');
         
         //Orichalcum
         //
@@ -214,7 +210,6 @@ GTCEuStartupEvents.registry(
             fine_wire,
             no_abs_recipe
         );
-        console.log('Registered natural Orichalcum ' + GTElements.get('orichalcum') + ' !');
                 
         //Vulcanite
         //Natural ultra high heat resistance and very good Heating properties
@@ -244,7 +239,6 @@ GTCEuStartupEvents.registry(
             no_block_craft,
         )
         .addOreByproducts('obsidian', 'hematite');
-        console.log('Registered natural Vulcanite ' + GTElements.get('vulcanite') + ' !');
 
         //Ca(Li₂Al)Al₆(BO₃)₃Si₆O₁₈(OH)₃F
         material.create('arcanespinel')
@@ -319,6 +313,11 @@ GTCEuStartupEvents.registry(
         
     }
 )
+console.log('Registered arcane alloy Arcane Gold ' + GTMaterials.get('arcanegold') + ' !');
+console.log('Registered natural Adamantium ' + GTElements.get('adamantium') + ' !');
+console.log('Registered natural Prometheum ' + GTElements.get('prometheum') + ' !');
+console.log('Registered natural Orichalcum ' + GTElements.get('orichalcum') + ' !');
+console.log('Registered natural Vulcanite ' + GTElements.get('vulcanite') + ' !');
 
 GTCEuStartupEvents.materialModification(
     event => {
