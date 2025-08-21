@@ -1,3 +1,4 @@
+//priority: 9304
 const $RecipeIO = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.IO');
 const $ItemStackHashStrategy = Java.loadClass('com.gregtechceu.gtceu.utils.ItemStackHashStrategy');
 const $ItemRecipeCapability = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.ItemRecipeCapability');
@@ -119,8 +120,8 @@ GTCEuStartupEvents.registry(
             .aisle('.........................WWW.......................', '...................................................', '...................................................', '...................................................', '...................................................', '...................................................', '...................................................', '...................................................', '...................................................', '...................................................', '...................................................', '...................................................', '...................................................', '...................................................', '...................................................', '...................................................', '...................................................', '...................................................', '...................................................', '...................................................', '...................................................')
             .where('W', Predicates.blocks('gtceu:titanium_frame'))
             .where('T', Predicates.blocks(GTBlocks.CASING_TITANIUM_STABLE.get()))
-            .where('H', Predicates.blocks(GCyMBlocks.CASING_HIGH_TEMPERATURE_SMELTING.get()))
-            .where('A', Predicates.blocks(GCyMBlocks.CASING_ATOMIC.get()))
+            .where('H', Predicates.blocks(GCYMBlocks.CASING_HIGH_TEMPERATURE_SMELTING.get()))
+            .where('A', Predicates.blocks(GCYMBlocks.CASING_ATOMIC.get()))
             .where('t', Predicates.blocks('botania:terrasteel_block'))
             .where('P', Predicates.blocks(GTBlocks.CASING_TITANIUM_PIPE.get()))
             .where('G', Predicates.blocks('thermal:obsidian_glass'))
@@ -259,7 +260,7 @@ GTCEuStartupEvents.registry(
             .build()
         )
         .workableCasingModel("gtceu:block/casings/solid/machine_casing_solid_steel", "gtceu:block/generators/steam_turbine");
-
+/*
         event.create('huge_kinetic_alternator', 'multiblock')
         //, Tier('lv')
         .recipeType('huge_kinetic_alternator')
@@ -297,7 +298,7 @@ GTCEuStartupEvents.registry(
             .build()
         )
         .workableCasingModel("gtceu:block/casings/solid/machine_casing_solid_steel","gtceu:block/multiblock/assembly_line");
-
+*/
         event.create('extreme_embers_boiler', 'multiblock')
         //, Tier('mv'), Tier('iv')
         .recipeType('extreme_embers_boiler')
