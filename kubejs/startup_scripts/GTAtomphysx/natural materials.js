@@ -45,21 +45,9 @@ GTCEuStartupEvents.registry(
         //Found anywhere, very rare
         //Sd
         material.create('stardust').element(GTElements.get("stardust")).color(0x42599D).secondaryColor(0xCCF2FF).iconSet(NETHERSTAR).dust().ore().flags(centrifuge).addOreByproducts();
-    }
-)
-console.log('Registered arcane element Ember ' + GTElements.get('ember') + ' !');
-console.log('Registered arcane element Mana ' + GTElements.get('mana') + ' !');
-console.log('Registered arcane element Wissen ' + GTElements.get('wissen') + ' !');
-console.log('Registered cosmic material Stardust ' + GTElements.get('stardust') + ' !');
 
-GTCEuStartupEvents.registry(
-    'gtceu:material',
-    material => {
-
-
-
+        //Create Rose Quartz
         material.create('rosequartz').components('8x redstone', '1x quartzite').gem().color(0xFFFFFF).secondaryColor(0xFFF2E0).iconSet('rosequartz').flags(electrolyze);
-
 
         //Arcane Gold
         //Au★ 
@@ -310,14 +298,19 @@ GTCEuStartupEvents.registry(
             centrifuge
         );
         
-        
+        console.log('Registered arcane alloy Arcane Gold ' + GTMaterials.get('arcanegold') + ' !');
+        console.log('Registered natural Adamantium ' + GTElements.get('adamantium') + ' !');
+        console.log('Registered natural Prometheum ' + GTElements.get('prometheum') + ' !');
+        console.log('Registered natural Orichalcum ' + GTElements.get('orichalcum') + ' !');
+        console.log('Registered natural Vulcanite ' + GTElements.get('vulcanite') + ' !');
+        console.log('Registered arcane element Ember ' + GTElements.get('ember') + ' !');
+        console.log('Registered arcane element Mana ' + GTElements.get('mana') + ' !');
+        console.log('Registered arcane element Wissen ' + GTElements.get('wissen') + ' !');
+        console.log('Registered cosmic material Stardust ' + GTElements.get('stardust') + ' !');
     }
+
 )
-console.log('Registered arcane alloy Arcane Gold ' + GTMaterials.get('arcanegold') + ' !');
-console.log('Registered natural Adamantium ' + GTElements.get('adamantium') + ' !');
-console.log('Registered natural Prometheum ' + GTElements.get('prometheum') + ' !');
-console.log('Registered natural Orichalcum ' + GTElements.get('orichalcum') + ' !');
-console.log('Registered natural Vulcanite ' + GTElements.get('vulcanite') + ' !');
+
 
 GTCEuStartupEvents.materialModification(
     event => {
