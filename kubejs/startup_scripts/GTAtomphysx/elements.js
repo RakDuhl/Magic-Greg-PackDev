@@ -35,7 +35,17 @@ function createElement(name, protons, neutrons, sym, iso, halfLife, decays) {
     );
 }
 
-createElement('mana', -1, -1, '★');
+createElement('mana',           -1, -1, '★');
+createElement('creativity',     -1, -1, 'Create');
+createElement('ember',          -1, -1, '🔥');
+createElement('wissen',         -1, -1, '⚙');
+createElement('adamantium',     58, 82, 'Ad');
+createElement('vulcanite',      72, 81, 'Vc');
+createElement('prometheum',     10, 12, 'Ph');
+createElement('orichalcum',     52, 67, 'Oc');
+createElement('stardust',       -1, -1, 'Sd');
+createElement('arcanum',        16, 24, 'Arc');
+
 /*
 GTCEuStartupEvents.registry('gtceu:element',
     event => {
