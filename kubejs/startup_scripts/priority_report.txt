@@ -1,31 +1,23 @@
 Empty files:\n\n
-Files with no priority:\n\nZ:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\custom machinery\multiblock\extreme_embers_boiler.js
-Z:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\custom machinery\multiblock\huge_kinetic_alternator.js
-Z:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\custom machinery\multiblock\kinetic_steam_turbine.js
+Files with no priority:\n\nH:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\custom machinery\multiblock machines.js
 
 Files sorted by priority (highest to lowest):
 
-10000 - Z:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\_init.js
-9399 - Z:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\GTAtomPhysX\elements.js
-9398 - Z:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\custom machinery\multiblock registration.js
-9398 - Z:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\GTAtomPhysX\missing materials.js
-9397 - Z:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\custom machinery\singleblock registration.js
-9310 - Z:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\GTAtomPhysX\normal Materials.js
-9309 - Z:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\GTAtomPhysX\natural materials.js
-9308 - Z:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\GTAtomPhysX\materials.js
-9305 - Z:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\GTAtomPhysX\tagPrefix schiissdreck.js
-9257 - Z:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\custom machinery\multiblock\the BIG pool.js
-9256 - Z:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\custom machinery\multiblock\terrestrial chamber.js
-9255 - Z:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\custom machinery\multiblock\singularity compressor.js
-9254 - Z:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\custom machinery\multiblock\mana boiler.js
-9253 - Z:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\custom machinery\multiblock\create combustion engine.js
-9251 - Z:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\custom machinery\multiblock\alchemical flower.js
-9035 - Z:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\Items Blocks and Fluid Registry\block reg.js
-9030 - Z:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\Items Blocks and Fluid Registry\block modifications.js
-9025 - Z:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\Items Blocks and Fluid Registry\fluid reg.js
-9020 - Z:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\Items Blocks and Fluid Registry\fluid modifications.js
-9015 - Z:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\Items Blocks and Fluid Registry\item reg.js
-9010 - Z:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\Items Blocks and Fluid Registry\Item Modifications.js
-5200 - Z:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\PowerfulJS.js
-100 - Z:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\worldgen.js
+10000 - H:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\_init.js
+9399 - H:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\GTAtomPhysX\elements.js
+9398 - H:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\GTAtomPhysX\missing materials.js
+9398 - H:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\custom machinery\multiblock registration.js
+9397 - H:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\custom machinery\singleblock registration.js
+9310 - H:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\GTAtomPhysX\normal Materials.js
+9309 - H:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\GTAtomPhysX\natural materials.js
+9308 - H:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\GTAtomPhysX\materials.js
+9305 - H:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\GTAtomPhysX\tagPrefix schiissdreck.js
+9035 - H:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\Items Blocks and Fluid Registry\block reg.js
+9030 - H:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\Items Blocks and Fluid Registry\block modifications.js
+9025 - H:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\Items Blocks and Fluid Registry\fluid reg.js
+9020 - H:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\Items Blocks and Fluid Registry\fluid modifications.js
+9015 - H:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\Items Blocks and Fluid Registry\item reg.js
+9010 - H:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\Items Blocks and Fluid Registry\Item Modifications.js
+5200 - H:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\PowerfulJS.js
+100 - H:\Game Mods and Files\Minecraft Related\Modpack Projects\Magic-Greg PackDev\kubejs\startup_scripts\worldgen.js
 

@@ -230,7 +230,7 @@ GTCEuStartupEvents.registry(
             .build()
         )
         .workableCasingModel("gtceu:block/casings/solid/machine_casing_bronze_plated_bricks","gtceu:block/multiblock/steam_oven");
-
+/*
         event.create('kinetic_steam_turbine', 'multiblock')
         //, Tier('lv')
         .recipeType('kinetic_steam_turbine')
@@ -260,7 +260,7 @@ GTCEuStartupEvents.registry(
             .build()
         )
         .workableCasingModel("gtceu:block/casings/solid/machine_casing_solid_steel", "gtceu:block/generators/steam_turbine");
-/*
+
         event.create('huge_kinetic_alternator', 'multiblock')
         //, Tier('lv')
         .recipeType('huge_kinetic_alternator')
@@ -341,7 +341,7 @@ GTCEuStartupEvents.registry(
             .build()
         )
         .workableCasingModel("gtceu:block/casings/solid/machine_casing_bronze_plated_bricks", "gtceu:block/multiblock/fusion_reactor");
-
+/*
         event.create('create_combustion_engine', 'multiblock')
         //, Tier('MV'), Tier('hv'), Tier('ev')
         .recipeType('create_combustion_engine')
@@ -380,5 +380,6 @@ GTCEuStartupEvents.registry(
 //            .build()
 //        )
         .workableCasingModel("gtceu:block/casings/solid/machine_casing_bronze_plated_bricks", "gtceu:block/multiblock/blast_furnace");
+*/
     }
 )

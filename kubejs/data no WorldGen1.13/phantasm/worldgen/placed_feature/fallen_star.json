@@ -1,0 +1,12 @@
+{
+  "feature": "phantasm:fallen_star",
+  "placement": [
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 3
+    }
+  ]
+}

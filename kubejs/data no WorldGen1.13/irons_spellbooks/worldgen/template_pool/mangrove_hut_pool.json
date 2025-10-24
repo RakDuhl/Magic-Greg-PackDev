@@ -1,0 +1,15 @@
+{
+  "name": "irons_spellbooks:mangrove_hut_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "irons_spellbooks:mangrove_hut",
+        "processors": "irons_spellbooks:randomize_mud_bricks",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

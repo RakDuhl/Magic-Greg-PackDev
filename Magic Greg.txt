@@ -1,0 +1,1 @@
+"$INST_JAVA" -jar "H:/Game Mods and Files/MultiMC Modpacks/MagicGreg- Arcane Breakthrough/.minecraft/packwiz-installer-bootstrap.jar" "H:/Game Mods and Files/Minecraft Related/Modpack Projects/Magic-Greg PackDev/pack.toml"

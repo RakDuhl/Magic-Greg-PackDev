@@ -1,0 +1,13 @@
+{
+  "type": "phantasm:crystal_spike",
+  "config": {
+    "size": {
+      "type": "minecraft:uniform",
+      "value": {
+        "max_inclusive": 5,
+        "min_inclusive": 3
+      }
+    },
+    "void_chance": 0.3
+  }
+}

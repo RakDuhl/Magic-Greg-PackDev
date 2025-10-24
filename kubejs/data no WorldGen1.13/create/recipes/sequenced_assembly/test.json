@@ -1,0 +1,64 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "immersiveengineering:steel_scaffolding_standard"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "immersiveengineering:sheetmetal_steel"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:steel_frame"
+        },
+        {
+          "tag": "forge:plates/steel"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:steel_frame"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "gtceu:steel_frame"
+        },
+        {
+          "amount": 500,
+          "fluid": "minecraft:lava",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:steel_frame"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:steel_frame"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:steel_frame"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:steel_frame"
+  }
+}

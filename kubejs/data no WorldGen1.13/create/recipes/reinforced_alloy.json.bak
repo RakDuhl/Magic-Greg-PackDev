@@ -1,0 +1,17 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+      {
+        "item": "mekanism:alloy_infused"
+      },
+      {
+        "item": "botania:manasteel_ingot"
+      }
+    ],
+    "results": [
+      {
+        "item": "mekanism:alloy_reinforced"
+      }
+    ]
+  }

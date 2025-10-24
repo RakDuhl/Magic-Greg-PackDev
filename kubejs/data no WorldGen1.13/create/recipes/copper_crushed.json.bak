@@ -1,0 +1,21 @@
+{
+    "type": "create:crushing",
+    "group": "minecraft:misc",
+    "ingredients": [
+        {
+            "item": "create:crushed_copper_ore"
+        }
+    ],
+    "results": [
+        {
+            "item": "thermal:copper_dust",
+            "count": 1
+        },
+        {
+            "item": "thermal:copper_dust",
+            "count": 1,
+            "chance": 0.1
+        }
+    ],
+    "processingTime": 20
+}

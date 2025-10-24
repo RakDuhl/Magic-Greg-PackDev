@@ -1,0 +1,56 @@
+{
+  "feature": "create:zinc_ore",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "weight": 128,
+            "data": 4
+          },
+          {
+            "weight": 64,
+            "data": 6
+          },
+          {
+            "weight": 32,
+            "data": 8
+          },
+          {
+            "weight": 16,
+            "data": 10
+          },
+          {
+            "weight": 8,
+            "data": 12
+          },
+          {
+            "weight": 4,
+            "data": 14
+          },
+          {
+            "weight": 2,
+            "data": 16
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:biased_to_bottom",
+        "min_inclusive": {
+          "above_bottom": 32
+        },
+        "max_inclusive": {
+          "below_top": 0
+        }
+      }
+    }
+  ]
+}

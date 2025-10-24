@@ -16,6 +16,7 @@
 #Folders 
 .vscode/*
 kubejs/probe/*
+kubejs/data no WorldGen1.13/*
 legacy/*
 screenshots/*
 .git/**

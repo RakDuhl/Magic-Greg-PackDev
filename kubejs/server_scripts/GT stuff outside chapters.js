@@ -1,4 +1,5 @@
 ServerEvents.recipes(
+    /*
     event => {
         function kinetic_generator(inputStress, inputRPM, optionalLube) {
             const stressMultipliers = {
@@ -104,4 +105,5 @@ ServerEvents.recipes(
             .rpm(2048)
             .EUt(-28672);
     }
+    */
 )

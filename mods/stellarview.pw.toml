@@ -1,16 +1,16 @@
 name = "Stellar View"
-filename = "Stellar View-1.20.1-0.4.6-Forge.jar"
+filename = "Stellar View-1.20.1-0.5.1-Forge.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/Iairjv0A/versions/y8bd07Ra/Stellar%20View-1.20.1-0.4.6-Forge.jar"
+url = "https://cdn.modrinth.com/data/Iairjv0A/versions/m931rtJJ/Stellar%20View-1.20.1-0.5.1-Forge.jar"
 hash-format = "sha512"
-hash = "3d0e80f646e9c3020ee0e33cf6d13267cce98954c33ab0fa98871e94b5d01dfb2b79ce04f83734067156f351b08ababd43ef644c4e2c12c56a9dfc9564f93844"
+hash = "51435ba20e3cba1195b99be5334506178c45d90621d35883c8b9ea5b6107a5ee86c04f63861ad351b6760cf169ad47b7bf3888c5e0e6397809ada3374fda8275"
 
 [update]
 [update.modrinth]
 mod-id = "Iairjv0A"
-version = "y8bd07Ra"
+version = "m931rtJJ"
 
 [option]
 optional = true

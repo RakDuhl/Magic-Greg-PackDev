@@ -9,10 +9,10 @@ let addFluid = (mat, key) => {
 GTCEuStartupEvents.registry('gtceu:material', event => {
     GTMaterials.Lutetium.setProperty($PropertyKey.INGOT, new $IngotProperty())
 
-    GTMaterials.Holmium.setProperty($PropertyKey.INGOT, new $IngotProperty())
-    GTMaterials.Holmium.setProperty($PropertyKey.FLUID_PIPE, new $FluidPipeProperty(120000, 128000, true, true, true, true))
+    //GTMaterials.Holmium.setProperty($PropertyKey.INGOT, new $IngotProperty())
+    //GTMaterials.Holmium.setProperty($PropertyKey.FLUID_PIPE, new $FluidPipeProperty(120000, 128000, true, true, true, true))
     //GTMaterials.Holmium.setProperty($PropertyKey.BLAST, new $BlastProperty(1734, 'highest', 1840, 1000));
-    GTMaterials.Holmium.addFlags(GTMaterialFlags.GENERATE_FINE_WIRE, GTMaterialFlags.GENERATE_ROTOR, GTMaterialFlags.GENERATE_SPRING)
+    //GTMaterials.Holmium.addFlags(GTMaterialFlags.GENERATE_FINE_WIRE, GTMaterialFlags.GENERATE_ROTOR, GTMaterialFlags.GENERATE_SPRING)
 
     GTMaterials.Neutronium.addFlags(GTMaterialFlags.GENERATE_FOIL)
     GTMaterials.Iridium.addFlags(GTMaterialFlags.GENERATE_ROTOR)

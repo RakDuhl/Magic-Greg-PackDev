@@ -1,13 +1,13 @@
 name = "EnderTanks"
-filename = "endertanks-forge-1.20.1-1.4.jar"
+filename = "endertanks-forge-1.20.1-1.5.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/zZwEA08D/versions/Gp3bXxLi/endertanks-forge-1.20.1-1.4.jar"
+url = "https://cdn.modrinth.com/data/zZwEA08D/versions/N7c4bsux/endertanks-forge-1.20.1-1.5.jar"
 hash-format = "sha512"
-hash = "e1376a9ef1404bfc0a25f5a6f07a96b936e9c990e4697be88dc6ce7d26a9887c99c94d464e86c33b66c81400cfd0451a9df43a6a2405a88f62e8c4fd7f92a086"
+hash = "14d938e3384749392f57c06dd53ebb08551c444324d30ec30ff3a48603e4e1012ad8eb8090407a73e93c8a9926b568db14589eb6d91452390ae8ae63f09504f6"
 
 [update]
 [update.modrinth]
 mod-id = "zZwEA08D"
-version = "Gp3bXxLi"
+version = "N7c4bsux"

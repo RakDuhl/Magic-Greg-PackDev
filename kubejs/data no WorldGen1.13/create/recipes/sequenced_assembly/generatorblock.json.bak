@@ -1,0 +1,115 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "gtceu:steel_frame"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "immersiveengineering:generator"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_generator_block"
+        },
+        {
+          "item": "immersiveengineering:coil_mv"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_generator_block"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_generator_block"
+        },
+        {
+          "item": "gtceu:mana_steel_single_wire"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_generator_block"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+      {
+        "item": "kubejs:incomplete_generator_block"
+      },
+      {
+        "amount": 1000,
+        "fluid": "thermal:redstone",
+        "nbt": {}
+      }
+    ],
+    "results": [
+        {
+          "item": "kubejs:incomplete_generator_block"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_generator_block"
+        },
+        {
+          "item": "gtceu:mana_steel_single_wire"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_generator_block"
+        }
+      ]
+    },
+    {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:incomplete_generator_block"
+          },
+          {
+            "item": "botania:rune_mana"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:incomplete_generator_block"
+          }
+        ]
+      },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_generator_block"
+        },
+        {
+          "item": "gtceu:mana_steel_single_wire"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_generator_block"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:incomplete_generator_block"
+  }
+}

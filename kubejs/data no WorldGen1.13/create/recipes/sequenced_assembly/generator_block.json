@@ -1,0 +1,33 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "immersiveengineering:steel_scaffolding_standard"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "immersiveengineering:generator"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "magicgreg:incomplete_generator_block"
+        },
+        {
+          "item": "immersiveengineering:coil_mv"
+        }
+      ],
+      "results":[
+        {
+          "item": "magicgreg:incomplete_generator_block"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "magicgreg:incomplete_generator_block"
+  }
+}

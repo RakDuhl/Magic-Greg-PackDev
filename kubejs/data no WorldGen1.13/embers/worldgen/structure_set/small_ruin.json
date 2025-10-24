@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "embers:small_ruin",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 193826405,
+    "spacing": 7,
+    "separation": 1
+  }
+}

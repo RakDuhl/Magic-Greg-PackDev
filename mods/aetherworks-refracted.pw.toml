@@ -1,13 +1,13 @@
 name = "Aetherworks Refracted"
-filename = "aetherworks-1.20.1-1.1.5.jar"
+filename = "aetherworks-1.20.1-1.1.7.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "a2a7ee453dbfb70baae8fb828f89e7fc837d2c8a"
+hash = "eddcc3fc96bf8a2287b2548f1296a83e38e8c469"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6513712
+file-id = 6987670
 project-id = 1071794
