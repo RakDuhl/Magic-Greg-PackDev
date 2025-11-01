@@ -1,0 +1,48 @@
+{
+  "feature": "magic_worldgen:ore_coal_experiment",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 5
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "weight": 20,
+            "data": {
+              "type": "minecraft:trapezoid",
+              "min_inclusive": {
+                "above_bottom": 64
+              },
+              "max_inclusive": {
+                "absolute": 340
+              },
+              "plateau": 64
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "type": "minecraft:uniform",
+              "min_inclusive": {
+                "below_top": 0
+              },
+              "max_inclusive": {
+                "above_bottom": 6
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
