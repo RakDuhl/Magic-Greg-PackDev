@@ -23,7 +23,7 @@ JEIEvents.hideItems(
             }
         );
         */
-  
+        /*
         Color.DYE.forEach(
             color => {
                 ['stained_framed_glass', 'stained_framed_glass_door', 'stained_framed_glass_trapdoor', 'stained_framed_glass_pane', 'stained_tiled_glass_pane', 'stained_tiled_glass']
@@ -40,5 +40,6 @@ JEIEvents.hideItems(
                 )
             }
         );
+        */
     }
 )
