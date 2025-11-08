@@ -1,0 +1,36 @@
+{
+  "feature": "magic_worldgen:ore_xpetrified",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 2
+    },
+    {
+      "type": "minecraft:noise_based_count",
+      "noise_to_count_ratio": 24,
+      "noise_factor": 10
+    },
+    {
+      "type": "minecraft:count",
+      "count": 5
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": -48
+        },
+        "max_inclusive": {
+          "absolute": 35
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

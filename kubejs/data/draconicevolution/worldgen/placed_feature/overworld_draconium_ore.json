@@ -53,15 +53,15 @@
             "data": 5
           },
           {
-            "weight": 35,
+            "weight": 25,
             "data": 3
           },
           {
-            "weight": 60,
+            "weight": 30,
             "data": 2
           },
           {
-            "weight": 100,
+            "weight": 50,
             "data": 1
           }
         ]
@@ -79,7 +79,7 @@
           "absolute": -128
         },
         "max_inclusive": {
-          "absolute": -80
+          "absolute": -64
         }
       }
     },
