@@ -3,10 +3,20 @@
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 5
+      "count": 4
+    },
+    {
+      "type": "minecraft:noise_based_count",
+      "noise_to_count_ratio": 24,
+      "noise_factor": 2,
+      "noise_offset": 0
     },
     {
       "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 2
     },
     {
       "type": "minecraft:height_range",
