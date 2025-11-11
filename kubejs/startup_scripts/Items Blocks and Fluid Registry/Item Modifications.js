@@ -14,10 +14,11 @@ ItemEvents.modification(
             }
         )
 */
-       const CoalTime = 1600
-       let PinkTime = CoalTime * 1024
-       let GreenTime = PinkTime * 1024
-       let IntLimit = 2147483647
+    //ProjectE/EX Burntime modifications 
+        const CoalTime = 1600
+        let PinkTime = CoalTime * 1024
+        let GreenTime = PinkTime * 1024
+        let IntLimit = 2147483647
 
         event.modify(
             'projecte:alchemical_coal',
@@ -312,7 +313,7 @@ ItemEvents.modification(
             }
         )
 
-        //Changing Rarity of Items
+    //Changing Rarity of Items
         event.modify(
             'extendedcrafting:singularity',
             item => {
@@ -337,6 +338,7 @@ ItemEvents.modification(
                 item.rarity = "common"
             }
         )
+    
     }
 )
 
