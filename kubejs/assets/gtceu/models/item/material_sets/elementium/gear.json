@@ -1,8 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "gtceu:item/material_sets/elementium/gear",
-    "layer1": "gtceu:item/material_sets/elementium/gear_secondary",
-    "layer2": "gtceu:item/material_sets/elementium/gear_overlay"
+    "layer0": "gtceu:item/material_sets/elementium/gear"
   }
 }

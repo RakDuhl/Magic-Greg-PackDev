@@ -1,7 +1,7 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "gtceu:item/material_sets/dull/plate",
-    "layer1": "gtceu:item/material_sets/dull/redbling"
+    "layer0": "gtceu:item/material_sets/ember/plate",
+    "layer1": "gtceu:item/material_sets/ember/redbling"
   }
 }

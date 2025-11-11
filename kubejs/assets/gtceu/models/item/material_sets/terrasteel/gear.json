@@ -1,8 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "gtceu:item/material_sets/terrasteel/gear",
-    "layer1": "gtceu:item/material_sets/terrasteel/gear_secondary",
-    "layer2": "gtceu:item/material_sets/terrasteel/gear_overlay"
+    "layer0": "gtceu:item/material_sets/terrasteel/gear"
   }
 }

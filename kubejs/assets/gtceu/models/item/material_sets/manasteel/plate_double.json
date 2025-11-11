@@ -1,0 +1,6 @@
+{
+    "parent": "gtceu:item/material_sets/manasteel/plate",
+    "textures": {
+        "layer0": "gtceu:item/material_sets/manasteel/plate_double"
+    }
+}

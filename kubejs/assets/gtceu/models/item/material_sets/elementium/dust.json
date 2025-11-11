@@ -1,7 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "gtceu:item/material_sets/elementium/dust",
-    "layer1": "gtceu:item/material_sets/elementium/dust_secondary"
+    "layer0": "gtceu:item/material_sets/elementium/dust"
   }
 }

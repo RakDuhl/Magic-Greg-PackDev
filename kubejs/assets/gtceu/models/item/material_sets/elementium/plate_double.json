@@ -1,8 +1,6 @@
 {
     "parent": "gtceu:item/material_sets/elementium/plate",
     "textures": {
-        "layer0": "gtceu:item/material_sets/elementium/plate_double",
-        "layer1": "gtceu:item/material_sets/elementium/plate_double_secondary",
-        "layer2": "gtceu:item/material_sets/elementium/plate_double_overlay"
+        "layer0": "gtceu:item/material_sets/elementium/plate_double"
     }
 }
