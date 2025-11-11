@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "gtceu:item/material_sets/arcanum/crushed",
+    "layer1": "gtceu:item/material_sets/arcanum/crushed_purified_secondary"
+  }
+}

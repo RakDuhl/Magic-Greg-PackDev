@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "gtceu:item/material_sets/arcanum/dust_impure",
+    "layer2": "gtceu:item/material_sets/arcanum/dust_impure_overlay"
+  }
+}
