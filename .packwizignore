@@ -12,6 +12,7 @@
 *.txt
 *.webp
 .gitattributes
+*.lnk
 
 #Folders 
 .vscode/*

@@ -10,6 +10,7 @@
 *.back
 *.backup
 *.java
+*.lnk
 
 # Test binary, build with `go test -c`
 *.test
