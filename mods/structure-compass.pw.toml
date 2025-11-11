@@ -1,13 +1,13 @@
 name = "Structure Compass"
-filename = "StructureCompass-1.20.1-2.1.0.jar"
+filename = "StructureCompass-1.20.1-2.2.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/e3aZHOyh/versions/MRvtsvPD/StructureCompass-1.20.1-2.1.0.jar"
+url = "https://cdn.modrinth.com/data/e3aZHOyh/versions/VvvOIBrE/StructureCompass-1.20.1-2.2.0.jar"
 hash-format = "sha512"
-hash = "ea04d315c74302c15ae23c42f923a6ee0b1ece726a4accabb397cc19f6c1e1a153b5d849bc7338264239eeac7042cb0f71fd74e0b8da3c94cd65fcc4a3bec871"
+hash = "7dc310dcdc4745c645eede1426ed1c7a4b8ff790d6b07fb38e694a24bd31444feab7ba4c67e2fff8e5583db412b3dbe726f8338be74c238cc854e7e14ed997ab"
 
 [update]
 [update.modrinth]
 mod-id = "e3aZHOyh"
-version = "MRvtsvPD"
+version = "VvvOIBrE"

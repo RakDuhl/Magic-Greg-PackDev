@@ -1,13 +1,13 @@
 name = "Lunar"
-filename = "Lunar-forge-1.20.1-0.2.5.jar"
+filename = "Lunar-forge-1.20.1-0.2.7.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/PwhlJMsW/versions/Xgh3ZXm9/Lunar-forge-1.20.1-0.2.5.jar"
+url = "https://cdn.modrinth.com/data/PwhlJMsW/versions/SfxCpdey/Lunar-forge-1.20.1-0.2.7.jar"
 hash-format = "sha512"
-hash = "2d329e8651e24f529f1084cb5ebccc355c05498913d655903c28f44ce3936f2aeaf471391fb1a9598b161f8630e4ab6f994ead5e7797f85ad184cabf3c4f282b"
+hash = "7133271fbeae6e80ddacb09284441e177fe533d4e77474425aa7f68a70030458bb17f63bcc8a64d8bcb850cd3a3e12f45d1a741a5575f0c2b0b7891899a92e1d"
 
 [update]
 [update.modrinth]
 mod-id = "PwhlJMsW"
-version = "Xgh3ZXm9"
+version = "SfxCpdey"

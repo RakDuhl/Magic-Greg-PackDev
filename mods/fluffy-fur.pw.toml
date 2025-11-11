@@ -1,13 +1,13 @@
 name = "Fluffy Fur"
-filename = "fluffy_fur-1.20.1-0.2.2.jar"
+filename = "fluffy_fur-1.20.1-0.2.3.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/srqzRpcV/versions/J5gqV8Pz/fluffy_fur-1.20.1-0.2.2.jar"
+url = "https://cdn.modrinth.com/data/srqzRpcV/versions/79U1tyJh/fluffy_fur-1.20.1-0.2.3.jar"
 hash-format = "sha512"
-hash = "5bb08380392bf76da8225918d66a93639f60ec47bac077d17d8d795c422d6b9dc2699da8797d4552d75328360ed26ecfa927341a24680689fabb56997a10a3f7"
+hash = "7e80f9418db3150f5e5d6f88bdadf02974f41e95506c4c100d14b1688bb7dfb03a1d26db5617064252f5ac65d92f5383c636a17e963a81dc336b1485ee50cc4c"
 
 [update]
 [update.modrinth]
 mod-id = "srqzRpcV"
-version = "J5gqV8Pz"
+version = "79U1tyJh"
