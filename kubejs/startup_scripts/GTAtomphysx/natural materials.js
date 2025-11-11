@@ -105,18 +105,16 @@ GTCEuStartupEvents.registry(
             bolt_and_screw,
             frame,
             gear,
-            long_rod,
             block,
             foil,
-            ring,
             fine_wire,
-            no_smelt,
-            no_abs_recipe,
-            no_block_craft,
-            no_hand_craft,
-            no_decomp,
-            no_plate_compressor_craft,
-            no_smashing
+            //no_smelt,
+            //no_abs_recipe,
+            //no_block_craft,
+            //no_hand_craft,
+            //no_decomp,
+            //no_plate_compressor_craft,
+            //no_smashing
         )
         .toolStats(
             ToolProperty.Builder.of(25.0, 1.0, 12400, 5).attackSpeed(0.1).enchantability(18).build()
@@ -161,7 +159,7 @@ GTCEuStartupEvents.registry(
         .color(0x5A8156).secondaryColor(0x354D33).iconSet(DULL)
         .ingot()
         .fluid()
-        .ore()
+        .ore(2,3)
         .cableProperties(V('hv'), 1, 4, false)
         .blastTemp(1580, null, 620, 185)
         .flags(
@@ -182,7 +180,7 @@ GTCEuStartupEvents.registry(
         .element(GTElements.get("orichalcum"))
         .color(0xFFFFFF).iconSet('orichalcum')
         .ingot()
-        .ore()
+        .ore(1,3)
         .fluid()
         .cableProperties(V('zpm'), 3, 0, false)
         .blastTemp(2313, 'high', 2100, 720)
@@ -207,7 +205,7 @@ GTCEuStartupEvents.registry(
         .color(0xFFB08A).secondaryColor(0xF24F00).iconSet(DULL)
         .ingot()
         .fluid()
-        .ore()
+        .ore(3,4)
         .cableProperties(V('iv'), 2, 2, false)
         .blastTemp(3892, 'mid', 3280, 1420)
         .flags(
@@ -234,7 +232,7 @@ GTCEuStartupEvents.registry(
         .components('2x mana', 'calcium', 'dilithiumalumite', '6x aluminium', 'borate_three', '6x silicon', '18x oxygen', '4x ember', 'hydroxyl', 'fluorine')
         .color(0xFFFFFF).iconSet('spinel')
         .gem(3)
-        .ore(2,3, true,)
+        .ore(2,3, true)
         .flags(
             block,
             electrolyze
@@ -296,6 +294,16 @@ GTCEuStartupEvents.registry(
         .addOreByproducts('lapis', 'sapphire', 'opal')
         .flags(
             centrifuge
+        );
+
+        material.create('wolframite')
+        .components('iron', 'manganese', '2x tungstate')
+        .color(0x5A637A).iconSet(DULL)
+        .gem(2)
+        .ore(2,4)
+        .addOreByproducts('scheelite', 'bismuth', 'cassiterite')
+        .flags(
+            electrolyze
         );
         
         console.log('Registered arcane alloy Arcane Gold ' + GTMaterials.get('arcanegold') + ' !');

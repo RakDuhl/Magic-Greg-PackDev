@@ -102,6 +102,7 @@ GTCEuStartupEvents.registry(
             foil,
             fine_wire,
             plates,
+            dense_plate,
             rod,
             frame,
             gear
