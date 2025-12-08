@@ -13,6 +13,7 @@
 *.webp
 .gitattributes
 *.lnk
+Scripts für Startup.md
 
 #Folders 
 .vscode/*
