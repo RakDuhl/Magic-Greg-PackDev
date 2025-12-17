@@ -11,8 +11,8 @@ GTCEuServerEvents.oreVeins(
         event.add(
             'magic-worldgen:prometheum_vein',
             vein => {
-                vein.layer(stone)
-                vein.weight(68)
+                vein.layer('stone')
+                vein.weight(common)
                 vein.clusterSize(30)
                 vein.density(0.6)
                 vein.discardChanceOnAirExposure(0.2)
@@ -51,7 +51,7 @@ GTCEuServerEvents.oreVeins(
             'magic-worldgen:adamantium_vein',
             vein => {
                 vein.layer(deepslate)
-                vein.weight(22)
+                vein.weight(mythical)
                 vein.clusterSize(20)
                 vein.density(0.3)
                 vein.heightRangeUniform(-120, -62)
@@ -90,7 +90,7 @@ GTCEuServerEvents.oreVeins(
             'magic-worldgen:mithril_vein',
             vein => {
                 vein.layer(stone)
-                vein.weight(13)
+                vein.weight(rare)
                 vein.clusterSize(34)
                 vein.density(0.2)
                 vein.heightRangeTriangle(0, 260)
@@ -119,8 +119,8 @@ GTCEuServerEvents.oreVeins(
         event.add(
             'magic-worldgen:vulcanite_vein',
             vein => {
-                vein.layer(deepslate)
-                vein.weight(8)
+                vein.layer('deepslate')
+                vein.weight(mythical)
                 vein.clusterSize(56)
                 vein.density(1)
                 vein.heightRangeTriangle(-126, 85)
@@ -145,8 +145,8 @@ GTCEuServerEvents.oreVeins(
         event.add(
             'magic-worldgen:deep_orichalcum_vein',
             vein => {
-                vein.layer(deepslate)
-                vein.weight(1)
+                vein.layer('deepslate')
+                vein.weight(divine)
                 vein.clusterSize(26)
                 vein.density(0.186)
                 vein.heightRangeUniform(-120, -62)
@@ -171,8 +171,8 @@ GTCEuServerEvents.oreVeins(
         event.add(
             'magic-worldgen:sparce_arcanum_vein',
             vein => {
-                vein.layer(stone)
-                vein.weight(250)
+                vein.layer('stone')
+                vein.weight(verycommon)
                 vein.clusterSize(9)
                 vein.density(0.7)
                 vein.heightRangeUniform(16,210)
@@ -193,11 +193,12 @@ GTCEuServerEvents.oreVeins(
                 );
             }
         )
+        
         event.add(
             'magic-worldgen:sparse_gold_vein',
             vein => {
-                vein.layer(stone)
-                vein.weight(220)
+                vein.layer('stone')
+                vein.weight(verycommon)
                 vein.clusterSize(8)
                 vein.density(0.9)
                 vein.heightRangeUniform(0,85)
@@ -228,8 +229,8 @@ GTCEuServerEvents.oreVeins(
         event.add(
             'magic-worldgen:sparse_cassiterite_vein',
             vein => {
-               vein.layer(stone)
-                vein.weight(190)
+               vein.layer('stone')
+                vein.weight(verycommon)
                 vein.clusterSize(11)
                 vein.density(0.9)
                 vein.heightRangeUniform(32,280)
@@ -239,7 +240,7 @@ GTCEuServerEvents.oreVeins(
                     .secondary(b => b.mat(GTMaterials.Tin).size(3))
                     .between(b => b.mat(GTMaterials.Apatite).size(3))
                     .sporadic(b => b.mat(GTMaterials.Molybdenite).size(2))
-                    .sporadic(b => b.mat(GTMaterials.get('wolframite')).size(1))
+                    .sporadic(b => b.mat(GTMaterials.get('wolframite')).size(3))
                 );
                 vein.surfaceIndicatorGenerator(
                     indicator => indicator
