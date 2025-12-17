@@ -195,4 +195,12 @@ ServerEvents.recipes(event => {
     event.remove(
         {output: GTCEuStuff}
     )
+
+    //Removing things as input
+
+    let rmIngredints = [
+        'luckytntmod:uranium_ore', //Useless Ore
+        'luckytntmod:deepslate_uranium_ore'
+
+    ]
 })

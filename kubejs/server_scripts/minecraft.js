@@ -18,6 +18,12 @@ ServerEvents.recipes(
             ]
         );
 
+        event.shapeless(
+            'extendedcrafting:basic_table', [
+                'minecraft:crafting_table'
+            ]
+        );
+
         event.shaped(
             'minecraft:furnace', [
                 'SSS',

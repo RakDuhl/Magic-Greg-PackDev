@@ -8,6 +8,19 @@
     const netherrack = 'netherrack';
     const endstone = 'endstone';
 
+    
+    //Rarity constants
+    const verycommon  = 31
+    const common      = 27
+    const uncommon    = 23
+    const rare        = 17
+    const veryRare    = 13
+    const epic        = 11
+    const exotic      = 7
+    const legendary   = 5
+    const mythical    = 3
+    const divine      = 1
+
     //Making constants
     const AllStone =    Ingredient.of('#forge:stone');
     const Stone =       Ingredient.of('minecraft:stone');
