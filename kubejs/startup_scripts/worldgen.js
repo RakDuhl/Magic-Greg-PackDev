@@ -19,9 +19,10 @@ WorldgenEvents.remove(
                     
                     'embers:lead_ore', 'embers:deepslate_lead_ore', 'embers:silver_ore', 'embers:deepslate_silver_ore', 'bigreactors:yellorite_ore',
                     
-                    'minecraft:copper_ore', 'minecraft:lapis_ore', 'wizards_reborn:arcanum_ore', 'forbidden_arcanus:xpetrified_ore', 'minecraft:diamond_ore', 'create:zinc_ore', 'xycraft_world:xychorium_ore_stone_green', 'minecraft:iron_ore', 'forbidden_arcanus:arcane_crystal_ore',
-                    'minecraft:coal_ore', 'xycraft_world:xychorium_ore_deepslate_dark', 'xycraft_world:xychorium_ore_deepslate_red', 'minecraft:deepslate_redstone_ore',
-                    'forbidden_arcanus:arcane_crystal_ore', 'forbidden_arcanus:stella_arcanum', 'forbidden_arcanus:stella_arcanum', 'draconicevolution:overworld_draconium_ore', 'xycraft_world:xychorium_ore_stone_light', 'xycraft_world:xychorium_ore_stone_dark', 'xycraft_world:xychorium_ore_stone_red', 'xycraft_world:xychorium_ore_stone_green', 'xycraft_world:xychorium_ore_stone_blue', 'wizards_reborn:arcanum_ore', 'wizards_reborn:arcane_gold_ore', 'forbidden_arcanus:xpetrified_ore']
+                    //'minecraft:copper_ore', 'minecraft:lapis_ore', 'wizards_reborn:arcanum_ore', 'forbidden_arcanus:xpetrified_ore', 'minecraft:diamond_ore', 'create:zinc_ore', 'xycraft_world:xychorium_ore_stone_green', 'minecraft:iron_ore', 'forbidden_arcanus:arcane_crystal_ore',
+                    //'minecraft:coal_ore', 'xycraft_world:xychorium_ore_deepslate_dark', 'xycraft_world:xychorium_ore_deepslate_red', 'minecraft:deepslate_redstone_ore',
+                    //'forbidden_arcanus:arcane_crystal_ore', 'forbidden_arcanus:stella_arcanum', 'forbidden_arcanus:stella_arcanum', 'draconicevolution:overworld_draconium_ore', 'xycraft_world:xychorium_ore_stone_light', 'xycraft_world:xychorium_ore_stone_dark', 'xycraft_world:xychorium_ore_stone_red', 'xycraft_world:xychorium_ore_stone_green', 'xycraft_world:xychorium_ore_stone_blue', 'wizards_reborn:arcanum_ore', 'wizards_reborn:arcane_gold_ore', 'forbidden_arcanus:xpetrified_ore']
+                ]
             }
         )
     }
