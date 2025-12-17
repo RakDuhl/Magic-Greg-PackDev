@@ -1,0 +1,6 @@
+{
+  "type" : "forge:add_features",
+  "features": "magic_worldgen:ore_arcanum_sparse",
+  "biomes": "#minecraft:is_overworld",
+  "step": "local_modifications"
+}

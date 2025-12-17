@@ -1,22 +1,14 @@
 {
-  "feature": "magic_worldgen:ore_coal_experiment",
+  "feature": "magic_worldgen:ore_coal_sparse",
   "placement": [
     {
-      "type": "minecraft:count",
-      "count": 4
-    },
-    {
       "type": "minecraft:noise_based_count",
-      "noise_to_count_ratio": 24,
-      "noise_factor": 2,
-      "noise_offset": 0
+      "noise_to_count_ratio": 150,
+      "noise_factor": 70,
+      "noise_offset": 0.4
     },
     {
       "type": "minecraft:in_square"
-    },
-    {
-      "type": "minecraft:rarity_filter",
-      "chance": 2
     },
     {
       "type": "minecraft:height_range",
@@ -24,7 +16,7 @@
         "type": "minecraft:weighted_list",
         "distribution": [
           {
-            "weight": 20,
+            "weight": 17,
             "data": {
               "type": "minecraft:trapezoid",
               "min_inclusive": {

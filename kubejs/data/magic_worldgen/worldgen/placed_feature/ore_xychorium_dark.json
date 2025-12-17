@@ -1,0 +1,80 @@
+{
+  "feature": "magic_worldgen:ore_xychorium_dark",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "weight": 20,
+            "data": 7
+          },
+          {
+            "weight": 15,
+            "data": 11
+          },
+          {
+            "weight": 10,
+            "data": 18
+          },
+          {
+            "weight": 5,
+            "data": 25
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "weight": 35,
+            "data": {
+              "type": "minecraft:trapezoid",
+              "min_inclusive": {
+                "above_bottom": 0
+              },
+              "max_inclusive": {
+                "absolute": 10
+              },
+              "plateau": -90
+            }
+          },
+          {
+            "weight": 15,
+            "data": {
+              "type": "minecraft:uniform",
+              "min_inclusive": {
+                "above_bottom": 5
+              },
+              "max_inclusive": {
+                "above_bottom": 100
+              }
+            }
+          },
+          {
+            "weight": 2,
+            "data": {
+              "type": "minecraft:uniform",
+              "min_inclusive": {
+                "absolute": -64
+              },
+              "max_inclusive": {
+                "absolute": 32
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

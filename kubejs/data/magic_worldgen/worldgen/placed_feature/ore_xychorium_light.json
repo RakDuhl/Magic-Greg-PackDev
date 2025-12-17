@@ -1,0 +1,52 @@
+{
+  "feature": "magic_worldgen:ore_xychorium_light",
+  "placement": [
+        {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:trapezoid",
+        "min_inclusive": {
+          "below_top": 0
+        },
+        "max_inclusive": {
+          "absolute": 80
+        },
+        "plateau": 300
+      }
+    },
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "weight": 20,
+            "data": 3
+          },
+          {
+            "weight": 15,
+            "data": 7
+          },
+          {
+            "weight": 10,
+            "data": 11
+          },
+          {
+            "weight": 5,
+            "data": 17
+          },
+          {
+            "weight": 1,
+            "data": 21
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

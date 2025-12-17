@@ -1,18 +1,9 @@
 {
-  "feature": "magic_worldgen:ore_xpetrified",
+  "feature": "magic_worldgen:ore_xychorium_red",
   "placement": [
     {
-      "type": "minecraft:rarity_filter",
-      "chance": 2
-    },
-    {
-      "type": "minecraft:noise_based_count",
-      "noise_to_count_ratio": 24,
-      "noise_factor": 10
-    },
-    {
       "type": "minecraft:count",
-      "count": 5
+      "count": 32
     },
     {
       "type": "minecraft:in_square"
@@ -22,10 +13,10 @@
       "height": {
         "type": "minecraft:uniform",
         "min_inclusive": {
-          "absolute": -48
+          "above_bottom": 0
         },
         "max_inclusive": {
-          "absolute": 35
+          "absolute": -48
         }
       }
     },

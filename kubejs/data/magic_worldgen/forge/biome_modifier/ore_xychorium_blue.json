@@ -1,0 +1,6 @@
+{
+  "type" : "forge:add_features",
+  "features": "magic_worldgen:ore_xychorium_blue",
+  "biomes": "#minecraft:is_overworld",
+  "step": "underground_ores"
+}

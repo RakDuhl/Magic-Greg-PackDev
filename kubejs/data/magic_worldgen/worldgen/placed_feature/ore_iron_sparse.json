@@ -1,0 +1,30 @@
+{
+  "feature": "magic_worldgen:ore_iron_sparse",
+  "placement": [
+    {
+      "type": "minecraft:noise_based_count",
+      "noise_to_count_ratio": 250,
+      "noise_factor": 2,
+      "noise_offset": 0
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:trapezoid",
+        "max_inclusive": {
+          "absolute": 112
+        },
+        "min_inclusive": {
+          "absolute": -48
+        },
+        "plateau": 32
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

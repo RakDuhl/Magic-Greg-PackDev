@@ -1,0 +1,28 @@
+{
+  "feature": "magic_worldgen:ore_xychorium_blue",
+  "placement": [
+        {
+      "type": "minecraft:count",
+      "count": 28
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:trapezoid",
+        "min_inclusive": {
+          "absolute": 32
+        },
+        "max_inclusive": {
+          "absolute": 100
+        },
+        "plateau": 63
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

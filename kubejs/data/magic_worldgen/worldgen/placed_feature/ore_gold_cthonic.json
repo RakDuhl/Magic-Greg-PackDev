@@ -1,5 +1,5 @@
 {
-  "feature": "malum:cthonic_gold_ore",
+  "feature": "magic_worldgen:ore_gold_cthonic",
   "placement": [
     {
       "type": "minecraft:height_range",
@@ -15,17 +15,17 @@
     },
     {
       "type": "minecraft:count",
-      "count": 1
+      "count": 3
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 2
     },
     {
       "type": "minecraft:in_square"
     },
     {
       "type": "minecraft:biome"
-    },
-    {
-      "type": "minecraft:rarity_filter",
-      "chance": 2
     }
   ]
 }

@@ -1,18 +1,11 @@
 {
-  "feature": "forbidden_arcanus:ore_xpetrified",
+  "feature": "magic_worldgen:ore_xychorium_green",
   "placement": [
     {
-      "type": "minecraft:rarity_filter",
-      "chance": 2
-    },
-    {
       "type": "minecraft:noise_based_count",
-      "noise_to_count_ratio": 24,
-      "noise_factor": 10
-    },
-    {
-      "type": "minecraft:count",
-      "count": 5
+      "noise_to_count_ratio": 100,
+      "noise_factor": 200,
+      "noise_offset": 0.3
     },
     {
       "type": "minecraft:in_square"
@@ -22,10 +15,10 @@
       "height": {
         "type": "minecraft:uniform",
         "min_inclusive": {
-          "absolute": -48
+          "absolute": -10
         },
         "max_inclusive": {
-          "absolute": 35
+          "absolute": 90
         }
       }
     },
