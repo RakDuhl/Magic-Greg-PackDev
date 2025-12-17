@@ -11,3 +11,7 @@ hash = "612c7535d28ae0cb336f31b790770b3dcb5173d496fb74eabcb28d06e3b88e7273312806
 [update.modrinth]
 mod-id = "nvQzSEkH"
 version = "LecuGude"
+
+[option]
+optional = false
+default = true

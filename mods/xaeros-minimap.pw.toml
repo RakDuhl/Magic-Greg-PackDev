@@ -14,4 +14,5 @@ version = "VfhlV9am"
 
 [option]
 optional = true
+default = true
 description = "Want to use a Minimap?"

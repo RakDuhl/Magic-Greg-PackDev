@@ -11,3 +11,7 @@ hash = "c859f90afd9a33727cd3549860034905239b63ed818e4dcf07ccf4ee5444f3341f4c2920
 [update.modrinth]
 mod-id = "J5bVsBt9"
 version = "7JEVgmIp"
+
+[option]
+optional = true
+default = false

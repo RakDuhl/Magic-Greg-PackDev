@@ -11,3 +11,7 @@ hash = "64402513db4d8285732795c72712aff2944b14e91f0cce866472702622e20a65d7e9cb67
 [update.modrinth]
 mod-id = "nmoqTijg"
 version = "qpP3IdRu"
+
+[option]
+optional = true
+default = false

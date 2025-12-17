@@ -11,3 +11,7 @@ hash = "97653dd741a1fb39b25f67d2971e1ed98462af75dd80cafe5d76ed1f8db8965ba059f8ce
 [update.modrinth]
 mod-id = "rylMOguI"
 version = "q9HaCHHv"
+
+[option]
+optional = true
+default = false

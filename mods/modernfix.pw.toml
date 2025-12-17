@@ -11,3 +11,7 @@ hash = "16ed32ed2e9e153cd6adad6d5d32280f33ce79b5b9829576f26bab9c8f37e1c415a49c86
 [update.modrinth]
 mod-id = "nmDcB62a"
 version = "PbIMs8a8"
+
+[option]
+optional = false
+default = true

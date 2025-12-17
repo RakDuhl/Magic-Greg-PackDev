@@ -1,0 +1,17 @@
+name = "Tinkers' Delight"
+filename = "Tinkers-Delight-1.20.1FORGE-2.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Y4vhKn2h/versions/haPpPE54/Tinkers-Delight-1.20.1FORGE-2.0.2.jar"
+hash-format = "sha512"
+hash = "8a0817b67312290779ea05c667940d6499d977bcb8500fd356156b131b57467c62ebcf9a2eff969f22ce8615a3142dcfc71211c4a2ff8a0911cc7956aec9a1f4"
+
+[update]
+[update.modrinth]
+mod-id = "Y4vhKn2h"
+version = "haPpPE54"
+
+[option]
+optional = true
+default = false

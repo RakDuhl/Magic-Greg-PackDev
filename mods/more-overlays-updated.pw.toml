@@ -11,3 +11,7 @@ hash = "55a1794e99e3cdebf57cffe21114318a2bbf894e79cb5c637cddd337a2fae3ceb8711175
 [update.modrinth]
 mod-id = "Thy5Pqut"
 version = "xpC2kCRg"
+
+[option]
+optional = true
+default = false

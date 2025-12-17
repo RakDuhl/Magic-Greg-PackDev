@@ -11,3 +11,7 @@ hash = "64b2a96683e8504da9dc4d200437439eec0ce40cfabb8c9be8700799c21d1aa2bbe98e25
 [update.modrinth]
 mod-id = "vuGFx44e"
 version = "gGAIQFeH"
+
+[option]
+optional = true
+default = false

@@ -11,3 +11,7 @@ hash = "eb932308aceb30f5157e967f1bd4b57eb1a1b2093886cbfaef6524b780337b8b0e2bd41c
 [update.modrinth]
 mod-id = "DSVgwcji"
 version = "eJihmpNQ"
+
+[option]
+optional = true
+default = false

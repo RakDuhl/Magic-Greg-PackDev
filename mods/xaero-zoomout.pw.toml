@@ -14,4 +14,5 @@ version = "Njq4wNB7"
 
 [option]
 optional = true
+default = true
 description = "Allows you to drasticly increase the Zoomout in Xaero's Worldmap! Xaero's Worldmap needs to be enabled!"

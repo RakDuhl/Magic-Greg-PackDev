@@ -11,3 +11,7 @@ hash = "f79e221b92d565186f77e68173592707a4e591a220b345f989a813fc5e8a59320f60ea29
 [update.modrinth]
 mod-id = "yHN0njMr"
 version = "GNLxPpR2"
+
+[option]
+optional = true
+default = false

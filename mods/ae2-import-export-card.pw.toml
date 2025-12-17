@@ -11,3 +11,7 @@ hash = "5b478677e7f2b717657785ca3315534c5bc113c4a8b3a6497f613d97e9231f614df80b42
 [update.modrinth]
 mod-id = "qelfSMnn"
 version = "v8c3El4q"
+
+[option]
+optional = true
+default = false

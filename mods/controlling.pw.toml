@@ -11,3 +11,7 @@ hash = "3945bf3f6d843957f13584dfc70bede253d1e48f0dcb96f647fbcc6fcd3d1748a0dd9c6c
 [update.modrinth]
 mod-id = "xv94TkTM"
 version = "LH6Bi6Am"
+
+[option]
+optional = true
+default = false

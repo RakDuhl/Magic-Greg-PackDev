@@ -14,4 +14,5 @@ version = "VH8QpKA5"
 
 [option]
 optional = true
+default = true
 description = "Spice up the Elytra Flight with Do a Barrel Roll if you want"

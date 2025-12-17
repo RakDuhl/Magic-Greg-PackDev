@@ -1,0 +1,17 @@
+name = "Tinkers' Jewelry"
+filename = "tinkersjewelry-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/wbFycjBJ/versions/z6KVWBkL/tinkersjewelry-1.1.0.jar"
+hash-format = "sha512"
+hash = "4f157fd795c6d16d0f4ece769dd1dee27b9e1eb69d7d6fa3ae0e7e7c914caca731ab2bf68bee335b881376ac3a5cd3286f524b66e822e5eff744ea89d5e7cd84"
+
+[update]
+[update.modrinth]
+mod-id = "wbFycjBJ"
+version = "z6KVWBkL"
+
+[option]
+optional = true
+default = false

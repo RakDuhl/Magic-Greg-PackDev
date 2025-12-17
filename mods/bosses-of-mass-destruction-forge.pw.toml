@@ -11,3 +11,7 @@ hash = "f67acaec9e34ec8b580aaf69f98c05067feff996156c7ee9c2d8372f8544dad73d9fe942
 [update.modrinth]
 mod-id = "hFUzfDsn"
 version = "2Kw4xPhp"
+
+[option]
+optional = true
+default = false

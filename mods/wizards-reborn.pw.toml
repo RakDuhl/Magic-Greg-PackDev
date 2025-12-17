@@ -11,3 +11,7 @@ hash = "047a29d2ca893b6b7c185c6f8f80394a26f6af83457938ac3400db1289771c0432b0ef1c
 [update.modrinth]
 mod-id = "axZDcOCH"
 version = "mPxHSZLi"
+
+[option]
+optional = false
+default = true

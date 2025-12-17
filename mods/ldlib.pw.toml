@@ -1,4 +1,4 @@
-name = "LDLib"
+name = "LowDragLib"
 filename = "ldlib-forge-1.20.1-1.0.45.jar"
 side = "both"
 
@@ -11,3 +11,7 @@ hash = "a1a2102ca4cbf18c63f647081e6b1b498ba1ae623820fddd0bb7d558d8ce65b9805b89c5
 [update.modrinth]
 mod-id = "B1CBVXHX"
 version = "KcZ0P1tR"
+
+[option]
+optional = true
+default = false

@@ -11,3 +11,7 @@ hash = "d72707078f0c4fde78981c638ca976722f22a64ce74bdb489258790fe9886d763a7b1e0d
 [update.modrinth]
 mod-id = "ordsPcFz"
 version = "hmeyC41q"
+
+[option]
+optional = false
+default = true

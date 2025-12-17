@@ -11,3 +11,7 @@ hash = "5edae3a0a3e7ef26feb8d1ab23f61da42894305f018464e92c02537e2c3c5a388bf98811
 [update.modrinth]
 mod-id = "BmMjyidG"
 version = "VwTKP4ii"
+
+[option]
+optional = true
+default = false

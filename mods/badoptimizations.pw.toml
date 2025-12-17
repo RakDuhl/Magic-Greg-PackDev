@@ -11,3 +11,7 @@ hash = "f8d0e010d7a03112a8f8860971a0358e6c50c40f8f7ed5fc76a8afc07779232916e98d83
 [update.modrinth]
 mod-id = "g96Z4WVZ"
 version = "BKvbnpID"
+
+[option]
+optional = false
+default = true

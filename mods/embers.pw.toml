@@ -11,3 +11,7 @@ hash = "1081ed1cd4171fe1519a3f0211e1302c04742f668d49e98d92fbf340a5b1af71fa9d08dc
 [update.modrinth]
 mod-id = "eMWmEr1R"
 version = "EFZIOpW8"
+
+[option]
+optional = false
+default = true

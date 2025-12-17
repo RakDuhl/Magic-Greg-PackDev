@@ -11,3 +11,7 @@ hash = "b73de6bf581f5f28d86baa3eeb8ac0ff30aa9a35280da7fa528547bbb9e0aff5f931b434
 [update.modrinth]
 mod-id = "1OE8wbN0"
 version = "FFyss87M"
+
+[option]
+optional = false
+default = true

@@ -11,3 +11,7 @@ hash = "5b51f5d31437d9bfbf221b67459abd87260d284874e1e23b7ed1d522b23a48059a3b1d2c
 [update.modrinth]
 mod-id = "LNytGWDc"
 version = "8amzvn9x"
+
+[option]
+optional = false
+default = true

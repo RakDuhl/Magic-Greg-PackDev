@@ -11,3 +11,7 @@ hash = "12ea63f8b4cff7899d639b443710a34e0a655515bd2f39f7e604799ae63329edf27e3dbd
 [update.modrinth]
 mod-id = "rHpb85Mf"
 version = "OIzaNrPI"
+
+[option]
+optional = false
+default = true

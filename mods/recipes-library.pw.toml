@@ -11,3 +11,7 @@ hash = "7c1be5b0d78b53c6eaa2d7815fcdfbfb66db3d309c4d9e1b09c0e558bbcec02e6ebffc38
 [update.modrinth]
 mod-id = "LG8SignH"
 version = "OtGXMRkh"
+
+[option]
+optional = true
+default = false

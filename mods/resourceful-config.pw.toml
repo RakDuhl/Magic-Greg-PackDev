@@ -11,3 +11,7 @@ hash = "2e05fe27529d00d7808a83dbe0c475a0fb96a20ebfd5c9767f4cc8dcd9a865e20a18de41
 [update.modrinth]
 mod-id = "M1953qlQ"
 version = "DERs8u7v"
+
+[option]
+optional = true
+default = false

@@ -11,3 +11,7 @@ hash = "dedde27b0e1cd24c006c840bf4d0028689670f1fe9cbde16134e7c08cce58a88f431b393
 [update.modrinth]
 mod-id = "rOUBggPv"
 version = "VWJoqHin"
+
+[option]
+optional = true
+default = false

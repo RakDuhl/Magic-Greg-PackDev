@@ -1,4 +1,4 @@
-name = " Integrated Dungeons and Structures"
+name = "Integrated Dungeons and Structures"
 filename = "idas_forge-1.10.3+1.20.1.jar"
 side = "both"
 
@@ -11,3 +11,7 @@ hash = "52bf63acea7cc87101d879f74584b02d704bc724991ddac066244e6de7735141136ab3e7
 [update.modrinth]
 mod-id = "Z8OZShAU"
 version = "5BjGiw0X"
+
+[option]
+optional = true
+default = false

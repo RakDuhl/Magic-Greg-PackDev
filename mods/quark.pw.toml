@@ -11,3 +11,7 @@ hash = "585b182ccd51066e841141c9bc74fe8b820df86119828b7542b56771c3fcaf8bcc92f9d6
 [update.modrinth]
 mod-id = "qnQsVE2z"
 version = "DijQLauD"
+
+[option]
+optional = false
+default = true

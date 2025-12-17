@@ -11,3 +11,7 @@ hash = "7133271fbeae6e80ddacb09284441e177fe533d4e77474425aa7f68a70030458bb17f63b
 [update.modrinth]
 mod-id = "PwhlJMsW"
 version = "SfxCpdey"
+
+[option]
+optional = true
+default = true

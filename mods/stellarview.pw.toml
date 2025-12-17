@@ -14,4 +14,5 @@ version = "oLyZlWcr"
 
 [option]
 optional = true
+default = true
 description = "Adds a lot of Nightsky atmosphere, does not change the pack in any way if enabled or disabled, strictly visual."
