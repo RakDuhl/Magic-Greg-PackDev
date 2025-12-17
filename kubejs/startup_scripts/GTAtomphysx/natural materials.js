@@ -41,11 +41,6 @@ GTCEuStartupEvents.registry(
         //⚙
         material.create('wissen').element(GTElements.get("wissen")).color(0xFFFFFF).secondaryColor(0xCDEDFE).iconSet('wissen').gem().flags(lens,no_decomp,);
 
-        //Stardust
-        //Found anywhere, very rare
-        //Sd
-        material.create('stardust').element(GTElements.get("stardust")).color(0x42599D).secondaryColor(0xCCF2FF).iconSet(NETHERSTAR).dust().ore().flags(centrifuge).addOreByproducts();
-
         //Create Rose Quartz
         material.create('rosequartz').components('8x redstone', '1x quartzite').gem().color(0xFFFFFF).secondaryColor(0xFFF2E0).iconSet('rosequartz').flags(electrolyze);
 
@@ -92,7 +87,7 @@ GTCEuStartupEvents.registry(
         material.create('adamantium')
         .element(GTElements.get("Adamantium"))
         .color(0xAD0F0D).secondaryColor(0x64082B).iconSet(DULL)
-        .ingot(5)
+        .ingot(7)
         .fluid()
         .ore(1, 2)
 //        .cableProperties(V('zpm'), 8, 0, false)
@@ -128,11 +123,11 @@ GTCEuStartupEvents.registry(
         material.create('mithril')
         .components('4x silver', '6x mana', 'titanium')
         .color(0xd6edff).secondaryColor(0x9BFFFF).iconSet(SHINY)
-        .ingot()
+        .ingot(3)
         .fluid()
         .ore(1, 2)
         .cableProperties(V('ev'), 2, 0, true)
-        .blastTemp(750, 'mid', 288, 300)
+        .blastTemp(1670, 'mid', 288, 300)
         .flags(
             plates,
             dense_plate,
@@ -157,7 +152,7 @@ GTCEuStartupEvents.registry(
         material.create('prometheum')
         .element(GTElements.get("prometheum"))
         .color(0x5A8156).secondaryColor(0x354D33).iconSet(DULL)
-        .ingot()
+        .ingot(1)
         .fluid()
         .ore(2,3)
         .cableProperties(V('hv'), 1, 4, false)
@@ -179,11 +174,11 @@ GTCEuStartupEvents.registry(
         material.create('orichalcum')
         .element(GTElements.get("orichalcum"))
         .color(0xFFFFFF).iconSet('orichalcum')
-        .ingot()
+        .ingot(6)
         .ore(1,3)
         .fluid()
         .cableProperties(V('zpm'), 3, 0, false)
-        .blastTemp(2313, 'high', 2100, 720)
+        .blastTemp(4720, 'high', 2100, 720)
         .flags(
             plates,
             dense_plate,
@@ -203,11 +198,11 @@ GTCEuStartupEvents.registry(
         material.create('vulcanite')
         .element(GTElements.get("vulcanite"))
         .color(0xFFB08A).secondaryColor(0xF24F00).iconSet(DULL)
-        .ingot()
+        .ingot(5)
         .fluid()
         .ore(3,4)
         .cableProperties(V('iv'), 2, 2, false)
-        .blastTemp(3892, 'mid', 3280, 1420)
+        .blastTemp(7630, 'mid', 3280, 1420)
         .flags(
             plates,
             dense_plate,
@@ -229,13 +224,14 @@ GTCEuStartupEvents.registry(
         //Ca(Li₂Al)Al₆(BO₃)₃Si₆O₁₈(OH)₃F
         material.create('arcanespinel')
  //       .element(GTElements.get('arcanespinel'))
-        .components('2x mana', 'calcium', 'dilithiumalumite', '6x aluminium', 'borate_three', '6x silicon', '18x oxygen', '4x ember', 'hydroxyl', 'fluorine')
+        .components('3x mana', 'calcium', 'dilithiumalumite', '6x aluminium', 'borate_three', '6x silicon', '18x oxygen', '4x ember', 'hydroxyl')
         .color(0xFFFFFF).iconSet('spinel')
         .gem(3)
         .ore(2,3, true)
         .flags(
             block,
-            electrolyze
+            electrolyze,
+            phosphorescent
         );
 /*
         material.create('darkxychorium')
@@ -296,15 +292,32 @@ GTCEuStartupEvents.registry(
             centrifuge
         );
 
+        //Naturally occuring Tungsten Ore 
         material.create('wolframite')
         .components('iron', 'manganese', '2x tungstate')
         .color(0x5A637A).iconSet(DULL)
         .gem(2)
         .ore(2,4)
-        .addOreByproducts('scheelite', 'bismuth', 'cassiterite')
+        .addOreByproducts('bismuth', 'cassiterite', 'scheelite')
         .flags(
             electrolyze
         );
+
+        //Stardust
+        //Found anywhere, very rare
+        //Sd
+        material.create('stardust')
+            .components('2x orichalcum', '2x RarestMetalMixture', '4x mithril', 'adamantium', '3x arcanespinel', '4x arcanum', '12x hydrogen', '2x helium3', '1x tritium', '9x enderair')
+            .color(0x42599D)
+            .secondaryColor(0xCCF2FF)
+            .iconSet(NETHERSTAR)
+            .dust()
+            .ore()
+            .flags(
+                electrolyze
+            )
+            .addOreByproducts('mithril', 'arcanum', 'naquadah');
+
         
         console.log('Registered arcane alloy Arcane Gold ' + GTMaterials.get('arcanegold') + ' !');
         console.log('Registered natural Adamantium ' + GTElements.get('adamantium') + ' !');

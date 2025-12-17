@@ -43,7 +43,6 @@ createElement('adamantium',     58, 82, 'Ad');
 createElement('vulcanite',      72, 81, 'Vc');
 createElement('prometheum',     10, 12, 'Ph');
 createElement('orichalcum',     52, 67, 'Oc');
-createElement('stardust',       -1, -1, 'Sd');
 createElement('arcanum',        16, 24, 'Arc');
 
 /*

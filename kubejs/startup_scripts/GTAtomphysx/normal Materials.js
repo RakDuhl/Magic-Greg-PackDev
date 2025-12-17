@@ -24,7 +24,7 @@ GTCEuStartupEvents.registry(
 
         material.create('hydroxyl')
         .components('3x oxygen', '3x hydrogen')
-        .liquid()
+        .liquid(300)
         .color(0x471E22)
         .flags(electrolyze);
 
